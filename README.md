@@ -3,7 +3,7 @@
 <div align="center">
   <img width="400" src="https://cdn.rawgit.com/frenck/awesome-home-assistant/master/images/awesome-home-assistant.svg" alt="Awesome Home Assistant">
 
-  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+  [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome#readme)
   [![GitHub Stars](https://img.shields.io/github/stars/frenck/awesome-home-assistant.svg?style=social&label=Stars)](https://github.com/frenck/awesome-home-assistant)
   [![GitHub Watchers](https://img.shields.io/github/watchers/frenck/awesome-home-assistant.svg?style=social&label=Watchers)](https://github.com/frenck/awesome-home-assistant)
 
@@ -29,7 +29,7 @@ task that usually involves: Keeping the WAF (Wife Approval Factor) high enough.
 
 There are several ways to get help and inspiration:
 
-- Chat on the [Home Assistant Discord](https://discord.gg/c5DvZ4e) server
+- Chat on the [Home Assistant Discord](https://discordapp.com/invite/c5DvZ4e) server
 - Check out the [Home Assistant Community Forums](https://community.home-assistant.io/?u=frenck)
 - Visit the [Home Assistant Subreddit](https://www.reddit.com/r/homeassistant/)
 - And of course, this awesome list!
