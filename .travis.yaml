@@ -1,0 +1,12 @@
+language: ruby
+rvm:
+  - 2.2
+before_script:
+  - gem install awesome_bot
+  - gem install danger
+script:
+  - allowed_dupes=CONTRIBUTING
+  - awesome_bot README.md --white-list $allowed_dupes
+  - danger
+notifications:
+  email: false
