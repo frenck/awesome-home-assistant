@@ -57,6 +57,7 @@ There are several ways to get support and inspiration:
 - [How to Use](#how-to-use)
     - [Content](#content)
 - [Installing](#installing)
+- [Public Configurations](#public-configurations)
 - [Other Awesome Lists](#other-awesome-lists)
 - [Contributing](#contributing)
 - [Trademark Legal Notice](#trademark-legal-notice)
@@ -75,6 +76,18 @@ Home Assistant currently _recommends_ the Hass.io method.
 * [Docker](https://www.home-assistant.io/docs/installation/docker/) - Installing on Docker.
 * [Hassbian](https://www.home-assistant.io/docs/installation/hassbian/installation/) - Installing Hassbian.
 * [Manually](https://www.home-assistant.io/docs/installation/virtualenv/) - Manual installation using a Python virtual environment.
+
+## Public Configurations
+
+Some people store their full Home Assistant configuration on GitHub. They are
+a awesome for learning and a great source of inspiration.
+
+* [Carlo Costanzo](https://github.com/CCOSTAN/Home-AssistantConfig) - Probably the most documented configuration out there.
+* [DubhAd](https://github.com/DubhAd/Home-AssistantConfig) - Also known as Tinkerer shares his configuration files.
+* [geekofweek](https://github.com/geekofweek/homeassistant) - Has over 300+ automations.
+* [Isabella Gross Alström](https://github.com/isabellaalstrom/HomeAssistantConfiguration) - Hass.io, Intel NUC, Ubuntu, Docker, Lovelace UI.
+* [Mahasri Kalavala](https://github.com/skalavala/smarthome) - Impressive setup, with lots of different hardware working together.
+* [stanvx](https://github.com/stanvx/Home-Assistant-Configuration) - Complete setup which uses AppDaemon and HA Floorplan as well.
 
 ## Other Awesome Lists
 
