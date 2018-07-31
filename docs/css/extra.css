@@ -1,3 +1,7 @@
+.md-typeset {
+    font-size: 1.4rem;
+}
+
 .bs-sidebar .nav > li > a:hover,
 .bs-sidebar .nav > li > a:focus {
   border: none;
