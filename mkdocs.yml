@@ -11,7 +11,7 @@ repo_url: 'https://github.com/frenck/awesome-home-assistant'
 edit_uri: ''
 
 # Theme configuration
-theme: 
+theme:
   name: 'material'
   logo: 'https://cdn.rawgit.com/frenck/awesome-home-assistant/master/images/icon.svg'
   icon: 'https://cdn.rawgit.com/frenck/awesome-home-assistant/master/images/icon.svg'
@@ -19,8 +19,8 @@ theme:
   palette:
     primary: 'light-blue'
     accent: 'pink'
-#  feature:
-#    tabs: false
+  feature:
+    tabs: false
 extra_css:
   - css/extra.css
 
