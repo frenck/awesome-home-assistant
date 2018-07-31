@@ -1,0 +1,68 @@
+# Project information
+site_name: 'Awesome Home Assistant'
+site_url: 'https://awesome-ha.com'
+site_description: 'A curated list of awesome Home Assistant resources for automating every aspect of your home'
+site_author: 'Franck Nijhof'
+copyright: 'Copyright 2018 - Franck Nijhof. Creative Commons Attribution 4.0.'
+
+# Repository
+repo_name: 'awesome-home-assistant'
+repo_url: 'https://github.com/frenck/awesome-home-assistant'
+edit_uri: ''
+
+# Theme configuration
+theme: 
+  name: 'material'
+  logo: 'https://cdn.rawgit.com/frenck/awesome-home-assistant/master/images/icon.svg'
+  icon: 'https://cdn.rawgit.com/frenck/awesome-home-assistant/master/images/icon.svg'
+  language: 'en'
+  palette:
+    primary: 'light-blue'
+    accent: 'pink'
+#  feature:
+#    tabs: false
+extra_css:
+  - css/extra.css
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/frenck'
+    - type: 'twitter'
+      link: 'https://twitter.com/frenck'
+    - type: 'instagram'
+      link: 'https://instagram.com/frenck'
+    - type: 'twitch'
+      link: 'https://twitch.tv/internetofthings'
+    - type: 'youtube'
+      link: 'https://youtube.com/frenck'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/frenck'
+
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# The pages to serve
+pages:
+  - "The Awesome List": "index.md"
+  - "Contributing": "contributing.md"
+  - "Code of Conduct": "code-of-conduct.md"
+  - "License": "license.md"

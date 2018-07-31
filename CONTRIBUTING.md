@@ -3,7 +3,7 @@
 Your contributions are always welcome! Thank you for your suggestions! :smiley:
 
 Please note that this project is released with a 
-[Contributor Code of Conduct](code-of-conduct.md).
+[Contributor Code of Conduct](https://github.com/frenck/awesome-home-assistant/blob/master/CODE_OF_CONDUCT.md).
 By participating in this project you agree to abide by its terms.
 
 ## Guidelines

@@ -2,13 +2,23 @@
 
 <div align="center">
   <img width="400" src="https://cdn.rawgit.com/frenck/awesome-home-assistant/master/images/awesome-home-assistant.svg" alt="Awesome Home Assistant">
-
-  [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome#readme)
-  [![GitHub Stars](https://img.shields.io/github/stars/frenck/awesome-home-assistant.svg?style=social&label=Stars)](https://github.com/frenck/awesome-home-assistant)
-  [![GitHub Watchers](https://img.shields.io/github/watchers/frenck/awesome-home-assistant.svg?style=social&label=Watchers)](https://github.com/frenck/awesome-home-assistant)
-
-  [![Build status](https://api.travis-ci.org/frenck/awesome-home-assistant.svg?branch=master)](https://travis-ci.org/frenck/awesome-home-assistant)
-  ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+  <br>
+  <a href="https://github.com/sindresorhus/awesome#readme" target="_blank">
+    <img alt="Awesome" src="https://awesome.re/badge.svg">
+  </a>
+  <a href="https://github.com/frenck/awesome-home-assistant" target="_blank">
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/frenck/awesome-home-assistant.svg?style=social&label=Stars" />
+  </a>
+  <a href="https://github.com/frenck/awesome-home-assistant" target="_blank">
+    <img alt="GitHub Watchers" src="https://img.shields.io/github/watchers/frenck/awesome-home-assistant.svg?style=social&label=Watchers">
+  </a>
+  <br>
+  <a href="https://travis-ci.org/frenck/awesome-home-assistant" target="_blank">
+    <img alt="Build status" src="https://api.travis-ci.org/frenck/awesome-home-assistant.svg?branch=master">
+  </a>
+  <a href="https://github.com/frenck/awesome-home-assistant/edit/master/README.md" target="_blank">
+    <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
+  </a>
 </div>
 
 ## About
@@ -19,7 +29,7 @@ custom Lovelace panels, cookbooks, example setups, and much more.
 
 The list is divided into categories. The links in those categories do not have
 pre-established order, the order is for contribution. If you want to contribute,
-please read the [guide](CONTRIBUTING.md).
+please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/master/CONTRIBUTING.md).
 
 ## How to Use
 
@@ -68,6 +78,6 @@ _Other amazingly awesome lists that can be found on the great and dangerous inte
 
 ## Contributing and License
 
-- [See the guide](CONTRIBUTING.md)
+- [See the guide](https://github.com/frenck/awesome-home-assistant/blob/master/CONTRIBUTING.md)
 - Distributed under the Creative Commons Attribution 4.0 license. 
-  See [LICENSE](LICENSE.md) for more information.
+  See [LICENSE](https://github.com/frenck/awesome-home-assistant/blob/master/LICENSE.md) for more information.
