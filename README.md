@@ -3,6 +3,9 @@
 <div align="center">
   <img width="400" src="https://cdn.rawgit.com/frenck/awesome-home-assistant/master/images/awesome-home-assistant.svg" alt="Awesome Home Assistant">
   <br>
+  <a href="https://awesome-ha.com"><strong>https://awesome-ha.com</strong></a>
+  <br>
+  <br>
   <a href="https://github.com/sindresorhus/awesome#readme" target="_blank">
     <img alt="Awesome" src="https://awesome.re/badge.svg">
   </a>
@@ -23,7 +26,8 @@
 
 ## About
 
-Awesome Home Assistant is a curated list of awesome Home Assistant resources.
+Awesome Home Assistant is a curated list of awesome
+[Home Assistant](https://www.home-assistant.io) resources.
 Additional software, tutorials, custom components, Hassio add-ons,
 custom Lovelace panels, cookbooks, example setups, and much more.
 
@@ -35,9 +39,9 @@ please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/ma
 
 Awesome Home Assistant is an amazing list for people trying to automate every
 aspect of their home. Automating your home is a long, hard, and never finished
-task that usually involves: Keeping the WAF (Wife Approval Factor) high enough.
+task that usually involves a lot of tinkering.
 
-There are several ways to get help and inspiration:
+There are several ways to get support and inspiration:
 
 - Chat on the [Home Assistant Discord](https://discordapp.com/invite/c5DvZ4e) server
 - Check out the [Home Assistant Community Forums](https://community.home-assistant.io/?u=frenck)
@@ -45,6 +49,7 @@ There are several ways to get help and inspiration:
 - And of course, this awesome list!
   - Simply press <kbd>command/ctrl</kbd> + <kbd>F</kbd> to search for a keyword
   - Go through our [_Content Menu_](#content)
+  - Or use the search on our website: <https://awesome-ha.com>
 
 ### Content
 
@@ -76,8 +81,21 @@ _Other amazingly awesome lists that can be found on the great and dangerous inte
 * [awesome-smarthome](https://github.com/pfalcon/awesome-smarthome) - Curated list of awesome SmartHome/Home Automation things.
 * [awesome-iot](https://github.com/HQarroum/awesome-iot) - Curated list of awesome Internet of Things projects and resources.
 
-## Contributing and License
+## Contributing
 
-- [See the guide](https://github.com/frenck/awesome-home-assistant/blob/master/CONTRIBUTING.md)
-- Distributed under the Creative Commons Attribution 4.0 license. 
-  See [LICENSE](https://github.com/frenck/awesome-home-assistant/blob/master/LICENSE.md) for more information.
+This awesome list is an active open-source project and are always open to
+people who want to contribute to it. We have set up a separate document
+containing our [Contribution Guidelines](https://github.com/frenck/awesome-home-assistant/blob/master/CONTRIBUTING.md).
+
+The original setup of this awesome list is by [Franck Nijhof](https://twitter.com/frenck).
+
+For a full list of all authors and contributors, check the
+[contributor's page](https://github.com/frenck/awesome-home-assistant/graphs/contributors).
+
+Thank you for being involved! 😍
+
+# License
+
+Distributed under the Creative Commons Attribution 4.0 license. 
+See [LICENSE](https://github.com/frenck/awesome-home-assistant/blob/master/LICENSE.md) for
+the complete license.
