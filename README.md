@@ -88,6 +88,7 @@ a awesome for learning and a great source of inspiration.
 * [Isabella Gross Alström](https://github.com/isabellaalstrom/HomeAssistantConfiguration) - Hass.io, Intel NUC, Ubuntu, Docker, Lovelace UI.
 * [Mahasri Kalavala](https://github.com/skalavala/smarthome) - Impressive setup, with lots of different hardware working together.
 * [stanvx](https://github.com/stanvx/Home-Assistant-Configuration) - Complete setup which uses AppDaemon and HA Floorplan as well.
+* [Vasiley](https://github.com/Vasiley/Home-Assistant-Main) - Runs two instances that work together.
 
 ## Other Awesome Lists
 
