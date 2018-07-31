@@ -58,7 +58,9 @@ There are several ways to get support and inspiration:
     - [Content](#content)
 - [Installing](#installing)
 - [Other Awesome Lists](#other-awesome-lists)
-- [Contributing and License](#contributing-and-license)
+- [Contributing](#contributing)
+- [Trademark Legal Notice](#trademark-legal-notice)
+- [License](#license)
 
 ## Installing
 
@@ -93,6 +95,17 @@ For a full list of all authors and contributors, check the
 [contributor's page](https://github.com/frenck/awesome-home-assistant/graphs/contributors).
 
 Thank you for being involved! 😍
+
+## Trademark Legal Notice
+
+This Awesome list is not created, developed, affilliated, supported, maintained
+or endorsed by Home Assistant.
+
+All product names, logos, brands, trademarks and registered trademarks are
+property of their respective owners. All company, logo, product and service
+names used in this list are for identification purposes only.
+
+Use of these names, logos, trademarks and brands does not imply endorsement.
 
 # License
 
