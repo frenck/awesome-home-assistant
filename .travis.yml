@@ -5,7 +5,7 @@ before_script:
   - gem install awesome_bot
   - gem install danger
 script:
-  - allowed_dupes=CONTRIBUTING
+  - allowed_dupes=CONTRIBUTING,github.com,home-assistant.io
   - awesome_bot README.md --white-list $allowed_dupes
   - danger
 notifications:
