@@ -47,15 +47,15 @@ There are several ways to get support and inspiration:
 - Check out the [Home Assistant Community Forums](https://community.home-assistant.io/?u=frenck)
 - Visit the [Home Assistant Subreddit](https://www.reddit.com/r/homeassistant/)
 - And of course, this awesome list!
-  - Simply press <kbd>command/ctrl</kbd> + <kbd>F</kbd> to search for a keyword
-  - Go through our [_Content Menu_](#content)
-  - Or use the search on our website: <https://awesome-ha.com>
+    - Simply press <kbd>command/ctrl</kbd> + <kbd>F</kbd> to search for a keyword
+    - Go through our [_Content Menu_](#content)
+    - Or use the search on our website: <https://www.awesome-ha.com>
 
 ### Content
 
 - [About](#about)
 - [How to Use](#how-to-use)
-  - [Content](#content)
+    - [Content](#content)
 - [Installing](#installing)
 - [Other Awesome Lists](#other-awesome-lists)
 - [Contributing and License](#contributing-and-license)

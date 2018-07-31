@@ -9,7 +9,6 @@ insert_final_newline = true
 ident_size = 4
 
 [*.md]
-ident_size = 2
 trim_trailing_whitespace = false
 
 [*.yml]
