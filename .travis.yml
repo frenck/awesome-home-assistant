@@ -5,7 +5,7 @@ before_script:
   - gem install awesome_bot
   - gem install danger
 script:
-  - wl=CONTRIBUTING,awesome-ha.com
+  - wl=CONTRIBUTING,awesome-ha.com,github.com/frenck/awesome-home-assistant
   - awesome_bot README.md --allow-redirect --white-list $wl
   - danger
 notifications:
