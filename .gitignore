@@ -2,6 +2,7 @@
 *.do
 bin/
 docs/*.md
+docs/images
 include/
 lib/
 pip-selfcheck.json
