@@ -145,8 +145,12 @@ _Values links, that don't fit in any of the above categories (yet!)._
 * [Getting started with Lovelace UI](https://www.youtube.com/watch?v=ObfRzMIEJPg) - :tv: Great introduction to Lovelace UI by DrZzs
 * [zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
 * [rhasspy](https://github.com/synesthesiam/rhasspy-assistant) - Toolkit for developing custom voice assistants.
-* [Fully Kiosk Browser](https://www.ozerov.de/fully-kiosk-browser/) - Highly configurable Android Kiosk Browser and App Launcher (e.g., for a wall mounted tablet).
+* [Fully Kiosk Browser](https://www.ozerov.de/fully-kiosk-browser/) - Highly configurable Android Kiosk Browser and App Launcher.
 * [Hassio Vagrant](https://github.com/hassio-addons/hassio-vagrant) - Vagrant box original created for developing add-ons.
+* [AppDaemon](https://github.com/home-assistant/appdaemon) - Pythons Apps for Home Assistant
+* [esphomeyaml](https://esphomelib.com/esphomeyaml/) - Program ESP8266/ESP32 board using YAML.
+* [Developer Documentation](https://developers.home-assistant.io/) - The official developer documentation.
+* [Lovelace Card Gallery](https://home-assistant-lovelace-gallery.netlify.com/) - Demo showing all official cards including configurations.
 
 ## Alternative Home Automation Software
 
