@@ -169,6 +169,7 @@ _Lovelace is the new UI interface for Home Assistant (still experimental!)_
 * [Lovelace UI Migration Script](https://gist.github.com/dale3h/ee5b08ed1bf3a26a57e3d56ae221a796) - Little Python script that converts your old UI.
 * [Lovelace Migration](https://github.com/hassio-addons/addon-lovelace-migration) - Hass.io Add-on, automatically converts your existing UI to Lovelace.
 * [Plan Coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) - Helps to find left and top for `picture-elements` cards.
+* [Share the Love](https://sharethelove.io) - Custom cards demos and configuration examples for Lovelace.
 
 ### Custom Lovelace UI Cards
 
