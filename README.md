@@ -48,7 +48,10 @@ There are several ways to get support and inspiration:
 - [Hass.io](#hassio)
     - [Official Add-ons](#official-add-ons)
     - [Third Party Add-ons](#third-party-add-ons)
-- [Lovelace UI](#lovelace-ui)
+- [User Interface](#user-interface)
+    - [Themes](#themes)
+    - [Alternative Dashboard](#alternative-dashboards)
+    - [Lovelace UI](#lovelace-ui)
     - [Custom Lovelace UI Cards](#custom-lovelace-ui-cards)
 - [Custom Components](#custom-components)
 - [DIY](#diy)
@@ -130,7 +133,32 @@ _Anyone could create an add-on, the following are created by the community._
 * [Aircast](https://github.com/hassio-addons/addon-aircast) - AirPlay capabilities for your Chromecast players.
 * [AirSonos](https://github.com/hassio-addons/addon-airsonos) - AirPlay capabilities for your Sonos players.
 
-## Lovelace UI
+## User Interface
+
+_The Home Assistant frontend is already pretty, but you can customize it to
+better fit your needs or taste._
+
+* [HA Floorplan](https://github.com/pkozul/ha-floorplan) - Interaction with your enities from a Floorplan.
+* [Custom UI elements](https://github.com/andrey-git/home-assistant-custom-ui) - For use with an (non-Lovelace) frontend.
+
+### Themes
+
+_It is all about the looks, apply some style._
+
+* [Midnight](https://community.home-assistant.io/t/midnight-theme/28598?u=frenck) - A dark theme by Marcel Hoffs.
+* [Dark Cyan](https://community.home-assistant.io/t/dark-cyan-theme/28594?u=frenck) - A dark theme with cyan accents by Ryoen Deprouw.
+* [Grey Night](https://community.home-assistant.io/t/grey-night-theme/30848?u=frenck) - A dark theme with grey accents by ksya.
+* [Dark Red](https://community.home-assistant.io/t/dark-red-theme/28592?u=frenck) - A dark theme with red accents by Ryoen Deprouw.
+* [Halloween](https://community.home-assistant.io/t/halloween-theme/30872?u=frenck) - Pumpkins colored by Mahasri Kalavala.
+* [Black and Green](https://community.home-assistant.io/t/black-and-green-theme/28602?u=frenck) - By GreenTurtwig.
+* [Vintage](https://community.home-assistant.io/t/vintage-theme/42806?u=frenck) - By Anup Surendran.
+
+### Alternative Dashboards
+
+* [Home Assistant Control Panel](https://reformedreality.com/home-assistant-control-panel) - Simple to use, easy to install.
+* [TileBoard](https://github.com/resoai/TileBoard) - A simple yet highly configurable Dashboard.
+
+### Lovelace UI
 
 _Lovelace is the new UI interface for Home Assistant (still experimental!)_
 
@@ -139,9 +167,12 @@ _Lovelace is the new UI interface for Home Assistant (still experimental!)_
 * [Lovelace Card Gallery](https://home-assistant-lovelace-gallery.netlify.com/) - Demo showing all official cards including configurations.
 * [Lovelace UI Migration Script](https://gist.github.com/dale3h/ee5b08ed1bf3a26a57e3d56ae221a796) - Little Python script that converts your old UI.
 * [Lovelace Migration](https://github.com/hassio-addons/addon-lovelace-migration) - Hass.io Add-on, automatically converts your existing UI to Lovelace.
-* [Plan coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) - Helps finding left and top for `picture-elements` cards.
+* [Plan Coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) - Helps finding left and top for `picture-elements` cards.
 
 ### Custom Lovelace UI Cards
+
+_Lovelace allows people to build custom cards on top of it, which you can
+easily add to your instance._
 
 * [Monster Card](https://github.com/ciotlosm/custom-lovelace/tree/master/monster-card) - Dynamicly adds entities: Magic.
 * [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com.
@@ -183,11 +214,7 @@ could also build them yourself!_
 
 _Valuable links, that don't fit in any of the above categories (yet!)._
 
-* [HA SwitchPlate](https://community.home-assistant.io/t/ha-switchplate-diy-lcd-touchscreen-wall-switch-replacement/25464?u=frenck) - DIY LCD Touchscreen wall switch replacement.
-* [HA Floorplan](https://github.com/pkozul/ha-floorplan) - Interaction with your enities from a Floorplan.
-* [Home Assistant Control Panel](https://reformedreality.com/home-assistant-control-panel) - Simple to use, easy to install.
 * [Home Assistant for Homebridge](https://github.com/home-assistant/homebridge-homeassistant) - A Homebridge plugin for using Siri and HomeKit.
-* [Custom UI elements](https://github.com/andrey-git/home-assistant-custom-ui) - For use with the (non-Lovelace) frontends.
 * [Room Assistant](https://github.com/mKeRix/room-assistant) - A companion client to handle sensors in multiple rooms.
 * [Home Assistant Companion](https://itunes.apple.com/us/app/home-assistant-open-source-home-automation/id1099568401?mt=8) - iPhone/iPad/iOS App to control and monitor your home remotely.
 * [Mi Flora via MQTT daemon](https://github.com/ThomDietrich/miflora-mqtt-daemon) - Collect and transfer Xiaomi Mi Flora plant sensor data via MQTT.
