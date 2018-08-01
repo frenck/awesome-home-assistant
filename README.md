@@ -9,19 +9,6 @@
   <a href="https://github.com/sindresorhus/awesome#readme" target="_blank">
     <img alt="Awesome" src="https://awesome.re/badge.svg">
   </a>
-  <a href="https://github.com/frenck/awesome-home-assistant" target="_blank">
-    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/frenck/awesome-home-assistant.svg?style=social&label=Stars" />
-  </a>
-  <a href="https://github.com/frenck/awesome-home-assistant" target="_blank">
-    <img alt="GitHub Watchers" src="https://img.shields.io/github/watchers/frenck/awesome-home-assistant.svg?style=social&label=Watchers">
-  </a>
-  <br>
-  <a href="https://travis-ci.org/frenck/awesome-home-assistant" target="_blank">
-    <img alt="Build status" src="https://api.travis-ci.org/frenck/awesome-home-assistant.svg?branch=master">
-  </a>
-  <a href="https://github.com/frenck/awesome-home-assistant/edit/master/README.md" target="_blank">
-    <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
-  </a>
 </div>
 
 ## About
