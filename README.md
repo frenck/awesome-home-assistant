@@ -46,9 +46,8 @@ There are several ways to get support and inspiration:
 - [Installing](#installing)
 - [Public Configurations](#public-configurations)
 - [Hass.io](#hassio)
-    - [Add-ons](#add-ons)
-        - [Official Add-ons](#official-add-ons)
-        - [Third Party Add-ons](#third-party-add-ons)
+    - [Official Add-ons](#official-add-ons)
+    - [Third Party Add-ons](#third-party-add-ons)
 - [Lovelace UI](#lovelace-ui)
     - [Custom Lovelace UI Cards](#custom-lovelace-ui-cards)
 - [Uncategorized](#uncategorized)
@@ -92,13 +91,10 @@ updating Home Assistant, and is managed from the frontend._
 
 * [Hass.io Beginner's Guide](https://www.youtube.com/watch?v=qnCRcGTznXs) - :tv: Excellent step-by-step guide on getting started (uses HassOS).
 
-
-### Add-ons
+### Official Add-ons
 
 _Add-ons are easy installable services that extend the functionality around
 your Hass.io instance._
-
-#### Official Add-ons
 
 * [DuckDNS](https://www.home-assistant.io/addons/duckdns/) - Updates your Duck DNS IP address and generate SSL using Let's Encrypt.
 * [HASS Configurator](https://www.home-assistant.io/addons/configurator/) - Browser-based configuration file editor.
@@ -107,7 +103,9 @@ your Hass.io instance._
 * [Samba](https://www.home-assistant.io/addons/samba/) - Access your configuration files using Windows network shares.
 * [NGINX SSL proxy](https://www.home-assistant.io/addons/nginx_proxy/) - Reverse proxy with SSL termination.
 
-#### Third Party Add-ons
+### Third Party Add-ons
+
+_Anyone could create an add-on, the following are created by the community._
 
 * [SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh) - SSH and Web based terminal with tons of pre-loaded usefull tools.
 * [Pi-hole](https://github.com/hassio-addons/addon-pi-hole) - Network-wide ad blocking.
