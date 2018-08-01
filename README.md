@@ -181,6 +181,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [AppDaemon](https://github.com/home-assistant/appdaemon) - Pythons Apps for Home Assistant
 * [esphomeyaml](https://esphomelib.com/esphomeyaml/) - Program ESP8266/ESP32 board using YAML.
 * [Developer Documentation](https://developers.home-assistant.io/) - The official developer documentation.
+* [HASS Configurator](https://github.com/danielperna84/hass-configurator) - Browser-based configuration file editor.
 
 ## Alternative Home Automation Software
 
