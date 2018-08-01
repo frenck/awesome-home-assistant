@@ -50,6 +50,7 @@ There are several ways to get support and inspiration:
     - [Third Party Add-ons](#third-party-add-ons)
 - [Lovelace UI](#lovelace-ui)
     - [Custom Lovelace UI Cards](#custom-lovelace-ui-cards)
+- [Custom Components](#custom-components)
 - [Uncategorized](#uncategorized)
 - [Alternative Home Automation Software](#alternative-home-automation-softwares)
 - [Other Awesome Lists](#other-awesome-lists)
@@ -146,6 +147,19 @@ _Lovelace is the new UI interface for Home Assistant (still experimental!)_
 * [Big Number Card](https://github.com/ciotlosm/custom-lovelace/tree/master/bignumber-card) - Display big numbers for sensors, including severity level as background.
 * [Animated Weather Card](https://community.home-assistant.io/t/custom-animated-weather-card-for-lovelace/58338?u=frenck) - Nice looking card showing the weather, with subtile animations.
 
+## Custom Components
+
+_Additional components for Home Assistant, that were created by the community._
+
+* [Hue Sensors](https://github.com/robmarkcole/Hue-sensors-HASS) - Enbles the use of Hue sensors.
+* [Google Geocode](https://github.com/michaelmcarthur/GoogleGeocode-HASS) - Converts a device tracker location into a human-readable address.
+* [Lutron Caseta Pro](https://github.com/upsert/lutron-caseta-pro) - Integrates Lutron Caseta Smart Bridge PRO / RA2 Select.
+* [ToonHA](https://github.com/krocat/ToonHA) - Integrates Toon by Eneco using the official API.
+* [Broadlink IR](https://github.com/vpnmaster/homeassistant-custom-components) - Integrates devices using Broadlink IR.
+* [Xiaomi Hygrothermo](https://github.com/dolezsa/Xiaomi_Hygrothermo) - Sensor platform for Xiaomi Mijia BT Hygrothermo temperature and humidity sensor.
+* [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Integrates Volkswagen Carnet (requires valid Carnet subscription).
+* [Untapped](https://github.com/custom-components/sensor.untapped) - Connects with your Untapped account.
+
 ## Uncategorized
 
 _Valuable links, that don't fit in any of the above categories (yet!)._
@@ -158,7 +172,6 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [Room Assistant](https://github.com/mKeRix/room-assistant) - A companion client to handle sensors in multiple rooms.
 * [Home Assistant Companion](https://itunes.apple.com/us/app/home-assistant-open-source-home-automation/id1099568401?mt=8) - iPhone/iPad/iOS App to control and monitor your home remotely.
 * [Magic Cards](https://github.com/maddox/magic-cards) - RFID scannable cards that you can program to do anything.
-* [Hue Sensors](https://github.com/robmarkcole/Hue-sensors-HASS) - Custom component enabling the use of Hue sensors.
 * [Mi Flora via MQTT daemon](https://github.com/ThomDietrich/miflora-mqtt-daemon) - Collect and transfer Xiaomi Mi Flora plant sensor data via MQTT.
 * [hassctl](https://github.com/dale3h/hassctl) - Simple command line utility to help debug your configuration.
 * [zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
