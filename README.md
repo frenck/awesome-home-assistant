@@ -49,6 +49,7 @@ There are several ways to get support and inspiration:
     - [Add-ons](#add-ons)
         - [Official Add-ons](#official-add-ons)
         - [Third Party Add-ons](#third-party-add-ons)
+- [Uncategorized](#uncategorized)
 - [Alternative Home Automation Software](#alternative-home-automation-softwares)
 - [Other Awesome Lists](#other-awesome-lists)
 - [Contributing](#contributing)
@@ -87,6 +88,9 @@ a awesome for learning and a great source of inspiration._
 _Hass.io is a complete operating system that will take care of installing and
 updating Home Assistant, and is managed from the frontend._
 
+* [Hass.io Beginner's Guide](https://www.youtube.com/watch?v=qnCRcGTznXs) - :tv: Excellent step-by-step guide on getting started (uses HassOS).
+
+
 ### Add-ons
 
 _Add-ons are easy installable services that extend the functionality around
@@ -122,6 +126,27 @@ your Hass.io instance._
 * [Aircast](https://github.com/hassio-addons/addon-aircast) - AirPlay capabilities for your Chromecast players.
 * [AirSonos](https://github.com/hassio-addons/addon-airsonos) - AirPlay capabilities for your Sonos players.
 
+## Uncategorized
+
+_Values links, that don't fit in any of the above categories (yet!)._
+
+* [HA SwitchPlate](https://community.home-assistant.io/t/ha-switchplate-diy-lcd-touchscreen-wall-switch-replacement/25464?u=frenck) - DIY LCD Touchscreen wall switch replacement.
+* [HA Floorplan](https://github.com/pkozul/ha-floorplan) - Interaction with your enities from a Floorplan.
+* [Home Assistant Control Panel](https://reformedreality.com/home-assistant-control-panel) - Simple to use, easy to install.
+* [Home Assistant for Homebridge](https://github.com/home-assistant/homebridge-homeassistant) - A Homebridge plugin for using Siri and HomeKit.
+* [Custom UI elements](https://github.com/andrey-git/home-assistant-custom-ui) - For use with the (non-Lovelace) frontends.
+* [Room Assistant](https://github.com/mKeRix/room-assistant) - A companion client to handle sensors in multiple rooms.
+* [Home Assistant Companion](https://itunes.apple.com/us/app/home-assistant-open-source-home-automation/id1099568401?mt=8) - iPhone/iPad/iOS App to control and monitor your home remotely.
+* [Magic Cards](https://github.com/maddox/magic-cards) - RFID scannable cards that you can program to do anything.
+* [Hue Sensors](https://github.com/robmarkcole/Hue-sensors-HASS) - Custom component enabling the use of Hue sensors.
+* [Custom cards](https://github.com/ciotlosm/custom-lovelace) - Collection of custom cards for use with the Lovelace UI.
+* [Mi Flora via MQTT daemon](https://github.com/ThomDietrich/miflora-mqtt-daemon) - Collect and transfer Xiaomi Mi Flora plant sensor data via MQTT.
+* [hassctl](https://github.com/dale3h/hassctl) - Simple command line utility to help debug your configuration.
+* [Getting started with Lovelace UI](https://www.youtube.com/watch?v=ObfRzMIEJPg) - :tv: Great introduction to Lovelace UI by DrZzs
+* [zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
+* [rhasspy](https://github.com/synesthesiam/rhasspy-assistant) - Toolkit for developing custom voice assistants.
+* [Fully Kiosk Browser](https://www.ozerov.de/fully-kiosk-browser/) - Highly configurable Android Kiosk Browser and App Launcher (e.g., for a wall mounted tablet).
+
 ## Alternative Home Automation Software
 
 _Home Assistant isn't the only home automation framework out there, here
@@ -134,7 +159,8 @@ are some alternatives._
 
 ## Other Awesome Lists
 
-_Other amazingly awesome lists that can be found on the great and dangerous interwebs_
+_Other amazingly awesome lists that can be found on the great and dangerous
+interwebs._
 
 * [awesome-smarthome](https://github.com/pfalcon/awesome-smarthome) - Curated list of awesome SmartHome/Home Automation things.
 * [awesome-iot](https://github.com/HQarroum/awesome-iot) - Curated list of awesome Internet of Things projects and resources.
