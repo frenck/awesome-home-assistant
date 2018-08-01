@@ -49,6 +49,8 @@ There are several ways to get support and inspiration:
     - [Add-ons](#add-ons)
         - [Official Add-ons](#official-add-ons)
         - [Third Party Add-ons](#third-party-add-ons)
+- [Lovelace UI](#lovelace-ui)
+    - [Custom Lovelace UI Cards](#custom-lovelace-ui-cards)
 - [Uncategorized](#uncategorized)
 - [Alternative Home Automation Software](#alternative-home-automation-softwares)
 - [Other Awesome Lists](#other-awesome-lists)
@@ -126,6 +128,26 @@ your Hass.io instance._
 * [Aircast](https://github.com/hassio-addons/addon-aircast) - AirPlay capabilities for your Chromecast players.
 * [AirSonos](https://github.com/hassio-addons/addon-airsonos) - AirPlay capabilities for your Sonos players.
 
+## Lovelace UI
+
+_Lovelace is the new UI interface for Home Assistant (still experimental!)_
+
+* [Lovelace UI Documentation](https://www.home-assistant.io/lovelace) - The official documentation.
+* [Getting started with Lovelace UI](https://www.youtube.com/watch?v=ObfRzMIEJPgx) - :tv: Great introduction to Lovelace UI by DrZzs.
+* [Lovelace Card Gallery](https://home-assistant-lovelace-gallery.netlify.com/) - Demo showing all official cards including configurations.
+* [Lovelace UI Migration Script](https://gist.github.com/dale3h/ee5b08ed1bf3a26a57e3d56ae221a796) - Little Python script that converts your old UI.
+* [Lovelace Migration](https://github.com/hassio-addons/addon-lovelace-migration) - Hass.io Add-on, automatically converts your existing UI to Lovelace.
+* [Plan coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) - Helps finding left and top for `picture-elements` cards.
+
+### Custom Lovelace UI Cards
+
+* [Monster Card](https://github.com/ciotlosm/custom-lovelace/tree/master/monster-card) - Dynamicly adds entities: Magic.
+* [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com.
+* [Guage Card](https://github.com/ciotlosm/custom-lovelace/tree/master/gauge-card) - Simple gauge implemented in pure CSS.
+* [Alarm Control Panel Card](https://github.com/ciotlosm/custom-lovelace/tree/master/alarm_control_panel-card) - Card that looks like an alarm keypad.
+* [Big Number Card](https://github.com/ciotlosm/custom-lovelace/tree/master/bignumber-card) - Display big numbers for sensors, including severity level as background.
+* [Animated Weather Card](https://community.home-assistant.io/t/custom-animated-weather-card-for-lovelace/58338?u=frenck) - Nice looking card showing the weather, with subtile animations.
+
 ## Uncategorized
 
 _Values links, that don't fit in any of the above categories (yet!)._
@@ -139,10 +161,8 @@ _Values links, that don't fit in any of the above categories (yet!)._
 * [Home Assistant Companion](https://itunes.apple.com/us/app/home-assistant-open-source-home-automation/id1099568401?mt=8) - iPhone/iPad/iOS App to control and monitor your home remotely.
 * [Magic Cards](https://github.com/maddox/magic-cards) - RFID scannable cards that you can program to do anything.
 * [Hue Sensors](https://github.com/robmarkcole/Hue-sensors-HASS) - Custom component enabling the use of Hue sensors.
-* [Custom cards](https://github.com/ciotlosm/custom-lovelace) - Collection of custom cards for use with the Lovelace UI.
 * [Mi Flora via MQTT daemon](https://github.com/ThomDietrich/miflora-mqtt-daemon) - Collect and transfer Xiaomi Mi Flora plant sensor data via MQTT.
 * [hassctl](https://github.com/dale3h/hassctl) - Simple command line utility to help debug your configuration.
-* [Getting started with Lovelace UI](https://www.youtube.com/watch?v=ObfRzMIEJPg) - :tv: Great introduction to Lovelace UI by DrZzs
 * [zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
 * [rhasspy](https://github.com/synesthesiam/rhasspy-assistant) - Toolkit for developing custom voice assistants.
 * [Fully Kiosk Browser](https://www.ozerov.de/fully-kiosk-browser/) - Highly configurable Android Kiosk Browser and App Launcher.
@@ -150,7 +170,6 @@ _Values links, that don't fit in any of the above categories (yet!)._
 * [AppDaemon](https://github.com/home-assistant/appdaemon) - Pythons Apps for Home Assistant
 * [esphomeyaml](https://esphomelib.com/esphomeyaml/) - Program ESP8266/ESP32 board using YAML.
 * [Developer Documentation](https://developers.home-assistant.io/) - The official developer documentation.
-* [Lovelace Card Gallery](https://home-assistant-lovelace-gallery.netlify.com/) - Demo showing all official cards including configurations.
 
 ## Alternative Home Automation Software
 
