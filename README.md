@@ -51,6 +51,8 @@ There are several ways to get support and inspiration:
 - [Lovelace UI](#lovelace-ui)
     - [Custom Lovelace UI Cards](#custom-lovelace-ui-cards)
 - [Custom Components](#custom-components)
+- [DIY](#diy)
+    - [DIY Projects](#diy-projects)
 - [Uncategorized](#uncategorized)
 - [Alternative Home Automation Software](#alternative-home-automation-softwares)
 - [Other Awesome Lists](#other-awesome-lists)
@@ -161,6 +163,22 @@ _Additional components for Home Assistant, that were created by the community._
 * [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Integrates Volkswagen Carnet (requires valid Carnet subscription).
 * [Untapped](https://github.com/custom-components/sensor.untapped) - Connects with your Untapped account.
 
+## DIY
+
+_Do It Yourself; rather than buying home automation hardware or solutions, you
+could also build them yourself!_
+
+* [esphomeyaml](https://esphomelib.com/esphomeyaml/) - Program ESP8266/ESP32 board using YAML.
+* [Magic Cards](https://github.com/maddox/magic-cards) - RFID scannable cards that you can program to do anything.
+
+### DIY Projects
+
+* [HA SwitchPlate](https://community.home-assistant.io/t/ha-switchplate-diy-lcd-touchscreen-wall-switch-replacement/25464?u=frenck) - LCD Touchscreen wall switch replacement.
+* [DIY Multisensor](https://www.youtube.com/watch?v=jpjfVc-9IrQ) - :tv: $15, Temperature, Humidity, Light, Motion, and RGB LED, without soldering.
+* [$10 WiFi RGB Bulb](https://community.home-assistant.io/t/how-to-inexpensive-10-us-wifi-rgb-bulb-that-works-with-home-assistant/14735?u=frenck) - In inexpensive RGB bulb that works on WiFi.
+* [433mhz/IR Bidirectional Gateway](https://community.home-assistant.io/t/433mhz-infrared-ir-to-and-from-mqtt-on-esp8266/6779?u=frenck) - Bidirectional with IR and 433mhz using ESP8266 and MQTT.
+* [esp8266MQTTBlinds](https://community.home-assistant.io/t/esp8266-window-blinds-mqtt/14863?u=frenck) - Automate your window blinds using an ESP8266, a servo and MQTT.
+
 ## Uncategorized
 
 _Valuable links, that don't fit in any of the above categories (yet!)._
@@ -172,7 +190,6 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [Custom UI elements](https://github.com/andrey-git/home-assistant-custom-ui) - For use with the (non-Lovelace) frontends.
 * [Room Assistant](https://github.com/mKeRix/room-assistant) - A companion client to handle sensors in multiple rooms.
 * [Home Assistant Companion](https://itunes.apple.com/us/app/home-assistant-open-source-home-automation/id1099568401?mt=8) - iPhone/iPad/iOS App to control and monitor your home remotely.
-* [Magic Cards](https://github.com/maddox/magic-cards) - RFID scannable cards that you can program to do anything.
 * [Mi Flora via MQTT daemon](https://github.com/ThomDietrich/miflora-mqtt-daemon) - Collect and transfer Xiaomi Mi Flora plant sensor data via MQTT.
 * [hassctl](https://github.com/dale3h/hassctl) - Simple command line utility to help debug your configuration.
 * [zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
@@ -180,7 +197,6 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [Fully Kiosk Browser](https://www.ozerov.de/fully-kiosk-browser/) - Highly configurable Android Kiosk Browser and App Launcher.
 * [Hassio Vagrant](https://github.com/hassio-addons/hassio-vagrant) - Vagrant box original created for developing add-ons.
 * [AppDaemon](https://github.com/home-assistant/appdaemon) - Pythons Apps for Home Assistant
-* [esphomeyaml](https://esphomelib.com/esphomeyaml/) - Program ESP8266/ESP32 board using YAML.
 * [Developer Documentation](https://developers.home-assistant.io/) - The official developer documentation.
 * [HASS Configurator](https://github.com/danielperna84/hass-configurator) - Browser-based configuration file editor.
 
