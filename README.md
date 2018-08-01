@@ -1,7 +1,7 @@
 # Awesome Home Assistant
 
 <div align="center">
-  <img width="400" src="https://cdn.rawgit.com/frenck/awesome-home-assistant/master/images/awesome-home-assistant.svg" alt="Awesome Home Assistant">
+  <img width="400" src="https://www.awesome-ha.com/images/awesome-home-assistant.svg" alt="Awesome Home Assistant">
   <br>
   <a href="https://awesome-ha.com"><strong>https://awesome-ha.com</strong></a>
   <br>
