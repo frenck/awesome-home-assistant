@@ -90,6 +90,7 @@ an awesome source for learning and a great source of inspiration._
 * [stanvx](https://github.com/stanvx/Home-Assistant-Configuration) - Complete setup which uses AppDaemon and HA Floorplan as well.
 * [Vasiley](https://github.com/Vasiley/Home-Assistant-Main) - Runs two instances that work together.
 * [Alok Saboo](https://github.com/arsaboo/homeassistant-config) - Also known as arsaboo. Regularly updated.
+* [Aaron Bach](https://github.com/bachya/smart-home) - Also known as bachya. Regularly updated and includes numerous Dockerized services.
 
 ## Hass.io
 
