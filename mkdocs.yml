@@ -1,6 +1,6 @@
 # Project information
 site_name: 'Awesome Home Assistant'
-site_url: 'https://awesome-ha.com'
+site_url: 'https://www.awesome-ha.com'
 site_description: 'A curated list of awesome Home Assistant resources for automating every aspect of your home'
 site_author: 'Franck Nijhof'
 copyright: 'Copyright 2018 - Franck Nijhof. Creative Commons Attribution 4.0.'
@@ -13,8 +13,8 @@ edit_uri: ''
 # Theme configuration
 theme:
   name: 'material'
-  logo: 'https://cdn.rawgit.com/frenck/awesome-home-assistant/master/images/icon.svg'
-  icon: 'https://cdn.rawgit.com/frenck/awesome-home-assistant/master/images/icon.svg'
+  logo: 'https://www.awesome-ha.com/images/icon.svg'
+  icon: 'https://www.awesome-ha.com/images/icon.svg'
   language: 'en'
   palette:
     primary: 'light-blue'
