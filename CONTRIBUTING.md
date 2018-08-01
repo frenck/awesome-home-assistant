@@ -6,6 +6,10 @@ Please note that this project is released with a
 [Contributor Code of Conduct](https://github.com/frenck/awesome-home-assistant/blob/master/CODE_OF_CONDUCT.md).
 By participating in this project you agree to abide by its terms.
 
+Contributing is pretty easy, all you need is an GitHub account.
+
+[Just click this link to edit the list, right from your browser](https://github.com/frenck/awesome-home-assistant/edit/master/README.md).
+
 ## Guidelines
 
 ### Link requirements
