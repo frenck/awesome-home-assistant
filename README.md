@@ -150,7 +150,7 @@ _Lovelace is the new UI interface for Home Assistant (still experimental!)_
 
 ## Uncategorized
 
-_Values links, that don't fit in any of the above categories (yet!)._
+_Valuable links, that don't fit in any of the above categories (yet!)._
 
 * [HA SwitchPlate](https://community.home-assistant.io/t/ha-switchplate-diy-lcd-touchscreen-wall-switch-replacement/25464?u=frenck) - DIY LCD Touchscreen wall switch replacement.
 * [HA Floorplan](https://github.com/pkozul/ha-floorplan) - Interaction with your enities from a Floorplan.
