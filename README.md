@@ -49,6 +49,7 @@ There are several ways to get support and inspiration:
     - [Add-ons](#add-ons)
         - [Official Add-ons](#official-add-ons)
         - [Third Party Add-ons](#third-party-add-ons)
+- [Alternative Home Automation Software](#alternative-home-automation-softwares)
 - [Other Awesome Lists](#other-awesome-lists)
 - [Contributing](#contributing)
 - [Trademark Legal Notice](#trademark-legal-notice)
@@ -120,6 +121,16 @@ your Hass.io instance._
 * [Octobox](https://github.com/hassio-addons/addon-octobox) - Take back control of your GitHub notifications.
 * [Aircast](https://github.com/hassio-addons/addon-aircast) - AirPlay capabilities for your Chromecast players.
 * [AirSonos](https://github.com/hassio-addons/addon-airsonos) - AirPlay capabilities for your Sonos players.
+
+## Alternative Home Automation Software
+
+_Home Assistant isn't the only home automation framework out there, here
+are some alternatives._
+
+* [openHAB](https://github.com/openhab) - Java based and aims at being an universal integration platform.
+* [Domoticz](https://github.com/domoticz/domoticz) - A lightweight Home Automation System.
+* [Gladys](https://github.com/GladysProject/Gladys) - Open source program which runs on your Raspberry Pi.
+* [SmartThings](https://www.smartthings.com/) - Commercial home automation hub by Samsung.
 
 ## Other Awesome Lists
 
