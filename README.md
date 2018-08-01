@@ -84,6 +84,7 @@ a awesome for learning and a great source of inspiration._
 * [Mahasri Kalavala](https://github.com/skalavala/smarthome) - Impressive setup, with lots of different hardware working together.
 * [stanvx](https://github.com/stanvx/Home-Assistant-Configuration) - Complete setup which uses AppDaemon and HA Floorplan as well.
 * [Vasiley](https://github.com/Vasiley/Home-Assistant-Main) - Runs two instances that work together.
+* [Alok Saboo](https://github.com/arsaboo/homeassistant-config) - Also known as arsaboo. Regulary updated.
 
 ## Hass.io
 
