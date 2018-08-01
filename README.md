@@ -19,12 +19,12 @@ Additional software, tutorials, custom components, Hassio add-ons,
 custom Lovelace panels, cookbooks, example setups, and much more.
 
 The list is divided into categories. The links in those categories do not have
-pre-established order, the order is for contribution. If you want to contribute,
+pre-established order; the order is for contribution. If you want to contribute,
 please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/master/CONTRIBUTING.md).
 
 ## How to Use
 
-Awesome Home Assistant is an amazing list for people trying to automate every
+Awesome Home Assistant is a fantastic list for people trying to automate every
 aspect of their home. Automating your home is a long, hard, and never finished
 task that usually involves a lot of tinkering.
 
@@ -33,10 +33,10 @@ There are several ways to get support and inspiration:
 - Chat on the [Home Assistant Discord](https://discordapp.com/invite/c5DvZ4e) server
 - Check out the [Home Assistant Community Forums](https://community.home-assistant.io/?u=frenck)
 - Visit the [Home Assistant Subreddit](https://www.reddit.com/r/homeassistant/)
-- And of course, this awesome list!
+- And, of course, this awesome list!
     - Simply press <kbd>command/ctrl</kbd> + <kbd>F</kbd> to search for a keyword
     - Go through our [_Content Menu_](#content)
-    - Or use the search on our website: <https://www.awesome-ha.com>
+    - Alternatively, use the search on our website: <https://www.awesome-ha.com>
 
 ### Content
 
@@ -68,7 +68,7 @@ There are several ways to get support and inspiration:
 Home Assistant has several installation / running methods. Many people have
 different opinions and their personal favorites. Each method has its
 advantages and disadvantages. Important to know, there is no wrong, or right here,
-each method installs the **SAME** Home Assistant.
+each technique installs the **SAME** Home Assistant.
 
 Home Assistant currently _recommends_ the Hass.io method.
 
@@ -80,7 +80,7 @@ Home Assistant currently _recommends_ the Hass.io method.
 ## Public Configurations
 
 _Some people store their full Home Assistant configuration on GitHub. They are
-a awesome for learning and a great source of inspiration._
+an awesome source for learning and a great source of inspiration._
 
 * [Carlo Costanzo](https://github.com/CCOSTAN/Home-AssistantConfig) - Probably the most documented configuration out there.
 * [DubhAd](https://github.com/DubhAd/Home-AssistantConfig) - Also known as Tinkerer shares his configuration files.
@@ -89,7 +89,7 @@ a awesome for learning and a great source of inspiration._
 * [Mahasri Kalavala](https://github.com/skalavala/smarthome) - Impressive setup, with lots of different hardware working together.
 * [stanvx](https://github.com/stanvx/Home-Assistant-Configuration) - Complete setup which uses AppDaemon and HA Floorplan as well.
 * [Vasiley](https://github.com/Vasiley/Home-Assistant-Main) - Runs two instances that work together.
-* [Alok Saboo](https://github.com/arsaboo/homeassistant-config) - Also known as arsaboo. Regulary updated.
+* [Alok Saboo](https://github.com/arsaboo/homeassistant-config) - Also known as arsaboo. Regularly updated.
 
 ## Hass.io
 
@@ -100,7 +100,7 @@ updating Home Assistant, and is managed from the frontend._
 
 ### Official Add-ons
 
-_Add-ons are easy installable services that extend the functionality around
+_Add-ons are easily installable services that extend the functionality around
 your Hass.io instance._
 
 * [DuckDNS](https://www.home-assistant.io/addons/duckdns/) - Updates your Duck DNS IP address and generate SSL using Let's Encrypt.
@@ -114,7 +114,7 @@ your Hass.io instance._
 
 _Anyone could create an add-on, the following are created by the community._
 
-* [SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh) - SSH and Web based terminal with tons of pre-loaded usefull tools.
+* [SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh) - SSH and Web-based terminal with tons of pre-loaded useful tools.
 * [Pi-hole](https://github.com/hassio-addons/addon-pi-hole) - Network-wide ad blocking.
 * [UniFi Controller](https://github.com/hassio-addons/addon-unifi) - The UniFi Controller allows you to manage your UniFi network using a web browser.
 * [Node-RED](https://github.com/hassio-addons/addon-node-red) - Flow-based programming for the Internet of Things.
@@ -136,10 +136,10 @@ _Anyone could create an add-on, the following are created by the community._
 ## User Interface
 
 _The Home Assistant frontend is already pretty, but you can customize it to
-better fit your needs or taste._
+fit your needs or taste better._
 
-* [HA Floorplan](https://github.com/pkozul/ha-floorplan) - Interaction with your enities from a Floorplan.
-* [Custom UI elements](https://github.com/andrey-git/home-assistant-custom-ui) - For use with an (non-Lovelace) frontend.
+* [HA Floorplan](https://github.com/pkozul/ha-floorplan) - Interaction with your entities from a Floorplan.
+* [Custom UI elements](https://github.com/andrey-git/home-assistant-custom-ui) - For use with a (non-Lovelace) frontend.
 
 ### Themes
 
@@ -167,25 +167,25 @@ _Lovelace is the new UI interface for Home Assistant (still experimental!)_
 * [Lovelace Card Gallery](https://home-assistant-lovelace-gallery.netlify.com/) - Demo showing all official cards including configurations.
 * [Lovelace UI Migration Script](https://gist.github.com/dale3h/ee5b08ed1bf3a26a57e3d56ae221a796) - Little Python script that converts your old UI.
 * [Lovelace Migration](https://github.com/hassio-addons/addon-lovelace-migration) - Hass.io Add-on, automatically converts your existing UI to Lovelace.
-* [Plan Coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) - Helps finding left and top for `picture-elements` cards.
+* [Plan Coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) - Helps to find left and top for `picture-elements` cards.
 
 ### Custom Lovelace UI Cards
 
 _Lovelace allows people to build custom cards on top of it, which you can
 easily add to your instance._
 
-* [Monster Card](https://github.com/ciotlosm/custom-lovelace/tree/master/monster-card) - Dynamicly adds entities: Magic.
+* [Monster Card](https://github.com/ciotlosm/custom-lovelace/tree/master/monster-card) - Dynamically adds entities: Magic.
 * [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com.
 * [Guage Card](https://github.com/ciotlosm/custom-lovelace/tree/master/gauge-card) - Simple gauge implemented in pure CSS.
 * [Alarm Control Panel Card](https://github.com/ciotlosm/custom-lovelace/tree/master/alarm_control_panel-card) - Card that looks like an alarm keypad.
 * [Big Number Card](https://github.com/ciotlosm/custom-lovelace/tree/master/bignumber-card) - Display big numbers for sensors, including severity level as background.
-* [Animated Weather Card](https://community.home-assistant.io/t/custom-animated-weather-card-for-lovelace/58338?u=frenck) - Nice looking card showing the weather, with subtile animations.
+* [Animated Weather Card](https://community.home-assistant.io/t/custom-animated-weather-card-for-lovelace/58338?u=frenck) - Nice looking card showing the weather, with subtle animations.
 
 ## Custom Components
 
 _Additional components for Home Assistant, that were created by the community._
 
-* [Hue Sensors](https://github.com/robmarkcole/Hue-sensors-HASS) - Enbles the use of Hue sensors.
+* [Hue Sensors](https://github.com/robmarkcole/Hue-sensors-HASS) - Enables the use of Hue sensors.
 * [Google Geocode](https://github.com/michaelmcarthur/GoogleGeocode-HASS) - Converts a device tracker location into a human-readable address.
 * [Lutron Caseta Pro](https://github.com/upsert/lutron-caseta-pro) - Integrates Lutron Caseta Smart Bridge PRO / RA2 Select.
 * [ToonHA](https://github.com/krocat/ToonHA) - Integrates Toon by Eneco using the official API.
@@ -232,7 +232,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 _Home Assistant isn't the only home automation framework out there, here
 are some alternatives._
 
-* [openHAB](https://github.com/openhab) - Java based and aims at being an universal integration platform.
+* [openHAB](https://github.com/openhab) - Java-based and aims at being a universal integration platform.
 * [Domoticz](https://github.com/domoticz/domoticz) - A lightweight Home Automation System.
 * [Gladys](https://github.com/GladysProject/Gladys) - Open source program which runs on your Raspberry Pi.
 * [SmartThings](https://www.smartthings.com/) - Commercial home automation hub by Samsung.
@@ -248,7 +248,7 @@ interwebs._
 
 ## Contributing
 
-This awesome list is an active open-source project and are always open to
+This awesome list is an active open-source project and is always open to
 people who want to contribute to it. We have set up a separate document
 containing our [Contribution Guidelines](https://github.com/frenck/awesome-home-assistant/blob/master/CONTRIBUTING.md).
 
@@ -261,14 +261,14 @@ Thank you for being involved! 😍
 
 ## Trademark Legal Notice
 
-This Awesome list is not created, developed, affilliated, supported, maintained
+This Awesome list is not created, developed, affiliated, supported, maintained
 or endorsed by Home Assistant.
 
 All product names, logos, brands, trademarks and registered trademarks are
-property of their respective owners. All company, logo, product and service
-names used in this list are for identification purposes only.
+property of their respective owners. All company, product, and service names
+used in this list are for identification purposes only.
 
-Use of these names, logos, trademarks and brands does not imply endorsement.
+Use of these names, logos, trademarks, and brands does not imply endorsement.
 
 ## License
 
