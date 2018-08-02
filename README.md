@@ -232,7 +232,7 @@ _Links to various users of Home Assistant that regularly publish Home Assistant 
 _Sit back, relax, watch, and learn._
 
 * [BRUH](https://www.youtube.com/channel/UCLecVrux63S6aYiErxdiy4w) - Ben has great tutorials for getting started, unfortunately, inactive lately.
-* [BurnsHA](https://www.youtube.com/channel/UCSKQutOXuNLvFetrKuwudpg) - Great information and tutorial videos.
+* [BurnsHA](https://www.youtube.com/channel/UCSKQutOXuNLvFetrKuwudpg) - Great informational and tutorial videos.
 * [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng) - Great how-to videos and also streams live.
 * [The Hookhup](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ) - Tutorials and more, also has videos on home automation in general.
 
@@ -240,7 +240,7 @@ _Sit back, relax, watch, and learn._
 
 _Get inspired, while commuting, doing your morning routine, or at the gym!_
 
-* [Home Assistant Podcast](https://hasspodcast.io) - Biweekly Podcast with the latest news and interesting guests.
+* [Home Assistant Podcast](https://hasspodcast.io) - Biweekly podcast with the latest news and interesting guests.
 
 ## Uncategorized
 
