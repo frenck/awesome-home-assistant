@@ -59,6 +59,7 @@ There are several ways to get support and inspiration:
 - [Online Resources](#online-resoruces)
     - [Blogs](#blogs)
     - [YouTube Channels](#youtube-channels)
+    - [Podcasts](#podcasts)
 - [Uncategorized](#uncategorized)
 - [Alternative Home Automation Software](#alternative-home-automation-softwares)
 - [Other Awesome Lists](#other-awesome-lists)
@@ -234,6 +235,11 @@ _Sit back, relax, watch, and learn._
 * [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng) - Great how-to videos and also streams live.
 * [The Hookhup](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ) - Tutorials and more, also has videos on home automation in general.
 
+### Podcasts
+
+_Get inspired, while commuting, doing your morning routine, or at the gym!_
+
+* [Home Assistant Podcast](https://hasspodcast.io) - Biweekly Podcast with the latest news and interesting guests.
 
 ## Uncategorized
 
@@ -251,7 +257,6 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [AppDaemon](https://github.com/home-assistant/appdaemon) - Pythons Apps for Home Assistant
 * [Developer Documentation](https://developers.home-assistant.io/) - The official developer documentation.
 * [HASS Configurator](https://github.com/danielperna84/hass-configurator) - Browser-based configuration file editor.
-* [Home Assistant Podcast](https://hasspodcast.io) - Biweekly Podcast with the latest news and interesting guests.
 
 ## Alternative Home Automation Software
 
