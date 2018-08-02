@@ -229,6 +229,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [Developer Documentation](https://developers.home-assistant.io/) - The official developer documentation.
 * [HASS Configurator](https://github.com/danielperna84/hass-configurator) - Browser-based configuration file editor.
 * [Home Assistant Podcast](https://hasspodcast.io) - Biweekly Podcast with the latest news and interesting guests.
+* [HA-Dockermon](https://github.com/philhawthorne/ha-dockermon) - A NodeJS service for RESTful switches to control Docker containers.
 
 ## Alternative Home Automation Software
 
