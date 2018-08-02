@@ -217,20 +217,23 @@ could also build them yourself!_
 
 ## Online Resources
 
-_Links to various users of Home Assistant that regularly publish Home Assistant focussed content_
+_Links to various users of Home Assistant that regularly publish Home Assistant focussed content._
 
 ### Blogs
 
-* [DIY Futurism](https://diyfuturism.com/) - Brad from DIY Futurism uses Home Assistant and posts articles with great instructions for new users to Home Assistant.
-* [Phil Hawthorne](https://philhawthorne.com/homeautomation) - Phil Hawthorne, co-host of the Home Assistant Podcast posts guides and articles written for Home Assistant.
-* [Smart Home Hobby](https://smarthomehobby.com/) - Features budget friendly guides and information for users of Home Assistant.
+* [DIY Futurism](https://diyfuturism.com/) - Brad from posts articles with great instructions for new users.
+* [Phil Hawthorne](https://philhawthorne.com/homeautomation) - Co-host of the Home Assistant Podcast.
+* [Smart Home Hobby](https://smarthomehobby.com/) - Features budget friendly guides and information.
 
 ### YouTube Channels
 
-* [BRUH](https://www.youtube.com/channel/UCLecVrux63S6aYiErxdiy4w) - Ben has great tutorials for getting started with Home Assistant.
-* [BurnsHA](https://www.youtube.com/channel/UCSKQutOXuNLvFetrKuwudpg) - Great Home Assistant information videos.
-* [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng) - Great how to videos explaining how to use Home Assistant.
-* [The Hookhup](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ) - Tutorials and more for Home Assistant and Home Automation.
+_Sit back, relax, watch, and learn._
+
+* [BRUH](https://www.youtube.com/channel/UCLecVrux63S6aYiErxdiy4w) - Ben has great tutorials for getting started, unfortunately, inactive lately.
+* [BurnsHA](https://www.youtube.com/channel/UCSKQutOXuNLvFetrKuwudpg) - Great information and tutorial videos.
+* [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng) - Great how-to videos and also streams live.
+* [The Hookhup](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ) - Tutorials and more, also has videos on home automation in general.
+
 
 ## Uncategorized
 
