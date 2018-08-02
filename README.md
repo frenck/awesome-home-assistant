@@ -56,6 +56,10 @@ There are several ways to get support and inspiration:
 - [Custom Components](#custom-components)
 - [DIY](#diy)
     - [DIY Projects](#diy-projects)
+- [Online Resources](#online-resoruces)
+    - [Blogs](#blogs)
+    - [YouTube Channels](#youtube-channels)
+    - [Podcasts](#podcasts)
 - [Uncategorized](#uncategorized)
 - [Alternative Home Automation Software](#alternative-home-automation-softwares)
 - [Other Awesome Lists](#other-awesome-lists)
@@ -213,6 +217,31 @@ could also build them yourself!_
 * [esp8266MQTTBlinds](https://community.home-assistant.io/t/esp8266-window-blinds-mqtt/14863?u=frenck) - Automate your window blinds using an ESP8266, a servo and MQTT.
 * [Home Assistant's Hackster.io](https://www.hackster.io/home-assistant?f=1#_=_) - A Hackster channel with multiple DIY projects.
 
+## Online Resources
+
+_Links to various users of Home Assistant that regularly publish Home Assistant focussed content._
+
+### Blogs
+
+* [DIY Futurism](https://diyfuturism.com/) - Brad posts articles with great instructions for new users.
+* [Phil Hawthorne](https://philhawthorne.com/homeautomation) - Co-host of the Home Assistant Podcast.
+* [Smart Home Hobby](https://smarthomehobby.com/) - Features budget friendly guides and information.
+
+### YouTube Channels
+
+_Sit back, relax, watch, and learn._
+
+* [BRUH](https://www.youtube.com/channel/UCLecVrux63S6aYiErxdiy4w) - Ben has great tutorials for getting started, unfortunately, inactive lately.
+* [BurnsHA](https://www.youtube.com/channel/UCSKQutOXuNLvFetrKuwudpg) - Great informational and tutorial videos.
+* [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng) - Great how-to videos and also streams live.
+* [The Hookhup](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ) - Tutorials and more, also has videos on home automation in general.
+
+### Podcasts
+
+_Get inspired, while commuting, doing your morning routine, or at the gym!_
+
+* [Home Assistant Podcast](https://hasspodcast.io) - Biweekly podcast with the latest news and interesting guests.
+
 ## Uncategorized
 
 _Valuable links, that don't fit in any of the above categories (yet!)._
@@ -229,7 +258,6 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [AppDaemon](https://github.com/home-assistant/appdaemon) - Pythons Apps for Home Assistant
 * [Developer Documentation](https://developers.home-assistant.io/) - The official developer documentation.
 * [HASS Configurator](https://github.com/danielperna84/hass-configurator) - Browser-based configuration file editor.
-* [Home Assistant Podcast](https://hasspodcast.io) - Biweekly Podcast with the latest news and interesting guests.
 * [HA-Dockermon](https://github.com/philhawthorne/ha-dockermon) - A NodeJS service for RESTful switches to control Docker containers.
 
 ## Alternative Home Automation Software
