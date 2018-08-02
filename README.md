@@ -86,7 +86,7 @@ Home Assistant currently _recommends_ the Hass.io method.
 _Some people store their full Home Assistant configuration on GitHub. They are
 an awesome source for learning and a great source of inspiration._
 
-* [Carlo Costanzo](https://github.com/CCOSTAN/Home-AssistantConfig) - Probably the most documented configuration out there.
+* [Carlo Costanzo](https://github.com/CCOSTAN/Home-AssistantConfig#logo) - Probably the most documented configuration out there.
 * [DubhAd](https://github.com/DubhAd/Home-AssistantConfig) - Also known as Tinkerer shares his configuration files.
 * [geekofweek](https://github.com/geekofweek/homeassistant) - Has over 300+ automations.
 * [Isabella Gross Alström](https://github.com/isabellaalstrom/HomeAssistantConfiguration) - Hass.io, Intel NUC, Ubuntu, Docker, Lovelace UI.
@@ -226,6 +226,7 @@ _Links to various users of Home Assistant that regularly publish Home Assistant 
 * [DIY Futurism](https://diyfuturism.com/) - Brad posts articles with great instructions for new users.
 * [Phil Hawthorne](https://philhawthorne.com/homeautomation) - Co-host of the Home Assistant Podcast.
 * [Smart Home Hobby](https://smarthomehobby.com/) - Features budget friendly guides and information.
+* [vCloudInfo:SmartHome](https://www.vcloudinfo.com/search/label/iot) - Carlo Costanzo's Blog posts related to the Repo.
 
 ### YouTube Channels
 
@@ -269,6 +270,10 @@ are some alternatives._
 * [Domoticz](https://github.com/domoticz/domoticz) - A lightweight Home Automation System.
 * [Gladys](https://github.com/GladysProject/Gladys) - Open source program which runs on your Raspberry Pi.
 * [SmartThings](https://www.smartthings.com/) - Commercial home automation hub by Samsung.
+
+## Social Media Groups
+* [Home Assistant Enthusiasts](https://www.facebook.com/groups/HomeAssistant/) - Home Assistant Support Facebook group.
+* [Dr. ZZs Gadget Group](https://www.facebook.com/groups/1969622823351838/) - Everything Sonoff and HA Facebook group.
 
 ## Other Awesome Lists
 
