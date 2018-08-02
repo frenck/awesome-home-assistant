@@ -215,6 +215,7 @@ could also build them yourself!_
 * [$10 WiFi RGB Bulb](https://community.home-assistant.io/t/how-to-inexpensive-10-us-wifi-rgb-bulb-that-works-with-home-assistant/14735?u=frenck) - In inexpensive RGB bulb that works on WiFi.
 * [433mhz/IR Bidirectional Gateway](https://community.home-assistant.io/t/433mhz-infrared-ir-to-and-from-mqtt-on-esp8266/6779?u=frenck) - Bidirectional with IR and 433mhz using ESP8266 and MQTT.
 * [esp8266MQTTBlinds](https://community.home-assistant.io/t/esp8266-window-blinds-mqtt/14863?u=frenck) - Automate your window blinds using an ESP8266, a servo and MQTT.
+* [Home Assistant's Hackster.io](https://www.hackster.io/home-assistant?f=1#_=_) - A Hackster channel with multiple DIY projects.
 
 ## Online Resources
 
@@ -257,6 +258,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [AppDaemon](https://github.com/home-assistant/appdaemon) - Pythons Apps for Home Assistant
 * [Developer Documentation](https://developers.home-assistant.io/) - The official developer documentation.
 * [HASS Configurator](https://github.com/danielperna84/hass-configurator) - Browser-based configuration file editor.
+* [HA-Dockermon](https://github.com/philhawthorne/ha-dockermon) - A NodeJS service for RESTful switches to control Docker containers.
 
 ## Alternative Home Automation Software
 
