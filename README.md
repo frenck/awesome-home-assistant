@@ -56,6 +56,9 @@ There are several ways to get support and inspiration:
 - [Custom Components](#custom-components)
 - [DIY](#diy)
     - [DIY Projects](#diy-projects)
+- [Online Resources](#online-resoruces)
+    - [Blogs](#blogs)
+    - [YouTube Channels](#youtube-channels)
 - [Uncategorized](#uncategorized)
 - [Alternative Home Automation Software](#alternative-home-automation-softwares)
 - [Other Awesome Lists](#other-awesome-lists)
@@ -211,6 +214,23 @@ could also build them yourself!_
 * [$10 WiFi RGB Bulb](https://community.home-assistant.io/t/how-to-inexpensive-10-us-wifi-rgb-bulb-that-works-with-home-assistant/14735?u=frenck) - In inexpensive RGB bulb that works on WiFi.
 * [433mhz/IR Bidirectional Gateway](https://community.home-assistant.io/t/433mhz-infrared-ir-to-and-from-mqtt-on-esp8266/6779?u=frenck) - Bidirectional with IR and 433mhz using ESP8266 and MQTT.
 * [esp8266MQTTBlinds](https://community.home-assistant.io/t/esp8266-window-blinds-mqtt/14863?u=frenck) - Automate your window blinds using an ESP8266, a servo and MQTT.
+
+## Online Resources
+
+_Links to various users of Home Assistant that regularly publish Home Assistant focussed content_
+
+### Blogs
+
+* [DIY Futurism](https://diyfuturism.com/) - Brad from DIY Futurism uses Home Assistant and posts articles with great instructions for new users to Home Assistant.
+* [Phil Hawthorne](https://philhawthorne.com/homeautomation) - Phil Hawthorne, co-host of the Home Assistant Podcast posts guides and articles written for Home Assistant.
+* [Smart Home Hobby](https://smarthomehobby.com/) - Features budget friendly guides and information for users of Home Assistant.
+
+### YouTube Channels
+
+* [BRUH](https://www.youtube.com/channel/UCLecVrux63S6aYiErxdiy4w) - Ben has great tutorials for getting started with Home Assistant.
+* [BurnsHA](https://www.youtube.com/channel/UCSKQutOXuNLvFetrKuwudpg) - Great Home Assistant information videos.
+* [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng) - Great how to videos explaining how to use Home Assistant.
+* [The Hookhup](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ) - Tutorials and more for Home Assistant and Home Automation.
 
 ## Uncategorized
 
