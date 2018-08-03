@@ -208,6 +208,7 @@ could also build them yourself!_
 
 * [esphomeyaml](https://esphomelib.com/esphomeyaml/) - Program ESP8266/ESP32 board using YAML.
 * [Magic Cards](https://github.com/maddox/magic-cards) - RFID scannable cards that you can program to do anything.
+* [OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway) - A flexible MQTT gateway for IR, RF, BLE, MiFlora, SMS, and many sensors.
 
 ### DIY Projects
 
