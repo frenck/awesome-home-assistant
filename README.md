@@ -261,6 +261,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [HASS Configurator](https://github.com/danielperna84/hass-configurator) - Browser-based configuration file editor.
 * [HA-Dockermon](https://github.com/philhawthorne/ha-dockermon) - A NodeJS service for RESTful switches to control Docker containers.
 * [Python Amazon Dash](https://github.com/Nekmo/amazon-dash) - Hack your Amazon Dash to run what you want. Without welders.
+* [homekit2mqtt](https://github.com/hobbyquaker/homekit2mqtt) - HomeKit to MQTT bridge.
 
 ## Alternative Home Automation Software
 
