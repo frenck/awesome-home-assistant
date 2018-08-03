@@ -207,6 +207,7 @@ could also build them yourself!_
 
 * [esphomeyaml](https://esphomelib.com/esphomeyaml/) - Program ESP8266/ESP32 board using YAML.
 * [Magic Cards](https://github.com/maddox/magic-cards) - RFID scannable cards that you can program to do anything.
+* [OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway) - A flexible MQTT gateway for IR, RF, BLE, MiFlora, SMS, and many sensors.
 
 ### DIY Projects
 
@@ -216,7 +217,6 @@ could also build them yourself!_
 * [433mhz/IR Bidirectional Gateway](https://community.home-assistant.io/t/433mhz-infrared-ir-to-and-from-mqtt-on-esp8266/6779?u=frenck) - Bidirectional with IR and 433mhz using ESP8266 and MQTT.
 * [esp8266MQTTBlinds](https://community.home-assistant.io/t/esp8266-window-blinds-mqtt/14863?u=frenck) - Automate your window blinds using an ESP8266, a servo and MQTT.
 * [Home Assistant's Hackster.io](https://www.hackster.io/home-assistant?f=1#_=_) - A Hackster channel with multiple DIY projects.
-* [OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway) - A flexible MQTT gateway for IR, RF, BLE, MiFlora, SMS, and many sensors.
 
 ## Online Resources
 
