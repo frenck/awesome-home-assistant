@@ -28,15 +28,11 @@ Awesome Home Assistant is a fantastic list for people trying to automate every
 aspect of their home. Automating your home is a long, hard, and never finished
 task that usually involves a lot of tinkering.
 
-There are several ways to get support and inspiration:
+You can navigate through the list by:
 
-- Chat on the [Home Assistant Discord](https://discordapp.com/invite/c5DvZ4e) server
-- Check out the [Home Assistant Community Forums](https://community.home-assistant.io/?u=frenck)
-- Visit the [Home Assistant Subreddit](https://www.reddit.com/r/homeassistant/)
-- And, of course, this awesome list!
-    - Simply press <kbd>command/ctrl</kbd> + <kbd>F</kbd> to search for a keyword
-    - Go through our [_Content Menu_](#content)
-    - Alternatively, use the search on our website: <https://www.awesome-ha.com>
+- Simply press <kbd>command/ctrl</kbd> + <kbd>F</kbd> to search for a keyword
+- Go through our [_Content Menu_](#content)
+- Alternatively, use the search on our website: <https://www.awesome-ha.com>
 
 ### Content
 
@@ -44,6 +40,7 @@ There are several ways to get support and inspiration:
 - [How to Use](#how-to-use)
     - [Content](#content)
 - [Installing](#installing)
+- [Support](#support)
 - [Public Configurations](#public-configurations)
 - [Hass.io](#hassio)
     - [Official Add-ons](#official-add-ons)
@@ -80,6 +77,23 @@ Home Assistant currently _recommends_ the Hass.io method.
 * [Docker](https://www.home-assistant.io/docs/installation/docker/) - Installing on Docker.
 * [Hassbian](https://www.home-assistant.io/docs/installation/hassbian/installation/) - Installing Hassbian.
 * [Manually](https://www.home-assistant.io/docs/installation/virtualenv/) - Manual installation using a Python virtual environment.
+
+## Need help?
+
+_There are various ways to get in touch with the Home Assistant community.
+It doesn’t matter if you have a question, need help, want to request a feature,
+or just say ‘Hi’._
+
+### Official channels
+
+* [Home Assistant Discord](https://discordapp.com/invite/c5DvZ4e) - Join the chat, most of us are there.
+* [Home Assistant Community](https://community.home-assistant.io/?u=frenck) - The discussion forum, also used for feature requests.
+* [Home Assistant Subreddit](https://www.reddit.com/r/homeassistant/) - If you are into Reddit, subscribe.
+
+### Other channels
+
+* [Home Assistant Enthusiasts](https://www.facebook.com/groups/HomeAssistant/) - Facebook group for enthusiasts.
+* [Dr. ZZs](https://www.facebook.com/groups/1969622823351838/) - Facebook group by Dr. Zzs.
 
 ## Public Configurations
 
@@ -226,7 +240,6 @@ _Links to various users of Home Assistant that regularly publish Home Assistant 
 * [DIY Futurism](https://diyfuturism.com/) - Brad posts articles with great instructions for new users.
 * [Phil Hawthorne](https://philhawthorne.com/homeautomation) - Co-host of the Home Assistant Podcast.
 * [Smart Home Hobby](https://smarthomehobby.com/) - Features budget friendly guides and information.
-* [vCloudInfo:SmartHome](https://www.vcloudinfo.com/search/label/iot) - Carlo Costanzo's Blog posts related to the Repo.
 
 ### YouTube Channels
 
@@ -270,10 +283,6 @@ are some alternatives._
 * [Domoticz](https://github.com/domoticz/domoticz) - A lightweight Home Automation System.
 * [Gladys](https://github.com/GladysProject/Gladys) - Open source program which runs on your Raspberry Pi.
 * [SmartThings](https://www.smartthings.com/) - Commercial home automation hub by Samsung.
-
-## Social Media Groups
-* [Home Assistant Enthusiasts](https://www.facebook.com/groups/HomeAssistant/) - Home Assistant Support Facebook group.
-* [Dr. ZZs Gadget Group](https://www.facebook.com/groups/1969622823351838/) - Everything Sonoff and HA Facebook group.
 
 ## Other Awesome Lists
 
