@@ -150,6 +150,7 @@ fit your needs or taste better._
 
 _It is all about the looks, apply some style._
 
+* [Themes Tutorial](https://www.youtube.com/watch?v=h1h8FFy9_Co) - :tv: Quick tutorial/example on how to configure themes.
 * [Midnight](https://community.home-assistant.io/t/midnight-theme/28598?u=frenck) - A dark theme by Marcel Hoffs.
 * [Dark Cyan](https://community.home-assistant.io/t/dark-cyan-theme/28594?u=frenck) - A dark theme with cyan accents by Ryoen Deprouw.
 * [Grey Night](https://community.home-assistant.io/t/grey-night-theme/30848?u=frenck) - A dark theme with grey accents by ksya.
