@@ -40,7 +40,7 @@ You can navigate through the list by:
 - [How to Use](#how-to-use)
     - [Content](#content)
 - [Installing](#installing)
-- [Support](#support)
+- [Need Help?](#need-help)
 - [Public Configurations](#public-configurations)
 - [Hass.io](#hassio)
     - [Official Add-ons](#official-add-ons)
@@ -78,7 +78,7 @@ Home Assistant currently _recommends_ the Hass.io method.
 * [Hassbian](https://www.home-assistant.io/docs/installation/hassbian/installation/) - Installing Hassbian.
 * [Manually](https://www.home-assistant.io/docs/installation/virtualenv/) - Manual installation using a Python virtual environment.
 
-## Need help?
+## Need Help?
 
 _There are various ways to get in touch with the Home Assistant community.
 It doesn’t matter if you have a question, need help, want to request a feature,
@@ -89,10 +89,10 @@ or just say ‘Hi’._
 * [Home Assistant Discord](https://discordapp.com/invite/c5DvZ4e) - Join the chat, most of us are there.
 * [Home Assistant Community](https://community.home-assistant.io/?u=frenck) - The discussion forum, also used for feature requests.
 * [Home Assistant Subreddit](https://www.reddit.com/r/homeassistant/) - If you are into Reddit, subscribe.
+* [Home Assistant Enthusiasts](https://www.facebook.com/groups/HomeAssistant/) - Facebook group for enthusiasts.
 
 ### Other channels
 
-* [Home Assistant Enthusiasts](https://www.facebook.com/groups/HomeAssistant/) - Facebook group for enthusiasts.
 * [Dr. ZZs](https://www.facebook.com/groups/1969622823351838/) - Facebook group by Dr. Zzs.
 
 ## Public Configurations
