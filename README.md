@@ -242,6 +242,7 @@ _Links to various users of Home Assistant that regularly publish Home Assistant 
 * [DIY Futurism](https://diyfuturism.com/) - Brad posts articles with great instructions for new users.
 * [Phil Hawthorne](https://philhawthorne.com/homeautomation) - Co-host of the Home Assistant Podcast.
 * [Smart Home Hobby](https://smarthomehobby.com/) - Features budget friendly guides and information.
+* [Self Hosted Home](https://selfhostedhome.com/) - Articles on Home Assistant and other Self Hosted applications.
 
 ### YouTube Channels
 
