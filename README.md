@@ -287,6 +287,7 @@ are some alternatives._
 * [Domoticz](https://github.com/domoticz/domoticz) - A lightweight Home Automation System.
 * [Gladys](https://github.com/GladysProject/Gladys) - Open source program which runs on your Raspberry Pi.
 * [SmartThings](https://www.smartthings.com/) - Commercial home automation hub by Samsung.
+* [ioBroker](https://github.com/iobroker) - Open source, Node.js based universal integration platform from Germany. 
 
 ## Other Awesome Lists
 
