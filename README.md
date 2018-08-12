@@ -94,6 +94,7 @@ or just say ‘Hi’._
 ### Other channels
 
 * [Dr. ZZs](https://www.facebook.com/groups/1969622823351838/) - Facebook group by Dr. Zzs.
+* [Community Hassio Add-ons Discord](https://discord.me/hassioaddons) - Get support on the Community Hassio Add-ons.
 
 ## Public Configurations
 
