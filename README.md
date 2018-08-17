@@ -211,6 +211,8 @@ easily add to your instance._
 
 _Additional components for Home Assistant, that were created by the community._
 
+* [Life360](https://github.com/skalavala/smarthome/blob/master/custom_components/sensor/life360.py) - Device Tracker using Life360 App. With this, you can define unlimited number of zones with free subscription.
+* [Palo Alto Firewall](https://github.com/skalavala/smarthome/blob/master/custom_components/sensor/paloalto.py) - Get alerts when someone logs into your firewall and/or GlobalProtect VPN, clear logs using script/automations...more!
 * [Hue Sensors](https://github.com/robmarkcole/Hue-sensors-HASS) - Enables the use of Hue sensors.
 * [Google Geocode](https://github.com/michaelmcarthur/GoogleGeocode-HASS) - Converts a device tracker location into a human-readable address.
 * [Lutron Caseta Pro](https://github.com/upsert/lutron-caseta-pro) - Integrates Lutron Caseta Smart Bridge PRO / RA2 Select.
