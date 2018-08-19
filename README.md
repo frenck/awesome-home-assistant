@@ -117,7 +117,7 @@ an awesome source for learning and a great source of inspiration._
 _Hass.io is a complete operating system that will take care of installing and
 updating Home Assistant, and is managed from the frontend._
 
-* [Hass.io Beginner's Guide](https://www.youtube.com/watch?v=qnCRcGTznXs) - :tv: Excellent step-by-step guide on getting started (uses HassOS).
+* [Hass.io Beginner's Guide](https://www.youtube.com/watch?v=qnCRcGTznXs) - :tv: Excellent step-by-step guide on getting started (based on HassOS) by JuanMTech.
 
 ### Official Add-ons
 
@@ -169,6 +169,7 @@ fit your needs or taste better._
 _It is all about the looks, apply some style._
 
 * [Themes Tutorial](https://www.youtube.com/watch?v=h1h8FFy9_Co) - :tv: Quick tutorial/example on how to configure themes.
+* [20 great themes for Home Assistant](https://www.juanmtech.com/themes-in-home-assistant/) - **Written/Video** guide to getting you started including 20 great themes by JuanMTech.
 * [Midnight](https://community.home-assistant.io/t/midnight-theme/28598?u=frenck) - A dark theme by Marcel Hoffs.
 * [Dark Cyan](https://community.home-assistant.io/t/dark-cyan-theme/28594?u=frenck) - A dark theme with cyan accents by Ryoen Deprouw.
 * [Grey Night](https://community.home-assistant.io/t/grey-night-theme/30848?u=frenck) - A dark theme with grey accents by ksya.
@@ -249,6 +250,7 @@ _Links to various users of Home Assistant that regularly publish Home Assistant 
 * [DIY Futurism](https://diyfuturism.com/) - Brad posts articles with great instructions for new users.
 * [Phil Hawthorne](https://philhawthorne.com/homeautomation) - Co-host of the Home Assistant Podcast.
 * [Smart Home Hobby](https://smarthomehobby.com/) - Features budget friendly guides and information.
+* [JuanMTech](https://www.juanmtech.com/) - Quick and easy tutorials for new users covering Home Assistant, Tasker for Android and more.
 
 ### YouTube Channels
 
@@ -258,6 +260,7 @@ _Sit back, relax, watch, and learn._
 * [BurnsHA](https://www.youtube.com/channel/UCSKQutOXuNLvFetrKuwudpg) - Great informational and tutorial videos.
 * [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng) - Great how-to videos and also streams live.
 * [The Hookhup](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ) - Tutorials and more, also has videos on home automation in general.
+* [JuanMTech](https://www.youtube.com/juanmtech) - Easy to follow how-to videos about Home Assistant, Tasker for Android, product reviews and more.
 
 ### Podcasts
 
