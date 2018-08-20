@@ -201,7 +201,7 @@ easily add to your instance._
 
 * [Monster Card](https://github.com/ciotlosm/custom-lovelace/tree/master/monster-card) - Dynamically adds entities: Magic.
 * [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com.
-* [Guage Card](https://github.com/ciotlosm/custom-lovelace/tree/master/gauge-card) - Simple gauge implemented in pure CSS.
+* [Gauge Card](https://github.com/ciotlosm/custom-lovelace/tree/master/gauge-card) - Simple gauge implemented in pure CSS.
 * [Alarm Control Panel Card](https://github.com/ciotlosm/custom-lovelace/tree/master/alarm_control_panel-card) - Card that looks like an alarm keypad.
 * [Big Number Card](https://github.com/ciotlosm/custom-lovelace/tree/master/bignumber-card) - Display big numbers for sensors, including severity level as background.
 * [Animated Weather Card](https://community.home-assistant.io/t/custom-animated-weather-card-for-lovelace/58338?u=frenck) - Nice looking card showing the weather, with subtle animations.
