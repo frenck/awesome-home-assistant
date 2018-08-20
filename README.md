@@ -176,6 +176,7 @@ _It is all about the looks, apply some style._
 * [Halloween](https://community.home-assistant.io/t/halloween-theme/30872?u=frenck) - Pumpkins colored by Mahasri Kalavala.
 * [Black and Green](https://community.home-assistant.io/t/black-and-green-theme/28602?u=frenck) - By GreenTurtwig.
 * [Vintage](https://community.home-assistant.io/t/vintage-theme/42806?u=frenck) - By Anup Surendran.
+* [Carbon Green](https://github.com/reua/Home-Assistant-Configuration/blob/master/themes/carbon_green.yaml) - By reua.
 
 ### Alternative Dashboards
 
