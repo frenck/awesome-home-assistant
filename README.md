@@ -201,7 +201,7 @@ easily add to your instance._
 
 * [Monster Card](https://github.com/ciotlosm/custom-lovelace/tree/master/monster-card) - Dynamically adds entities: Magic.
 * [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com.
-* [Guage Card](https://github.com/ciotlosm/custom-lovelace/tree/master/gauge-card) - Simple gauge implemented in pure CSS.
+* [Gauge Card](https://github.com/ciotlosm/custom-lovelace/tree/master/gauge-card) - Simple gauge implemented in pure CSS.
 * [Alarm Control Panel Card](https://github.com/ciotlosm/custom-lovelace/tree/master/alarm_control_panel-card) - Card that looks like an alarm keypad.
 * [Big Number Card](https://github.com/ciotlosm/custom-lovelace/tree/master/bignumber-card) - Display big numbers for sensors, including severity level as background.
 * [Animated Weather Card](https://community.home-assistant.io/t/custom-animated-weather-card-for-lovelace/58338?u=frenck) - Nice looking card showing the weather, with subtle animations.
@@ -257,7 +257,7 @@ _Sit back, relax, watch, and learn._
 * [BRUH](https://www.youtube.com/channel/UCLecVrux63S6aYiErxdiy4w) - Ben has great tutorials for getting started, unfortunately, inactive lately.
 * [BurnsHA](https://www.youtube.com/channel/UCSKQutOXuNLvFetrKuwudpg) - Great informational and tutorial videos.
 * [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng) - Great how-to videos and also streams live.
-* [The Hookhup](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ) - Tutorials and more, also has videos on home automation in general.
+* [The Hook Up](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ) - Tutorials and more, also has videos on home automation in general.
 * [HASSCASTS](https://www.youtube.com/channel/UCGOCeqMJnLvr-5C-ypUw7IQ) - Home Assistant Tip, Trick & Tutorials, moving to mainly live streams
 
 ### Podcasts
