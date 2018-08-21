@@ -155,7 +155,6 @@ _Anyone could create an add-on, the following are created by the community._
 * [AirSonos](https://github.com/hassio-addons/addon-airsonos) - AirPlay capabilities for your Sonos players.
 * [Dropbox Sync](https://github.com/danielwelch/hassio-dropbox-sync) - Upload your backup snapshots to Dropbox.
 * [Log Viewer](https://github.com/hassio-addons/addon-log-viewer) - Browser-based live log viewing utility.
-* [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publish home-assistant events to Elasticsearch.
 
 ## User Interface
 
@@ -220,6 +219,7 @@ _Additional components for Home Assistant, that were created by the community._
 * [Xiaomi Hygrothermo](https://github.com/dolezsa/Xiaomi_Hygrothermo) - Sensor platform for Xiaomi Mijia BT Hygrothermo temperature and humidity sensor.
 * [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Integrates Volkswagen Carnet (requires valid Carnet subscription).
 * [Untapped](https://github.com/custom-components/sensor.untapped) - Connects with your Untapped account.
+* [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publish home-assistant events to Elasticsearch.
 
 ## DIY
 
