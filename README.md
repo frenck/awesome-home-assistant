@@ -220,6 +220,7 @@ _Additional components for Home Assistant, that were created by the community._
 * [Xiaomi Hygrothermo](https://github.com/dolezsa/Xiaomi_Hygrothermo) - Sensor platform for Xiaomi Mijia BT Hygrothermo temperature and humidity sensor.
 * [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Integrates Volkswagen Carnet (requires valid Carnet subscription).
 * [Untapped](https://github.com/custom-components/sensor.untapped) - Connects with your Untapped account.
+* [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publishes events to Elasticsearch.
 
 ## DIY
 
