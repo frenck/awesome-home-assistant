@@ -300,6 +300,7 @@ are some alternatives._
 * [Domoticz](https://github.com/domoticz/domoticz) - A lightweight Home Automation System.
 * [Gladys](https://github.com/GladysProject/Gladys) - Open source program which runs on your Raspberry Pi.
 * [SmartThings](https://www.smartthings.com/) - Commercial home automation hub by Samsung.
+* [ioBroker](http://www.iobroker.net) - NodeJS based Open Source Solution.
 
 ## Other Awesome Lists
 
