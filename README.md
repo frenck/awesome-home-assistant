@@ -1,7 +1,9 @@
 # Awesome Home Assistant
 
 <div align="center">
-  <img width="400" src="https://www.awesome-ha.com/images/awesome-home-assistant.svg" alt="Awesome Home Assistant">
+  <a href="https://awesome-ha.com">
+    <img width="400" src="https://www.awesome-ha.com/images/awesome-home-assistant.svg" alt="Awesome Home Assistant">
+  </a>
   <br>
   <a href="https://awesome-ha.com"><strong>https://awesome-ha.com</strong></a>
   <br>
