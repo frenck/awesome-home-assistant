@@ -180,9 +180,9 @@ _It is all about the looks, apply some style._
 * [Grey Night](https://community.home-assistant.io/t/grey-night-theme/30848?u=frenck) - A dark theme with grey accents by ksya.
 * [Dark Red](https://community.home-assistant.io/t/dark-red-theme/28592?u=frenck) - A dark theme with red accents by Ryoen Deprouw.
 * [Halloween](https://community.home-assistant.io/t/halloween-theme/30872?u=frenck) - Pumpkins colored by Mahasri Kalavala.
-* [Black and Green](https://community.home-assistant.io/t/black-and-green-theme/28602?u=frenck) - By GreenTurtwig.
-* [Vintage](https://community.home-assistant.io/t/vintage-theme/42806?u=frenck) - By Anup Surendran.
-* [Carbon Green](https://community.home-assistant.io/t/share-your-themes/22018/95) - By reua.
+* [Black and Green](https://community.home-assistant.io/t/black-and-green-theme/28602?u=frenck) - A dark theme with pale green accents by GreenTurtwig.
+* [Vintage](https://community.home-assistant.io/t/vintage-theme/42806?u=frenck) - Give your frontend a vintage look with this theme by Anup Surendran.
+* [Carbon Green](https://community.home-assistant.io/t/share-your-themes/22018/95?u=frenck) - Light carbon theme with green accents by Reua.
 
 ### Alternative Dashboards
 
