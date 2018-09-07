@@ -28,23 +28,11 @@ The list is divided into categories. The links in those categories do not have
 pre-established order; the order is for contribution. If you want to contribute,
 please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/master/CONTRIBUTING.md).
 
-## How to Use
-
-Awesome Home Assistant is a fantastic list for people trying to automate every
-aspect of their home. Automating your home is a long, hard, and never finished
-task that usually involves a lot of tinkering.
-
-You can navigate through the list by:
-
-- Simply press <kbd>command/ctrl</kbd> + <kbd>F</kbd> to search for a keyword
-- Go through our [_Content Menu_](#content)
-- Alternatively, use the search on our website: <https://www.awesome-ha.com>
-
-### Content
+## Contents
 
 - [About](#about)
+- [Contents](#contents)
 - [How to Use](#how-to-use)
-    - [Content](#content)
 - [Installing](#installing)
 - [Need Help?](#need-help)
 - [Public Configurations](#public-configurations)
@@ -69,6 +57,18 @@ You can navigate through the list by:
 - [Contributing](#contributing)
 - [Trademark Legal Notice](#trademark-legal-notice)
 - [License](#license)
+
+## How to Use
+
+Awesome Home Assistant is a fantastic list for people trying to automate every
+aspect of their home. Automating your home is a long, hard, and never finished
+task that usually involves a lot of tinkering.
+
+You can navigate through the list by:
+
+- Simply press <kbd>command/ctrl</kbd> + <kbd>F</kbd> to search for a keyword
+- Go through our [_Contents list_](#contents)
+- Alternatively, use the search on our website: <https://www.awesome-ha.com>
 
 ## Installing
 
