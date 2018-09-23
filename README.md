@@ -213,6 +213,7 @@ easily add to your instance._
 * [Big Number Card](https://github.com/ciotlosm/custom-lovelace/tree/master/bignumber-card) - Display big numbers for sensors, including severity level as background.
 * [Animated Weather Card](https://community.home-assistant.io/t/custom-animated-weather-card-for-lovelace/58338?u=frenck) - Nice looking card showing the weather, with subtle animations.
 * [Thermostat Card](https://github.com/ciotlosm/custom-lovelace/tree/master/thermostat-card) - Thermostat control card that looks like a Nest Thermostat.
+* [Mini Media Player](https://github.com/kalkih/mini-media-player) - A minimalistic media player card.
 
 ## Custom Components
 
