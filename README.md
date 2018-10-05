@@ -283,7 +283,6 @@ _Get inspired, while commuting, doing your morning routine, or at the gym!_
 
 _Valuable links, that don't fit in any of the above categories (yet!)._
 
-* [Home Assistant for Homebridge](https://github.com/home-assistant/homebridge-homeassistant) - A Homebridge plugin for using Siri and HomeKit.
 * [Room Assistant](https://github.com/mKeRix/room-assistant) - A companion client to handle sensors in multiple rooms.
 * [Home Assistant Companion](https://itunes.apple.com/us/app/home-assistant-open-source-home-automation/id1099568401?mt=8) - iPhone/iPad/iOS App to control and monitor your home remotely.
 * [Mi Flora via MQTT daemon](https://github.com/ThomDietrich/miflora-mqtt-daemon) - Collect and transfer Xiaomi Mi Flora plant sensor data via MQTT.
