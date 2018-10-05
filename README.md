@@ -123,7 +123,7 @@ an awesome source for learning and a great source of inspiration._
 _Hass.io is a complete operating system that will take care of installing and
 updating Home Assistant, and is managed from the frontend._
 
-* [Hass.io Beginner's Guide](https://www.youtube.com/watch?v=qnCRcGTznXs) - :tv: Excellent step-by-step guide on getting started (uses HassOS).
+* [Hass.io Beginner's Guide](https://www.youtube.com/watch?v=qnCRcGTznXs) - :tv: Excellent step-by-step guide on getting started (based on HassOS).
 
 ### Official Add-ons
 
