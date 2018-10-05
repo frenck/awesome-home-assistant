@@ -240,6 +240,7 @@ could also build them yourself!_
 * [OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway) - A flexible MQTT gateway for IR, RF, BLE, MiFlora, SMS, and many sensors.
 * [esp8266 Milight Hub](https://github.com/sidoh/esp8266_milight_hub) - Alternative hub for Milight/LimitlessLED devices that uses MQTT.
 * [Sonoff Tasmota](https://github.com/arendst/Sonoff-Tasmota) - Firmware for ESP8266 boards and devices.
+* [Zigbee to MQTT Bridge](https://github.com/Koenkk/zigbee2mqtt) Xiaomi/TRADFRI/Hue Bridge.
 
 ### DIY Projects
 
