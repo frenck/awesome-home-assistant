@@ -297,6 +297,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [homekit2mqtt](https://github.com/hobbyquaker/homekit2mqtt) - HomeKit to MQTT bridge.
 * [Home Assistant Device Database](https://www.hadevices.com/) - Database of supported/confirmed working devices.
 * [Jinja Scripts for Curious Minds](https://github.com/skalavala/smarthome/tree/master/jinja_helpers) - Bunch of Jinja2 scripts helping you to understand it better.
+* [WallPanel](https://thanksmister.com/wallpanel-android/) - Android application for Web Based Dashboards and Home Automation Platforms.
 
 ## Alternative Home Automation Software
 
