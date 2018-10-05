@@ -238,6 +238,7 @@ could also build them yourself!_
 * [Magic Cards](https://github.com/maddox/magic-cards) - RFID scannable cards that you can program to do anything.
 * [OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway) - A flexible MQTT gateway for IR, RF, BLE, MiFlora, SMS, and many sensors.
 * [esp8266 Milight Hub](https://github.com/sidoh/esp8266_milight_hub) - Alternative hub for Milight/LimitlessLED devices that uses MQTT.
+* [Sonoff Tasmota](https://github.com/arendst/Sonoff-Tasmota) - Firmware for ESP8266 boards and devices.
 
 ### DIY Projects
 
