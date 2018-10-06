@@ -46,6 +46,7 @@ please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/ma
     - [Custom Lovelace UI Cards](#custom-lovelace-ui-cards)
 - [Custom Components](#custom-components)
 - [DIY](#diy)
+    - [DIY Gateways](#diy-gateways)
     - [DIY Projects](#diy-projects)
 - [Online Resources](#online-resources)
     - [Blogs](#blogs)
@@ -239,9 +240,13 @@ could also build them yourself!_
 
 * [esphomeyaml](https://esphomelib.com/esphomeyaml/) - Program ESP8266/ESP32 board using YAML.
 * [Magic Cards](https://github.com/maddox/magic-cards) - RFID scannable cards that you can program to do anything.
+* [Sonoff Tasmota](https://github.com/arendst/Sonoff-Tasmota) - Firmware for ESP8266 boards and devices.
+
+### DIY Gateways
+
 * [OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway) - A flexible MQTT gateway for IR, RF, BLE, MiFlora, SMS, and many sensors.
 * [esp8266 Milight Hub](https://github.com/sidoh/esp8266_milight_hub) - Alternative hub for Milight/LimitlessLED devices that uses MQTT.
-* [Sonoff Tasmota](https://github.com/arendst/Sonoff-Tasmota) - Firmware for ESP8266 boards and devices.
+* [zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
 
 ### DIY Projects
 
@@ -289,7 +294,6 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [Home Assistant Companion](https://itunes.apple.com/us/app/home-assistant-open-source-home-automation/id1099568401?mt=8) - iPhone/iPad/iOS App to control and monitor your home remotely.
 * [Mi Flora via MQTT daemon](https://github.com/ThomDietrich/miflora-mqtt-daemon) - Collect and transfer Xiaomi Mi Flora plant sensor data via MQTT.
 * [hassctl](https://github.com/dale3h/hassctl) - Simple command line utility to help debug your configuration.
-* [zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
 * [rhasspy](https://github.com/synesthesiam/rhasspy-assistant) - Toolkit for developing custom voice assistants.
 * [Fully Kiosk Browser](https://www.ozerov.de/fully-kiosk-browser/) - Highly configurable Android Kiosk Browser and App Launcher.
 * [Hassio Vagrant](https://github.com/hassio-addons/hassio-vagrant) - Vagrant box original created for developing add-ons.
