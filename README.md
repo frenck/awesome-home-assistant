@@ -258,6 +258,7 @@ could also build them yourself!_
 * [Home Assistant's Hackster.io](https://www.hackster.io/home-assistant?f=1#_=_) - A Hackster channel with multiple DIY projects.
 * [DIY Camera with Raspberry PI & WebCam](https://skalavala.github.io/camera/) - Convert any webcam into a surveillance system.
 * [ESP MQTT Digital LEDs](https://github.com/bruhautomation/ESP-MQTT-JSON-Digital-LEDs) WS2811 LED Stripe for the JSON Light Component from BRUH.
+* [Bed Presence Detection](https://selfhostedhome.com/diy-bed-presence-detection-home-assistant/) ESP8266 based Bed Presence Detection.
 
 ## Online Resources
 
