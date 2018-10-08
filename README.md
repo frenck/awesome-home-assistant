@@ -282,6 +282,8 @@ _Sit back, relax, watch, and learn._
 * [The Hook Up](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ) - Tutorials and more, also has videos on home automation in general.
 * [HASSCASTS](https://www.youtube.com/channel/UCGOCeqMJnLvr-5C-ypUw7IQ) - Tips, Tricks & Tutorials, moving to mainly live streams.
 * [JuanMTech](https://www.youtube.com/juanmtech) - Easy to follow how-to videos, product reviews and more.
+* [vCloudInfo](https://www.youtube.com/vCloudInfo) - Publishes videos based on his home and gadgets every Thursday morning.
+
 
 ### Podcasts
 
