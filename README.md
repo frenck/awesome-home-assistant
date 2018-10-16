@@ -304,7 +304,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [AppDaemon](https://github.com/home-assistant/appdaemon) - Python Apps for Home Assistant.
 * [Developer Documentation](https://developers.home-assistant.io/) - The official developer documentation.
 * [HASS Configurator](https://github.com/danielperna84/hass-configurator) - Browser-based configuration file editor.
-* [HA-Dockermon](https://github.com/philhawthorne/ha-dockermon) - A NodeJS service for RESTful switches to control Docker containers.
+* [HA-Dockermon](https://github.com/philhawthorne/ha-dockermon) - A Node.js service for RESTful switches to control Docker containers.
 * [Python Amazon Dash](https://github.com/Nekmo/amazon-dash) - Hack your Amazon Dash to run what you want. Without welders.
 * [homekit2mqtt](https://github.com/hobbyquaker/homekit2mqtt) - HomeKit to MQTT bridge.
 * [Home Assistant Device Database](https://www.hadevices.com/) - Database of supported/confirmed working devices.
