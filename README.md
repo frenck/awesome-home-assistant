@@ -155,7 +155,6 @@ _Anyone could create an add-on, the following are created by the community._
 * [Spotify Connect](https://github.com/hassio-addons/addon-spotify-connect) - Spotify Connect client for playing music on your Home Assistant device.
 * [zigbee2mqtt](https://github.com/danielwelch/hassio-zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
 * [AppDaemon3](https://github.com/hassio-addons/addon-appdaemon3) - Python Apps and HADashboard.
-* [Shinobi](https://github.com/hassio-addons/addon-shinobi) - Beautiful and feature-rich CCTV/NVR for your camera's.
 * [TasmoAdmin](https://github.com/hassio-addons/addon-tasmoadmin) - Centrally manage all your Sonoff-Tasmota devices.
 * [Octobox](https://github.com/hassio-addons/addon-octobox) - Take back control of your GitHub notifications.
 * [Aircast](https://github.com/hassio-addons/addon-aircast) - AirPlay capabilities for your Chromecast players.
