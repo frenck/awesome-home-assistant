@@ -13,8 +13,6 @@
   </a>
 </div>
 
-## About
-
 Home Assistant is an open source home automation that puts local control and
 privacy first. Powered by a worldwide community of tinkerers and DIY
 enthusiasts. Perfect to run on a Raspberry Pi or a local server.
@@ -30,8 +28,6 @@ please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/ma
 
 ## Contents
 
-- [About](#about)
-- [Contents](#contents)
 - [How to Use](#how-to-use)
 - [Installing](#installing)
 - [Need Help?](#need-help)
