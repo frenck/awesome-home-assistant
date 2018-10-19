@@ -307,6 +307,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [Jinja Scripts for Curious Minds](https://github.com/skalavala/smarthome/tree/master/jinja_helpers) - Bunch of Jinja2 scripts helping you to understand it better.
 * [WallPanel](https://thanksmister.com/wallpanel-android/) - Android application for web-based dashboards and home automation platforms.
 * [Ariela](https://play.google.com/store/apps/details?id=com.surodev.ariela) - Freemium Android client application with widget support.
+* [Gitlab CI/CD](https://about.gitlab.com/2018/08/02/using-the-gitlab-ci-slash-cd-for-smart-home-configuration-management/) - How to simplify your smart home configuration with GitLab CI/CD
 
 ## Alternative Home Automation Software
 
