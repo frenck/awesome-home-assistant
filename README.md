@@ -216,6 +216,7 @@ easily add to your instance._
 * [Mini Graph Card](https://github.com/kalkih/mini-graph-card) - A minimalistic sensor graph card.
 * [Button card](https://github.com/kuuji/button-card) - Button card for your entities.
 * [Slideshow card](https://github.com/zsarnett/slideshow-card) - Dynamic slideshow of images or cards.
+* [Swiper card](https://community.home-assistant.io/t/lovelace-swiper-card/72447?u=frenck) - Flick/swipe through multiple cards.
 
 ## Custom Components
 
