@@ -48,6 +48,7 @@ please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/ma
     - [Blogs](#blogs)
     - [YouTube Channels](#youtube-channels)
     - [Podcasts](#podcasts)
+    - [Twitter Accounts](#twitter-accounts)
 - [Uncategorized](#uncategorized)
 - [Alternative Home Automation Software](#alternative-home-automation-software)
 - [Other Awesome Lists](#other-awesome-lists)
@@ -287,6 +288,18 @@ _Sit back, relax, watch, and learn._
 _Get inspired, while commuting, doing your morning routine, or at the gym!_
 
 * [Home Assistant Podcast](https://hasspodcast.io) - Biweekly podcast with the latest news and interesting guests.
+
+### Twitter Accounts
+
+_Keep up with the latest news and updates, 280 characters at a time!_
+
+* [@home_assistant](https://twitter.com/home_assistant) - Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts.
+* [@hass_devs](https://twitter.com/hass_devs) - Follow us for the latest news around developing for Home Assistant. Follow the main account at @home_assistant.
+* [@balloob](https://twitter.com/balloob) - Founder Home Assistant. Engineer at Ubiquiti. It's nice to be important but it is more important to be nice.
+* [@ccostan](https://twitter.com/ccostan) - Blogger of all things Tech @ https://vCloudInfo.com . Virtualization, Smart Home, #IOT & other Geeky subjects. Subject Matter Expert in Central FL for IPM. 🏡
+* [@HomeTechHacker](https://twitter.com/HomeTechHacker) - Guy friends call when #tech happens. Tweet 25-50x/week about #smarthome, #homenetwork, #cybersecurity, #Linux, #gadgets, and #life. 
+* [@Atomic_HA](https://twitter.com/Atomic_HA) - I'm a house in San Antonio, TX and my brain is provided by @home_assistant. I like to tweet about the things I do for my family and I CHIRP for new followers!
+* [@BearStoneHA](https://twitter.com/BearStoneHA) - I'm a Smart House full of #IOT. @CCostan & family live in me. I'm powered by @Home_Assistant and @Tesla. #SmartHome #HomeAutomation #Bot.
 
 ## Uncategorized
 
