@@ -48,6 +48,7 @@ please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/ma
     - [Blogs](#blogs)
     - [YouTube Channels](#youtube-channels)
     - [Podcasts](#podcasts)
+    - [Twitter](#twitter)
 - [Uncategorized](#uncategorized)
 - [Alternative Home Automation Software](#alternative-home-automation-software)
 - [Other Awesome Lists](#other-awesome-lists)
@@ -288,6 +289,18 @@ _Sit back, relax, watch, and learn._
 _Get inspired, while commuting, doing your morning routine, or at the gym!_
 
 * [Home Assistant Podcast](https://hasspodcast.io) - Biweekly podcast with the latest news and interesting guests.
+
+### Twitter
+
+_Keep up with the latest news and updates, 280 characters at a time!_
+
+* [@home_assistant](https://twitter.com/home_assistant) - Open source home automation that puts local control and privacy first.
+* [@hass_devs](https://twitter.com/hass_devs) - Latest news on the development of Home Assistant for contributors.
+* [@balloob](https://twitter.com/balloob) - Founder of the Home Assistant project.
+* [@pvizeli](https://twitter.com/pvizeli) - Core developer and creator of the Hass.io project.
+* [@frenck](https://twitter.com/frenck) - Creator of this Awesome list and maintainer of the Community Hass.io Add-ons project.
+* [@ccostan](https://twitter.com/ccostan) - Blogger of all things Tech. Smart Home, #IOT & other Geeky subjects.
+* [@HomeTechHacker](https://twitter.com/HomeTechHacker) - Guy friends call when #tech happens. Tweet 25-50x/week about #smarthome, #homenetwork, #cybersecurity, #Linux, #gadgets, and #life. 
 
 ## Uncategorized
 
