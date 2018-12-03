@@ -220,6 +220,7 @@ easily add to your instance._
 * [Slideshow card](https://github.com/zsarnett/slideshow-card) - Dynamic slideshow of images or cards.
 * [Swiper card](https://community.home-assistant.io/t/lovelace-swiper-card/72447?u=frenck) - Flick/swipe through multiple cards.
 * [slider-entity-row](https://github.com/thomasloven/lovelace-slider-entity-row) - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards.
+* [simple-thermostat](https://github.com/nervetattoo/simple-thermostat) – A simpler and more flexible thermostat card
 
 ## Custom Components
 
