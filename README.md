@@ -220,6 +220,7 @@ easily add to your instance._
 * [Slideshow card](https://github.com/zsarnett/slideshow-card) - Dynamic slideshow of images or cards.
 * [Swiper card](https://community.home-assistant.io/t/lovelace-swiper-card/72447?u=frenck) - Flick/swipe through multiple cards.
 * [slider-entity-row](https://github.com/thomasloven/lovelace-slider-entity-row) - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards.
+* [power-wheel-card](https://github.com/gurbyz/custom-cards-lovelace/tree/master/power-wheel-card) - An intuïtive way to represent the power that your home is consuming or producing.
 
 ## Custom Components
 
