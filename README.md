@@ -168,6 +168,7 @@ fit your needs or taste better._
 
 * [HA Floorplan](https://github.com/pkozul/ha-floorplan) - Interaction with your entities from a Floorplan.
 * [Custom UI elements](https://github.com/andrey-git/home-assistant-custom-ui) - For use with a (non-Lovelace) frontend.
+* [Font Awesome Icons](https://github.com/thomasloven/hass-fontawesome) - Use the free icons from Font Awesome in your frontend.
 
 ### Themes
 
