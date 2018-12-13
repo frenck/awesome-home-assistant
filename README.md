@@ -225,6 +225,7 @@ easily add to your instance._
 * [slider-entity-row](https://github.com/thomasloven/lovelace-slider-entity-row) - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards.
 * [power-wheel-card](https://github.com/gurbyz/custom-cards-lovelace/tree/master/power-wheel-card) - An intuïtive way to represent the power that your home is consuming or producing.
 * [simple-thermostat](https://github.com/nervetattoo/simple-thermostat) – A simpler and more flexible thermostat card.
+* [Calendar Card](https://github.com/ljmerza/calendar-card) – Shows Google Calendar Events.
 
 ## Custom Components
 
