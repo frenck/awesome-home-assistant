@@ -276,6 +276,7 @@ _Links to various users of Home Assistant that regularly publish Home Assistant 
 * [Phil Hawthorne](https://philhawthorne.com/homeautomation) - Co-host of the Home Assistant Podcast.
 * [Smart Home Hobby](https://smarthomehobby.com/) - Features budget friendly guides and information.
 * [Self Hosted Home](https://selfhostedhome.com/) - Articles on DIY home automation projects and self hosted services.
+* [Tinkering with Home Automation](https://blog.ceard.tech/) - Tinkerer's blog and guides.
 
 ### YouTube Channels
 
