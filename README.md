@@ -207,7 +207,7 @@ _Lovelace is the new UI interface for Home Assistant (still experimental!)_
 ### Custom Lovelace UI Cards
 
 _Lovelace allows people to build custom cards on top of it, which you can
-easily add to your instance in [YAML mode](https://www.home-assistant.io/lovelace/yaml-mode/) or in the Raw Editor found in the top-right menu when in Storage mode._
+easily add to your instance._
 
 * [Monster Card](https://github.com/ciotlosm/custom-lovelace/tree/master/monster-card) - Dynamically adds entities: 🔮 Magic.
 * [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com.
