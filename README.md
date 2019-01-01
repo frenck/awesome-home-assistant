@@ -200,10 +200,8 @@ _Lovelace is the new UI interface for Home Assistant (still experimental!)_
 * [Lovelace UI Documentation](https://www.home-assistant.io/lovelace) - The official documentation.
 * [Getting started with Lovelace UI](https://www.youtube.com/watch?v=ObfRzMIEJPgx) - :tv: Great introduction to Lovelace UI by DrZzs.
 * [Lovelace Card Gallery](https://home-assistant-lovelace-gallery.netlify.com/) - Demo showing all official cards including configurations.
-* [Lovelace UI Migration Script](https://gist.github.com/dale3h/ee5b08ed1bf3a26a57e3d56ae221a796) - Little Python script that converts your old UI.
-* [Lovelace Migration](https://github.com/hassio-addons/addon-lovelace-migration) - Hass.io Add-on, automatically converts your existing UI to Lovelace.
-* [Plan Coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) - Helps to find left and top for `picture-elements` cards.
-* [Share the Love](https://sharethelove.io) - Custom cards demos and configuration examples for Lovelace.
+* [Plan Coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) - Helps to find left and top values for `picture-elements` cards.
+* [Share the Love](https://sharethelove.io) - Custom card demos and configuration examples for Lovelace.
 * [How to set up Lovelace](https://www.youtube.com/watch?v=n5xMtONydEo) - :tv: Excellent step by step video for beginners by JuanMTech.
 
 ### Custom Lovelace UI Cards
@@ -211,7 +209,7 @@ _Lovelace is the new UI interface for Home Assistant (still experimental!)_
 _Lovelace allows people to build custom cards on top of it, which you can
 easily add to your instance._
 
-* [Monster Card](https://github.com/ciotlosm/custom-lovelace/tree/master/monster-card) - Dynamically adds entities: Magic.
+* [Monster Card](https://github.com/ciotlosm/custom-lovelace/tree/master/monster-card) - Dynamically adds entities: 🔮 Magic.
 * [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com.
 * [Alarm Control Panel Card](https://github.com/ciotlosm/custom-lovelace/tree/master/alarm_control_panel-card) - Card that looks like an alarm keypad.
 * [Big Number Card](https://github.com/ciotlosm/custom-lovelace/tree/master/bignumber-card) - Display big numbers for sensors, including severity level as background.
@@ -222,9 +220,9 @@ easily add to your instance._
 * [Button card](https://github.com/kuuji/button-card) - Button card for your entities.
 * [Slideshow card](https://github.com/zsarnett/slideshow-card) - Dynamic slideshow of images or cards.
 * [Swiper card](https://community.home-assistant.io/t/lovelace-swiper-card/72447?u=frenck) - Flick/swipe through multiple cards.
-* [slider-entity-row](https://github.com/thomasloven/lovelace-slider-entity-row) - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards.
-* [power-wheel-card](https://github.com/gurbyz/custom-cards-lovelace/tree/master/power-wheel-card) - An intuïtive way to represent the power that your home is consuming or producing.
-* [simple-thermostat](https://github.com/nervetattoo/simple-thermostat) – A simpler and more flexible thermostat card.
+* [Slider Entity Row](https://github.com/thomasloven/lovelace-slider-entity-row) - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards.
+* [Power Wheel Card](https://github.com/gurbyz/custom-cards-lovelace/tree/master/power-wheel-card) - An intuitive way to represent the power that your home is consuming or producing.
+* [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) – A simpler and more flexible thermostat card.
 
 ## Custom Components
 
