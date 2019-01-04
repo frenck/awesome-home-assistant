@@ -223,6 +223,7 @@ easily add to your instance._
 * [Slider Entity Row](https://github.com/thomasloven/lovelace-slider-entity-row) - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards.
 * [Power Wheel Card](https://github.com/gurbyz/custom-cards-lovelace/tree/master/power-wheel-card) - An intuitive way to represent the power that your home is consuming or producing.
 * [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) – A simpler and more flexible thermostat card.
+* [Compact Custom Header](https://github.com/maykar/compact-custom-header) - Customize and compact the frontend header bar.
 
 ## Custom Components
 
