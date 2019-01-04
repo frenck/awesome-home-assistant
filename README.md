@@ -307,6 +307,7 @@ _Keep up with the latest news and updates, 280 characters at a time!_
 * [@frenck](https://twitter.com/frenck) - Creator of this Awesome list and maintainer of the Community Hass.io Add-ons project.
 * [@ccostan](https://twitter.com/ccostan) - Blogger of all things Tech. Smart Home, #IOT & other Geeky subjects.
 * [@HomeTechHacker](https://twitter.com/HomeTechHacker) - Guy friends call when #tech happens. Tweet 25-50x/week about #smarthome, #homenetwork, #cybersecurity, #Linux, #gadgets, and #life. 
+* [@Dr_Zzs](https://twitter.com/Dr_Zzs) - Great how-to videos and also streams live.
 
 ## Uncategorized
 
