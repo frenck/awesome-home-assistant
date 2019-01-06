@@ -162,6 +162,7 @@ _Anyone could create an add-on, the following are created by the community._
 * [Log Viewer](https://github.com/hassio-addons/addon-log-viewer) - Browser-based live log viewing utility.
 * [Tautulli](https://github.com/hassio-addons/addon-tautulli) - Monitor and get statistics from your Plex server.
 * [motionEye](https://github.com/hassio-addons/addon-motioneye) - Simple, elegant and feature-rich CCTV/NVR for your cameras.
+* [Jupyter](https://github.com/hassio-addons/addon-jupyter) - Create documents containing live code, equations, visualizations, and explanatory text.
 
 ## User Interface
 
@@ -306,7 +307,7 @@ _Keep up with the latest news and updates, 280 characters at a time!_
 * [@pvizeli](https://twitter.com/pvizeli) - Core developer and creator of the Hass.io project.
 * [@frenck](https://twitter.com/frenck) - Creator of this Awesome list and maintainer of the Community Hass.io Add-ons project.
 * [@ccostan](https://twitter.com/ccostan) - Blogger of all things Tech. Smart Home, #IOT & other Geeky subjects.
-* [@HomeTechHacker](https://twitter.com/HomeTechHacker) - Guy friends call when #tech happens. Tweet 25-50x/week about #smarthome, #homenetwork, #cybersecurity, #Linux, #gadgets, and #life. 
+* [@HomeTechHacker](https://twitter.com/HomeTechHacker) - Guy friends call when #tech happens. Tweet 25-50x/week about #smarthome, #homenetwork, #cybersecurity, #Linux, #gadgets, and #life.
 
 ## Uncategorized
 
@@ -331,6 +332,8 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [Ariela](https://play.google.com/store/apps/details?id=com.surodev.ariela) - Freemium Android client application with widget support.
 * [Gitlab CI/CD](https://about.gitlab.com/2018/08/02/using-the-gitlab-ci-slash-cd-for-smart-home-configuration-management/) - How to simplify your smart home configuration with GitLab CI/CD
 * [Monitor](https://github.com/andrewjfreyer/monitor) - Distributed advertisement-based BTLE presence detection reported via MQTT.
+* [HASS-data-detective](https://github.com/robmarkcole/HASS-data-detective) - Explore and analyse your Home Assistant data.
+
 
 ## Alternative Home Automation Software
 
@@ -379,6 +382,6 @@ Use of these names, logos, trademarks, and brands does not imply endorsement.
 
 ## License
 
-Distributed under the Creative Commons Attribution 4.0 license. 
+Distributed under the Creative Commons Attribution 4.0 license.
 See [LICENSE](https://github.com/frenck/awesome-home-assistant/blob/master/LICENSE.md) for
 the complete license.
