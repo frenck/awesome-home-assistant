@@ -162,7 +162,7 @@ _Anyone could create an add-on, the following are created by the community._
 * [Log Viewer](https://github.com/hassio-addons/addon-log-viewer) - Browser-based live log viewing utility.
 * [Tautulli](https://github.com/hassio-addons/addon-tautulli) - Monitor and get statistics from your Plex server.
 * [motionEye](https://github.com/hassio-addons/addon-motioneye) - Simple, elegant and feature-rich CCTV/NVR for your cameras.
-* [Jupyter](https://github.com/hassio-addons/addon-jupyter) - Create documents containing live code, equations, visualizations, and explanatory text.
+* [JupyterLab Lite](https://github.com/hassio-addons/addon-jupyterlab-lite) - Create documents containing live code, equations, visualizations, and explanatory text.
 
 ## User Interface
 
