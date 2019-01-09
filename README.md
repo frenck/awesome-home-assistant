@@ -225,6 +225,7 @@ easily add to your instance._
 * [Power Wheel Card](https://github.com/gurbyz/custom-cards-lovelace/tree/master/power-wheel-card) - An intuitive way to represent the power that your home is consuming or producing.
 * [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) – A simpler and more flexible thermostat card.
 * [Compact Custom Header](https://github.com/maykar/compact-custom-header) - Customize and compact the frontend header bar.
+* [Card Modder](https://github.com/thomasloven/lovelace-card-modder) - Style your Lovelace cards.
 
 ## Custom Components
 
