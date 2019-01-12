@@ -28,33 +28,37 @@ please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/ma
 
 ## Contents
 
-- [How to Use](#how-to-use)
-- [Installing](#installing)
-- [Need Help?](#need-help)
-- [Public Configurations](#public-configurations)
-- [Hass.io](#hassio)
+- [Awesome Home Assistant](#awesome-home-assistant)
+  - [Contents](#contents)
+  - [How to Use](#how-to-use)
+  - [Installing](#installing)
+  - [Need Help?](#need-help)
+    - [Official channels](#official-channels)
+    - [Other channels](#other-channels)
+  - [Public Configurations](#public-configurations)
+  - [Hass.io](#hassio)
     - [Official Add-ons](#official-add-ons)
     - [Third Party Add-ons](#third-party-add-ons)
-- [User Interface](#user-interface)
+  - [User Interface](#user-interface)
     - [Themes](#themes)
-    - [Alternative Dashboard](#alternative-dashboards)
+    - [Alternative Dashboards](#alternative-dashboards)
     - [Lovelace UI](#lovelace-ui)
     - [Custom Lovelace UI Cards](#custom-lovelace-ui-cards)
-- [Custom Components](#custom-components)
-- [DIY](#diy)
+  - [Custom Components](#custom-components)
+  - [DIY](#diy)
     - [DIY Gateways](#diy-gateways)
     - [DIY Projects](#diy-projects)
-- [Online Resources](#online-resources)
+  - [Online Resources](#online-resources)
     - [Blogs](#blogs)
     - [YouTube Channels](#youtube-channels)
     - [Podcasts](#podcasts)
     - [Twitter](#twitter)
-- [Uncategorized](#uncategorized)
-- [Alternative Home Automation Software](#alternative-home-automation-software)
-- [Other Awesome Lists](#other-awesome-lists)
-- [Contributing](#contributing)
-- [Trademark Legal Notice](#trademark-legal-notice)
-- [License](#license)
+  - [Uncategorized](#uncategorized)
+  - [Alternative Home Automation Software](#alternative-home-automation-software)
+  - [Other Awesome Lists](#other-awesome-lists)
+  - [Contributing](#contributing)
+  - [Trademark Legal Notice](#trademark-legal-notice)
+  - [License](#license)
 
 ## How to Use
 
@@ -117,6 +121,7 @@ an awesome source for learning and a great source of inspiration._
 * [James McCarthy](https://github.com/JamesMcCarthy79/Home-Assistant-Config) - Well documented, 3 instances & automations in YAML & Node-RED.
 * [Franck Nijhof](https://github.com/frenck/home-assistant-config) - Hass.io based, very different configuration structure compared to others.
 * [Andrea Donno](https://github.com/adonno/Home-AssistantConfig) - Hass.io based, focused on touchscreen usage.
+* [Klaas Schoute](https://github.com/klaasnicolaas/Smarthome-homeassistant-config) - Hass.io based, Intel NUC, Ubuntu Server, Docker and regularly updated.
 
 ## Hass.io
 
