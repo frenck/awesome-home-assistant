@@ -227,6 +227,7 @@ easily add to your instance._
 * [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) – A simpler and more flexible thermostat card.
 * [Compact Custom Header](https://github.com/maykar/compact-custom-header) - Customize and compact the frontend header bar.
 * [Card Modder](https://github.com/thomasloven/lovelace-card-modder) - Style your Lovelace cards.
+* [Bar Card](https://github.com/Gluwc/bar-card) - Customizable animated bar card.
 
 ## Custom Components
 
