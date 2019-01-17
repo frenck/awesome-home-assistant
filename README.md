@@ -164,6 +164,7 @@ _Anyone could create an add-on, the following are created by the community._
 * [Tautulli](https://github.com/hassio-addons/addon-tautulli) - Monitor and get statistics from your Plex server.
 * [motionEye](https://github.com/hassio-addons/addon-motioneye) - Simple, elegant and feature-rich CCTV/NVR for your cameras.
 * [JupyterLab Lite](https://github.com/hassio-addons/addon-jupyterlab-lite) - Create documents containing live code, equations, visualizations, and explanatory text.
+* [Backup to Google Drive](https://github.com/samccauley/addon-hassiogooglebackup) - Backup snapshots to Google Drive.
 
 ## User Interface
 
