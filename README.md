@@ -202,7 +202,6 @@ _Lovelace is the new UI interface for Home Assistant (still experimental!)_
 
 * [Lovelace UI Documentation](https://www.home-assistant.io/lovelace) - The official documentation.
 * [Getting started with Lovelace UI](https://www.youtube.com/watch?v=ObfRzMIEJPgx) - :tv: Great introduction to Lovelace UI by DrZzs.
-* [Lovelace Card Gallery](https://home-assistant-lovelace-gallery.netlify.com/) - Demo showing all official cards including configurations.
 * [Plan Coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) - Helps to find left and top values for `picture-elements` cards.
 * [Share the Love](https://sharethelove.io) - Custom card demos and configuration examples for Lovelace.
 * [How to set up Lovelace](https://www.youtube.com/watch?v=n5xMtONydEo) - :tv: Excellent step by step video for beginners by JuanMTech.
