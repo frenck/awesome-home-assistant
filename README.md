@@ -228,6 +228,7 @@ easily add to your instance._
 * [Compact Custom Header](https://github.com/maykar/compact-custom-header) - Customize and compact the frontend header bar.
 * [Card Modder](https://github.com/thomasloven/lovelace-card-modder) - Style your Lovelace cards.
 * [Bar Card](https://github.com/Gluwc/bar-card) - Customizable animated bar card.
+* [Calendar Card](https://github.com/rdehuyss/homeassistant-lovelace-google-calendar-card) - A nice Google calendar card.
 
 ## Custom Components
 
