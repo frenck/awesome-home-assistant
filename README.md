@@ -339,6 +339,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [Gitlab CI/CD](https://about.gitlab.com/2018/08/02/using-the-gitlab-ci-slash-cd-for-smart-home-configuration-management/) - How to simplify your smart home configuration with GitLab CI/CD
 * [Monitor](https://github.com/andrewjfreyer/monitor) - Distributed advertisement-based BTLE presence detection reported via MQTT.
 * [HASS-data-detective](https://github.com/robmarkcole/HASS-data-detective) - Explore and analyse your database data.
+* [Custom Component Store](https://github.com/ludeeus/custom-component-store) - Manage custom components with ease through a slick web UI.
 
 
 ## Alternative Home Automation Software
