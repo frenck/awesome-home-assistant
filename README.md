@@ -243,6 +243,7 @@ _Additional components for Home Assistant, that were created by the community._
 * [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Integrates Volkswagen Carnet (requires valid Carnet subscription).
 * [Untappd](https://github.com/custom-components/sensor.untapped) - Connects with your Untappd account.
 * [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publishes events to Elasticsearch.
+* [Custom components](https://github.com/custom-components) - An organization for community-developed custom components.
 
 ## DIY
 
