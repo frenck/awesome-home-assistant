@@ -229,6 +229,7 @@ easily add to your instance._
 * [Card Modder](https://github.com/thomasloven/lovelace-card-modder) - Style your Lovelace cards.
 * [Bar Card](https://github.com/Gluwc/bar-card) - Customizable animated bar card.
 * [Calendar Card](https://github.com/rdehuyss/homeassistant-lovelace-google-calendar-card) - A nice Google calendar card.
+* [Radio Card](https://github.com/fraoustin/radio-card) - A minimalist radio listen card.
 
 ## Custom Components
 
