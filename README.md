@@ -243,6 +243,7 @@ _Additional components for Home Assistant, that were created by the community._
 * [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Integrates Volkswagen Carnet (requires valid Carnet subscription).
 * [Untappd](https://github.com/custom-components/sensor.untapped) - Connects with your Untappd account.
 * [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publishes events to Elasticsearch.
+* [Successful Logins](https://github.com/liri/sensor.successful_logins) - Recent successful logins to your smart home (with the ip address, country, provider etc.)
 
 ## DIY
 
