@@ -17,6 +17,9 @@ Home Assistant is an open source home automation that puts local control and
 privacy first. Powered by a worldwide community of tinkerers and DIY
 enthusiasts. Perfect to run on a Raspberry Pi or a local server.
 
+If you want to get an impression on the look and feel,
+you should check out the [Home Assistant online demo](https://demo.home-assistant.io).
+
 Awesome Home Assistant is a curated list of awesome
 [Home Assistant](https://www.home-assistant.io) resources.
 Additional software, tutorials, custom components, Hassio add-ons,
