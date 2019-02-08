@@ -269,6 +269,7 @@ could also build them yourself!_
 * [Home Assistant's Hackster.io](https://www.hackster.io/home-assistant?f=1#_=_) - A Hackster channel with multiple DIY projects.
 * [ESP MQTT Digital LEDs](https://github.com/bruhautomation/ESP-MQTT-JSON-Digital-LEDs) WS2811 LED Stripe for the JSON Light Component from BRUH.
 * [Bed Presence Detection](https://selfhostedhome.com/diy-bed-presence-detection-home-assistant/) ESP8266 based Bed Presence Detection.
+* [NFC Scanner](https://github.com/klaasnicolaas/ha_nfc_scanner) Build an NFC tag/card scanner with an ESP8266, PN532 and MQTT.
 
 ## Online Resources
 
