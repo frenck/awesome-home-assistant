@@ -168,6 +168,7 @@ _Anyone could create an add-on, the following are created by the community._
 * [motionEye](https://github.com/hassio-addons/addon-motioneye) - Simple, elegant and feature-rich CCTV/NVR for your cameras.
 * [JupyterLab Lite](https://github.com/hassio-addons/addon-jupyterlab-lite) - Create documents containing live code, equations, visualizations, and explanatory text.
 * [Backup to Google Drive](https://github.com/samccauley/addon-hassiogooglebackup) - Backup snapshots to Google Drive.
+* [ADB](https://github.com/hassio-addons/addon-adb) - The Android Debug Bridge server program.
 
 ## User Interface
 
