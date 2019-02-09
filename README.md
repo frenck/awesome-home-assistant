@@ -172,6 +172,7 @@ _Anyone could create an add-on, the following are created by the community._
 * [Glances](https://github.com/hassio-addons/addon-glances) - A cross-platform system monitoring tool written in Python.
 * [Matrix](https://github.com/hassio-addons/addon-matrix) - A secure and decentralized communication platform.
 * [AdGuard Home](https://github.com/hassio-addons/addon-adguard-home) - A network-wide ad-and-tracker blocking DNS server with parental control.
+* [Traccar](https://github.com/hassio-addons/addon-traccar) - Traccar is modern GPS Tracking Platform.
 
 ## User Interface
 
