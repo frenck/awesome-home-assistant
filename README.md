@@ -170,6 +170,7 @@ _Anyone could create an add-on, the following are created by the community._
 * [Backup to Google Drive](https://github.com/samccauley/addon-hassiogooglebackup) - Backup snapshots to Google Drive.
 * [ADB](https://github.com/hassio-addons/addon-adb) - The Android Debug Bridge server program.
 * [Glances](https://github.com/hassio-addons/addon-glances) - A cross-platform system monitoring tool written in Python.
+* [Matrix](https://github.com/hassio-addons/addon-matrix) - A secure and decentralized communication platform.
 
 ## User Interface
 
