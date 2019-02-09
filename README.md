@@ -239,6 +239,7 @@ easily add to your instance._
 * [Bar Card](https://github.com/Gluwc/bar-card) - Customizable animated bar card.
 * [Calendar Card](https://github.com/rdehuyss/homeassistant-lovelace-google-calendar-card) - A nice Google calendar card.
 * [forked-daapd Card](https://github.com/kalkih/forked-daapd-card) - Ccontrol a forked daapd instance.
+* [Dual Gauge Card](https://github.com/Rocka84/dual-gauge-card) - Shows two gauges in one.
 
 ## Custom Components
 
