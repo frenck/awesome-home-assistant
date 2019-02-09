@@ -238,6 +238,7 @@ easily add to your instance._
 * [Card Modder](https://github.com/thomasloven/lovelace-card-modder) - Style your Lovelace cards.
 * [Bar Card](https://github.com/Gluwc/bar-card) - Customizable animated bar card.
 * [Calendar Card](https://github.com/rdehuyss/homeassistant-lovelace-google-calendar-card) - A nice Google calendar card.
+* [forked-daapd Card](https://github.com/kalkih/forked-daapd-card) - Ccontrol a forked daapd instance.
 
 ## Custom Components
 
