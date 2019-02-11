@@ -233,7 +233,7 @@ easily add to your instance._
 * [Swiper card](https://community.home-assistant.io/t/lovelace-swiper-card/72447?u=frenck) - Flick/swipe through multiple cards.
 * [Slider Entity Row](https://github.com/thomasloven/lovelace-slider-entity-row) - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards.
 * [Power Wheel Card](https://github.com/gurbyz/custom-cards-lovelace/tree/master/power-wheel-card) - An intuitive way to represent the power that your home is consuming or producing.
-* [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) – A simpler and more flexible thermostat card.
+* [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) - A simpler and more flexible thermostat card.
 * [Compact Custom Header](https://github.com/maykar/compact-custom-header) - Customize and compact the frontend header bar.
 * [Card Modder](https://github.com/thomasloven/lovelace-card-modder) - Style your Lovelace cards.
 * [Bar Card](https://github.com/Gluwc/bar-card) - Customizable animated bar card.
@@ -279,9 +279,9 @@ could also build them yourself!_
 * [433mhz/IR Bidirectional Gateway](https://community.home-assistant.io/t/433mhz-infrared-ir-to-and-from-mqtt-on-esp8266/6779?u=frenck) - Bidirectional with IR and 433mhz using ESP8266 and MQTT.
 * [esp8266MQTTBlinds](https://community.home-assistant.io/t/esp8266-window-blinds-mqtt/14863?u=frenck) - Automate your window blinds using an ESP8266, a servo and MQTT.
 * [Home Assistant's Hackster.io](https://www.hackster.io/home-assistant?f=1#_=_) - A Hackster channel with multiple DIY projects.
-* [ESP MQTT Digital LEDs](https://github.com/bruhautomation/ESP-MQTT-JSON-Digital-LEDs) WS2811 LED Stripe for the JSON Light Component from BRUH.
-* [Bed Presence Detection](https://selfhostedhome.com/diy-bed-presence-detection-home-assistant/) ESP8266 based Bed Presence Detection.
-* [NFC Scanner](https://github.com/klaasnicolaas/ha_nfc_scanner) Build an NFC tag/card scanner with an ESP8266, PN532 and MQTT.
+* [ESP MQTT Digital LEDs](https://github.com/bruhautomation/ESP-MQTT-JSON-Digital-LEDs) - WS2811 LED Stripe for the JSON Light Component from BRUH.
+* [Bed Presence Detection](https://selfhostedhome.com/diy-bed-presence-detection-home-assistant/) - ESP8266 based Bed Presence Detection.
+* [NFC Scanner](https://github.com/klaasnicolaas/ha_nfc_scanner) - Build an NFC tag/card scanner with an ESP8266, PN532 and MQTT.
 
 ## Online Resources
 
