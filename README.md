@@ -261,7 +261,7 @@ _Additional components for Home Assistant, that were created by the community._
 _Do It Yourself; rather than buying home automation hardware or solutions, you
 could also build them yourself!_
 
-* [esphomeyaml](https://esphomelib.com/esphomeyaml/) - Program ESP8266/ESP32 board using YAML.
+* [ESPHome](https://esphome.io/) - Program ESP8266/ESP32 board using YAML.
 * [Magic Cards](https://github.com/maddox/magic-cards) - RFID scannable cards that you can program to do anything.
 * [Sonoff Tasmota](https://github.com/arendst/Sonoff-Tasmota) - Firmware for ESP8266 boards and devices.
 
