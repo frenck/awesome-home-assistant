@@ -249,7 +249,7 @@ _Additional components for Home Assistant, that were created by the community._
 * [Google Geocode](https://github.com/michaelmcarthur/GoogleGeocode-HASS) - Converts a device tracker location into a human-readable address.
 * [Lutron Caseta Pro](https://github.com/upsert/lutron-caseta-pro) - Integrates Lutron Caseta Smart Bridge PRO / RA2 Select.
 * [ToonHA](https://github.com/krocat/ToonHA) - Integrates Toon by Eneco using the official API.
-* [Broadlink IR](https://github.com/vpnmaster/homeassistant-custom-components) - Integrates devices using Broadlink IR.
+* [SmartIR](https://github.com/smartHomeHub/SmartIR) - Integrates devices using Broadlink IR.
 * [Xiaomi Hygrothermo](https://github.com/dolezsa/Xiaomi_Hygrothermo) - Sensor platform for Xiaomi Mijia BT Hygrothermo temperature and humidity sensor.
 * [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Integrates Volkswagen Carnet (requires valid Carnet subscription).
 * [Untappd](https://github.com/custom-components/sensor.untapped) - Connects with your Untappd account.
