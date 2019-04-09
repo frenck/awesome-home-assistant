@@ -255,6 +255,7 @@ _Additional components for Home Assistant, that were created by the community._
 * [Untappd](https://github.com/custom-components/sensor.untapped) - Connects with your Untappd account.
 * [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publishes events to Elasticsearch.
 * [Sonoff/eWeLink](https://github.com/peterbuga/HASS-sonoff-ewelink) - Control Sonoff/eWeLink smart devices using the stock firmware.
+* [ZyXEL PoE](https://github.com/lukas-hetzenecker/home-assistant-zyxel-poe) - Platform that exposes switches for the Power-over-Ethernet state of ZyXEL network devices (at least GS1900-series switches).
 
 ## DIY
 
