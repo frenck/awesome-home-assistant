@@ -255,7 +255,7 @@ _Additional components for Home Assistant, that were created by the community._
 * [Untappd](https://github.com/custom-components/sensor.untapped) - Connects with your Untappd account.
 * [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publishes events to Elasticsearch.
 * [Sonoff/eWeLink](https://github.com/peterbuga/HASS-sonoff-ewelink) - Control Sonoff/eWeLink smart devices using the stock firmware.
-* [Remote instances](https://github.com/lukas-hetzenecker/home-assistant-remote) - Links multiple Home-Assistant instances together; subscribes to state changes of other HA instances and forwards service calls via the websockets API.
+* [Remote instances](https://github.com/lukas-hetzenecker/home-assistant-remote) - Link multiple instances together; subscribes to state changes and service calls of other instances and forwards them using the websockets API.
 
 ## DIY
 
