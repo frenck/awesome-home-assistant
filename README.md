@@ -175,6 +175,7 @@ _Anyone could create an add-on, the following are created by the community._
 * [AdGuard Home](https://github.com/hassio-addons/addon-adguard-home) - A network-wide ad-and-tracker blocking DNS server with parental control.
 * [Traccar](https://github.com/hassio-addons/addon-traccar) - Traccar is modern GPS Tracking Platform.
 * [Home Panel](https://github.com/hassio-addons/addon-home-panel) - A touch-compatible web frontend for controlling the home.
+* [hassio-google-drive-backup](https://github.com/sabeechen/hassio-google-drive-backup) - Automatically create and sync Hass.io snapshots into Google Drive 
 
 ## User Interface
 
@@ -242,6 +243,7 @@ easily add to your instance._
 * [forked-daapd Card](https://github.com/kalkih/forked-daapd-card) - Ccontrol a forked daapd instance.
 * [Dual Gauge Card](https://github.com/Rocka84/dual-gauge-card) - Shows two gauges in one.
 * [Atomic Calendar Card](https://github.com/atomic7777/atomic_calendar) - Calendar card with advanced settings.
+* [loveace swipe navigation] (https://github.com/maykar/lovelace-swipe-navigation) - Swipe through Lovelace views on mobile.
 
 ## Custom Components
 
