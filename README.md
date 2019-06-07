@@ -143,6 +143,7 @@ your Hass.io instance._
 * [Samba](https://www.home-assistant.io/addons/samba/) - Access your configuration files using Windows network shares.
 * [NGINX SSL proxy](https://www.home-assistant.io/addons/nginx_proxy/) - Reverse proxy with SSL termination.
 * [deCONZ](https://github.com/home-assistant/hassio-addons/tree/master/deconz) - Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik.
+* [TellStick](https://github.com/home-assistant/hassio-addons/tree/master/tellstick) - Run a TellStick and TellStick Duo service.
 
 ### Third Party Add-ons
 
