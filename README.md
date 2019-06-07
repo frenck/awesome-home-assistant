@@ -262,6 +262,7 @@ _Additional components for Home Assistant, that were created by the community._
 * [Untappd](https://github.com/custom-components/sensor.untapped) - Connects with your Untappd account.
 * [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publishes events to Elasticsearch.
 * [Sonoff/eWeLink](https://github.com/peterbuga/HASS-sonoff-ewelink) - Control Sonoff/eWeLink smart devices using the stock firmware.
+* [Alexa Media Player](https://github.com/keatontaylor/alexa_media_player) - Allow control of Amazon Alexa devices.
 
 ## DIY
 
