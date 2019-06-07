@@ -178,6 +178,7 @@ _Anyone could create an add-on, the following are created by the community._
 * [Traccar](https://github.com/hassio-addons/addon-traccar) - Traccar is modern GPS Tracking Platform.
 * [Home Panel](https://github.com/hassio-addons/addon-home-panel) - A touch-compatible web frontend for controlling the home.
 * [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup) - A complete and easy to configure solution for backing up your snapshots to Google Drive.
+* [Grocy](https://github.com/hassio-addons/addon-grocy) - ERP beyond your fridge! A groceries & household management solution for your home.
 
 ## User Interface
 
