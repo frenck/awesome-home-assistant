@@ -264,6 +264,7 @@ _Additional components for Home Assistant, that were created by the community._
 * [Alexa Media Player](https://github.com/keatontaylor/alexa_media_player) - Allow control of Amazon Alexa devices.
 * [iCloud3](https://github.com/gcobb321/icloud3) - Improved version of the iCloud device tracker component with a lot of capabilities.
 * [HACS](https://custom-components.github.io/hacs/) - This is a manager for your custom integration (components) and plugin (lovelace elements) needs.
+* [breaking_changes](https://github.com/custom-components/breaking_changes) - Component to show potential breaking_changes in the current published version based on your loaded components.
 
 ## DIY
 
