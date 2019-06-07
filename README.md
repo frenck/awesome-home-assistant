@@ -137,7 +137,7 @@ _Add-ons are easily installable services that extend the functionality around
 your Hass.io instance._
 
 * [DuckDNS](https://www.home-assistant.io/addons/duckdns/) - Updates your Duck DNS IP address and generate SSL using Let's Encrypt.
-* [HASS Configurator](https://www.home-assistant.io/addons/configurator/) - Browser-based configuration file editor.
+* [HASS Configurator](https://github.com/home-assistant/hassio-addons/tree/master/configurator) - Browser-based configuration file editor.
 * [Mosquitto](https://www.home-assistant.io/addons/mosquitto/) - Fast and reliable MQTT broker.
 * [SSH Server](https://www.home-assistant.io/addons/ssh/) - Allows logging in remotely to using SSH.
 * [Samba](https://www.home-assistant.io/addons/samba/) - Access your configuration files using Windows network shares.
