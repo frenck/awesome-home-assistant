@@ -142,6 +142,7 @@ your Hass.io instance._
 * [SSH Server](https://www.home-assistant.io/addons/ssh/) - Allows logging in remotely to using SSH.
 * [Samba](https://www.home-assistant.io/addons/samba/) - Access your configuration files using Windows network shares.
 * [NGINX SSL proxy](https://www.home-assistant.io/addons/nginx_proxy/) - Reverse proxy with SSL termination.
+* [deCONZ](https://github.com/home-assistant/hassio-addons/tree/master/deconz) - Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik.
 
 ### Third Party Add-ons
 
