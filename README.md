@@ -185,7 +185,6 @@ _Anyone could create an add-on, the following are created by the community._
 _The Home Assistant frontend is already pretty, but you can customize it to
 fit your needs or taste better._
 
-* [HA Floorplan](https://github.com/pkozul/ha-floorplan) - Interaction with your entities from a Floorplan.
 * [Custom UI elements](https://github.com/andrey-git/home-assistant-custom-ui) - For use with a (non-Lovelace) frontend.
 * [Font Awesome Icons](https://github.com/thomasloven/hass-fontawesome) - Use the free icons from Font Awesome in your frontend.
 
@@ -247,6 +246,7 @@ easily add to your instance._
 * [Atomic Calendar Card](https://github.com/atomic7777/atomic_calendar) - Calendar card with advanced settings.
 * [Xiaomi Vacuum Card](https://github.com/benct/lovelace-xiaomi-vacuum-card) - Detailed card for Xiaomi (and other) vacuum cleaners.
 * [Simple Weather Card](https://github.com/kalkih/simple-weather-card) - A minimalistic weather card, inspired by Google Material Design.
+* [Lovelace Floorplan](https://github.com/pkozul/lovelace-floorplan) - Interaction with your entities from a Floorplan.
 
 ## Custom Components
 
