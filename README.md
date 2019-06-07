@@ -203,7 +203,6 @@ _It is all about the looks, apply some style._
 
 ### Alternative Dashboards
 
-* [Home Assistant Control Panel](https://reformedreality.com/home-assistant-control-panel) - Simple to use, easy to install.
 * [TileBoard](https://github.com/resoai/TileBoard) - A simple yet highly configurable Dashboard.
 
 ### Lovelace UI
