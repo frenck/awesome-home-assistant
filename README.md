@@ -38,11 +38,10 @@ please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/ma
 - [Hass.io](#hassio)
     - [Official Add-ons](#official-add-ons)
     - [Third Party Add-ons](#third-party-add-ons)
-- [User Interface](#user-interface)
+- [Lovelace User Interface](#lovelace-user-interface)
     - [Themes](#themes)
-    - [Alternative Dashboard](#alternative-dashboards)
-    - [Lovelace UI](#lovelace-ui)
     - [Custom Lovelace UI Cards](#custom-lovelace-ui-cards)
+    - [Alternative Dashboard](#alternative-dashboards)
 - [Custom Components](#custom-components)
 - [DIY](#diy)
     - [DIY Gateways](#diy-gateways)
@@ -180,12 +179,16 @@ _Anyone could create an add-on, the following are created by the community._
 * [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup) - A complete and easy to configure solution for backing up your snapshots to Google Drive.
 * [Grocy](https://github.com/hassio-addons/addon-grocy) - ERP beyond your fridge! A groceries & household management solution for your home.
 
-## User Interface
+## Lovelace User Interface
 
 _The Home Assistant frontend is already pretty, but you can customize it to
 fit your needs or taste better._
 
-* [Custom UI elements](https://github.com/andrey-git/home-assistant-custom-ui) - For use with a (non-Lovelace) frontend.
+* [Lovelace UI Documentation](https://www.home-assistant.io/lovelace) - The official documentation.
+* [Getting started with Lovelace UI](https://www.youtube.com/watch?v=ObfRzMIEJPgx) - :tv: Great introduction to Lovelace UI by DrZzs.
+* [Plan Coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) - Helps to find left and top values for `picture-elements` cards.
+* [Share the Love](https://sharethelove.io) - Custom card demos and configuration examples for Lovelace.
+* [How to set up Lovelace](https://www.youtube.com/watch?v=n5xMtONydEo) - :tv: Excellent step by step video for beginners by JuanMTech.
 * [Font Awesome Icons](https://github.com/thomasloven/hass-fontawesome) - Use the free icons from Font Awesome in your frontend.
 
 ### Themes
@@ -203,20 +206,6 @@ _It is all about the looks, apply some style._
 * [Carbon Green](https://community.home-assistant.io/t/share-your-themes/22018/95?u=frenck) - Light carbon theme with green accents by Reua.
 * [20 Great Themes](https://www.juanmtech.com/themes-in-home-assistant/) - 20 Great themes by JuanMTech (includes a guide).
 * [Many Themes, One Repo](https://github.com/maartenpaauw/home-assistant-community-themes/) - 13 Themes in a convenient ZIP file.
-
-### Alternative Dashboards
-
-* [TileBoard](https://github.com/resoai/TileBoard) - A simple yet highly configurable Dashboard.
-
-### Lovelace UI
-
-_Lovelace is the new UI interface for Home Assistant (still experimental!)_
-
-* [Lovelace UI Documentation](https://www.home-assistant.io/lovelace) - The official documentation.
-* [Getting started with Lovelace UI](https://www.youtube.com/watch?v=ObfRzMIEJPgx) - :tv: Great introduction to Lovelace UI by DrZzs.
-* [Plan Coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) - Helps to find left and top values for `picture-elements` cards.
-* [Share the Love](https://sharethelove.io) - Custom card demos and configuration examples for Lovelace.
-* [How to set up Lovelace](https://www.youtube.com/watch?v=n5xMtONydEo) - :tv: Excellent step by step video for beginners by JuanMTech.
 
 ### Custom Lovelace UI Cards
 
@@ -247,6 +236,10 @@ easily add to your instance._
 * [Xiaomi Vacuum Card](https://github.com/benct/lovelace-xiaomi-vacuum-card) - Detailed card for Xiaomi (and other) vacuum cleaners.
 * [Simple Weather Card](https://github.com/kalkih/simple-weather-card) - A minimalistic weather card, inspired by Google Material Design.
 * [Lovelace Floorplan](https://github.com/pkozul/lovelace-floorplan) - Interaction with your entities from a Floorplan.
+
+### Alternative Dashboards
+
+* [TileBoard](https://github.com/resoai/TileBoard) - A simple yet highly configurable Dashboard.
 
 ## Custom Components
 
