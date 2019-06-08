@@ -233,7 +233,7 @@ easily add to your instance._
 * [forked-daapd Card](https://github.com/kalkih/forked-daapd-card) - Ccontrol a forked daapd instance.
 * [Dual Gauge Card](https://github.com/Rocka84/dual-gauge-card) - Shows two gauges in one.
 * [Atomic Calendar Card](https://github.com/atomic7777/atomic_calendar) - Calendar card with advanced settings.
-* [Xiaomi Vacuum Card](https://github.com/benct/lovelace-xiaomi-vacuum-card) - Detailed card for Xiaomi (and other) vacuum cleaners.
+* [Xiaomi Vacuum Card](https://github.com/benct/lovelace-xiaomi-vacuum-card) - Detailed card for Xiaomi vacuum cleaners (and others).
 * [Simple Weather Card](https://github.com/kalkih/simple-weather-card) - A minimalistic weather card, inspired by Google Material Design.
 * [Lovelace Floorplan](https://github.com/pkozul/lovelace-floorplan) - Interaction with your entities from a Floorplan.
 
@@ -245,7 +245,7 @@ easily add to your instance._
 
 _Additional components for Home Assistant, that were created by the community._
 
-* [Hue Sensors](https://github.com/robmarkcole/Hue-sensors-HASS) - Enables the use of Hue sensors.
+* [Hue Sensors](https://github.com/robmarkcole/Hue-sensors-HASS) - Enables the use of Philips Hue sensors.
 * [Google Geocode](https://github.com/michaelmcarthur/GoogleGeocode-HASS) - Converts a device tracker location into a human-readable address.
 * [Lutron Caseta Pro](https://github.com/upsert/lutron-caseta-pro) - Integrates Lutron Caseta Smart Bridge PRO / RA2 Select.
 * [SmartIR](https://github.com/smartHomeHub/SmartIR) - Integrates devices using Broadlink IR.
@@ -264,7 +264,7 @@ _Additional components for Home Assistant, that were created by the community._
 _Do It Yourself; rather than buying home automation hardware or solutions, you
 could also build them yourself!_
 
-* [ESPHome](https://esphome.io/) - Program ESP8266/ESP32 board using YAML.
+* [ESPHome](https://esphome.io/) - Program ESP8266 boards and ESP32 boards using YAML.
 * [Magic Cards](https://github.com/maddox/magic-cards) - RFID scannable cards that you can program to do anything.
 * [Sonoff Tasmota](https://github.com/arendst/Sonoff-Tasmota) - Firmware for ESP8266 boards and devices.
 
