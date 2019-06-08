@@ -236,6 +236,7 @@ easily add to your instance._
 * [Xiaomi Vacuum Card](https://github.com/benct/lovelace-xiaomi-vacuum-card) - Detailed card for Xiaomi vacuum cleaners (and others).
 * [Simple Weather Card](https://github.com/kalkih/simple-weather-card) - A minimalistic weather card, inspired by Google Material Design.
 * [Lovelace Floorplan](https://github.com/pkozul/lovelace-floorplan) - Interaction with your entities from a Floorplan.
+* [Home Card](https://github.com/postlund/home-card) - A quick glance of the state of your home.
 
 ### Alternative Dashboards
 
