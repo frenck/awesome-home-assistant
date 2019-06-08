@@ -237,6 +237,7 @@ easily add to your instance._
 * [Simple Weather Card](https://github.com/kalkih/simple-weather-card) - A minimalistic weather card, inspired by Google Material Design.
 * [Lovelace Floorplan](https://github.com/pkozul/lovelace-floorplan) - Interaction with your entities from a Floorplan.
 * [Home Card](https://github.com/postlund/home-card) - A quick glance of the state of your home.
+* [Banner Card](https://github.com/nervetattoo/banner-card) - A fluffy linkable banner with interactive glances to spice up your home dashboards.
 
 ### Alternative Dashboards
 
