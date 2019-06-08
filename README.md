@@ -299,6 +299,7 @@ _Links to various users of Home Assistant that regularly publish Home Assistant 
 * [Self Hosted Home](https://selfhostedhome.com/) - Articles on DIY home automation projects and self hosted services.
 * [Tinkering with Home Automation](https://blog.ceard.tech/) - Tinkerer's blog and guides.
 * [HomeTechHacker](https://HomeTechHacker.com) - DIY Smarthome guides, reviews, and advice.
+* [Intermittent Technology](https://blog.quindorian.org) - Quindor's personal blog for pasting random (mostly technology related) things.
 
 ### YouTube Channels
 
@@ -313,6 +314,7 @@ _Sit back, relax, watch, and learn._
 * [vCloudInfo](https://www.youtube.com/vCloudInfo) - Publishes videos based on his home and GitHub repository.
 * [digiblurDIY](https://www.youtube.com/channel/UC5ZdPKE2ckcBhljTc2R_qNA) - Tutorials on hardware projects and Tasmota automations.
 * [Sognare](https://www.youtube.com/channel/UC3sknm_GUCDESM7EmVvkgzg) - Lives on a boat! Tutorials, discussions and interviews.
+* [Intermit.Tech](https://www.youtube.com/channel/UCv7UOhZ2XuPwm9SN5oJsCjA) - Tutorials & reviews: Camera's, Home Networking, ESP8266 boards, Node-RED.
 
 ### Podcasts
 
