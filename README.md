@@ -313,6 +313,7 @@ _Sit back, relax, watch, and learn._
 * [vCloudInfo](https://www.youtube.com/vCloudInfo) - Publishes videos based on his home and GitHub repository.
 * [digiblurDIY](https://www.youtube.com/channel/UC5ZdPKE2ckcBhljTc2R_qNA) - Tutorials on hardware projects and Tasmota automations.
 * [Sognare](https://www.youtube.com/channel/UC3sknm_GUCDESM7EmVvkgzg) - Lives on a boat! Tutorials, discussions and interviews.
+* [Intermit.Tech](https://www.youtube.com/channel/UCv7UOhZ2XuPwm9SN5oJsCjA) - Tech oriented reviews, the QuinLED project and other networking awesomeness. 
 
 ### Podcasts
 
