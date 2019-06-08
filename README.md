@@ -240,6 +240,7 @@ easily add to your instance._
 * [Banner Card](https://github.com/nervetattoo/banner-card) - A fluffy linkable banner with interactive glances to spice up your home dashboards.
 * [Upcoming Media Card](https://github.com/custom-cards/upcoming-media-card) - Display upcoming episodes and movies from services like: Plex, Kodi, Radarr, Sonarr, and Trakt.
 * [Spotify Card](https://github.com/custom-cards/spotify-card) - List and select from current available devices and users top playlists on Spotify.
+* [Battery Entity](https://github.com/cbulock/lovelace-battery-entity) - Displaying battery levels for battery entities.
 
 ### Alternative Dashboards
 
