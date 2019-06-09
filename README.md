@@ -368,7 +368,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [Monitor](https://github.com/andrewjfreyer/monitor) - Distributed advertisement-based BTLE presence detection reported via MQTT.
 * [HASS-data-detective](https://github.com/robmarkcole/HASS-data-detective) - Explore and analyse your database data.
 * [ADB Intents](https://gist.github.com/mcfrojd/9e6875e1db5c089b1e3ddeb7dba0f304) - List of ADB intents to control Android Devices.
-
+* [Home Assistant Config Helper for VSCode](https://marketplace.visualstudio.com/items?itemName=keesschollaart.vscode-home-assistant) - Visual Studio Code Extension that provides auto-completion, config validation and snippets when editting your configuration.
 
 ## Alternative Home Automation Software
 
