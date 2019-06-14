@@ -243,6 +243,7 @@ easily add to your instance._
 * [Battery Entity](https://github.com/cbulock/lovelace-battery-entity) - Displaying battery levels for battery entities.
 * [Multiple Entity Row](https://github.com/benct/lovelace-multiple-entity-row) - Show multiple entity states or attributes on entity rows.
 * [Toggle Lock Entity Row](https://github.com/thomasloven/lovelace-toggle-lock-entity-row) - Display a toggle with a lock, avoiding toggling it by mistake.
+* [Light Entity Card](https://github.com/ljmerza/light-entity-card) - Control any light/switch entity through lovelace
 
 ### Alternative Dashboards
 
