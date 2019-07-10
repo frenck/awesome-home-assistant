@@ -267,6 +267,7 @@ _Additional components for Home Assistant, that were created by the community._
 * [HACS](https://custom-components.github.io/hacs/) - This is a manager for your custom integration (components) and plugin (lovelace elements) needs.
 * [breaking_changes](https://github.com/custom-components/breaking_changes) - Component to show potential breaking_changes in the current published version based on your loaded components.
 * [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Circadian Lighting slowly synchronizes your color changing lights with the regular naturally occuring color temperature of the sky throughout the day.
+* [HASS Aarlo](https://github.com/twrecked/hass-aarlo) - Asynchronous Arlo Component for Home Assistant. The component operates in a similar way to the Arlo web site - it opens a single event stream to the Arlo backend and monitors events and state changes for all base stations, cameras and doorbells in a system. 
 
 ## DIY
 
