@@ -244,6 +244,7 @@ easily add to your instance._
 * [Multiple Entity Row](https://github.com/benct/lovelace-multiple-entity-row) - Show multiple entity states or attributes on entity rows.
 * [Toggle Lock Entity Row](https://github.com/thomasloven/lovelace-toggle-lock-entity-row) - Display a toggle with a lock, avoiding toggling it by mistake.
 * [Xiaomi Vacuum Map Card](https://github.com/PiotrMachowski/Home-Assistant-Lovelace-Xiaomi-Vacuum-Map-card) - Interactive Xiaomi Vacuum map, just like in Mi Home app.
+* [Home Feed Card](https://github.com/gadgetchnnel/lovelace-home-feed-card) - Display a combination of persistent notifications, calendar events, and entities in the style of a feed.
 * [Config Template Card](https://github.com/custom-cards/config-template-card) - Allow using templates in Lovelace.
 
 ### Alternative Dashboards
@@ -268,6 +269,7 @@ _Additional components for Home Assistant, that were created by the community._
 * [HACS](https://custom-components.github.io/hacs/) - This is a manager for your custom integration (components) and plugin (lovelace elements) needs.
 * [breaking_changes](https://github.com/custom-components/breaking_changes) - Component to show potential breaking_changes in the current published version based on your loaded components.
 * [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Circadian Lighting slowly synchronizes your color changing lights with the regular naturally occuring color temperature of the sky throughout the day.
+* [HASS Aarlo](https://github.com/twrecked/hass-aarlo) - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells. 
 
 ## DIY
 
@@ -354,7 +356,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 * [Home Assistant Companion](https://itunes.apple.com/us/app/home-assistant-open-source-home-automation/id1099568401?mt=8) - iPhone/iPad/iOS App to control and monitor your home remotely.
 * [Mi Flora via MQTT daemon](https://github.com/ThomDietrich/miflora-mqtt-daemon) - Collect and transfer Xiaomi Mi Flora plant sensor data via MQTT.
 * [hassctl](https://github.com/dale3h/hassctl) - Simple command line utility to help debug your configuration.
-* [rhasspy](https://github.com/synesthesiam/rhasspy-assistant) - Toolkit for developing custom voice assistants.
+* [rhasspy](https://github.com/synesthesiam/rhasspy) - Toolkit for developing custom voice assistants.
 * [Fully Kiosk Browser](https://www.ozerov.de/fully-kiosk-browser/) - Highly configurable Android Kiosk Browser and App Launcher.
 * [Hassio Vagrant](https://github.com/hassio-addons/hassio-vagrant) - Vagrant box original created for developing add-ons.
 * [AppDaemon](https://github.com/home-assistant/appdaemon) - Python Apps for Home Assistant.
