@@ -59,6 +59,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - mdx_truly_sane_lists
 
 # The pages to serve
 nav:
