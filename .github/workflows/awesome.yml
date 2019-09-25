@@ -8,7 +8,9 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1.0.0
-      - uses: max/awesome-lint@1.0.0
+      - name: Checking out awesomeness from GitHub
+        uses: actions/checkout@v1.0.0
+      - name: Running the awesome linter
+        uses: max/awesome-lint@2.0.0
         with:
           filename: README.md
