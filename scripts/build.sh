@@ -15,7 +15,8 @@ cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")"
 pip install -r requirements.txt
 
 # Link images folder
-ln -sf ../images docs/images
+mkdir -p docs/images
+cp -Rf images/* docs/images/
 
 # Get the pages into the docs folder
 ln -sf ../README.md docs/index.md
