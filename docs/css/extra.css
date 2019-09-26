@@ -1,16 +1,16 @@
 .md-typeset {
-    font-size: 1.4rem;
+  font-size: 0.7rem;
 }
 
-.bs-sidebar .nav > li > a:hover,
-.bs-sidebar .nav > li > a:focus {
+.bs-sidebar .nav>li>a:hover,
+.bs-sidebar .nav>li>a:focus {
   border: none;
   border-left: 2px solid;
 }
 
-.bs-sidebar .nav > .active > a,
-.bs-sidebar .nav > .active:hover > a,
-.bs-sidebar .nav > .active:focus > a {
+.bs-sidebar .nav>.active>a,
+.bs-sidebar .nav>.active:hover>a,
+.bs-sidebar .nav>.active:focus>a {
   border: none;
   border-left: 2px solid;
 }
@@ -24,12 +24,13 @@
 }
 
 @media (min-width: 1200px) {
+
   .bs-sidebar.affix-bottom,
   .bs-sidebar.affix {
-      width: 280px;
+    width: 280px;
   }
 
-  .container > .col-md-9 {
+  .container>.col-md-9 {
     padding-left: 40px;
   }
 }

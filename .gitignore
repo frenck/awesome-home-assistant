@@ -8,3 +8,5 @@ lib/
 pip-selfcheck.json
 pyvenv.cfg
 site/
+node_modules/
+package-lock.json
