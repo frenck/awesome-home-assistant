@@ -30,7 +30,7 @@ be closed without being reviewed.
 
 - **Make an individual pull request for each link suggestion.**
 - Search previous suggestions before making a new one, as yours may be a duplicate.
-- Use the following format: `* [project-name](http://example.com/) - A short description ends with a period.`
+- Use the following format: `- [project-name](http://example.com/) - A short description ends with a period.`
   - Keep the description short and simple, but descriptive.
   - A description ends with a full stop/period `.`!
   - Don't mention `Home Assistant` in the description as it's implied.
