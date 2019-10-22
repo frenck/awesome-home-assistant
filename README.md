@@ -26,32 +26,36 @@ please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/ma
 
 ## Contents
 
-- [How to use](#how-to-use)
-- [Installing](#installing)
-- [In case you need help](#in-case-you-need-help)
-  - [Official Channels](#official-channels)
-  - [Other Channels](#other-channels)
-- [Public Configurations](#public-configurations)
-- [Hass.io](#hassio)
-  - [Official Add-ons](#official-add-ons)
-  - [Third Party Add-ons](#third-party-add-ons)
-- [Lovelace User Interface](#lovelace-user-interface)
-  - [Themes](#themes)
-  - [Custom Lovelace UI Cards](#custom-lovelace-ui-cards)
-  - [Alternative Dashboards](#alternative-dashboards)
-- [Custom Components](#custom-components)
-- [DIY](#diy)
-  - [DIY Gateways](#diy-gateways)
-  - [DIY Projects](#diy-projects)
-- [Online Resources](#online-resources)
-  - [Blogs](#blogs)
-  - [YouTube Channels](#youtube-channels)
-  - [Podcasts](#podcasts)
-  - [Twitter](#twitter)
-- [Uncategorized](#uncategorized)
-- [Alternative Home Automation Software](#alternative-home-automation-software)
-- [Other Awesome Lists](#other-awesome-lists)
-- [Trademark Legal Notice](#trademark-legal-notice)
+- [Awesome Home Assistant ![Awesome](https://awesome.re)](#awesome-home-assistant-awesomehttpsawesomere)
+  - [Contents](#contents)
+  - [How to use](#how-to-use)
+  - [Installing](#installing)
+  - [In case you need help](#in-case-you-need-help)
+    - [Official Channels](#official-channels)
+    - [Other Channels](#other-channels)
+  - [Public Configurations](#public-configurations)
+  - [Hass.io](#hassio)
+    - [Official Add-ons](#official-add-ons)
+    - [Third Party Add-ons](#third-party-add-ons)
+  - [Lovelace User Interface](#lovelace-user-interface)
+    - [Themes](#themes)
+    - [Custom Lovelace UI Cards](#custom-lovelace-ui-cards)
+    - [Alternative Dashboards](#alternative-dashboards)
+  - [Custom Components](#custom-components)
+  - [DIY](#diy)
+    - [DIY Gateways](#diy-gateways)
+    - [DIY Projects](#diy-projects)
+  - [Online Resources](#online-resources)
+    - [Blogs](#blogs)
+    - [YouTube Channels](#youtube-channels)
+    - [Podcasts](#podcasts)
+    - [Twitter](#twitter)
+  - [Uncategorized](#uncategorized)
+  - [Alternative Home Automation Software](#alternative-home-automation-software)
+  - [Other Awesome Lists](#other-awesome-lists)
+  - [Contributing](#contributing)
+  - [Trademark Legal Notice](#trademark-legal-notice)
+  - [License](#license)
 
 ## How to use
 
@@ -202,6 +206,7 @@ _It is all about the looks, apply some style._
 - [20 Great Themes](https://www.juanmtech.com/themes-in-home-assistant/) - 20 Great themes by JuanMTech (includes a guide).
 - [Many Themes, One Repo](https://github.com/maartenpaauw/home-assistant-community-themes/) - 13 Themes in a convenient ZIP file.
 - [Slate](https://github.com/seangreen2/slate_theme) - A dark theme close to the vanila looks from seangreen2.
+- [Synthwave](https://github.com/bbbenji/synthwave-hass) - A theme influenced by the cover artwork of modern Synthwave bands.
 
 ### Custom Lovelace UI Cards
 
