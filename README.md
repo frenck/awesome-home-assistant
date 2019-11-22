@@ -76,7 +76,6 @@ Home Assistant currently _recommends_ the Hass.io method.
 
 - [Hass.io](https://www.home-assistant.io/getting-started/) - Installing using a Docker managed environment (recommended method).
 - [Docker](https://www.home-assistant.io/docs/installation/docker/) - Installing on Docker.
-- [Hassbian](https://www.home-assistant.io/docs/installation/hassbian/installation/) - Installing Hassbian.
 - [Manually](https://www.home-assistant.io/docs/installation/virtualenv/) - Manual installation using a Python virtual environment.
 
 ## In case you need help
