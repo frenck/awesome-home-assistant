@@ -243,6 +243,7 @@ easily add to your instance._
 - [Xiaomi Vacuum Map Card](https://github.com/PiotrMachowski/Home-Assistant-Lovelace-Xiaomi-Vacuum-Map-card) - Interactive Xiaomi Vacuum map, just like in Mi Home app.
 - [Home Feed Card](https://github.com/gadgetchnnel/lovelace-home-feed-card) - Display a combination of persistent notifications, calendar events, and entities in the style of a feed.
 - [Config Template Card](https://github.com/custom-cards/config-template-card) - Allow using templates in Lovelace.
+- [RGB Light Card](https://github.com/bokub/rgb-light-card) - Colorful buttons to control your RGB Lights.
 
 ### Alternative Dashboards
 
