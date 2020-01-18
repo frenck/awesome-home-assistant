@@ -204,6 +204,9 @@ _It is all about the looks, apply some style._
 - [Slate](https://github.com/seangreen2/slate_theme) - A dark theme close to the vanila looks from seangreen2.
 - [Synthwave](https://github.com/bbbenji/synthwave-hass) - A theme influenced by the cover artwork of modern Synthwave bands.
 - [Google Home Theme](https://github.com/liri/lovelace-themes) - Two themes (light and dark) matching the design of Google Home Hub.
+- [Google Light Theme](https://github.com/JuanMTech/google_light_theme) - A Home Assistant theme inspired on the Google app light mode.
+- [Google Dark Theme](https://github.com/JuanMTech/google_dark_theme) - A Home Assistant theme inspired on the Google app dark mode.
+- [AMOLED Blue](https://github.com/JuanMTech/amoled_blue) - True black Home Assistant theme for devices with AMOLED displays.
 
 ### Custom Lovelace UI Cards
 
@@ -312,6 +315,7 @@ _Links to various users of Home Assistant that regularly publish Home Assistant 
 - [Tinkering with Home Automation](https://blog.ceard.tech/) - Tinkerer's blog and guides.
 - [HomeTechHacker](https://HomeTechHacker.com) - DIY Smarthome guides, reviews, and advice.
 - [Intermittent Technology](https://blog.quindorian.org) - Quindor's personal blog for pasting random (mostly technology related) things.
+- [JuanMTech](https://www.juanmtech.com/) - *(companion website for the YouTube channel)* Written guides about Home Assistant and home automation in general.
 
 ### YouTube Channels
 
@@ -322,7 +326,7 @@ _Sit back, relax, watch, and learn._
 - [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng) - Great how-to videos and also streams live.
 - [The Hook Up](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ) - Tutorials and more, also has videos on home automation in general.
 - [HASSCASTS](https://www.youtube.com/channel/UCGOCeqMJnLvr-5C-ypUw7IQ) - Tips, Tricks & Tutorials, moving to mainly live streams.
-- [JuanMTech](https://www.youtube.com/juanmtech) - Easy to follow how-to videos, product reviews and more.
+- [JuanMTech](https://www.youtube.com/juanmtech) - Easy to follow how-to videos about Home Assistant and home automation in general.
 - [vCloudInfo](https://www.youtube.com/vCloudInfo) - Publishes videos based on his home and GitHub repository.
 - [digiblurDIY](https://www.youtube.com/channel/UC5ZdPKE2ckcBhljTc2R_qNA) - Tutorials on hardware projects and Tasmota automations.
 - [Intermit.Tech](https://www.youtube.com/channel/UCv7UOhZ2XuPwm9SN5oJsCjA) - Tutorials & reviews: Camera's, Home Networking, ESP8266 boards, Node-RED.
@@ -347,6 +351,7 @@ _Keep up with the latest news and updates, 280 characters at a time!_
 - [@HomeTechHacker](https://twitter.com/HomeTechHacker) - Guy friends call when #tech happens. Tweet 25-50x/week about #smarthome, #homenetwork, #cybersecurity, #Linux, #gadgets, and #life.
 - [@hassioaddons](https://twitter.com/hassioaddons) - For all commmunity add-on news and updates.
 - [@Dr_Zzs](https://twitter.com/Dr_Zzs) - Great how-to videos and also streams live.
+- [@JuanMTech](https://twitter.com/JuanMTech) - How-To videos and written guides about Home automation
 
 ## Uncategorized
 
