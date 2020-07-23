@@ -210,11 +210,11 @@ _It is all about the looks, apply some style._
 _Lovelace allows people to build custom cards on top of it, which you can
 easily add to your instance._
 
-- [Monster Card](https://github.com/ciotlosm/custom-lovelace/tree/master/monster-card) - Dynamically adds entities: 🔮 Magic.
+- [Monster Card](https://github.com/custom-cards/monster-card) - Dynamically adds entities: 🔮 Magic.
 - [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com.
 - [Alarm Control Panel Card](https://github.com/ciotlosm/custom-lovelace/tree/master/alarm_control_panel-card) - Card that looks like an alarm keypad.
-- [Big Number Card](https://github.com/ciotlosm/custom-lovelace/tree/master/bignumber-card) - Display big numbers for sensors, including severity level as background.
-- [Animated Weather Card](https://github.com/bramkragten/custom-ui/blob/master/weather-card/README.md) - Nice looking card showing the weather, with subtle animations.
+- [Big Number Card](https://github.com/custom-cards/bignumber-card) - Display big numbers for sensors, including severity level as background.
+- [Animated Weather Card](https://www.github.com/bramkragten/weather-card/) - Nice looking card showing the weather, with subtle animations.
 - [Thermostat Card](https://github.com/ciotlosm/custom-lovelace/tree/master/thermostat-card) - Thermostat control card that looks like a Nest Thermostat.
 - [Mini Media Player](https://github.com/kalkih/mini-media-player) - A minimalistic media player card.
 - [Mini Graph Card](https://github.com/kalkih/mini-graph-card) - A minimalistic sensor graph card.
