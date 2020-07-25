@@ -245,6 +245,7 @@ easily add to your instance._
 - [Home Feed Card](https://github.com/gadgetchnnel/lovelace-home-feed-card) - Display a combination of persistent notifications, calendar events, and entities in the style of a feed.
 - [Config Template Card](https://github.com/custom-cards/config-template-card) - Allow using templates in Lovelace.
 - [RGB Light Card](https://github.com/bokub/rgb-light-card) - Colorful buttons to control your RGB Lights.
+- [Raspberry Pi Status Card](https://github.com/ironsheep/lovelace-rpi-monitor-card) - Show status of your Raspberry Pis.
 
 ### Alternative Dashboards
 
