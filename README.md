@@ -73,11 +73,12 @@ different opinions and their personal favorites. Each method has its
 advantages and disadvantages. Important to know, there is no wrong, or right here,
 each technique installs the **SAME** Home Assistant.
 
-Home Assistant currently _recommends_ the Hass.io method.
+Home Assistant currently _recommends_ the Home Assistant OS installation method.
 
-- [Hass.io](https://www.home-assistant.io/getting-started/) - Installing using a Docker managed environment (recommended method).
-- [Docker](https://www.home-assistant.io/docs/installation/docker/) - Installing on Docker.
-- [Manually](https://www.home-assistant.io/docs/installation/virtualenv/) - Manual installation using a Python virtual environment.
+- [Home Assistant OS](https://www.home-assistant.io/getting-started/) - Installing using a managed environment (recommended method).
+- [Home Assistant Container](https://www.home-assistant.io/docs/installation/docker/) - Installing on Docker.
+- [Home Assistant Supervised](https://github.com/home-assistant/supervised-installer/blob/master/README.md) - Installing a semi managed environment for experts.
+- [Home Assistant Core](https://www.home-assistant.io/docs/installation/virtualenv/) - Manual installation using a Python virtual environment.
 
 ## In case you need help
 
