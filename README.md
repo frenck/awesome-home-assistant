@@ -117,6 +117,7 @@ an awesome source for learning and a great source of inspiration._
 - [Klaas Schoute](https://github.com/klaasnicolaas/Smarthome-homeassistant-config) - Hass.io based, Intel NUC, Ubuntu Server, Docker and regularly updated.
 - [Jason Hunter](https://github.com/hunterjm/home-assistant-config) - Hass.io based, Intel NUC i5, TensorFlow & camera streams.
 - [Nathan](https://github.com/N-l1/home-assistant-config) - Lovelace config and themes based on Soft UI.
+- [Andrea Iannucci](https://github.com/SeLLeRoNe/HA-Config) - Also known as SeLLeRoNe. Regularly updated.
 
 ## Hass.io
 
@@ -210,11 +211,11 @@ _It is all about the looks, apply some style._
 _Lovelace allows people to build custom cards on top of it, which you can
 easily add to your instance._
 
-- [Monster Card](https://github.com/ciotlosm/custom-lovelace/tree/master/monster-card) - Dynamically adds entities: 🔮 Magic.
+- [Auto-Entities Card](https://github.com/thomasloven/lovelace-auto-entities) - Dynamically adds entities: 🔮 Magic.
 - [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com.
 - [Alarm Control Panel Card](https://github.com/ciotlosm/custom-lovelace/tree/master/alarm_control_panel-card) - Card that looks like an alarm keypad.
 - [Big Number Card](https://github.com/ciotlosm/custom-lovelace/tree/master/bignumber-card) - Display big numbers for sensors, including severity level as background.
-- [Animated Weather Card](https://github.com/bramkragten/custom-ui/blob/master/weather-card/README.md) - Nice looking card showing the weather, with subtle animations.
+- [Animated Weather Card](https://github.com/bramkragten/weather-card) - Nice looking card showing the weather, with subtle animations.
 - [Thermostat Card](https://github.com/ciotlosm/custom-lovelace/tree/master/thermostat-card) - Thermostat control card that looks like a Nest Thermostat.
 - [Mini Media Player](https://github.com/kalkih/mini-media-player) - A minimalistic media player card.
 - [Mini Graph Card](https://github.com/kalkih/mini-graph-card) - A minimalistic sensor graph card.
@@ -298,6 +299,7 @@ could also build them yourself!_
 - [NFC Scanner](https://github.com/klaasnicolaas/ha_nfc_scanner) - Build an NFC tag/card scanner with an ESP8266, PN532 and MQTT.
 - [ESP32-Cam Facebox](https://www.dopebuild.com/i-am-sorry-dave-i-am-unable-to-do-that/) - Tie a ESP32-CAM, HA, and Facebox together for a cheap Facial Recog / Home monitoring solution.
 - [RaspiPool](https://github.com/segalion/raspipool) - A cost-effective, easy-to-build, easy-to-use "Swimming-Pool Automation System".
+- [QuinLED](https://quinled.info/) - DIY Wi-Fi LED dimmers and controllers using ESP32 boards.
 
 ## Online Resources
 
