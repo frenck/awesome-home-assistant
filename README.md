@@ -1,5 +1,5 @@
 # Awesome Home Assistant [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-<!--lint disable remark-lint:double-link-->
+<!--lint disable double-link-->
 
 <div align="center">
   <a href="https://awesome-ha.com">
