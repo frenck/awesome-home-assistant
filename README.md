@@ -18,8 +18,8 @@ you should check out the [Home Assistant online demo](https://demo.home-assistan
 
 Awesome Home Assistant is a curated list of awesome
 [Home Assistant](https://www.home-assistant.io) resources.
-Additional software, tutorials, custom components, Hassio add-ons,
-custom Lovelace panels, cookbooks, example setups, and much more.
+Additional software, tutorials, custom integration, add-ons,
+custom Lovelace cards & plugins, cookbooks, example setups, and much more.
 
 The list is divided into categories. The links in those categories do not have
 pre-established order; the order is for contribution. If you want to contribute,
