@@ -122,17 +122,15 @@ an awesome source for learning and a great source of inspiration._
 - [Nathan](https://github.com/N-l1/home-assistant-config) - Lovelace config and themes based on Soft UI.
 - [Andrea Iannucci](https://github.com/SeLLeRoNe/HA-Config) - Also known as SeLLeRoNe. Regularly updated.
 
-## Hass.io
+## Add-ons
 
-_Hass.io is a complete operating system that will take care of installing and
-updating Home Assistant, and is managed from the frontend._
-
-- 📺 [Hass.io Beginner's Guide](https://www.youtube.com/watch?v=qnCRcGTznXs) - Excellent step-by-step guide on getting started (based on HassOS).
+_Add-ons are additional applications and services, that can be run alongside
+Home Assistant. The Home Assistant OS and Supervised installations types,
+provide the Supervisor, which is capable of running and manage these add-ons._
 
 ### Official Add-ons
 
-_Add-ons are easily installable services that extend the functionality around
-your Hass.io instance._
+_Created and maintained by the Home Assistant team._
 
 - [DuckDNS](https://www.home-assistant.io/addons/duckdns/) - Updates your Duck DNS IP address and generate SSL using Let's Encrypt.
 - [HASS Configurator](https://github.com/home-assistant/hassio-addons/tree/master/configurator) - Browser-based configuration file editor.
@@ -145,7 +143,7 @@ your Hass.io instance._
 
 ### Third Party Add-ons
 
-_Anyone could create an add-on, the following are created by the community._
+_Anyone can create an add-on, the following are created by the community._
 
 - [SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh) - SSH and Web-based terminal with tons of pre-loaded useful tools.
 - [Pi-hole](https://github.com/hassio-addons/addon-pi-hole) - Network-wide ad blocking.
