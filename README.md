@@ -33,7 +33,7 @@ please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/ma
   - [Official Channels](#official-channels)
   - [Other Channels](#other-channels)
 - [Public Configurations](#public-configurations)
-- [Hass.io](#hassio)
+- [Add-ons](#add-ons)
   - [Official Add-ons](#official-add-ons)
   - [Third Party Add-ons](#third-party-add-ons)
 - [Lovelace User Interface](#lovelace-user-interface)
