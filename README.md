@@ -152,7 +152,6 @@ _Created and maintained by the Home Assistant team._
 _Anyone can create an add-on, the following are created by the community._
 
 - [SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh) - SSH and Web-based terminal with tons of pre-loaded useful tools.
-- [Pi-hole](https://github.com/hassio-addons/addon-pi-hole) - Network-wide ad blocking.
 - [UniFi Controller](https://github.com/hassio-addons/addon-unifi) - The UniFi Controller allows you to manage your UniFi network using a web browser.
 - [Node-RED](https://github.com/hassio-addons/addon-node-red) - Flow-based programming for the Internet of Things.
 - [Plex Media Server](https://github.com/hassio-addons/addon-plex) - Your recorded media beautifully organized and ready to stream.
