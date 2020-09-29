@@ -188,7 +188,6 @@ fit your needs or taste better._
 
 - [Lovelace UI Documentation](https://www.home-assistant.io/lovelace) - The official documentation.
 - 📺 [Getting started with Lovelace UI](https://www.youtube.com/watch?v=ObfRzMIEJPgx) - Great introduction to Lovelace UI by DrZzs.
-- [Plan Coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) - Helps to find left and top values for `picture-elements` cards.
 - [Share the Love](https://sharethelove.io) - Custom card demos and configuration examples for Lovelace.
 - 📺 [How to set up Lovelace](https://www.youtube.com/watch?v=n5xMtONydEo) - Excellent step by step video for beginners by JuanMTech.
 - [Font Awesome Icons](https://github.com/thomasloven/hass-fontawesome) - Use the free icons from Font Awesome in your frontend.
