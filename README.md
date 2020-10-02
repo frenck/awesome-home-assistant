@@ -307,7 +307,6 @@ could also build them yourself!_
 - [RaspiPool](https://github.com/segalion/raspipool) - A cost-effective, easy-to-build, easy-to-use "Swimming-Pool Automation System".
 - [QuinLED](https://quinled.info/) - DIY Wi-Fi LED dimmers and controllers using ESP32 boards.
 - [ESPFingerprint](https://hackaday.com/2020/05/28/home-assistant-get-fingerprint-scanning/) - A lost-cost, easy-to-build fingerprint sensor for Home Assistant
-/
 ## Online Resources
 
 _Links to various users of Home Assistant that regularly publish Home Assistant focussed content._
