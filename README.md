@@ -233,7 +233,6 @@ easily add to your instance._
 - [Compact Custom Header](https://github.com/maykar/compact-custom-header) - Customize and compact the frontend header bar.
 - [Card Modder](https://github.com/thomasloven/lovelace-card-modder) - Style your Lovelace cards.
 - [Bar Card](https://github.com/Gluwc/bar-card) - Customizable animated bar card.
-- [Calendar Card](https://github.com/rdehuyss/homeassistant-lovelace-google-calendar-card) - A nice Google calendar card.
 - [forked-daapd Card](https://github.com/kalkih/forked-daapd-card) - Control a forked daapd instance.
 - [Dual Gauge Card](https://github.com/Rocka84/dual-gauge-card) - Shows two gauges in one.
 - [Atomic Calendar Card](https://github.com/atomic7777/atomic_calendar) - Calendar card with advanced settings.
