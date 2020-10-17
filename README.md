@@ -398,6 +398,8 @@ are some alternatives._
 
 _Home Assistant Awesome Lists in languages other than English._
 
+- [French](https://github.com/hacf-fr/awesome-francophone-home-assistant) - Liste de ressources francophones et super utiles pour Home Assistant.
+
 ## Other Awesome Lists
 
 _Other amazingly awesome lists that can be found on the great and dangerous
