@@ -51,6 +51,7 @@ please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/ma
   - [Twitter](#twitter)
 - [Uncategorized](#uncategorized)
 - [Alternative Home Automation Software](#alternative-home-automation-software)
+- [Other Languages](#other-languages)
 - [Other Awesome Lists](#other-awesome-lists)
 - [Trademark Legal Notice](#trademark-legal-notice)
 
@@ -392,6 +393,10 @@ are some alternatives._
 - [Domoticz](https://github.com/domoticz/domoticz) - A lightweight Home Automation System.
 - [Gladys](https://github.com/GladysProject/Gladys) - Open source program which runs on your Raspberry Pi.
 - [SmartThings](https://www.smartthings.com/) - Commercial home automation hub by Samsung.
+
+## Other Languages
+
+_Home Assistant Awesome Lists in languages other than English._
 
 ## Other Awesome Lists
 
