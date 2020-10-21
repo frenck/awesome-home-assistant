@@ -293,7 +293,7 @@ could also build them yourself!_
 - [zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
 
 ### DIY Projects
-- [Home-Assistant tutorials](https://gadget-freakz.com/category/tutorials/home-assistant/) - A gadget blog with reviews and Home Assistant DIY how to's.
+- [Home-Assistant tutorials](https://gadget-freakz.com/) - A gadget blog with reviews and HA related DIY tutorial and sreviews.!
 - [HA SwitchPlate](https://community.home-assistant.io/t/ha-switchplate-diy-lcd-touchscreen-wall-switch-replacement/25464?u=frenck) - LCD Touchscreen wall switch replacement.
 - 📺 [DIY Multisensor](https://www.youtube.com/watch?v=jpjfVc-9IrQ) - $15, Temperature, Humidity, Light, Motion, and RGB LED, without soldering.
 - [$10 WiFi RGB Bulb](https://community.home-assistant.io/t/how-to-inexpensive-10-us-wifi-rgb-bulb-that-works-with-home-assistant/14735?u=frenck) - In inexpensive RGB bulb that works on WiFi.
