@@ -305,6 +305,7 @@ could also build them yourself!_
 - [ESP32-Cam Facebox](https://www.dopebuild.com/i-am-sorry-dave-i-am-unable-to-do-that/) - Tie a ESP32-CAM, HA, and Facebox together for a cheap Facial Recog / Home monitoring solution.
 - [RaspiPool](https://github.com/segalion/raspipool) - A cost-effective, easy-to-build, easy-to-use "Swimming-Pool Automation System".
 - [QuinLED](https://quinled.info/) - DIY Wi-Fi LED dimmers and controllers using ESP32 boards.
+- [Gadget-Freakz](https://gadget-freakz.com) - A gadget blog with Smart Home Automation related DIY tutorials and reviews.!
 
 ## Online Resources
 
