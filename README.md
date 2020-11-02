@@ -362,7 +362,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 - [Home Assistant Companion](https://itunes.apple.com/us/app/home-assistant-open-source-home-automation/id1099568401?mt=8) - iPhone/iPad/iOS App to control and monitor your home remotely.
 - [Mi Flora via MQTT daemon](https://github.com/ThomDietrich/miflora-mqtt-daemon) - Collect and transfer Xiaomi Mi Flora plant sensor data via MQTT.
 - [hassctl](https://github.com/dale3h/hassctl) - Simple command line utility to help debug your configuration.
-- [rhasspy](https://github.com/synesthesiam/rhasspy) - Toolkit for developing custom voice assistants.
+- [rhasspy](https://github.com/rhasspy/rhasspy) - Toolkit for developing custom voice assistants.
 - [Fully Kiosk Browser](https://www.ozerov.de/fully-kiosk-browser/) - Highly configurable Android Kiosk Browser and App Launcher.
 - [Hassio Vagrant](https://github.com/hassio-addons/hassio-vagrant) - Vagrant box original created for developing add-ons.
 - [AppDaemon](https://github.com/AppDaemon/appdaemon) - AppDaemon is a loosely coupled, multi-threaded, sandboxed Python execution environment for writing automation apps.
