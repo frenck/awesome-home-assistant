@@ -251,6 +251,7 @@ easily add to your instance._
 - [LG WebOS Remote Control](https://github.com/madmicio/LG-WebOS-Remote-Control) - Remote Control for LG TV WebOS.
 - [Restriction Card](https://github.com/iantrich/restriction-card) - A card to provide restrictions on Lovelace cards defined within.
 - [Vacuum Card](https://github.com/denysdovhan/vacuum-card) — A card to card for controlling a vacuum cleaner robot.
+- [Purifier Card](https://github.com/denysdovhan/purifier-card) — A card for controlling air purifiers.
 
 ### Alternative Dashboards
 
