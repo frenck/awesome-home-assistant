@@ -335,8 +335,10 @@ _Sit back, relax, watch, and learn._
 - [vCloudInfo](https://www.youtube.com/vCloudInfo) - Publishes videos based on his home and GitHub repository.
 - [digiblurDIY](https://www.youtube.com/channel/UC5ZdPKE2ckcBhljTc2R_qNA) - Tutorials on hardware projects and Tasmota automations.
 - [Intermit.Tech](https://www.youtube.com/channel/UCv7UOhZ2XuPwm9SN5oJsCjA) - Tutorials & reviews: Camera's, Home Networking, ESP8266 boards, Node-RED.
-- [BeardedTinker](https://www.youtube.com/channel/UCuqokNoK8ZFNQdXxvlE129g) - Tutorials & 3D printing.
-- [Smart Home Junkie](https://www.youtube.com/channel/UCVtQ4AOSmCFUuvixddYiSxw/) - How-to videos and tutorials for starters and advanced users.
+- [BeardedTinker](https://www.youtube.com/c/BeardedTinker) - Home automation, DIY sensors, 3D printing, junk,... You can find all this here!
+- [Smart Home Junkie](https://www.youtube.com/c/SmartHomeJunkie) - Tutorials and home automation videos for your Smart Home and Home Assistant.
+- [Everything Smart Home](https://www.youtube.com/c/EverythingSmartHome) - Home Automation, guides and step-by-step DIY projects. 
+- [Will Surridge Tech](https://www.youtube.com/c/WillSurridgeTech) using Home Assistant to simplify your life, and make your connected kit into a smart home.
 
 ### Podcasts
 
