@@ -121,6 +121,7 @@ an awesome source for learning and a great source of inspiration._
 - [Jason Hunter](https://github.com/hunterjm/home-assistant-config) - Hass.io based, Intel NUC i5, TensorFlow & camera streams.
 - [Nathan](https://github.com/N-l1/home-assistant-config) - Lovelace config and themes based on Soft UI.
 - [Andrea Iannucci](https://github.com/SeLLeRoNe/HA-Config) - Also known as SeLLeRoNe. Regularly updated.
+- [Marvin Schenkel](https://github.com/MarvinSchenkel/home-assistant-config) - Modular, well documented config that is regularly updated.
 
 ## Add-ons
 
