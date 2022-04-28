@@ -234,7 +234,7 @@ which you can easily add to your instance._
 - [Bar Card](https://github.com/Gluwc/bar-card) - Customizable animated bar card.
 - [forked-daapd Card](https://github.com/kalkih/forked-daapd-card) - Control a forked daapd instance.
 - [Dual Gauge Card](https://github.com/Rocka84/dual-gauge-card) - Shows two gauges in one.
-- [Atomic Calendar Card](https://github.com/atomic7777/atomic_calendar) - Calendar card with advanced settings.
+- [Atomic Calendar Revive](https://github.com/totaldebug/atomic-calendar-revive) - Calendar card with advanced settings.
 - [Xiaomi Vacuum Card](https://github.com/benct/lovelace-xiaomi-vacuum-card) - Detailed card for Xiaomi vacuum cleaners (and others).
 - [Simple Weather Card](https://github.com/kalkih/simple-weather-card) - A minimalistic weather card, inspired by Google Material Design.
 - [Lovelace Floorplan](https://github.com/pkozul/lovelace-floorplan) - Interaction with your entities from a Floorplan.
