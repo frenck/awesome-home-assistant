@@ -230,7 +230,7 @@ easily add to your instance._
 - [Power Wheel Card](https://github.com/gurbyz/power-wheel-card) - An intuitive way to represent the power that your home is consuming or producing.
 - [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) - A simpler and more flexible thermostat card.
 - [Compact Custom Header](https://github.com/maykar/compact-custom-header) - Customize and compact the frontend header bar.
-- [Card Modder](https://github.com/thomasloven/lovelace-card-modder) - Style your Lovelace cards.
+- [Card Mod](https://github.com/thomasloven/lovelace-card-mod) - Style your Lovelace cards.
 - [Bar Card](https://github.com/Gluwc/bar-card) - Customizable animated bar card.
 - [forked-daapd Card](https://github.com/kalkih/forked-daapd-card) - Control a forked daapd instance.
 - [Dual Gauge Card](https://github.com/Rocka84/dual-gauge-card) - Shows two gauges in one.
