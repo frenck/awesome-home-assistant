@@ -431,9 +431,3 @@ property of their respective owners. All company, product, and service names
 used in this list are for identification purposes only.
 
 Use of these names, logos, trademarks, and brands does not imply endorsement.
-
-## License
-
-Distributed under the Creative Commons Attribution 4.0 license.
-See [LICENSE](https://github.com/frenck/awesome-home-assistant/blob/master/LICENSE.md) for
-the complete license.
