@@ -36,9 +36,9 @@ please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/ma
 - [Add-ons](#add-ons)
   - [Official Add-ons](#official-add-ons)
   - [Third Party Add-ons](#third-party-add-ons)
-- [Lovelace User Interface](#lovelace-user-interface)
+- [Dashboards](#dashboards)
   - [Themes](#themes)
-  - [Custom Lovelace UI Cards](#custom-lovelace-ui-cards)
+  - [Custom Cards](#custom-cards)
   - [Alternative Dashboards](#alternative-dashboards)
 - [Custom Components](#custom-components)
 - [DIY](#diy)
@@ -181,7 +181,7 @@ _Anyone can create an add-on, the following are created by the community._
 - [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup) - A complete and easy to configure solution for backing up your snapshots to Google Drive.
 - [Grocy](https://github.com/hassio-addons/addon-grocy) - ERP beyond your fridge! A groceries & household management solution for your home.
 
-## Lovelace User Interface
+## Dashboards
 
 _The Home Assistant frontend is already pretty, but you can customize it to
 fit your needs or taste better._
@@ -211,10 +211,10 @@ _It is all about the looks, apply some style._
 - [Synthwave](https://github.com/bbbenji/synthwave-hass) - A theme influenced by the cover artwork of modern Synthwave bands.
 - [Google Home Theme](https://github.com/liri/lovelace-themes) - Two themes (light and dark) matching the design of Google Home Hub.
 
-### Custom Lovelace UI Cards
+### Custom Cards
 
-_Lovelace allows people to build custom cards on top of it, which you can
-easily add to your instance._
+_The Home Assistant Dashboards allows people to build custom cards on top of it,
+which you can easily add to your instance._
 
 - [Auto-Entities Card](https://github.com/thomasloven/lovelace-auto-entities) - Dynamically adds entities: 🔮 Magic.
 - [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com.
