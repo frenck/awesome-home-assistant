@@ -1,12 +1,13 @@
 .DS_Store
+.python-version
 *.do
 bin/
 docs/*.md
 docs/images
 include/
 lib/
+node_modules/
+package-lock.json
 pip-selfcheck.json
 pyvenv.cfg
 site/
-node_modules/
-package-lock.json

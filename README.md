@@ -1,4 +1,5 @@
 # Awesome Home Assistant [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+<!--lint disable double-link-->
 
 <div align="center">
   <a href="https://awesome-ha.com">
@@ -17,8 +18,8 @@ you should check out the [Home Assistant online demo](https://demo.home-assistan
 
 Awesome Home Assistant is a curated list of awesome
 [Home Assistant](https://www.home-assistant.io) resources.
-Additional software, tutorials, custom components, Hassio add-ons,
-custom Lovelace panels, cookbooks, example setups, and much more.
+Additional software, tutorials, custom integration, add-ons,
+custom Lovelace cards & plugins, cookbooks, example setups, and much more.
 
 The list is divided into categories. The links in those categories do not have
 pre-established order; the order is for contribution. If you want to contribute,
@@ -32,12 +33,12 @@ please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/ma
   - [Official Channels](#official-channels)
   - [Other Channels](#other-channels)
 - [Public Configurations](#public-configurations)
-- [Hass.io](#hassio)
+- [Add-ons](#add-ons)
   - [Official Add-ons](#official-add-ons)
   - [Third Party Add-ons](#third-party-add-ons)
-- [Lovelace User Interface](#lovelace-user-interface)
+- [Dashboards](#dashboards)
   - [Themes](#themes)
-  - [Custom Lovelace UI Cards](#custom-lovelace-ui-cards)
+  - [Custom Cards](#custom-cards)
   - [Alternative Dashboards](#alternative-dashboards)
 - [Custom Components](#custom-components)
 - [DIY](#diy)
@@ -72,11 +73,12 @@ different opinions and their personal favorites. Each method has its
 advantages and disadvantages. Important to know, there is no wrong, or right here,
 each technique installs the **SAME** Home Assistant.
 
-Home Assistant currently _recommends_ the Hass.io method.
+Home Assistant currently _recommends_ the Home Assistant OS installation method.
 
-- [Hass.io](https://www.home-assistant.io/getting-started/) - Installing using a Docker managed environment (recommended method).
-- [Docker](https://www.home-assistant.io/docs/installation/docker/) - Installing on Docker.
-- [Manually](https://www.home-assistant.io/docs/installation/virtualenv/) - Manual installation using a Python virtual environment.
+- [Home Assistant OS](https://www.home-assistant.io/getting-started/) - Installing using a managed environment (recommended method).
+- [Home Assistant Container](https://www.home-assistant.io/docs/installation/docker/) - Installing on Docker.
+- [Home Assistant Supervised](https://github.com/home-assistant/supervised-installer/blob/master/README.md) - Installing a semi managed environment for experts.
+- [Home Assistant Core](https://www.home-assistant.io/docs/installation/virtualenv/) - Manual installation using a Python virtual environment.
 
 ## In case you need help
 
@@ -89,13 +91,14 @@ or just say ‘Hi’._
 - [Home Assistant Discord](https://discordapp.com/invite/c5DvZ4e) - Join the chat, most of us are there.
 - [Home Assistant Community](https://community.home-assistant.io/?u=frenck) - The discussion forum, also used for feature requests.
 - [Home Assistant Subreddit](https://www.reddit.com/r/homeassistant/) - If you are into Reddit, subscribe.
-- [Home Assistant Enthusiasts](https://www.facebook.com/groups/HomeAssistant/) - Facebook group for enthusiasts.
+- [Home Assistant Facebook Group](https://www.facebook.com/groups/HomeAssistant/) - Facebook group for enthusiasts.
 
 ### Other Channels
 
 - [Dr. ZZs](https://www.facebook.com/groups/1969622823351838/) - Facebook group by Dr. Zzs.
-- [Community Hassio Add-ons Discord](https://discord.me/hassioaddons) - Get support on the Community Hassio Add-ons.
+- [Home Assistant Community Add-ons Discord](https://discord.me/hassioaddons) - Get support on the Home Assistant Community Add-ons.
 - [ESPHome Discord](https://discord.gg/KhAMKrd) - Get support for your DIY ESPHome project.
+- [Dutch Domotics Discord](https://discord.gg/Ee5X7T7) - Dutch Discord server with home automation enthusiasts.
 
 ## Public Configurations
 
@@ -117,34 +120,38 @@ an awesome source for learning and a great source of inspiration._
 - [Klaas Schoute](https://github.com/klaasnicolaas/Smarthome-homeassistant-config) - Hass.io based, Intel NUC, Ubuntu Server, Docker and regularly updated.
 - [Jason Hunter](https://github.com/hunterjm/home-assistant-config) - Hass.io based, Intel NUC i5, TensorFlow & camera streams.
 - [Nathan](https://github.com/N-l1/home-assistant-config) - Lovelace config and themes based on Soft UI.
+- [Andrea Iannucci](https://github.com/SeLLeRoNe/HA-Config) - Also known as SeLLeRoNe. Regularly updated.
 
-## Hass.io
+## Add-ons
 
-_Hass.io is a complete operating system that will take care of installing and
-updating Home Assistant, and is managed from the frontend._
-
-- 📺 [Hass.io Beginner's Guide](https://www.youtube.com/watch?v=qnCRcGTznXs) - Excellent step-by-step guide on getting started (based on HassOS).
+_Add-ons are additional applications and services, that can be run alongside
+Home Assistant. The Home Assistant OS and Supervised installations types,
+provide the Supervisor, which is capable of running and manage these add-ons._
 
 ### Official Add-ons
 
-_Add-ons are easily installable services that extend the functionality around
-your Hass.io instance._
+_Created and maintained by the Home Assistant team._
 
-- [DuckDNS](https://www.home-assistant.io/addons/duckdns/) - Updates your Duck DNS IP address and generate SSL using Let's Encrypt.
-- [HASS Configurator](https://github.com/home-assistant/hassio-addons/tree/master/configurator) - Browser-based configuration file editor.
-- [Mosquitto](https://www.home-assistant.io/addons/mosquitto/) - Fast and reliable MQTT broker.
-- [SSH Server](https://www.home-assistant.io/addons/ssh/) - Allows logging in remotely to using SSH.
-- [Samba](https://www.home-assistant.io/addons/samba/) - Access your configuration files using Windows network shares.
-- [NGINX SSL proxy](https://www.home-assistant.io/addons/nginx_proxy/) - Reverse proxy with SSL termination.
-- [deCONZ](https://github.com/home-assistant/hassio-addons/tree/master/deconz) - Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik.
-- [TellStick](https://github.com/home-assistant/hassio-addons/tree/master/tellstick) - Run a TellStick and TellStick Duo service.
+- [DuckDNS](https://github.com/home-assistant/hassio-addons/blob/master/duckdns/DOCS.md) - Updates your Duck DNS IP address and generate SSL using Let's Encrypt.
+- [File editor](https://github.com/home-assistant/hassio-addons/blob/master/configurator/DOCS.md) - Browser-based configuration file editor.
+- [Mosquitto](https://github.com/home-assistant/hassio-addons/blob/master/mosquitto/DOCS.md) - Fast and reliable MQTT broker.
+- [Terminal & SSH](https://github.com/home-assistant/hassio-addons/blob/master/ssh/DOCS.md) - Allows logging in remotely to using a web terminal or SSH client.
+- [Samba](https://github.com/home-assistant/hassio-addons/blob/master/samba/DOCS.md) - Access your configuration files using Windows network shares.
+- [NGINX SSL proxy](https://github.com/home-assistant/hassio-addons/blob/master/nginx_proxy/DOCS.md) - Reverse proxy with SSL termination.
+- [deCONZ](https://github.com/home-assistant/hassio-addons/blob/master/deconz/DOCS.md) - Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik.
+- [TellStick](https://github.com/home-assistant/hassio-addons/blob/master/tellstick/DOCS.md) - Run a TellStick and TellStick Duo service.
+- [Ada](https://github.com/home-assistant/hassio-addons/blob/master/ada/DOCS.md) - Ada is voice assistant powered by Almond which is open and privacy-preserving.
+- [Almond](https://github.com/home-assistant/hassio-addons/blob/master/almond/DOCS.md) - The Open, Privacy-Preserving Virtual Assistant.
+- [HomeMatic](https://github.com/home-assistant/hassio-addons/blob/master/homematic/DOCS.md) - HomeMatic central based on OCCU.
+- [Let's Encrypt](https://github.com/home-assistant/hassio-addons/blob/master/letsencrypt/DOCS.md) - Get a free SSL certificate from Let's Encrypt; an open and automated certificate authority (CA).
+- [MariaDB](https://github.com/home-assistant/hassio-addons/blob/master/mariadb/DOCS.md) - An open source relational database (fork of MySQL).
+- [OpenZWave](https://github.com/home-assistant/hassio-addons/blob/master/zwave/DOCS.md) - Use an Z-Wave USB-stick with the QT OpenZWave Daemon.
 
 ### Third Party Add-ons
 
-_Anyone could create an add-on, the following are created by the community._
+_Anyone can create an add-on, the following are created by the community._
 
 - [SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh) - SSH and Web-based terminal with tons of pre-loaded useful tools.
-- [Pi-hole](https://github.com/hassio-addons/addon-pi-hole) - Network-wide ad blocking.
 - [UniFi Controller](https://github.com/hassio-addons/addon-unifi) - The UniFi Controller allows you to manage your UniFi network using a web browser.
 - [Node-RED](https://github.com/hassio-addons/addon-node-red) - Flow-based programming for the Internet of Things.
 - [Plex Media Server](https://github.com/hassio-addons/addon-plex) - Your recorded media beautifully organized and ready to stream.
@@ -155,7 +162,7 @@ _Anyone could create an add-on, the following are created by the community._
 - [Tor](https://github.com/hassio-addons/addon-tor) - Protect your privacy and access your instance via Tor.
 - [Spotify Connect](https://github.com/hassio-addons/addon-spotify-connect) - Spotify Connect client for playing music on your Home Assistant device.
 - [zigbee2mqtt](https://github.com/danielwelch/hassio-zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
-- [AppDaemon3](https://github.com/hassio-addons/addon-appdaemon3) - Python Apps and HADashboard.
+- [AppDaemon](https://github.com/hassio-addons/addon-appdaemon) - Python Apps and HADashboard.
 - [TasmoAdmin](https://github.com/hassio-addons/addon-tasmoadmin) - Centrally manage all your Sonoff-Tasmota devices.
 - [Aircast](https://github.com/hassio-addons/addon-aircast) - AirPlay capabilities for your Chromecast players.
 - [AirSonos](https://github.com/hassio-addons/addon-airsonos) - AirPlay capabilities for your Sonos players.
@@ -173,15 +180,15 @@ _Anyone could create an add-on, the following are created by the community._
 - [Home Panel](https://github.com/hassio-addons/addon-home-panel) - A touch-compatible web frontend for controlling the home.
 - [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup) - A complete and easy to configure solution for backing up your snapshots to Google Drive.
 - [Grocy](https://github.com/hassio-addons/addon-grocy) - ERP beyond your fridge! A groceries & household management solution for your home.
+- [EmonCMS](https://github.com/inverse/hassio-addon-emoncms) - A powerful open-source web app for processing, logging, and visualizing energy, temperature, and other environmental data.
 
-## Lovelace User Interface
+## Dashboards
 
 _The Home Assistant frontend is already pretty, but you can customize it to
 fit your needs or taste better._
 
-- [Lovelace UI Documentation](https://www.home-assistant.io/lovelace) - The official documentation.
+- [Dashboards Documentation](https://www.home-assistant.io/dashboards/) - The official documentation.
 - 📺 [Getting started with Lovelace UI](https://www.youtube.com/watch?v=ObfRzMIEJPgx) - Great introduction to Lovelace UI by DrZzs.
-- [Plan Coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) - Helps to find left and top values for `picture-elements` cards.
 - [Share the Love](https://sharethelove.io) - Custom card demos and configuration examples for Lovelace.
 - 📺 [How to set up Lovelace](https://www.youtube.com/watch?v=n5xMtONydEo) - Excellent step by step video for beginners by JuanMTech.
 - [Font Awesome Icons](https://github.com/thomasloven/hass-fontawesome) - Use the free icons from Font Awesome in your frontend.
@@ -190,7 +197,7 @@ fit your needs or taste better._
 
 _It is all about the looks, apply some style._
 
-- 📺 [Themes Tutorial](https://www.youtube.com/watch?v=h1h8FFy9_Co) - Quick tutorial/example on how to configure themes.
+- 📺 [Themes Tutorial](https://www.youtube.com/watch?v=3Xpd4zB2eRM) - Quick tutorial/example on how to configure themes.
 - [Midnight](https://community.home-assistant.io/t/midnight-theme/28598?u=frenck) - A dark theme by Marcel Hoffs.
 - [Dark Cyan](https://community.home-assistant.io/t/dark-cyan-theme/28594?u=frenck) - A dark theme with cyan accents by Ryoen Deprouw.
 - [Grey Night](https://community.home-assistant.io/t/grey-night-theme/30848?u=frenck) - A dark theme with grey accents by ksya.
@@ -199,23 +206,21 @@ _It is all about the looks, apply some style._
 - [Black and Green](https://community.home-assistant.io/t/black-and-green-theme/28602?u=frenck) - A dark theme with pale green accents by GreenTurtwig.
 - [Vintage](https://community.home-assistant.io/t/vintage-theme/42806?u=frenck) - Give your frontend a vintage look with this theme by Anup Surendran.
 - [Carbon Green](https://community.home-assistant.io/t/share-your-themes/22018/95?u=frenck) - Light carbon theme with green accents by Reua.
-- [20 Great Themes](https://www.juanmtech.com/themes-in-home-assistant/) - 20 Great themes by JuanMTech (includes a guide).
 - [Many Themes, One Repo](https://github.com/maartenpaauw/home-assistant-community-themes/) - 13 Themes in a convenient ZIP file.
 - [Slate](https://github.com/seangreen2/slate_theme) - A dark theme close to the vanila looks from seangreen2.
 - [Synthwave](https://github.com/bbbenji/synthwave-hass) - A theme influenced by the cover artwork of modern Synthwave bands.
 - [Google Home Theme](https://github.com/liri/lovelace-themes) - Two themes (light and dark) matching the design of Google Home Hub.
 
-### Custom Lovelace UI Cards
+### Custom Cards
 
-_Lovelace allows people to build custom cards on top of it, which you can
-easily add to your instance._
+_The Home Assistant Dashboards allows people to build custom cards on top of it,
+which you can easily add to your instance._
 
-- [Monster Card](https://github.com/ciotlosm/custom-lovelace/tree/master/monster-card) - Dynamically adds entities: 🔮 Magic.
+- [Auto-Entities Card](https://github.com/thomasloven/lovelace-auto-entities) - Dynamically adds entities: 🔮 Magic.
 - [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com.
-- [Alarm Control Panel Card](https://github.com/ciotlosm/custom-lovelace/tree/master/alarm_control_panel-card) - Card that looks like an alarm keypad.
-- [Big Number Card](https://github.com/ciotlosm/custom-lovelace/tree/master/bignumber-card) - Display big numbers for sensors, including severity level as background.
-- [Animated Weather Card](https://github.com/bramkragten/custom-ui/blob/master/weather-card/README.md) - Nice looking card showing the weather, with subtle animations.
-- [Thermostat Card](https://github.com/ciotlosm/custom-lovelace/tree/master/thermostat-card) - Thermostat control card that looks like a Nest Thermostat.
+- [Big Number Card](https://github.com/custom-cards/bignumber-card) - Display big numbers for sensors, including severity level as background.
+- [Animated Weather Card](https://github.com/bramkragten/weather-card) - Nice looking card showing the weather, with subtle animations.
+- [Thermostat Card](https://github.com/ciotlosm/lovelace-thermostat-dark-card) - Thermostat control card that looks like a Nest Thermostat.
 - [Mini Media Player](https://github.com/kalkih/mini-media-player) - A minimalistic media player card.
 - [Mini Graph Card](https://github.com/kalkih/mini-graph-card) - A minimalistic sensor graph card.
 - [Button card](https://github.com/kuuji/button-card) - Button card for your entities.
@@ -225,12 +230,11 @@ easily add to your instance._
 - [Power Wheel Card](https://github.com/gurbyz/power-wheel-card) - An intuitive way to represent the power that your home is consuming or producing.
 - [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) - A simpler and more flexible thermostat card.
 - [Compact Custom Header](https://github.com/maykar/compact-custom-header) - Customize and compact the frontend header bar.
-- [Card Modder](https://github.com/thomasloven/lovelace-card-modder) - Style your Lovelace cards.
+- [Card Mod](https://github.com/thomasloven/lovelace-card-mod) - Style your Lovelace cards.
 - [Bar Card](https://github.com/Gluwc/bar-card) - Customizable animated bar card.
-- [Calendar Card](https://github.com/rdehuyss/homeassistant-lovelace-google-calendar-card) - A nice Google calendar card.
 - [forked-daapd Card](https://github.com/kalkih/forked-daapd-card) - Control a forked daapd instance.
 - [Dual Gauge Card](https://github.com/Rocka84/dual-gauge-card) - Shows two gauges in one.
-- [Atomic Calendar Card](https://github.com/atomic7777/atomic_calendar) - Calendar card with advanced settings.
+- [Atomic Calendar Revive](https://github.com/totaldebug/atomic-calendar-revive) - Calendar card with advanced settings.
 - [Xiaomi Vacuum Card](https://github.com/benct/lovelace-xiaomi-vacuum-card) - Detailed card for Xiaomi vacuum cleaners (and others).
 - [Simple Weather Card](https://github.com/kalkih/simple-weather-card) - A minimalistic weather card, inspired by Google Material Design.
 - [Lovelace Floorplan](https://github.com/pkozul/lovelace-floorplan) - Interaction with your entities from a Floorplan.
@@ -240,11 +244,14 @@ easily add to your instance._
 - [Spotify Card](https://github.com/custom-cards/spotify-card) - List and select from current available devices and users top playlists on Spotify.
 - [Battery Entity](https://github.com/cbulock/lovelace-battery-entity) - Displaying battery levels for battery entities.
 - [Multiple Entity Row](https://github.com/benct/lovelace-multiple-entity-row) - Show multiple entity states or attributes on entity rows.
-- [Toggle Lock Entity Row](https://github.com/thomasloven/lovelace-toggle-lock-entity-row) - Display a toggle with a lock, avoiding toggling it by mistake.
 - [Xiaomi Vacuum Map Card](https://github.com/PiotrMachowski/Home-Assistant-Lovelace-Xiaomi-Vacuum-Map-card) - Interactive Xiaomi Vacuum map, just like in Mi Home app.
 - [Home Feed Card](https://github.com/gadgetchnnel/lovelace-home-feed-card) - Display a combination of persistent notifications, calendar events, and entities in the style of a feed.
 - [Config Template Card](https://github.com/custom-cards/config-template-card) - Allow using templates in Lovelace.
 - [RGB Light Card](https://github.com/bokub/rgb-light-card) - Colorful buttons to control your RGB Lights.
+- [LG WebOS Remote Control](https://github.com/madmicio/LG-WebOS-Remote-Control) - Remote Control for LG TV WebOS.
+- [Restriction Card](https://github.com/iantrich/restriction-card) - A card to provide restrictions on Lovelace cards defined within.
+- [Vacuum Card](https://github.com/denysdovhan/vacuum-card) - A card to card for controlling a vacuum cleaner robot.
+- [Purifier Card](https://github.com/denysdovhan/purifier-card) - A card for controlling air purifiers.
 - [Raspberry Pi Status Card](https://github.com/ironsheep/lovelace-rpi-monitor-card) - Show status of your Raspberry Pis.
 
 ### Alternative Dashboards
@@ -270,6 +277,7 @@ _Additional components for Home Assistant, that were created by the community._
 - [breaking_changes](https://github.com/custom-components/breaking_changes) - Component to show potential breaking_changes in the current published version based on your loaded components.
 - [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Circadian Lighting slowly synchronizes your color changing lights with the regular naturally occuring color temperature of the sky throughout the day.
 - [HASS Aarlo](https://github.com/twrecked/hass-aarlo) - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells.
+- [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - This custom integration provides a way to present a live view of a map for a Xiaomi (and Roborock) vacuums without a need for rooting.
 
 ## DIY
 
@@ -299,6 +307,7 @@ could also build them yourself!_
 - [NFC Scanner](https://github.com/klaasnicolaas/ha_nfc_scanner) - Build an NFC tag/card scanner with an ESP8266, PN532 and MQTT.
 - [ESP32-Cam Facebox](https://www.dopebuild.com/i-am-sorry-dave-i-am-unable-to-do-that/) - Tie a ESP32-CAM, HA, and Facebox together for a cheap Facial Recog / Home monitoring solution.
 - [RaspiPool](https://github.com/segalion/raspipool) - A cost-effective, easy-to-build, easy-to-use "Swimming-Pool Automation System".
+- [QuinLED](https://quinled.info/) - DIY Wi-Fi LED dimmers and controllers using ESP32 boards.
 
 ## Online Resources
 
@@ -318,6 +327,7 @@ _Links to various users of Home Assistant that regularly publish Home Assistant 
 
 _Sit back, relax, watch, and learn._
 
+- [Home Assistant](https://www.youtube.com/channel/UCbX3YkedQunLt7EQAdVxh7w) - Official YouTube Channel where new launches and live streams are held.
 - [BRUH](https://www.youtube.com/channel/UCLecVrux63S6aYiErxdiy4w) - Ben has great tutorials for getting started, unfortunately, inactive lately.
 - [BurnsHA](https://www.youtube.com/channel/UCSKQutOXuNLvFetrKuwudpg) - Great informational and tutorial videos.
 - [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng) - Great how-to videos and also streams live.
@@ -328,6 +338,8 @@ _Sit back, relax, watch, and learn._
 - [digiblurDIY](https://www.youtube.com/channel/UC5ZdPKE2ckcBhljTc2R_qNA) - Tutorials on hardware projects and Tasmota automations.
 - [Intermit.Tech](https://www.youtube.com/channel/UCv7UOhZ2XuPwm9SN5oJsCjA) - Tutorials & reviews: Camera's, Home Networking, ESP8266 boards, Node-RED.
 - [BeardedTinker](https://www.youtube.com/channel/UCuqokNoK8ZFNQdXxvlE129g) - Tutorials & 3D printing.
+- [Smart Home Junkie](https://www.youtube.com/channel/UCVtQ4AOSmCFUuvixddYiSxw/) - How-to videos and tutorials for starters and advanced users.
+- [Everything Smart Home](https://www.youtube.com/c/EverythingSmartHome) - Focuses on Smart Home, Home Automation, general tech reviews, guides, and step-by-step DIY projects.
 
 ### Podcasts
 
@@ -357,10 +369,10 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 - [Home Assistant Companion](https://itunes.apple.com/us/app/home-assistant-open-source-home-automation/id1099568401?mt=8) - iPhone/iPad/iOS App to control and monitor your home remotely.
 - [Mi Flora via MQTT daemon](https://github.com/ThomDietrich/miflora-mqtt-daemon) - Collect and transfer Xiaomi Mi Flora plant sensor data via MQTT.
 - [hassctl](https://github.com/dale3h/hassctl) - Simple command line utility to help debug your configuration.
-- [rhasspy](https://github.com/synesthesiam/rhasspy) - Toolkit for developing custom voice assistants.
+- [rhasspy](https://github.com/rhasspy/rhasspy) - Toolkit for developing custom voice assistants.
 - [Fully Kiosk Browser](https://www.ozerov.de/fully-kiosk-browser/) - Highly configurable Android Kiosk Browser and App Launcher.
 - [Hassio Vagrant](https://github.com/hassio-addons/hassio-vagrant) - Vagrant box original created for developing add-ons.
-- [AppDaemon](https://github.com/home-assistant/appdaemon) - Python Apps for Home Assistant.
+- [AppDaemon](https://github.com/AppDaemon/appdaemon) - AppDaemon is a loosely coupled, multi-threaded, sandboxed Python execution environment for writing automation apps.
 - [Developer Documentation](https://developers.home-assistant.io/) - The official developer documentation.
 - [HASS Configurator](https://github.com/danielperna84/hass-configurator) - Browser-based configuration file editor.
 - [HA-Dockermon](https://github.com/philhawthorne/ha-dockermon) - A Node.js service for RESTful switches to control Docker containers.
@@ -375,6 +387,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 - [HASS-data-detective](https://github.com/robmarkcole/HASS-data-detective) - Explore and analyse your database data.
 - [ADB Intents](https://gist.github.com/mcfrojd/9e6875e1db5c089b1e3ddeb7dba0f304) - List of ADB intents to control Android Devices.
 - [Home Assistant Config Helper for VSCode](https://marketplace.visualstudio.com/items?itemName=keesschollaart.vscode-home-assistant) - Visual Studio Code Extension that provides auto-completion, config validation and snippets when editting your configuration.
+- [Home Assistant Taskbar Menu](https://github.com/PiotrMachowski/Home-Assistant-Taskbar-Menu) - A client for Windows that can display Lovelace views, control entities and show persistent notifications.
 
 ## Alternative Home Automation Software
 
@@ -396,6 +409,7 @@ interwebs._
 - [awesome-open-iot](https://github.com/Agile-IoT/awesome-open-iot) - Curated list of open source IoT frameworks, libraries and software.
 - [awesome-amazon-alexa](https://github.com/miguelmota/awesome-amazon-alexa#readme) - Curated list of awesome resources for the Amazon Alexa platform.
 - [awesome-mqtt](https://github.com/hobbyquaker/awesome-mqtt#readme) - Curated list of MQTT related stuff.
+- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Curated list of awesome self hosted software.
 
 ## Contributing
 
@@ -420,9 +434,3 @@ property of their respective owners. All company, product, and service names
 used in this list are for identification purposes only.
 
 Use of these names, logos, trademarks, and brands does not imply endorsement.
-
-## License
-
-Distributed under the Creative Commons Attribution 4.0 license.
-See [LICENSE](https://github.com/frenck/awesome-home-assistant/blob/master/LICENSE.md) for
-the complete license.

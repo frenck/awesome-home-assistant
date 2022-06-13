@@ -3,7 +3,7 @@ site_name: "Awesome Home Assistant"
 site_url: "https://www.awesome-ha.com"
 site_description: "A curated list of awesome Home Assistant resources for automating every aspect of your home"
 site_author: "Franck Nijhof"
-copyright: "Copyright 2018 - Franck Nijhof. Creative Commons Attribution 4.0."
+copyright: "Copyright 2018 - 2020 - Franck Nijhof. Creative Commons Attribution 4.0."
 
 # Repository
 repo_name: "awesome-home-assistant"
@@ -14,30 +14,29 @@ edit_uri: ""
 theme:
   name: "material"
   logo: "https://www.awesome-ha.com/images/icon.svg"
-  icon: "https://www.awesome-ha.com/images/icon.svg"
   language: "en"
   palette:
     primary: "light-blue"
     accent: "pink"
   feature:
-    tabs: false
+    - tabs
 extra_css:
   - css/extra.css
 
 # Customization
 extra:
   social:
-    - type: "github"
+    - icon: fontawesome/brands/github-alt
       link: "https://github.com/frenck"
-    - type: "twitter"
+    - icon: fontawesome/brands/twitter
       link: "https://twitter.com/frenck"
-    - type: "instagram"
+    - icon: fontawesome/brands/instagram
       link: "https://instagram.com/frenck"
-    - type: "twitch"
+    - icon: fontawesome/brands/twitch
       link: "https://twitch.tv/internetofthings"
-    - type: "youtube"
+    - icon: fontawesome/brands/youtube
       link: "https://youtube.com/frenck"
-    - type: "linkedin"
+    - icon: fontawesome/brands/linkedin
       link: "https://www.linkedin.com/in/frenck"
 
 # Extensions

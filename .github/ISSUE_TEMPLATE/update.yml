@@ -1,0 +1,25 @@
+name: "❤️‍🩹 Suggest an update for an item on the Awesome list"
+title: "Update "
+labels: ["❤️‍🩹 update"]
+description: > 
+  I want to suggest the update/change to an existing item on the Awesome list.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for willing to keep the Awesome list up to date! 🚑 
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: The link to updated
+      placeholder: "https://"
+      description: >-
+        Please paste the actual link (and not the description).
+
+  - type: textarea
+    attributes:
+      label: What do you suggest we should change?
+      description: >
+        Describe the update we should apply and **why**! 😃
