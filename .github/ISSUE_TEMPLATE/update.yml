@@ -1,16 +1,24 @@
-title: "I want to report something else"
+title: "Suggest an update for an item on the Awesome list"
+labels: ["❤️‍🩹 update"]
+description: > 
+  I want to suggest the update/change to an existing item on the Awesome list.
 body:
-  - type: input
+  - type: markdown
     attributes:
-      label: Affected link
+      value: |
+        Thanks for willing to keep the Awesome list up to date! 🚑 
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: The link to updated
       placeholder: "https://"
       description: >-
-        If this report is about one of the items listed on the Awesome list,
-        please paste the actual link (and not the description).
+        Please paste the actual link (and not the description).
 
   - type: textarea
     attributes:
-      label: Wassup?
+      label: What do you suggest we should change?
       description: >
-        Please note, you can attach screenshots or screen recordings here, by
-        dragging and dropping files in the field below.
+        Describe the update we should apply and **why**! 😃
