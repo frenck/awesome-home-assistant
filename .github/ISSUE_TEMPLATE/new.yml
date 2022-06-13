@@ -1,0 +1,105 @@
+name: Suggest a new item for the Awesome list
+title: "Add "
+labels: ["💖 new"]
+description: > 
+  I want to suggest a new item/resource/link to be added to the Home Assistant
+  Awesome list.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Cool! So you want to add a new link to the Home Assistant Awesomelist!
+        👌
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: The problem
+      description: >-
+        Describe the issue you are experiencing here, to communicate to the
+        maintainers. Tell us what you were trying to do and what happened.
+
+        Provide a clear and concise description of what the problem is.
+
+  - type: checkboxes
+    attributes:
+      label: New link requirements checklist
+      description: >
+        This is boring, but important! Please make sure you read each
+        of these requirements to make sure the link you are suggesting meets
+        these.
+      options:
+        - label: >
+            This is not self-promotion; I have not created or are affialiated
+            with the linked resource.
+          required: true
+        - label: The link widely recommended regardless of personal opinion.
+          required: true
+        - label: Well known or discussed within the Community.
+          required: true
+        - label: >
+            Related to Home Assistant OR provide software, tools,
+            and utilities that can be used with Home Assistant.
+          required: true
+        - label: Written in English.
+          required: true
+
+  - type: dropdown
+    validations:
+      required: true
+    attributes:
+      label: Category
+      options:
+        - Add-on
+        - Alternative dashboard
+        - Blog
+        - Custom card
+        - Custom integration
+        - Discord/Slack/Chat community
+        - DIY
+        - Podcast
+        - Public configuration
+        - Themes
+        - Twitter/Facebook/TikTok/Instagram
+        - YouTube Channel
+        - Other (Please leave a comment why)
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: The name of the link
+      description: >
+        The name of the link as it should be displayed in the Aweseome list.
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: The description of the link
+      description: >-
+        The description of of the link as shown in the Awesome list.
+
+        Some tips:
+          - Keep the description short and simple, but descriptive.
+          - A description ends with a full stop/period `.`!
+          - Don't mention `Home Assistant` in the description as it's implied.
+          - Check your spelling and grammar.
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: The link!
+      placeholder: "https://"
+      description: >-
+        The most important thing of all!
+
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: >
+        If you have any additional information for us, use the field below.
+        Please note, you can attach screenshots or screen recordings here, by
+        dragging and dropping files in the field below.
