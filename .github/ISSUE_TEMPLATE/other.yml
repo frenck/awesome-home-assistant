@@ -1,4 +1,4 @@
-title: "I want to report something else"
+name: "I want to report something else"
 body:
   - type: input
     attributes:

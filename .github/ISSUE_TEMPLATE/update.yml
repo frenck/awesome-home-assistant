@@ -1,4 +1,5 @@
-title: "Suggest an update for an item on the Awesome list"
+name: "Suggest an update for an item on the Awesome list"
+title: "Update "
 labels: ["❤️‍🩹 update"]
 description: > 
   I want to suggest the update/change to an existing item on the Awesome list.
