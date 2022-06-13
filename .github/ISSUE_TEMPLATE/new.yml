@@ -7,20 +7,9 @@ description: >
 body:
   - type: markdown
     attributes:
-      value: |
+      value: >
         Cool! So you want to add a new link to the Home Assistant Awesomelist!
         👌
-
-  - type: textarea
-    validations:
-      required: true
-    attributes:
-      label: The problem
-      description: >-
-        Describe the issue you are experiencing here, to communicate to the
-        maintainers. Tell us what you were trying to do and what happened.
-
-        Provide a clear and concise description of what the problem is.
 
   - type: checkboxes
     attributes:
@@ -49,7 +38,7 @@ body:
     validations:
       required: true
     attributes:
-      label: Category
+      label: The category of the link
       options:
         - Add-on
         - Alternative dashboard
