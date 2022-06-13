@@ -70,17 +70,15 @@ You can navigate through the list by:
 
 ## Installing
 
-Home Assistant has several installation / running methods. Many people have
-different opinions and their personal favorites. Each method has its
-advantages and disadvantages. Important to know, there is no wrong, or right here,
-each technique installs the **SAME** Home Assistant.
+Home Assistant has several installation methods; each has advantages and
+disadvantages. Many people have different opinions and personal favorites.
+Important to know that there is no wrong or right here; each technique installs
+the SAME Home Assistant.
 
-Home Assistant currently _recommends_ the Home Assistant OS installation method.
+Home Assistant recommends the Home Assistant OS installation method.
 
-- [Home Assistant OS](https://www.home-assistant.io/getting-started/) - Installing using a managed environment (recommended method).
-- [Home Assistant Container](https://www.home-assistant.io/docs/installation/docker/) - Installing on Docker.
-- [Home Assistant Supervised](https://github.com/home-assistant/supervised-installer/blob/master/README.md) - Installing a semi managed environment for experts.
-- [Home Assistant Core](https://www.home-assistant.io/docs/installation/virtualenv/) - Manual installation using a Python virtual environment.
+- [Home Assistant Installation](https://www.home-assistant.io/installation/) - The official installation guides.
+- [Compare Installation Methods](https://www.home-assistant.io/installation/#compare-installation-methods) - The available installation methods compared.
 
 ## In case you need help
 
