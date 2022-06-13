@@ -1,0 +1,45 @@
+name: Suggest a item to be removed from the Awesomelist
+title: "Remove "
+labels: ["❤️‍🔥 remove"]
+description: > 
+  I want to suggest the removal of a broken link, abandoned or deprecated
+  linked project or a link for a project that no longer works with the
+  latest Home Assistant version.
+body:
+  - type: markdown
+    attributes:
+      value: >
+        So want to suggest the removal of a broken link, abandoned or deprecated
+        linked project or a link for a project that no longer works with the
+        latest Home Assistant version.
+
+        Thanks for helping keeping the awesomelist clean!
+
+  - type: dropdown
+    validations:
+      required: true
+    attributes:
+      label: Link removal reason
+      options:
+        - Link is broken or dead; no replacement available
+        - Linked resource is abandoned
+        - Linked resource is deprecated
+        - No longer works with Home Assistant
+        - Other (Please specify in a comment)
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: The link to remove
+      placeholder: "https://"
+      description: >-
+        Please paste the actual link (and not the description).
+
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: >
+        If you have any additional information for us, use the field below.
+        Please note, you can attach screenshots or screen recordings here, by
+        dragging and dropping files in the field below.
