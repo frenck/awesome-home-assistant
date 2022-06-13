@@ -336,6 +336,7 @@ _Sit back, relax, watch, and learn._
 - [Intermit.Tech](https://www.youtube.com/channel/UCv7UOhZ2XuPwm9SN5oJsCjA) - Tutorials & reviews: Camera's, Home Networking, ESP8266 boards, Node-RED.
 - [BeardedTinker](https://www.youtube.com/channel/UCuqokNoK8ZFNQdXxvlE129g) - Tutorials & 3D printing.
 - [Smart Home Junkie](https://www.youtube.com/channel/UCVtQ4AOSmCFUuvixddYiSxw/) - How-to videos and tutorials for starters and advanced users.
+- [Everything Smart Home](https://www.youtube.com/c/EverythingSmartHome) - Focuses on Smart Home, Home Automation, general tech reviews, guides, and step-by-step DIY projects.
 
 ### Podcasts
 
