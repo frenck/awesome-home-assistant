@@ -36,9 +36,9 @@ please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/ma
 - [Add-ons](#add-ons)
   - [Official Add-ons](#official-add-ons)
   - [Third Party Add-ons](#third-party-add-ons)
-- [Lovelace User Interface](#lovelace-user-interface)
+- [Dashboards](#dashboards)
   - [Themes](#themes)
-  - [Custom Lovelace UI Cards](#custom-lovelace-ui-cards)
+  - [Custom Cards](#custom-cards)
   - [Alternative Dashboards](#alternative-dashboards)
 - [Custom Components](#custom-components)
 - [DIY](#diy)
@@ -181,12 +181,12 @@ _Anyone can create an add-on, the following are created by the community._
 - [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup) - A complete and easy to configure solution for backing up your snapshots to Google Drive.
 - [Grocy](https://github.com/hassio-addons/addon-grocy) - ERP beyond your fridge! A groceries & household management solution for your home.
 
-## Lovelace User Interface
+## Dashboards
 
 _The Home Assistant frontend is already pretty, but you can customize it to
 fit your needs or taste better._
 
-- [Lovelace UI Documentation](https://www.home-assistant.io/lovelace) - The official documentation.
+- [Dashboards Documentation](https://www.home-assistant.io/dashboards/) - The official documentation.
 - 📺 [Getting started with Lovelace UI](https://www.youtube.com/watch?v=ObfRzMIEJPgx) - Great introduction to Lovelace UI by DrZzs.
 - [Share the Love](https://sharethelove.io) - Custom card demos and configuration examples for Lovelace.
 - 📺 [How to set up Lovelace](https://www.youtube.com/watch?v=n5xMtONydEo) - Excellent step by step video for beginners by JuanMTech.
@@ -205,16 +205,15 @@ _It is all about the looks, apply some style._
 - [Black and Green](https://community.home-assistant.io/t/black-and-green-theme/28602?u=frenck) - A dark theme with pale green accents by GreenTurtwig.
 - [Vintage](https://community.home-assistant.io/t/vintage-theme/42806?u=frenck) - Give your frontend a vintage look with this theme by Anup Surendran.
 - [Carbon Green](https://community.home-assistant.io/t/share-your-themes/22018/95?u=frenck) - Light carbon theme with green accents by Reua.
-- [20 Great Themes](https://www.juanmtech.com/themes-in-home-assistant/) - 20 Great themes by JuanMTech (includes a guide).
 - [Many Themes, One Repo](https://github.com/maartenpaauw/home-assistant-community-themes/) - 13 Themes in a convenient ZIP file.
 - [Slate](https://github.com/seangreen2/slate_theme) - A dark theme close to the vanila looks from seangreen2.
 - [Synthwave](https://github.com/bbbenji/synthwave-hass) - A theme influenced by the cover artwork of modern Synthwave bands.
 - [Google Home Theme](https://github.com/liri/lovelace-themes) - Two themes (light and dark) matching the design of Google Home Hub.
 
-### Custom Lovelace UI Cards
+### Custom Cards
 
-_Lovelace allows people to build custom cards on top of it, which you can
-easily add to your instance._
+_The Home Assistant Dashboards allows people to build custom cards on top of it,
+which you can easily add to your instance._
 
 - [Auto-Entities Card](https://github.com/thomasloven/lovelace-auto-entities) - Dynamically adds entities: 🔮 Magic.
 - [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com.
@@ -230,11 +229,11 @@ easily add to your instance._
 - [Power Wheel Card](https://github.com/gurbyz/power-wheel-card) - An intuitive way to represent the power that your home is consuming or producing.
 - [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) - A simpler and more flexible thermostat card.
 - [Compact Custom Header](https://github.com/maykar/compact-custom-header) - Customize and compact the frontend header bar.
-- [Card Modder](https://github.com/thomasloven/lovelace-card-modder) - Style your Lovelace cards.
+- [Card Mod](https://github.com/thomasloven/lovelace-card-mod) - Style your Lovelace cards.
 - [Bar Card](https://github.com/Gluwc/bar-card) - Customizable animated bar card.
 - [forked-daapd Card](https://github.com/kalkih/forked-daapd-card) - Control a forked daapd instance.
 - [Dual Gauge Card](https://github.com/Rocka84/dual-gauge-card) - Shows two gauges in one.
-- [Atomic Calendar Card](https://github.com/atomic7777/atomic_calendar) - Calendar card with advanced settings.
+- [Atomic Calendar Revive](https://github.com/totaldebug/atomic-calendar-revive) - Calendar card with advanced settings.
 - [Xiaomi Vacuum Card](https://github.com/benct/lovelace-xiaomi-vacuum-card) - Detailed card for Xiaomi vacuum cleaners (and others).
 - [Simple Weather Card](https://github.com/kalkih/simple-weather-card) - A minimalistic weather card, inspired by Google Material Design.
 - [Lovelace Floorplan](https://github.com/pkozul/lovelace-floorplan) - Interaction with your entities from a Floorplan.
@@ -250,8 +249,8 @@ easily add to your instance._
 - [RGB Light Card](https://github.com/bokub/rgb-light-card) - Colorful buttons to control your RGB Lights.
 - [LG WebOS Remote Control](https://github.com/madmicio/LG-WebOS-Remote-Control) - Remote Control for LG TV WebOS.
 - [Restriction Card](https://github.com/iantrich/restriction-card) - A card to provide restrictions on Lovelace cards defined within.
-- [Vacuum Card](https://github.com/denysdovhan/vacuum-card) — A card to card for controlling a vacuum cleaner robot.
-- [Purifier Card](https://github.com/denysdovhan/purifier-card) — A card for controlling air purifiers.
+- [Vacuum Card](https://github.com/denysdovhan/vacuum-card) - A card to card for controlling a vacuum cleaner robot.
+- [Purifier Card](https://github.com/denysdovhan/purifier-card) - A card for controlling air purifiers.
 
 ### Alternative Dashboards
 
@@ -326,6 +325,7 @@ _Links to various users of Home Assistant that regularly publish Home Assistant 
 
 _Sit back, relax, watch, and learn._
 
+- [Home Assistant](https://www.youtube.com/channel/UCbX3YkedQunLt7EQAdVxh7w) - Official Youtube Channel where new launches and livestreams are held.
 - [BRUH](https://www.youtube.com/channel/UCLecVrux63S6aYiErxdiy4w) - Ben has great tutorials for getting started, unfortunately, inactive lately.
 - [BurnsHA](https://www.youtube.com/channel/UCSKQutOXuNLvFetrKuwudpg) - Great informational and tutorial videos.
 - [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng) - Great how-to videos and also streams live.
@@ -337,7 +337,7 @@ _Sit back, relax, watch, and learn._
 - [Intermit.Tech](https://www.youtube.com/channel/UCv7UOhZ2XuPwm9SN5oJsCjA) - Tutorials & reviews: Camera's, Home Networking, ESP8266 boards, Node-RED.
 - [BeardedTinker](https://www.youtube.com/channel/UCuqokNoK8ZFNQdXxvlE129g) - Tutorials & 3D printing.
 - [Smart Home Junkie](https://www.youtube.com/channel/UCVtQ4AOSmCFUuvixddYiSxw/) - How-to videos and tutorials for starters and advanced users.
-- [Home Assistant](https://www.youtube.com/channel/UCbX3YkedQunLt7EQAdVxh7w) - Official Youtube Channel where new launches and livestreams are held.
+- [Everything Smart Home](https://www.youtube.com/c/EverythingSmartHome) - Focuses on Smart Home, Home Automation, general tech reviews, guides, and step-by-step DIY projects.
 
 ### Podcasts
 
@@ -407,7 +407,7 @@ interwebs._
 - [awesome-open-iot](https://github.com/Agile-IoT/awesome-open-iot) - Curated list of open source IoT frameworks, libraries and software.
 - [awesome-amazon-alexa](https://github.com/miguelmota/awesome-amazon-alexa#readme) - Curated list of awesome resources for the Amazon Alexa platform.
 - [awesome-mqtt](https://github.com/hobbyquaker/awesome-mqtt#readme) - Curated list of MQTT related stuff.
-- [awesome-sefhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Curated list of awesome self hosted software.
+- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Curated list of awesome self hosted software.
 
 ## Contributing
 
@@ -432,9 +432,3 @@ property of their respective owners. All company, product, and service names
 used in this list are for identification purposes only.
 
 Use of these names, logos, trademarks, and brands does not imply endorsement.
-
-## License
-
-Distributed under the Creative Commons Attribution 4.0 license.
-See [LICENSE](https://github.com/frenck/awesome-home-assistant/blob/master/LICENSE.md) for
-the complete license.
