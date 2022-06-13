@@ -1,4 +1,4 @@
-name: Suggest a item to be removed from the Awesomelist
+name: Suggest an item to be removed from the Awesome list
 title: "Remove "
 labels: ["❤️‍🔥 remove"]
 description: > 
@@ -13,7 +13,7 @@ body:
         linked project or a link for a project that no longer works with the
         latest Home Assistant version.
 
-        Thanks for helping keeping the awesomelist clean!
+        Thanks for helping keeping the awesomelist clean! 🧹
 
   - type: dropdown
     validations:
