@@ -1,4 +1,6 @@
-name: "I want to report something else"
+name: "🤷‍♂️ I want to report something else"
+description: > 
+  None of the other items apply to the thing I want to report.
 body:
   - type: input
     attributes:
