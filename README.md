@@ -325,6 +325,7 @@ _Links to various users of Home Assistant that regularly publish Home Assistant 
 
 _Sit back, relax, watch, and learn._
 
+- [Home Assistant](https://www.youtube.com/channel/UCbX3YkedQunLt7EQAdVxh7w) - Official YouTube Channel where new launches and live streams are held.
 - [BRUH](https://www.youtube.com/channel/UCLecVrux63S6aYiErxdiy4w) - Ben has great tutorials for getting started, unfortunately, inactive lately.
 - [BurnsHA](https://www.youtube.com/channel/UCSKQutOXuNLvFetrKuwudpg) - Great informational and tutorial videos.
 - [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng) - Great how-to videos and also streams live.
