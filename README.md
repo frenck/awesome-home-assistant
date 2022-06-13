@@ -172,7 +172,6 @@ _Anyone can create an add-on, the following are created by the community._
 - [motionEye](https://github.com/hassio-addons/addon-motioneye) - Simple, elegant and feature-rich CCTV/NVR for your cameras.
 - [JupyterLab Lite](https://github.com/hassio-addons/addon-jupyterlab-lite) - Create documents containing live code, equations, visualizations, and explanatory text.
 - [Backup to Google Drive](https://github.com/samccauley/addon-hassiogooglebackup) - Backup snapshots to Google Drive.
-- [ADB](https://github.com/hassio-addons/addon-adb) - The Android Debug Bridge server program.
 - [Glances](https://github.com/hassio-addons/addon-glances) - A cross-platform system monitoring tool written in Python.
 - [Matrix](https://github.com/hassio-addons/addon-matrix) - A secure and decentralized communication platform.
 - [AdGuard Home](https://github.com/hassio-addons/addon-adguard-home) - A network-wide ad-and-tracker blocking DNS server with parental control.
