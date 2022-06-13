@@ -19,15 +19,15 @@ body:
         of these requirements to make sure the link you are suggesting meets
         these.
       options:
-        - label: >
-            This is not self-promotion; I have not created or are affialiated
+        - label: >-
+            This is not self-promotion; I have not created or am affiliated
             with the linked resource.
           required: true
-        - label: The link widely recommended regardless of personal opinion.
+        - label: The link is widely recommended regardless of personal opinion.
           required: true
         - label: Well known or discussed within the Community.
           required: true
-        - label: >
+        - label: >-
             Related to Home Assistant OR provide software, tools,
             and utilities that can be used with Home Assistant.
           required: true
