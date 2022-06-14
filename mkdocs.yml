@@ -19,8 +19,12 @@ theme:
     primary: "light-blue"
     accent: "pink"
   feature:
-    - tabs
-    - toc.integrate
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.expand
+    - search.suggest
+    - search.highlight
 extra_css:
   - css/extra.css
 
