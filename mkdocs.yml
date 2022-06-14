@@ -33,12 +33,13 @@ theme:
         name: Switch to dark mode
 
   features:
-    - navigation.instant
-    - navigation.tracking
-    - navigation.tabs
     - navigation.expand
-    - search.suggest
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tracking
     - search.highlight
+    - search.suggest
+    - toc.integrate
 extra_css:
   - css/extra.css
 
