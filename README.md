@@ -241,7 +241,6 @@ easily add to your instance._
 - [Home Card](https://github.com/postlund/home-card) - A quick glance of the state of your home.
 - [Banner Card](https://github.com/nervetattoo/banner-card) - A fluffy linkable banner with interactive glances to spice up your home dashboards.
 - [Upcoming Media Card](https://github.com/custom-cards/upcoming-media-card) - Display upcoming episodes and movies from services like: Plex, Kodi, Radarr, Sonarr, and Trakt.
-- WebRTC Camera](https://github.com/AlexxIT/WebRTC) - view RTSP streams from IP-Cameras using WebRTC and MSE technology with Pan/Zoom controls.
 - [Spotify Card](https://github.com/custom-cards/spotify-card) - List and select from current available devices and users top playlists on Spotify.
 - [Battery Entity](https://github.com/cbulock/lovelace-battery-entity) - Displaying battery levels for battery entities.
 - [Multiple Entity Row](https://github.com/benct/lovelace-multiple-entity-row) - Show multiple entity states or attributes on entity rows.
@@ -266,6 +265,7 @@ _Additional components for Home Assistant, that were created by the community._
 - [Google Geocode](https://github.com/michaelmcarthur/GoogleGeocode-HASS) - Converts a device tracker location into a human-readable address.
 - [Lutron Caseta Pro](https://github.com/upsert/lutron-caseta-pro) - Integrates Lutron Caseta Smart Bridge PRO / RA2 Select.
 - [SmartIR](https://github.com/smartHomeHub/SmartIR) - Integrates devices using Broadlink IR.
+- [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - view RTSP streams from IP-Cameras on real-time through WebRTC or MSE with Pan/Zoom controls.
 - [Xiaomi Hygrothermo](https://github.com/dolezsa/Xiaomi_Hygrothermo) - Sensor platform for Xiaomi Mijia BT Hygrothermo temperature and humidity sensor.
 - [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Integrates Volkswagen Carnet (requires valid Carnet subscription).
 - [Untappd](https://github.com/custom-components/sensor.untapped) - Connects with your Untappd account.
