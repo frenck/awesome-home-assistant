@@ -265,7 +265,6 @@ _Additional components for Home Assistant, that were created by the community._
 - [Google Geocode](https://github.com/michaelmcarthur/GoogleGeocode-HASS) - Converts a device tracker location into a human-readable address.
 - [Lutron Caseta Pro](https://github.com/upsert/lutron-caseta-pro) - Integrates Lutron Caseta Smart Bridge PRO / RA2 Select.
 - [SmartIR](https://github.com/smartHomeHub/SmartIR) - Integrates devices using Broadlink IR.
-- [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - view RTSP streams from IP-Cameras on real-time through WebRTC or MSE with Pan/Zoom controls.
 - [Xiaomi Hygrothermo](https://github.com/dolezsa/Xiaomi_Hygrothermo) - Sensor platform for Xiaomi Mijia BT Hygrothermo temperature and humidity sensor.
 - [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Integrates Volkswagen Carnet (requires valid Carnet subscription).
 - [Untappd](https://github.com/custom-components/sensor.untapped) - Connects with your Untappd account.
@@ -278,6 +277,7 @@ _Additional components for Home Assistant, that were created by the community._
 - [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Circadian Lighting slowly synchronizes your color changing lights with the regular naturally occuring color temperature of the sky throughout the day.
 - [HASS Aarlo](https://github.com/twrecked/hass-aarlo) - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells.
 - [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - This custom integration provides a way to present a live view of a map for a Xiaomi (and Roborock) vacuums without a need for rooting.
+- [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - view RTSP streams from IP-Cameras on real-time through WebRTC or MSE with Pan/Zoom controls.
 
 ## DIY
 
