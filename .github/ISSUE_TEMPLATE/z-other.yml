@@ -1,0 +1,18 @@
+name: "🤷‍♂️ I want to report something else"
+description: > 
+  None of the other items apply to the thing I want to report.
+body:
+  - type: input
+    attributes:
+      label: Affected link
+      placeholder: "https://"
+      description: >-
+        If this report is about one of the items listed on the Awesome list,
+        please paste the actual link (and not the description).
+
+  - type: textarea
+    attributes:
+      label: Wassup?
+      description: >
+        Please note, you can attach screenshots or screen recordings here, by
+        dragging and dropping files in the field below.
