@@ -277,7 +277,7 @@ _Additional components for Home Assistant, that were created by the community._
 - [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Circadian Lighting slowly synchronizes your color changing lights with the regular naturally occuring color temperature of the sky throughout the day.
 - [HASS Aarlo](https://github.com/twrecked/hass-aarlo) - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells.
 - [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - This custom integration provides a way to present a live view of a map for a Xiaomi (and Roborock) vacuums without a need for rooting.
-- [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - view RTSP streams from IP-Cameras on real-time through WebRTC or MSE with Pan/Zoom controls.
+- [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - View RTSP streams from IP Cameras in real-time through WebRTC or MSE with Pan/Zoom controls.
 
 ## DIY
 
