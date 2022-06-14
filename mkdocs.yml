@@ -32,14 +32,7 @@ theme:
         icon: material/brightness-7 
         name: Switch to dark mode
 
-    # Palette toggle for dark mode
-    - scheme: slate
-      primary: "light-blue"
-      accent: "pink"
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-  feature:
+  features:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
