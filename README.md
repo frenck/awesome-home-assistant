@@ -42,7 +42,7 @@ to suggest additions, updates or removals.
   - [Themes](#themes)
   - [Custom Cards](#custom-cards)
   - [Alternative Dashboards](#alternative-dashboards)
-- [Custom Components](#custom-components)
+- [Custom Integrations](#custom-integrations)
 - [DIY](#diy)
   - [DIY Gateways](#diy-gateways)
   - [DIY Projects](#diy-projects)
@@ -253,9 +253,9 @@ which you can easily add to your instance._
 - [TileBoard](https://github.com/resoai/TileBoard) - A simple yet highly configurable Dashboard.
 - [Dwains Dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) - An fully auto-generating dashboard for desktop, tablet and mobile.
 
-## Custom Components
+## Custom Integrations
 
-_Additional components for Home Assistant, that were created by the community._
+_Additional integrations for Home Assistant, that were created by the community._
 
 - [Google Geocode](https://github.com/michaelmcarthur/GoogleGeocode-HASS) - Converts a device tracker location into a human-readable address.
 - [Lutron Caseta Pro](https://github.com/upsert/lutron-caseta-pro) - Integrates Lutron Caseta Smart Bridge PRO / RA2 Select.
