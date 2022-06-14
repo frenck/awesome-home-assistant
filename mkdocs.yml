@@ -16,8 +16,21 @@ theme:
   logo: "https://www.awesome-ha.com/images/icon.svg"
   language: "en"
   palette:
-    primary: "light-blue"
-    accent: "pink"
+    # Palette toggle for light mode
+    - scheme: default
+      primary: "light-blue"
+      accent: "pink"
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: "light-blue"
+      accent: "pink"
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   feature:
     - navigation.instant
     - navigation.tracking
