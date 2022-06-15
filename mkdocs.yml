@@ -86,3 +86,7 @@ nav:
   - "Contributing": "contributing.md"
   - "Code of Conduct": "code-of-conduct.md"
   - "License": "license.md"
+
+plugins:
+  - git-revision-date-localized:
+      type: timeago
