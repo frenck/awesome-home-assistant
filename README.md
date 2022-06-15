@@ -32,8 +32,8 @@ to suggest additions, updates or removals.
 - [How to use](#how-to-use)
 - [Installing](#installing)
 - [In case you need help](#in-case-you-need-help)
-  - [Official Channels](#official-channels)
-  - [Other Channels](#other-channels)
+  - [Official Communities](#official-communities)
+  - [Other Communities](#other-communities)
 - [Public Configurations](#public-configurations)
 - [Add-ons](#add-ons)
   - [Official Add-ons](#official-add-ons)
@@ -86,19 +86,19 @@ _There are various ways to get in touch with the Home Assistant community.
 It doesn't matter if you have a question, need help, want to request a feature,
 or just say ‘Hi’._
 
-### Official Channels
+### Official Communities
 
 - [Home Assistant Discord](https://discordapp.com/invite/c5DvZ4e) - Join the chat, most of us are there.
 - [Home Assistant Community](https://community.home-assistant.io/?u=frenck) - The discussion forum, also used for feature requests.
 - [Home Assistant Subreddit](https://www.reddit.com/r/homeassistant/) - If you are into Reddit, subscribe.
 - [Home Assistant Facebook Group](https://www.facebook.com/groups/HomeAssistant/) - Facebook group for enthusiasts.
 
-### Other Channels
+### Other Communities
 
 - [Dr. ZZs](https://www.facebook.com/groups/1969622823351838/) - Facebook group by Dr. Zzs.
 - [Home Assistant Community Add-ons Discord](https://discord.me/hassioaddons) - Get support on the Home Assistant Community Add-ons.
 - [ESPHome Discord](https://discord.gg/KhAMKrd) - Get support for your DIY ESPHome project.
-- [Dutch Domotics Discord](https://discord.gg/Ee5X7T7) - Dutch Discord server with home automation enthusiasts.
+- 🇳🇱 [Dutch Domotics Discord](https://discord.gg/Ee5X7T7) - Dutch Discord server with home automation enthusiasts.
 
 ## Public Configurations
 
