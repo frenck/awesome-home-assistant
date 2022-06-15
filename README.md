@@ -39,6 +39,7 @@ to suggest additions, updates or removals.
   - [Official Add-ons](#official-add-ons)
   - [Third Party Add-ons](#third-party-add-ons)
 - [Dashboards](#dashboards)
+  - [Icon packs](#icon-packs)
   - [Themes](#themes)
   - [Custom Cards](#custom-cards)
   - [Alternative Dashboards](#alternative-dashboards)
