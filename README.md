@@ -179,6 +179,7 @@ _Anyone can create an add-on, the following are created by the community._
 - [Grocy](https://github.com/hassio-addons/addon-grocy) - ERP beyond your fridge! A groceries & household management solution for your home.
 - [EmonCMS](https://github.com/inverse/hassio-addon-emoncms) - A powerful open-source web app for processing, logging, and visualizing energy, temperature, and other environmental data.
 - [CrowdSec](https://github.com/crowdsecurity/home-assistant-addons) - A next-gen collaborative IPS/IDS to protect you from intrusion.
+- [CrowdSec Firewall Bouncer](https://github.com/crowdsecurity/home-assistant-addons) - CrowdSec bouncer (IDS) to block the intrustions detected by CrowdSec.
 
 ## Dashboards
 
