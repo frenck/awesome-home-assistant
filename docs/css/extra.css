@@ -41,6 +41,6 @@
   height: 42px !important;
 }
 
-footer.nav {
+.md-footer__link--next {
   display: none;
 }
