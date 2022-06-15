@@ -138,7 +138,6 @@ _Created and maintained by the Home Assistant team._
 - [HomeMatic](https://github.com/home-assistant/hassio-addons/blob/master/homematic/DOCS.md) - HomeMatic central based on OCCU.
 - [Let's Encrypt](https://github.com/home-assistant/hassio-addons/blob/master/letsencrypt/DOCS.md) - Get a free SSL certificate from Let's Encrypt; an open and automated certificate authority (CA).
 - [MariaDB](https://github.com/home-assistant/hassio-addons/blob/master/mariadb/DOCS.md) - An open source relational database (fork of MySQL).
-- [OpenZWave](https://github.com/home-assistant/hassio-addons/blob/master/zwave/DOCS.md) - Use an Z-Wave USB-stick with the QT OpenZWave Daemon.
 
 ### Third Party Add-ons
 
