@@ -3,12 +3,11 @@ site_name: "Awesome Home Assistant"
 site_url: "https://www.awesome-ha.com"
 site_description: "A curated list of awesome Home Assistant resources for automating every aspect of your home"
 site_author: "Franck Nijhof"
-copyright: "Copyright 2018 - 2020 - Franck Nijhof. Creative Commons Attribution 4.0."
+copyright: "Copyright 2018 - 2022 - Franck Nijhof. Creative Commons Attribution 4.0."
 
 # Repository
 repo_name: "awesome-home-assistant"
 repo_url: "https://github.com/frenck/awesome-home-assistant"
-edit_uri: ""
 
 # Theme configuration
 theme:
@@ -53,7 +52,7 @@ extra:
     - icon: fontawesome/brands/instagram
       link: "https://instagram.com/frenck"
     - icon: fontawesome/brands/twitch
-      link: "https://twitch.tv/internetofthings"
+      link: "https://twitch.tv/frenck"
     - icon: fontawesome/brands/youtube
       link: "https://youtube.com/frenck"
     - icon: fontawesome/brands/linkedin
@@ -84,8 +83,6 @@ markdown_extensions:
 nav:
   - "The Awesome List": "index.md"
   - "Contributing": "contributing.md"
-  - "Code of Conduct": "code-of-conduct.md"
-  - "License": "license.md"
 
 plugins:
   - git-revision-date-localized:
