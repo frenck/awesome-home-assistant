@@ -41,6 +41,6 @@
   height: 42px !important;
 }
 
-footer nav {
+footer.nav {
   display: none;
 }
