@@ -39,6 +39,7 @@ to suggest additions, updates or removals.
   - [Official Add-ons](#official-add-ons)
   - [Third Party Add-ons](#third-party-add-ons)
 - [Dashboards](#dashboards)
+  - [Icon packs](#icon-packs)
   - [Themes](#themes)
   - [Custom Cards](#custom-cards)
   - [Alternative Dashboards](#alternative-dashboards)
@@ -183,6 +184,9 @@ fit your needs or taste better._
 - 📺 [Getting started with Lovelace UI](https://www.youtube.com/watch?v=ObfRzMIEJPgx) - Great introduction to Lovelace UI by DrZzs.
 - [Share the Love](https://sharethelove.io) - Custom card demos and configuration examples for Lovelace.
 - 📺 [How to set up Lovelace](https://www.youtube.com/watch?v=n5xMtONydEo) - Excellent step by step video for beginners by JuanMTech.
+
+### Icon packs
+
 - [Font Awesome Icons](https://github.com/thomasloven/hass-fontawesome) - Use the free icons from Font Awesome in your frontend.
 - [Hass Hue Icons](https://github.com/arallsopp/hass-hue-icons) - Additional Philips Hue bulbs and fixtures icons.
 
