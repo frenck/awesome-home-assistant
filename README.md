@@ -270,6 +270,7 @@ _Additional integrations for Home Assistant, that were created by the community.
 - [HASS Aarlo](https://github.com/twrecked/hass-aarlo) - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells.
 - [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - Presents a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting.
 - [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - View RTSP streams from IP Cameras in real-time through WebRTC or MSE with Pan/Zoom controls.
+- [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - Control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud.
 
 ## DIY
 
