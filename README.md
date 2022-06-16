@@ -189,6 +189,7 @@ fit your needs or taste better._
 
 - [Font Awesome Icons](https://github.com/thomasloven/hass-fontawesome) - Use the free icons from Font Awesome in your frontend.
 - [Hass Hue Icons](https://github.com/arallsopp/hass-hue-icons) - Additional Philips Hue bulbs and fixtures icons.
+- [simpleicons](https://github.com/vigonotion/hass-simpleicons) - Use the free icons from the simpleicons set.
 
 ### Themes
 
