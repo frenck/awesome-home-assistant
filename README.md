@@ -271,6 +271,7 @@ _Additional integrations for Home Assistant, that were created by the community.
 - [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - View RTSP streams from IP Cameras in real-time through WebRTC or MSE with Pan/Zoom controls.
 - [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - Control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud.
 - [Spotcast](https://github.com/fondberg/spotcast) - Start Spotify playback on an idle Chromecast device as well as control Spotify connect devices.
+- [The Watchman](https://github.com/dummylabs/thewatchman) - Keep track of missing entities and services in your config files.
 
 ## DIY
 
