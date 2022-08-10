@@ -35,12 +35,12 @@
   }
 }
 
-.md-header-nav__button.md-logo img {
+.md-logo img {
   margin-top: -3px;
   width: 42px !important;
   height: 42px !important;
 }
 
-.md-footer-nav nav {
+.md-footer__link--next {
   display: none;
 }
