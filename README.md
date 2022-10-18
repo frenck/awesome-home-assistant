@@ -334,6 +334,7 @@ _Sit back, relax, watch, and learn._
 - [BeardedTinker](https://www.youtube.com/channel/UCuqokNoK8ZFNQdXxvlE129g) - Tutorials & 3D printing.
 - [Smart Home Junkie](https://www.youtube.com/channel/UCVtQ4AOSmCFUuvixddYiSxw/) - How-to videos and tutorials for starters and advanced users.
 - [Everything Smart Home](https://www.youtube.com/c/EverythingSmartHome) - Focuses on Smart Home, Home Automation, general tech reviews, guides, and step-by-step DIY projects.
+- [mostlychris](https://www.youtube.com/channel/UCXEa_Gzl2zjhb7K6xflyrWQ) - Home Automation, Smart Home, IoT, Technology, Home Assistant. 
 
 ### Podcasts
 
@@ -354,6 +355,7 @@ _Keep up with the latest news and updates, 280 characters at a time!_
 - [@HomeTechHacker](https://twitter.com/HomeTechHacker) - Guy friends call when #tech happens. Tweet 25-50x/week about #smarthome, #homenetwork, #cybersecurity, #Linux, #gadgets, and #life.
 - [@hassioaddons](https://twitter.com/hassioaddons) - For all commmunity add-on news and updates.
 - [@Dr_Zzs](https://twitter.com/Dr_Zzs) - Great how-to videos and also streams live.
+- [@mostlychris2](https://twitter.com/mostlychris2) - Home Automation, Smart Home, IoT, Technology, Home Assistant.
 
 ## Uncategorized
 
