@@ -341,19 +341,19 @@ _Get inspired, while commuting, doing your morning routine, or at the gym!_
 
 - [Home Assistant Podcast](https://hasspodcast.io) - Biweekly podcast with the latest news and interesting guests.
 
-### Twitter
+### X
 
 _Keep up with the latest news and updates, 280 characters at a time!_
 
-- [@home_assistant](https://twitter.com/home_assistant) - Open source home automation that puts local control and privacy first.
-- [@hass_devs](https://twitter.com/hass_devs) - Latest news on the development of Home Assistant for contributors.
-- [@balloob](https://twitter.com/balloob) - Founder of the Home Assistant project.
-- [@pvizeli](https://twitter.com/pvizeli) - Core developer and creator of the Hass.io project.
-- [@frenck](https://twitter.com/frenck) - Creator of this Awesome list and maintainer of the Community Hass.io Add-ons project.
-- [@ccostan](https://twitter.com/ccostan) - Blogger of all things Tech. Smart Home, #IOT & other Geeky subjects.
-- [@HomeTechHacker](https://twitter.com/HomeTechHacker) - Guy friends call when #tech happens. Tweet 25-50x/week about #smarthome, #homenetwork, #cybersecurity, #Linux, #gadgets, and #life.
-- [@hassioaddons](https://twitter.com/hassioaddons) - For all commmunity add-on news and updates.
-- [@Dr_Zzs](https://twitter.com/Dr_Zzs) - Great how-to videos and also streams live.
+- [@home_assistant](https://x.com/home_assistant) - Open source home automation that puts local control and privacy first.
+- [@hass_devs](https://x.com/hass_devs) - Latest news on the development of Home Assistant for contributors.
+- [@balloob](https://x.com/balloob) - Founder of the Home Assistant project.
+- [@pvizeli](https://x.com/pvizeli) - Core developer and creator of the Hass.io project.
+- [@frenck](https://x.com/frenck) - Creator of this Awesome list and maintainer of the Community Hass.io Add-ons project.
+- [@ccostan](https://x.com/ccostan) - Blogger of all things Tech. Smart Home, #IOT & other Geeky subjects.
+- [@HomeTechHacker](https://x.com/HomeTechHacker) - Guy friends call when #tech happens. Tweet 25-50x/week about #smarthome, #homenetwork, #cybersecurity, #Linux, #gadgets, and #life.
+- [@hassioaddons](https://x.com/hassioaddons) - For all commmunity add-on news and updates.
+- [@Dr_Zzs](https://x.com/Dr_Zzs) - Great how-to videos and also streams live.
 
 ## Uncategorized
 
