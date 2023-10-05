@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.yaml": "home-assistant"
+    },
+    "workbench.editor.enablePreview": false
+}
