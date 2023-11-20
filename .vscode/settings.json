@@ -2,5 +2,17 @@
     "files.associations": {
         "*.yaml": "home-assistant"
     },
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    "DockerRun.DisableDockerrc": true,
+    "DockerRun.Containers": [
+        "d4420ec56910",
+        "589ad6f8055f",
+        "a772870168e4",
+        "d748209ea342",
+        "57d45a22ac4c",
+        "46284f5e7bf7"
+    ],
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ]
 }
