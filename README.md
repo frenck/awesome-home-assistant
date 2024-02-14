@@ -154,7 +154,7 @@ _Anyone can create an add-on, the following are created by the community._
 - [Grafana](https://github.com/hassio-addons/addon-grafana) - Open platform for beautiful analytics and monitoring.
 - [Tor](https://github.com/hassio-addons/addon-tor) - Protect your privacy and access your instance via Tor.
 - [Spotify Connect](https://github.com/hassio-addons/addon-spotify-connect) - Spotify Connect client for playing music on your Home Assistant device.
-- [zigbee2mqtt](https://github.com/danielwelch/hassio-zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
+- [zigbee2mqtt](https://github.com/zigbee2mqtt/hassio-zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
 - [AppDaemon](https://github.com/hassio-addons/addon-appdaemon) - Python Apps and HADashboard.
 - [TasmoAdmin](https://github.com/hassio-addons/addon-tasmoadmin) - Centrally manage all your Sonoff-Tasmota devices.
 - [Aircast](https://github.com/hassio-addons/addon-aircast) - AirPlay capabilities for your Chromecast players.
