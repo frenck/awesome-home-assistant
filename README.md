@@ -208,6 +208,7 @@ _It is all about the looks, apply some style._
 - [Slate](https://github.com/seangreen2/slate_theme) - A dark theme close to the vanila looks from seangreen2.
 - [Synthwave](https://github.com/bbbenji/synthwave-hass) - A theme influenced by the cover artwork of modern Synthwave bands.
 - [Google Home Theme](https://github.com/liri/lovelace-themes) - Two themes (light and dark) matching the design of Google Home Hub.
+- [Material Rounded](https://github.com/Nerwyn/material-rounded-theme) - Inspired by Material You. Requires card-mod.
 
 ### Custom Cards
 
