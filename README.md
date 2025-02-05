@@ -246,6 +246,7 @@ which you can easily add to your instance._
 - [Vacuum Card](https://github.com/denysdovhan/vacuum-card) - A card to card for controlling a vacuum cleaner robot.
 - [Purifier Card](https://github.com/denysdovhan/purifier-card) - A card for controlling air purifiers.
 - [Raspberry Pi Status Card](https://github.com/ironsheep/lovelace-rpi-monitor-card) - Show status of your Raspberry Pis.
+- [Expander Card](https://github.com/Alia5/lovelace-expander-card) - A expandable/collapsible card with many options.
 
 ### Alternative Dashboards
 
