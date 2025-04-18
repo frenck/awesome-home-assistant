@@ -287,6 +287,7 @@ could also build them yourself!_
 - [OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway) - A flexible MQTT gateway for IR, RF, BLE, MiFlora, SMS, and many sensors.
 - [esp8266 Milight Hub](https://github.com/sidoh/esp8266_milight_hub) - Alternative hub for Milight/LimitlessLED devices that uses MQTT.
 - [zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
+- [rfxcom2mqtt](https://rfxcom2mqtt.github.io/documentation/) - Rfxcom to MQTT bridge.
 
 ### DIY Projects
 
