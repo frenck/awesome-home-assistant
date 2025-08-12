@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checking out awesomeness from GitHub
-        uses: actions/checkout@v3.0.2
+        uses: actions/checkout@v5.0.0
         with:
           fetch-depth: 0
       - name: Running the awesome linter
