@@ -272,6 +272,7 @@ _Additional integrations for Home Assistant, that were created by the community.
 - [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - Control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud.
 - [Spotcast](https://github.com/fondberg/spotcast) - Start Spotify playback on an idle Chromecast device as well as control Spotify connect devices.
 - [The Watchman](https://github.com/dummylabs/thewatchman) - Keep track of missing entities and services in your config files.
+- [Dreame Vacuum](https://github.com/Tasshack/dreame-vacuum) - Integration for Dreame robot vacuums with live and saved map support.
 
 ## DIY
 
