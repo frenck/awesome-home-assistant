@@ -286,11 +286,12 @@ could also build them yourself!_
 
 - [OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway) - A flexible MQTT gateway for IR, RF, BLE, MiFlora, SMS, and many sensors.
 - [esp8266 Milight Hub](https://github.com/sidoh/esp8266_milight_hub) - Alternative hub for Milight/LimitlessLED devices that uses MQTT.
-- [zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
+- [zigbee2mqtt](https://www.zigbee2mqtt.io/) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
 
 ### DIY Projects
 
 - [HA SwitchPlate](https://community.home-assistant.io/t/ha-switchplate-diy-lcd-touchscreen-wall-switch-replacement/25464?u=frenck) - LCD Touchscreen wall switch replacement.
+- [OpenHasp](https://https://openhasp.haswitchplate.com/) - Firmware for creating DIY touchscreens on ESP-32 with common touchscreens, with Home Assistant integration.
 - 📺 [DIY Multisensor](https://www.youtube.com/watch?v=jpjfVc-9IrQ) - $15, Temperature, Humidity, Light, Motion, and RGB LED, without soldering.
 - [$10 WiFi RGB Bulb](https://community.home-assistant.io/t/how-to-inexpensive-10-us-wifi-rgb-bulb-that-works-with-home-assistant/14735?u=frenck) - In inexpensive RGB bulb that works on WiFi.
 - [433mhz/IR Bidirectional Gateway](https://community.home-assistant.io/t/433mhz-infrared-ir-to-and-from-mqtt-on-esp8266/6779?u=frenck) - Bidirectional with IR and 433mhz using ESP8266 and MQTT.
