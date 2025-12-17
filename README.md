@@ -246,6 +246,7 @@ which you can easily add to your instance._
 - [Vacuum Card](https://github.com/denysdovhan/vacuum-card) - A card to card for controlling a vacuum cleaner robot.
 - [Purifier Card](https://github.com/denysdovhan/purifier-card) - A card for controlling air purifiers.
 - [Raspberry Pi Status Card](https://github.com/ironsheep/lovelace-rpi-monitor-card) - Show status of your Raspberry Pis.
+- [Treemap Card](https://github.com/omachala/ha-treemap-card) - Stock market-style heatmap to instantly see which sensors need attention.
 
 ### Alternative Dashboards
 
