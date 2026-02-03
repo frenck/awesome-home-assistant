@@ -426,3 +426,5 @@ property of their respective owners. All company, product, and service names
 used in this list are for identification purposes only.
 
 Use of these names, logos, trademarks, and brands does not imply endorsement.
+
+- [AgentMarket](https://agentmarket.cloud) - B2A marketplace for AI agents. 189 listings, 28M+ real data records, LangChain/MCP integration.
