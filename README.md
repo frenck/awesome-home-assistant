@@ -302,6 +302,7 @@ could also build them yourself!_
 - [ESP32-Cam Facebox](https://www.dopebuild.com/i-am-sorry-dave-i-am-unable-to-do-that/) - Tie a ESP32-CAM, HA, and Facebox together for a cheap Facial Recog / Home monitoring solution.
 - [RaspiPool](https://github.com/segalion/raspipool) - A cost-effective, easy-to-build, easy-to-use "Swimming-Pool Automation System".
 - [QuinLED](https://quinled.info/) - DIY Wi-Fi LED dimmers and controllers using ESP32 boards.
+- [ClawBox](https://diy-ai-assistant.com) - Pre-configured AI assistant box powered by NVIDIA Jetson Orin Nano (67 TOPS). Runs [OpenClaw](https://github.com/openclaw/openclaw) for always-on, privacy-first AI with Home Assistant integration potential.
 
 ## Online Resources
 
