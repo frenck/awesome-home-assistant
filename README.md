@@ -402,6 +402,7 @@ interwebs._
 - [awesome-amazon-alexa](https://github.com/miguelmota/awesome-amazon-alexa#readme) - Curated list of awesome resources for the Amazon Alexa platform.
 - [awesome-mqtt](https://github.com/hobbyquaker/awesome-mqtt#readme) - Curated list of MQTT related stuff.
 - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Curated list of awesome self hosted software.
+- [awesome-unifi](https://github.com/wolffcatskyy/awesome-unifi) - Curated list of awesome UniFi and Ubiquiti networking resources.
 
 ## Contributing
 
