@@ -272,6 +272,7 @@ _Additional integrations for Home Assistant, that were created by the community.
 - [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - Control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud.
 - [Spotcast](https://github.com/fondberg/spotcast) - Start Spotify playback on an idle Chromecast device as well as control Spotify connect devices.
 - [The Watchman](https://github.com/dummylabs/thewatchman) - Keep track of missing entities and services in your config files.
+- [Span MAIN 40](https://github.com/Griswoldlabs/span-panel-ha) - Integrates Span MAIN 40 (Gen3) smart electrical panels via local gRPC for real-time circuit monitoring.
 
 ## DIY
 
