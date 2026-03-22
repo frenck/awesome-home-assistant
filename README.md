@@ -275,12 +275,21 @@ _Additional integrations for Home Assistant, that were created by the community.
 
 ## DIY
 
+## AI Assistants
+
+_Locally running AI assistants that integrate with Home Assistant — privacy-first, no cloud required._
+
+- [Kacy Brain](https://smarthomeblox.app) - Local AI assistant for Home Assistant, running on Raspberry Pi. Supports voice control, natural language
+device automation, a custom alias system and lets you switch between Claude and Groq as AI backends — directly from the browser.
+
+
 _Do It Yourself; rather than buying home automation hardware or solutions, you
 could also build them yourself!_
 
 - [ESPHome](https://esphome.io/) - Program ESP8266 boards and ESP32 boards using YAML.
 - [Magic Cards](https://github.com/maddox/magic-cards) - RFID scannable cards that you can program to do anything.
 - [Tasmota](https://github.com/arendst/Tasmota) - Firmware for ESP8266 boards and devices.
+
 
 ### DIY Gateways
 
