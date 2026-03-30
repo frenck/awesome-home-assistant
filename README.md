@@ -174,6 +174,7 @@ _Anyone can create an add-on, the following are created by the community._
 - [Grocy](https://github.com/hassio-addons/addon-grocy) - ERP beyond your fridge! A groceries & household management solution for your home.
 - [EmonCMS](https://github.com/inverse/hassio-addon-emoncms) - A powerful open-source web app for processing, logging, and visualizing energy, temperature, and other environmental data.
 - [CrowdSec](https://github.com/crowdsecurity/home-assistant-addons) - A next-gen collaborative IPS/IDS to protect you from intrusion.
+- [Sendspin Bluetooth Bridge](https://github.com/trudenboy/sendspin-bt-bridge) - Turn any Bluetooth speaker, headphones, or soundbar into a smart multi-room audio player with Music Assistant integration.
 
 ## Dashboards
 
