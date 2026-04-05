@@ -302,6 +302,7 @@ could also build them yourself!_
 - [ESP32-Cam Facebox](https://www.dopebuild.com/i-am-sorry-dave-i-am-unable-to-do-that/) - Tie a ESP32-CAM, HA, and Facebox together for a cheap Facial Recog / Home monitoring solution.
 - [RaspiPool](https://github.com/segalion/raspipool) - A cost-effective, easy-to-build, easy-to-use "Swimming-Pool Automation System".
 - [QuinLED](https://quinled.info/) - DIY Wi-Fi LED dimmers and controllers using ESP32 boards.
+- [WiSafe2-HA Bridge FireAngel](https://github.com/C19HOP/WiSafe2-to-HomeAssistant-Bridge) - Bridge for FireAngel WiSafe2 smoke, heat and CO alarms.
 
 ## Online Resources
 
