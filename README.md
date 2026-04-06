@@ -27,6 +27,7 @@ please read the [guide](https://github.com/frenck/awesome-home-assistant/blob/ma
 or raise an [issue](https://github.com/frenck/awesome-home-assistant/issues/new/choose)
 to suggest additions, updates or removals.
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for home automation orchestration, multi-agent task delegation, and automated infrastructure monitoring. MIT licensed.
 ## Contents
 
 - [How to use](#how-to-use)
