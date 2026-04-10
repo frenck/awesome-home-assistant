@@ -391,6 +391,7 @@ are some alternatives._
 - [Gladys](https://github.com/GladysProject/Gladys) - Open source program which runs on your Raspberry Pi.
 - [SmartThings](https://www.smartthings.com/) - Commercial home automation hub by Samsung.
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=frenck_awesome-home-assistant) - Follow developers on GitHub and get a feed of what they star and build.
 ## Other Awesome Lists
 
 _Other amazingly awesome lists that can be found on the great and dangerous
