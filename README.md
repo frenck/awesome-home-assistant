@@ -380,6 +380,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 - [ADB Intents](https://gist.github.com/mcfrojd/9e6875e1db5c089b1e3ddeb7dba0f304) - List of ADB intents to control Android Devices.
 - [Home Assistant Config Helper for VSCode](https://marketplace.visualstudio.com/items?itemName=keesschollaart.vscode-home-assistant) - Visual Studio Code Extension that provides auto-completion, config validation and snippets when editting your configuration.
 - [Home Assistant Taskbar Menu](https://github.com/PiotrMachowski/Home-Assistant-Taskbar-Menu) - A client for Windows that can display Lovelace views, control entities and show persistent notifications.
+- [Raspberry Pi SD Card Lifespan Calculator](https://raspberry.tips/sd-karten-lebensdauer-rechner-wie-lange-haelt-dein-speicher) - Interactive tool to estimate when your SD card will fail based on P/E cycles and Write Amplification Factor (WAF).
 
 ## Alternative Home Automation Software
 
