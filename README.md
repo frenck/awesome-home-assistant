@@ -168,6 +168,7 @@ _Anyone can create an add-on, the following are created by the community._
 - [Glances](https://github.com/hassio-addons/addon-glances) - A cross-platform system monitoring tool written in Python.
 - [Matrix](https://github.com/hassio-addons/addon-matrix) - A secure and decentralized communication platform.
 - [AdGuard Home](https://github.com/hassio-addons/addon-adguard-home) - A network-wide ad-and-tracker blocking DNS server with parental control.
+- [Nexus Agent](https://github.com/Fistacho/ha-nexus-agent) - MCP server giving AI assistants (Claude, Cursor, VS Code, any MCP client) full control of Home Assistant: 164 tools across 17 domains including automation/script CRUD with traces, blueprints, dashboards, devices, calendar, todo, voice expose, bulk control, real-time WebSocket events, git versioning, add-on/HACS management.
 - [Traccar](https://github.com/hassio-addons/addon-traccar) - Traccar is modern GPS Tracking Platform.
 - [Home Panel](https://github.com/hassio-addons/addon-home-panel) - A touch-compatible web frontend for controlling the home.
 - [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup) - A complete and easy to configure solution for backing up your snapshots to Google Drive.
