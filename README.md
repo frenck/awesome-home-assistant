@@ -34,25 +34,52 @@ to suggest additions, updates or removals.
 - [In case you need help](#in-case-you-need-help)
   - [Official Communities](#official-communities)
   - [Other Communities](#other-communities)
+- [Project & roadmap](#project--roadmap)
+- [Open Home Foundation](#open-home-foundation)
 - [Public Configurations](#public-configurations)
+- [Hardware](#hardware)
+- [Works with Home Assistant](#works-with-home-assistant)
 - [Apps](#apps)
   - [Official Apps](#official-apps)
   - [Third Party Apps](#third-party-apps)
-- [Dashboards](#dashboards)
+- [Dashboards & UI](#dashboards--ui)
   - [Icon packs](#icon-packs)
   - [Themes](#themes)
   - [Custom Cards](#custom-cards)
   - [Alternative Dashboards](#alternative-dashboards)
-- [Custom Integrations](#custom-integrations)
+- [Voice](#voice)
+  - [Hardware](#hardware-1)
+  - [Speech engines (Wyoming)](#speech-engines-wyoming)
+  - [Satellites & firmware](#satellites--firmware)
+  - [Custom integrations & helpers](#custom-integrations--helpers)
+- [AI & Home Assistant](#ai--home-assistant)
+  - [Conversation agents](#conversation-agents)
+  - [Vision](#vision)
+  - [Model Context Protocol (MCP) servers](#model-context-protocol-mcp-servers)
+- [Music Assistant](#music-assistant)
+- [Energy](#energy)
+  - [Power monitoring](#power-monitoring)
+  - [Solar & forecasting](#solar--forecasting)
+- [Matter & Thread](#matter--thread)
+- [Zigbee](#zigbee)
+- [Z-Wave](#z-wave)
+- [Bluetooth](#bluetooth)
+  - [Proxies](#proxies)
+  - [Standards & integrations](#standards--integrations)
+- [ESPHome](#esphome)
 - [DIY](#diy)
   - [DIY Gateways](#diy-gateways)
   - [DIY Projects](#diy-projects)
+- [Blueprints](#blueprints)
+- [Companion App & Mobile](#companion-app--mobile)
+- [HACS](#hacs)
+- [Custom Integrations _(transitional)_](#custom-integrations-transitional)
 - [Online Resources](#online-resources)
   - [Blogs](#blogs)
   - [YouTube Channels](#youtube-channels)
   - [Podcasts](#podcasts)
   - [Twitter](#twitter)
-- [Uncategorized](#uncategorized)
+- [Uncategorized _(transitional)_](#uncategorized-transitional)
 - [Alternative Home Automation Software](#alternative-home-automation-software)
 - [Other Awesome Lists](#other-awesome-lists)
 - [Trademark Legal Notice](#trademark-legal-notice)
@@ -100,6 +127,25 @@ or just say "Hi"._
 - [ESPHome Discord](https://discord.gg/KhAMKrd) - Get support for your DIY ESPHome project.
 - 🇳🇱 [Dutch Domotics Discord](https://discord.gg/Ee5X7T7) - Dutch Discord server with home automation enthusiasts.
 
+## Project & roadmap
+
+_Official Home Assistant project resources: roadmap, blog, developer docs,
+feature requests, and security policy._
+
+- [Home Assistant Blog](https://www.home-assistant.io/blog/) - Release notes, ecosystem updates, and announcements.
+- [Roadmap](https://www.home-assistant.io/roadmap/) - The public roadmap of where the project is heading.
+- [Feature Requests](https://community.home-assistant.io/c/feature-requests/13) - Forum category for proposing and discussing features.
+- [Developer Documentation](https://developers.home-assistant.io/) - Architecture, integration development, and frontend development guides.
+- [Security policy](https://www.home-assistant.io/security/) - How to report a vulnerability and what's covered.
+
+## Open Home Foundation
+
+_The non-profit that owns Home Assistant, ESPHome, Music Assistant, Z-Wave JS,
+Wyoming and other privacy-first home-automation projects._
+
+- [Open Home Foundation](https://www.openhomefoundation.org/) - The foundation, its mission, and its principles.
+- [OHF projects](https://www.openhomefoundation.org/projects/) - Index of all projects under the OHF umbrella.
+
 ## Public Configurations
 
 _Some people store their full Home Assistant configuration on GitHub. They are
@@ -114,6 +160,25 @@ an awesome source for learning and a great source of inspiration._
 - [Franck Nijhof](https://github.com/frenck/home-assistant-config) - Hass.io based, very different configuration structure compared to others.
 - [Klaas Schoute](https://github.com/klaasnicolaas/Student-homeassistant-config) - Hass.io based, Intel NUC, Ubuntu Server, Docker and regularly updated.
 - [Andrea Iannucci](https://github.com/SeLLeRoNe/HA-Config) - Also known as SeLLeRoNe. Regularly updated.
+
+## Hardware
+
+_Officially-supported Home Assistant hardware. Topic-specific hardware
+(voice satellites, Zigbee/Z-Wave/Thread sticks for non-official adapters)
+lives under each topic._
+
+- [Home Assistant Green](https://www.home-assistant.io/green/) - Plug-and-play HA hardware for newcomers; the recommended starter box.
+- [Home Assistant Connect ZBT-2](https://www.home-assistant.io/connectzbt2/) - USB Zigbee/Thread adapter, successor to the SkyConnect / Connect ZBT-1.
+- [Home Assistant Connect ZWA-2](https://www.home-assistant.io/connectzwa2/) - USB Z-Wave adapter built around the 800-series chip.
+- [Home Assistant Voice Preview Edition](https://www.home-assistant.io/voice-pe/) - Open-source voice satellite with onboard processing.
+
+## Works with Home Assistant
+
+_The Works with Home Assistant certification program: products that meet
+the privacy, choice, and sustainability bar._
+
+- [Works with Home Assistant](https://works-with.home-assistant.io/) - The program, its requirements, and how to join.
+- [Certified products](https://works-with.home-assistant.io/certified-products/) - The browsable index of currently-certified products.
 
 ## Apps
 
@@ -171,7 +236,7 @@ _Anyone can create an app, the following are created by the community._
 - [EmonCMS](https://github.com/inverse/hassio-addon-emoncms) - A powerful open-source web app for processing, logging, and visualizing energy, temperature, and other environmental data.
 - [CrowdSec](https://github.com/crowdsecurity/home-assistant-addons) - A next-gen collaborative IPS/IDS to protect you from intrusion.
 
-## Dashboards
+## Dashboards & UI
 
 _The Home Assistant frontend is already pretty, but you can customize it to
 fit your needs or taste better._
@@ -244,23 +309,114 @@ which you can easily add to your instance._
 
 - [Dwains Dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) - An fully auto-generating dashboard for desktop, tablet and mobile.
 
-## Custom Integrations
+## Voice
 
-_Additional integrations for Home Assistant, that were created by the community._
+_Speech-to-text, text-to-speech, wake-word detection, and voice satellites
+built on the Wyoming protocol and the Year-of-the-Voice foundations._
 
-- [SmartIR](https://github.com/smartHomeHub/SmartIR) - Integrates devices using Broadlink IR.
-- [Xiaomi Hygrothermo](https://github.com/dolezsa/Xiaomi_Hygrothermo) - Sensor platform for Xiaomi Mijia BT Hygrothermo temperature and humidity sensor.
-- [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publishes events to Elasticsearch.
-- [Alexa Media Player](https://github.com/keatontaylor/alexa_media_player) - Allow control of Amazon Alexa devices.
-- [iCloud3](https://github.com/gcobb321/icloud3) - Improved version of the iCloud device tracker component with a lot of capabilities.
-- [HACS](https://hacs.xyz/) - This is a manager for your custom integration (components) and plugin (lovelace elements) needs.
-- [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Slowly synchronizes your color-changing lights with the naturally occurring color temperature of the sky throughout the day.
-- [HASS Aarlo](https://github.com/twrecked/hass-aarlo) - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells.
-- [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - Presents a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting.
-- [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - View RTSP streams from IP Cameras in real-time through WebRTC or MSE with Pan/Zoom controls.
-- [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - Control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud.
-- [Spotcast](https://github.com/fondberg/spotcast) - Start Spotify playback on an idle Chromecast device as well as control Spotify connect devices.
-- [The Watchman](https://github.com/dummylabs/thewatchman) - Keep track of missing entities and services in your config files.
+### Hardware
+
+- [Voice Preview Edition](https://www.home-assistant.io/voice-pe/) - Official open-source voice satellite from Nabu Casa.
+
+### Speech engines (Wyoming)
+
+- [Wyoming protocol](https://github.com/rhasspy/wyoming) - The protocol that ties HA Voice components together.
+- [Wyoming Whisper](https://github.com/rhasspy/wyoming-faster-whisper) - Local speech-to-text via faster-whisper, served over Wyoming.
+- [Wyoming Piper](https://github.com/rhasspy/wyoming-piper) - Local text-to-speech via Piper, served over Wyoming.
+- [openWakeWord](https://github.com/dscripka/openWakeWord) - Open-source wake-word detection used by HA voice satellites.
+
+### Satellites & firmware
+
+- [Wyoming Satellite](https://github.com/rhasspy/wyoming-satellite) - Reference satellite implementation; runs on Raspberry Pi Zero and friends.
+
+### Custom integrations & helpers
+
+- [Speech-to-Phrase](https://www.home-assistant.io/voice_control/speech-to-phrase/) - Lightweight, fully-local STT for low-power hardware.
+
+## AI & Home Assistant
+
+_Local and cloud LLMs integrated with Home Assistant for conversation, vision,
+and automation tasks._
+
+### Conversation agents
+
+- [Ollama Conversation](https://www.home-assistant.io/integrations/ollama/) - Run local LLMs through Ollama as your HA conversation agent.
+- [Extended OpenAI Conversation](https://github.com/jekalmin/extended_openai_conversation) - OpenAI/compatible LLMs with function calling for HA control.
+
+### Vision
+
+- [LLM Vision](https://github.com/valentinfrlch/ha-llmvision) - Use vision-capable LLMs to understand images and camera streams.
+
+### Model Context Protocol (MCP) servers
+
+- [Home Assistant MCP server](https://www.home-assistant.io/integrations/mcp_server/) - Expose Home Assistant as an MCP server so any MCP-aware client can control it.
+
+## Music Assistant
+
+_The Music Assistant project: multi-source music streaming for Home Assistant,
+with native podcasts, audiobooks, and voice-controlled playback._
+
+- [Music Assistant](https://music-assistant.io/) - The project home page.
+- [Music Assistant integration](https://www.home-assistant.io/integrations/music_assistant/) - Bring Music Assistant into Home Assistant.
+
+## Energy
+
+_Energy dashboard ecosystem: producers, consumers, forecasts, tariffs, and
+the cards that visualise them._
+
+### Power monitoring
+
+- [Powercalc](https://github.com/bramstroker/homeassistant-powercalc) - Estimate the power consumption of devices that don't report it themselves.
+
+### Solar & forecasting
+
+- [Solcast PV Solar](https://github.com/oziee/ha-solcast-solar) - Solcast solar production forecasting integration.
+- [Forecast.Solar](https://www.home-assistant.io/integrations/forecast_solar/) - Free solar production forecast in HA core.
+
+## Matter & Thread
+
+_Matter device integrations, Thread border routers, and OTBR tooling._
+
+- [OpenThread Border Router](https://github.com/home-assistant/addons/blob/master/openthread_border_router/DOCS.md) - Official OTBR add-on for HA, turning a USB radio into a Thread border router.
+- [Matter integration](https://www.home-assistant.io/integrations/matter/) - The core Matter integration.
+
+## Zigbee
+
+_Zigbee2MQTT, ZHA, recommended adapters, and Zigbee-specific tooling._
+
+- [Zigbee2MQTT](https://www.zigbee2mqtt.io/) - Allows you to use your Zigbee devices without the vendor's bridge or gateway.
+- [ZHA](https://www.home-assistant.io/integrations/zha/) - Home Assistant's first-party Zigbee integration.
+
+## Z-Wave
+
+_Z-Wave JS ecosystem: drivers, UIs, and recommended sticks._
+
+- [Z-Wave JS](https://zwave-js.github.io/zwave-js-ui/) - The OHF-stewarded Z-Wave driver and JS-based ecosystem.
+- [Z-Wave JS UI](https://github.com/zwave-js/zwave-js-ui) - Web UI for managing your Z-Wave network outside of Home Assistant.
+
+## Bluetooth
+
+_Bluetooth proxies, BTHome standard devices, and BLE-based integrations._
+
+### Proxies
+
+- [ESPHome Bluetooth Proxy](https://esphome.io/components/bluetooth_proxy/) - Turn any ESP32 into a Bluetooth proxy for HA.
+- [Bluetooth proxies hardware](https://esphome.github.io/bluetooth-proxies/) - Tested off-the-shelf devices that work as proxies.
+
+### Standards & integrations
+
+- [BTHome](https://bthome.io/) - Open standard for broadcasting BLE sensor data; first-class HA integration.
+- [Theengs Gateway](https://github.com/theengs/gateway) - BLE-to-MQTT gateway covering hundreds of devices.
+- [ESPresense](https://espresense.com/) - ESP32-based room-level BLE presence detection.
+
+## ESPHome
+
+_The ESPHome project: device firmware via YAML, ready-made projects, custom
+components, and the firmware-to-HA pipeline._
+
+- [ESPHome](https://esphome.io/) - The project home page and docs.
+- [ESPHome Devices](https://devices.esphome.io/) - Community device database with ready-made YAML.
+- [Ready-made projects](https://esphome.io/projects/) - Hardware projects with prebuilt firmware you can flash through your browser.
 
 ## DIY
 
@@ -290,6 +446,50 @@ could also build them yourself!_
 - [NFC Scanner](https://github.com/klaasnicolaas/ha_nfc_scanner) - Build an NFC tag/card scanner with an ESP8266, PN532 and MQTT.
 - [RaspiPool](https://github.com/segalion/raspipool) - A cost-effective, easy-to-build, easy-to-use "Swimming-Pool Automation System".
 - [QuinLED](https://quinled.info/) - DIY Wi-Fi LED dimmers and controllers using ESP32 boards.
+
+## Blueprints
+
+_Community automation and script blueprints._
+
+- [Blueprints Exchange](https://community.home-assistant.io/c/blueprints-exchange/53) - The official forum category where most blueprints are shared.
+- [Awesome HA Blueprints](https://github.com/EPMatt/awesome-ha-blueprints) - Curated, collaboratively-maintained blueprint collection.
+
+## Companion App & Mobile
+
+_Official Home Assistant mobile apps and complementary mobile tooling._
+
+- [Home Assistant Companion (iOS)](https://companion.home-assistant.io/) - Official iOS / iPadOS / watchOS app.
+- [Home Assistant Companion (Android)](https://companion.home-assistant.io/) - Official Android app, including Wear OS support.
+- [Companion app source](https://github.com/home-assistant/iOS) - Source code for the iOS app.
+
+## HACS
+
+_Home Assistant Community Store — the de facto distribution channel for
+custom integrations, dashboard plugins, themes, and automation tooling._
+
+- [HACS](https://hacs.xyz/) - The project home page.
+- [HACS docs](https://hacs.xyz/docs/use/) - Installation, usage, and category-specific guides.
+
+## Custom Integrations _(transitional)_
+
+_Topic-aligned integrations are migrating into the topical sections above
+(Voice, AI, Energy, Music Assistant, etc.). Cross-cutting tooling stays here
+for now and will eventually move to a dedicated Tools & Utilities section.
+See the [revival audit](AUDIT.md) for context._
+
+- [SmartIR](https://github.com/smartHomeHub/SmartIR) - Integrates devices using Broadlink IR.
+- [Xiaomi Hygrothermo](https://github.com/dolezsa/Xiaomi_Hygrothermo) - Sensor platform for Xiaomi Mijia BT Hygrothermo temperature and humidity sensor.
+- [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publishes events to Elasticsearch.
+- [Alexa Media Player](https://github.com/keatontaylor/alexa_media_player) - Allow control of Amazon Alexa devices.
+- [iCloud3](https://github.com/gcobb321/icloud3) - Improved version of the iCloud device tracker component with a lot of capabilities.
+- [HACS](https://hacs.xyz/) - This is a manager for your custom integration (components) and plugin (lovelace elements) needs.
+- [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Slowly synchronizes your color-changing lights with the naturally occurring color temperature of the sky throughout the day.
+- [HASS Aarlo](https://github.com/twrecked/hass-aarlo) - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells.
+- [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - Presents a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting.
+- [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - View RTSP streams from IP Cameras in real-time through WebRTC or MSE with Pan/Zoom controls.
+- [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - Control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud.
+- [Spotcast](https://github.com/fondberg/spotcast) - Start Spotify playback on an idle Chromecast device as well as control Spotify connect devices.
+- [The Watchman](https://github.com/dummylabs/thewatchman) - Keep track of missing entities and services in your config files.
 
 ## Online Resources
 
@@ -339,9 +539,11 @@ _Keep up with the latest news and updates, 280 characters at a time!_
 - [@hassioaddons](https://twitter.com/hassioaddons) - For all community app news and updates.
 - [@Dr_Zzs](https://twitter.com/Dr_Zzs) - Great how-to videos and also streams live.
 
-## Uncategorized
+## Uncategorized _(transitional)_
 
-_Valuable links, that don't fit in any of the above categories (yet!)._
+_This section is being emptied. Each entry below has a topical home in the
+new structure (Bluetooth, Companion App, ESPHome, etc.); migration is
+incremental._
 
 - [Room Assistant](https://github.com/mKeRix/room-assistant) - A companion client to handle sensors in multiple rooms.
 - [Home Assistant Companion](https://itunes.apple.com/us/app/home-assistant-open-source-home-automation/id1099568401?mt=8) - iPhone/iPad/iOS App to control and monitor your home remotely.
