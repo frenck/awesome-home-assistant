@@ -97,7 +97,6 @@ or just say "Hi"._
 ### Other Communities
 
 - [Dr. ZZs](https://www.facebook.com/groups/1969622823351838/) - Facebook group by Dr. Zzs.
-- [Home Assistant Community Add-ons Discord](https://discord.me/hassioaddons) - Get support on the Home Assistant Community Add-ons.
 - [ESPHome Discord](https://discord.gg/KhAMKrd) - Get support for your DIY ESPHome project.
 - 🇳🇱 [Dutch Domotics Discord](https://discord.gg/Ee5X7T7) - Dutch Discord server with home automation enthusiasts.
 
@@ -145,7 +144,6 @@ _Anyone can create an add-on, the following are created by the community._
 - [Node-RED](https://github.com/hassio-addons/app-node-red) - Flow-based programming for the Internet of Things.
 - [Plex Media Server](https://github.com/hassio-addons/app-plex) - Your recorded media beautifully organized and ready to stream.
 - [IDE](https://github.com/hassio-addons/addon-ide) - Advanced web-based IDE, based on Cloud9 IDE.
-- [Dasshio](https://github.com/danimtb/dasshio) - Easily use your Amazon Dash Buttons.
 - [InfluxDB](https://github.com/hassio-addons/addon-influxdb) - Scalable datastore for metrics, events, and real-time analytics.
 - [Grafana](https://github.com/hassio-addons/addon-grafana) - Open platform for beautiful analytics and monitoring.
 - [Tor](https://github.com/hassio-addons/app-tor) - Protect your privacy and access your instance via Tor.
@@ -251,11 +249,8 @@ which you can easily add to your instance._
 
 _Additional integrations for Home Assistant, that were created by the community._
 
-- [Lutron Caseta Pro](https://github.com/upsert/lutron-caseta-pro) - Integrates Lutron Caseta Smart Bridge PRO / RA2 Select.
 - [SmartIR](https://github.com/smartHomeHub/SmartIR) - Integrates devices using Broadlink IR.
 - [Xiaomi Hygrothermo](https://github.com/dolezsa/Xiaomi_Hygrothermo) - Sensor platform for Xiaomi Mijia BT Hygrothermo temperature and humidity sensor.
-- [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Integrates Volkswagen Carnet (requires valid Carnet subscription).
-- [Untappd](https://github.com/custom-components/sensor.untapped) - Connects with your Untappd account.
 - [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publishes events to Elasticsearch.
 - [Alexa Media Player](https://github.com/keatontaylor/alexa_media_player) - Allow control of Amazon Alexa devices.
 - [iCloud3](https://github.com/gcobb321/icloud3) - Improved version of the iCloud device tracker component with a lot of capabilities.
@@ -315,11 +310,8 @@ _Links to various users of Home Assistant that regularly publish Home Assistant 
 _Sit back, relax, watch, and learn._
 
 - [Home Assistant](https://www.youtube.com/channel/UCbX3YkedQunLt7EQAdVxh7w) - Official YouTube Channel where new launches and live streams are held.
-- [BRUH](https://www.youtube.com/channel/UCLecVrux63S6aYiErxdiy4w) - Ben has great tutorials for getting started, unfortunately, inactive lately.
 - [BurnsHA](https://www.youtube.com/channel/UCSKQutOXuNLvFetrKuwudpg) - Great informational and tutorial videos.
-- [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng) - Great how-to videos and also streams live.
 - [The Hook Up](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ) - Tutorials and more, also has videos on home automation in general.
-- [HASSCASTS](https://www.youtube.com/channel/UCGOCeqMJnLvr-5C-ypUw7IQ) - Tips, Tricks & Tutorials, moving to mainly live streams.
 - [JuanMTech](https://www.youtube.com/juanmtech) - Easy to follow how-to videos, product reviews and more.
 - [vCloudInfo](https://www.youtube.com/vCloudInfo) - Publishes videos based on his home and GitHub repository.
 - [digiblurDIY](https://www.youtube.com/channel/UC5ZdPKE2ckcBhljTc2R_qNA) - Tutorials on hardware projects and Tasmota automations.
@@ -355,13 +347,11 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 - [Room Assistant](https://github.com/mKeRix/room-assistant) - A companion client to handle sensors in multiple rooms.
 - [Home Assistant Companion](https://itunes.apple.com/us/app/home-assistant-open-source-home-automation/id1099568401?mt=8) - iPhone/iPad/iOS App to control and monitor your home remotely.
 - [Mi Flora via MQTT daemon](https://github.com/ThomDietrich/miflora-mqtt-daemon) - Collect and transfer Xiaomi Mi Flora plant sensor data via MQTT.
-- [hassctl](https://github.com/dale3h/hassctl) - Simple command line utility to help debug your configuration.
 - [rhasspy](https://github.com/rhasspy/rhasspy) - Toolkit for developing custom voice assistants.
 - [AppDaemon](https://github.com/AppDaemon/appdaemon) - A loosely coupled, multi-threaded, sandboxed Python execution environment for writing automation apps.
 - [Developer Documentation](https://developers.home-assistant.io/) - The official developer documentation.
 - [HASS Configurator](https://github.com/danielperna84/hass-configurator) - Browser-based configuration file editor.
 - [HA-Dockermon](https://github.com/philhawthorne/ha-dockermon) - A Node.js service for RESTful switches to control Docker containers.
-- [Python Amazon Dash](https://github.com/Nekmo/amazon-dash) - Hack your Amazon Dash to run what you want. Without welders.
 - [homekit2mqtt](https://github.com/hobbyquaker/homekit2mqtt) - HomeKit to MQTT bridge.
 - [Home Assistant Device Database](https://www.hadevices.com/) - Database of supported/confirmed working devices.
 - [Jinja Scripts for Curious Minds](https://github.com/skalavala/mysmarthome/tree/master/jinja_helpers) - Bunch of Jinja2 scripts helping you to understand it better.
