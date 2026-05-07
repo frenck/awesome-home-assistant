@@ -1,0 +1,66 @@
+---
+# Canonical label set for awesome-home-assistant.
+# Synced to GitHub by .github/workflows/labels.yaml on every push to main.
+# To add or change a label, edit this file -- not the GitHub UI.
+
+# --- List-curation labels (used by issue templates) -----------------------
+
+- name: "💖 new"
+  description: Suggestion to add a new item to the list
+  color: "ee0701"
+
+- name: "❤️‍🔥 remove"
+  description: Suggestion to remove an item from the list
+  color: "b60205"
+
+- name: "❤️‍🩹 update"
+  description: Suggestion to update an existing item
+  color: "fbca04"
+
+# --- Triage labels --------------------------------------------------------
+
+- name: "🐛 bug"
+  description: Something isn't working as intended
+  color: "d73a4a"
+
+- name: "📚 documentation"
+  description: Improvements or additions to documentation
+  color: "0075ca"
+
+- name: question
+  description: Further information is requested
+  color: "d876e3"
+
+- name: duplicate
+  description: This issue or pull request already exists
+  color: "cfd3d7"
+
+- name: invalid
+  description: This doesn't seem right
+  color: "e4e669"
+
+- name: wontfix
+  description: This will not be worked on
+  color: "ffffff"
+
+- name: "good first issue"
+  description: Good for newcomers
+  color: "7057ff"
+
+- name: "help wanted"
+  description: Extra attention is needed
+  color: "008672"
+
+# --- Automation labels ----------------------------------------------------
+
+- name: dependencies
+  description: Pull requests that update a dependency file
+  color: "0366d6"
+
+- name: github_actions
+  description: Pull requests that update GitHub Actions code
+  color: "000000"
+
+- name: link-check
+  description: Issues filed by the automated link-check workflow
+  color: "1d76db"

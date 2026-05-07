@@ -1,0 +1,35 @@
+---
+name: Lock
+
+# yamllint disable-line rule:truthy
+on:
+  schedule:
+    - cron: '23 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: lock
+
+jobs:
+  lock:
+    name: Lock closed issues and PRs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lock
+        uses: dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7 # v6.0.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-inactive-days: '30'
+          issue-comment: >
+            This issue has been automatically locked since there
+            has not been any recent activity after it was closed.
+            Please open a new issue for related concerns.
+          pr-inactive-days: '30'
+          pr-comment: >
+            This pull request has been automatically locked since there
+            has not been any recent activity after it was closed.
+            Please open a new issue or pull request for related concerns.
