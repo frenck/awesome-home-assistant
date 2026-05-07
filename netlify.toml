@@ -1,0 +1,2 @@
+[build.environment]
+  PYTHON_VERSION = "3.12"
