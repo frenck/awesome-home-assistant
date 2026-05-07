@@ -42,18 +42,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          {
-            echo "<!-- listing-check -->"
-            echo "## Awesome list validation"
-            echo
-            echo "Validator output for this PR:"
-            echo
-            echo '```'
-          } > report.md
           python scripts/check_listing.py \
             --base "origin/${{ github.event.pull_request.base.ref }}" \
-            | tee -a report.md
-          echo '```' >> report.md
+            > report.md
+          cat report.md
 
       - name: Post or update PR comment
         if: github.event_name == 'pull_request'
@@ -65,7 +57,7 @@ jobs:
       - name: Fail job if validator reported errors
         if: github.event_name == 'pull_request' && steps.pr_check.outcome == 'failure'
         run: |
-          echo "Listing check found blocking errors — see the PR comment."
+          echo "Listing check found blocking errors -- see the PR comment."
           exit 1
 
       - name: Run validation (full sweep, scheduled / manual)
@@ -75,7 +67,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python scripts/check_listing.py --all | tee report.md
-          if grep -q '^## ❌ Errors' report.md; then
+          if grep -q '^### Errors' report.md; then
             echo "has_errors=true" >> "$GITHUB_OUTPUT"
           fi
 
