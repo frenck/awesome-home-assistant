@@ -388,7 +388,7 @@ interwebs._
 
 This awesome list is an active open-source project and is always open to
 people who want to contribute to it. We have set up a separate document
-containing our [Contribution Guidelines](https://github.com/frenck/awesome-home-assistant/blob/master/CONTRIBUTING.md).
+containing our [Contribution Guidelines](https://github.com/frenck/awesome-home-assistant/blob/main/.github/CONTRIBUTING.md).
 
 The original setup of this awesome list is by [Franck Nijhof](https://twitter.com/frenck).
 
