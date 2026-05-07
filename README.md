@@ -133,10 +133,6 @@ _Created and maintained by the Home Assistant team._
 - [Samba](https://github.com/home-assistant/hassio-addons/blob/master/samba/DOCS.md) - Access your configuration files using Windows network shares.
 - [NGINX SSL proxy](https://github.com/home-assistant/hassio-addons/blob/master/nginx_proxy/DOCS.md) - Reverse proxy with SSL termination.
 - [deCONZ](https://github.com/home-assistant/hassio-addons/blob/master/deconz/DOCS.md) - Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik.
-- [TellStick](https://github.com/home-assistant/hassio-addons/blob/master/tellstick/DOCS.md) - Run a TellStick and TellStick Duo service.
-- [Ada](https://github.com/home-assistant/hassio-addons/blob/master/ada/DOCS.md) - Voice assistant powered by Almond which is open and privacy-preserving.
-- [Almond](https://github.com/home-assistant/hassio-addons/blob/master/almond/DOCS.md) - The Open, Privacy-Preserving Virtual Assistant.
-- [HomeMatic](https://github.com/home-assistant/hassio-addons/blob/master/homematic/DOCS.md) - Central based on OCCU.
 - [Let's Encrypt](https://github.com/home-assistant/hassio-addons/blob/master/letsencrypt/DOCS.md) - Get a free SSL certificate from Let's Encrypt; an open and automated certificate authority (CA).
 - [MariaDB](https://github.com/home-assistant/hassio-addons/blob/master/mariadb/DOCS.md) - An open source relational database (fork of MySQL).
 
@@ -249,7 +245,6 @@ which you can easily add to your instance._
 
 ### Alternative Dashboards
 
-- [TileBoard](https://github.com/resoai/TileBoard) - A simple yet highly configurable Dashboard.
 - [Dwains Dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) - An fully auto-generating dashboard for desktop, tablet and mobile.
 
 ## Custom Integrations
@@ -299,7 +294,6 @@ could also build them yourself!_
 - [ESP MQTT Digital LEDs](https://github.com/bruhautomation/ESP-MQTT-JSON-Digital-LEDs) - WS2811 LED Stripe for the JSON Light Component from BRUH.
 - [Bed Presence Detection](https://selfhostedhome.com/diy-bed-presence-detection-home-assistant/) - ESP8266 based Bed Presence Detection.
 - [NFC Scanner](https://github.com/klaasnicolaas/ha_nfc_scanner) - Build an NFC tag/card scanner with an ESP8266, PN532 and MQTT.
-- [ESP32-Cam Facebox](https://www.dopebuild.com/i-am-sorry-dave-i-am-unable-to-do-that/) - Tie a ESP32-CAM, HA, and Facebox together for a cheap Facial Recog / Home monitoring solution.
 - [RaspiPool](https://github.com/segalion/raspipool) - A cost-effective, easy-to-build, easy-to-use "Swimming-Pool Automation System".
 - [QuinLED](https://quinled.info/) - DIY Wi-Fi LED dimmers and controllers using ESP32 boards.
 
@@ -310,7 +304,6 @@ _Links to various users of Home Assistant that regularly publish Home Assistant 
 ### Blogs
 
 - [DIY Futurism](https://diyfuturism.com/) - Brad posts articles with great instructions for new users.
-- [Phil Hawthorne](https://philhawthorne.com/homeautomation) - Co-host of the Home Assistant Podcast.
 - [Smart Home Hobby](https://smarthomehobby.com/) - Features budget friendly guides and information.
 - [Self Hosted Home](https://selfhostedhome.com/) - Articles on DIY home automation projects and self hosted services.
 - [Tinkering with Home Automation](https://blog.ceard.tech/) - Tinkerer's blog and guides.
@@ -364,7 +357,6 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 - [Mi Flora via MQTT daemon](https://github.com/ThomDietrich/miflora-mqtt-daemon) - Collect and transfer Xiaomi Mi Flora plant sensor data via MQTT.
 - [hassctl](https://github.com/dale3h/hassctl) - Simple command line utility to help debug your configuration.
 - [rhasspy](https://github.com/rhasspy/rhasspy) - Toolkit for developing custom voice assistants.
-- [Fully Kiosk Browser](https://www.ozerov.de/fully-kiosk-browser/) - Highly configurable Android Kiosk Browser and App Launcher.
 - [AppDaemon](https://github.com/AppDaemon/appdaemon) - A loosely coupled, multi-threaded, sandboxed Python execution environment for writing automation apps.
 - [Developer Documentation](https://developers.home-assistant.io/) - The official developer documentation.
 - [HASS Configurator](https://github.com/danielperna84/hass-configurator) - Browser-based configuration file editor.
@@ -373,7 +365,6 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 - [homekit2mqtt](https://github.com/hobbyquaker/homekit2mqtt) - HomeKit to MQTT bridge.
 - [Home Assistant Device Database](https://www.hadevices.com/) - Database of supported/confirmed working devices.
 - [Jinja Scripts for Curious Minds](https://github.com/skalavala/mysmarthome/tree/master/jinja_helpers) - Bunch of Jinja2 scripts helping you to understand it better.
-- [Ariela](https://play.google.com/store/apps/details?id=com.surodev.ariela) - Freemium Android client application with widget support.
 - [GitLab CI/CD](https://about.gitlab.com/2018/08/02/using-the-gitlab-ci-slash-cd-for-smart-home-configuration-management/) - How to simplify your smart home configuration with GitLab CI/CD.
 - [Monitor](https://github.com/andrewjfreyer/monitor) - Distributed advertisement-based BTLE presence detection reported via MQTT.
 - [HASS-data-detective](https://github.com/robmarkcole/HASS-data-detective) - Explore and analyse your database data.
