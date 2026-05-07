@@ -56,3 +56,53 @@ Typical reasons for deleting links:
 - Deprecated.
 - In case of software: License missing.
 - Dead link.
+
+## Running checks locally
+
+This is optional — every check below also runs in CI on your pull request.
+But running them locally before pushing means you find issues in seconds
+instead of minutes, and your PR turns green on the first try.
+
+### Quick start with `prek`
+
+[`prek`](https://github.com/j178/prek) is a fast Rust reimplementation of
+the original `pre-commit` and runs the same `.pre-commit-config.yaml`.
+Install it via `pipx install prek` (or `cargo install prek`), then:
+
+```sh
+prek install                  # set up the git pre-commit hook
+prek run --all-files          # run every hook against every file once
+```
+
+After that, the hooks run automatically on `git commit`. To run a single
+hook manually:
+
+```sh
+prek run yamllint --all-files
+prek run zizmor --all-files
+prek run codespell --all-files
+```
+
+### Or use upstream `pre-commit`
+
+If you prefer the original Python tool, [`pre-commit`](https://pre-commit.com)
+works with the same config file:
+
+```sh
+pipx install pre-commit
+pre-commit install
+pre-commit run --all-files
+```
+
+### What the hooks check
+
+- **trailing-whitespace, end-of-file-fixer, mixed-line-ending** —
+  basic file hygiene
+- **check-yaml** — every YAML file parses
+- **check-merge-conflict** — no leftover `<<<<<<<` markers
+- **codespell** — common typos in prose and comments
+- **yamllint** — YAML style consistency for workflow files
+- **zizmor** — workflow security audit (same checks the CI workflow runs)
+
+`awesome-lint` is intentionally **not** in the local hooks — it requires
+Node.js and we already run it in CI on every PR.
