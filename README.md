@@ -132,6 +132,7 @@ _Created and maintained by the Home Assistant team._
 - [Samba](https://github.com/home-assistant/hassio-addons/blob/master/samba/DOCS.md) - Access your configuration files using Windows network shares.
 - [NGINX SSL proxy](https://github.com/home-assistant/hassio-addons/blob/master/nginx_proxy/DOCS.md) - Reverse proxy with SSL termination.
 - [deCONZ](https://github.com/home-assistant/hassio-addons/blob/master/deconz/DOCS.md) - Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik.
+
 - [Let's Encrypt](https://github.com/home-assistant/hassio-addons/blob/master/letsencrypt/DOCS.md) - Get a free SSL certificate from Let's Encrypt; an open and automated certificate authority (CA).
 - [MariaDB](https://github.com/home-assistant/hassio-addons/blob/master/mariadb/DOCS.md) - An open source relational database (fork of MySQL).
 
@@ -348,6 +349,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 - [Home Assistant Companion](https://itunes.apple.com/us/app/home-assistant-open-source-home-automation/id1099568401?mt=8) - iPhone/iPad/iOS App to control and monitor your home remotely.
 - [Mi Flora via MQTT daemon](https://github.com/ThomDietrich/miflora-mqtt-daemon) - Collect and transfer Xiaomi Mi Flora plant sensor data via MQTT.
 - [rhasspy](https://github.com/rhasspy/rhasspy) - Toolkit for developing custom voice assistants.
+
 - [AppDaemon](https://github.com/AppDaemon/appdaemon) - A loosely coupled, multi-threaded, sandboxed Python execution environment for writing automation apps.
 - [Developer Documentation](https://developers.home-assistant.io/) - The official developer documentation.
 - [HASS Configurator](https://github.com/danielperna84/hass-configurator) - Browser-based configuration file editor.
@@ -355,6 +357,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 - [homekit2mqtt](https://github.com/hobbyquaker/homekit2mqtt) - HomeKit to MQTT bridge.
 - [Home Assistant Device Database](https://www.hadevices.com/) - Database of supported/confirmed working devices.
 - [Jinja Scripts for Curious Minds](https://github.com/skalavala/mysmarthome/tree/master/jinja_helpers) - Bunch of Jinja2 scripts helping you to understand it better.
+
 - [GitLab CI/CD](https://about.gitlab.com/2018/08/02/using-the-gitlab-ci-slash-cd-for-smart-home-configuration-management/) - How to simplify your smart home configuration with GitLab CI/CD.
 - [Monitor](https://github.com/andrewjfreyer/monitor) - Distributed advertisement-based BTLE presence detection reported via MQTT.
 - [HASS-data-detective](https://github.com/robmarkcole/HASS-data-detective) - Explore and analyse your database data.
