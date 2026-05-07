@@ -1,4 +1,4 @@
-# Awesome Home Assistant [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+# Awesome Home Assistant [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/frenck/awesome-home-assistant/badge)](https://scorecard.dev/viewer/?uri=github.com/frenck/awesome-home-assistant)
 <!--lint disable double-link-->
 
 <div align="center">
