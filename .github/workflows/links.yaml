@@ -1,0 +1,52 @@
+---
+name: Link check
+
+# yamllint disable-line rule:truthy
+on:
+  push:
+    branches: [main]
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'lychee.toml'
+      - '.github/workflows/links.yaml'
+  schedule:
+    - cron: '0 6 * * 1'  # Mondays at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    name: Lychee link check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code from GitHub
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      - name: Restore lychee cache
+        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - name: Run lychee
+        id: lychee
+        uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2.8.0
+        with:
+          args: --config lychee.toml README.md
+          fail: ${{ github.event_name != 'schedule' }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create issue from scheduled-run failure
+        if: github.event_name == 'schedule' && steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
+        with:
+          title: 'Link check report'
+          content-filepath: ./lychee/out.md
+          labels: 'link-check'

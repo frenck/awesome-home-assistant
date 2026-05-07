@@ -1,0 +1,41 @@
+# Lychee configuration for awesome-home-assistant
+# https://github.com/lycheeverse/lychee/blob/master/lychee.example.toml
+
+# Treat these HTTP statuses as success. Many sites legitimately return
+# these to crawlers (GitHub rate-limits, Facebook/forums refuse bots).
+accept = [200, 201, 202, 203, 204, 206, 301, 302, 303, 304, 307, 308, 403, 429]
+
+# Per-request timeout. Longer than the default 30s because some
+# linked blogs (quindorian.org, quinled.info, hackster.io) are slow
+# from GitHub-hosted runners and the first run timed out on them.
+timeout = 60
+
+# Retry transient failures.
+max_retries = 5
+retry_wait_time = 15
+
+# Cap concurrent requests so we don't trip rate limits on github.com.
+max_concurrency = 16
+
+# Use a real-browser-like user agent. Some hosts reject the default.
+user_agent = "Mozilla/5.0 (compatible; lychee/0.x; +https://github.com/frenck/awesome-home-assistant)"
+
+# Cache HEAD/GET results between runs.
+cache = true
+max_cache_age = "7d"
+
+# Quieter output for CI.
+no_progress = true
+
+# Things we do NOT want to check:
+exclude = [
+  # Self-references that resolve via the runner's working tree
+  "^https://github\\.com/frenck/awesome-home-assistant",
+  # Anchor-only links (e.g. #contents) -- lychee will check the section exists
+  # but we mostly trust ourselves on those.
+  "^#",
+  # itunes.apple.com links rate-limit aggressively and 403 inconsistently
+  "^https://itunes\\.apple\\.com",
+  # play.google.com Play Store responses are flaky from CI runners
+  "^https://play\\.google\\.com",
+]
