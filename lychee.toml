@@ -5,12 +5,14 @@
 # these to crawlers (GitHub rate-limits, Facebook/forums refuse bots).
 accept = [200, 201, 202, 203, 204, 206, 301, 302, 303, 304, 307, 308, 403, 429]
 
-# Reasonable per-request timeout for slow third-party blogs.
-timeout = 30
+# Per-request timeout. Longer than the default 30s because some
+# linked blogs (quindorian.org, quinled.info, hackster.io) are slow
+# from GitHub-hosted runners and the first run timed out on them.
+timeout = 60
 
 # Retry transient failures.
-max_retries = 3
-retry_wait_time = 10
+max_retries = 5
+retry_wait_time = 15
 
 # Cap concurrent requests so we don't trip rate limits on github.com.
 max_concurrency = 16
