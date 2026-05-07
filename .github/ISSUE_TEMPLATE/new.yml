@@ -40,7 +40,7 @@ body:
     attributes:
       label: The category of the link
       options:
-        - Add-on
+        - App
         - Alternative dashboard
         - Blog
         - Custom card
