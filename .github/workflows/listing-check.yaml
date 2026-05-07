@@ -1,0 +1,66 @@
+---
+name: Listing check
+
+# yamllint disable-line rule:truthy
+on:
+  pull_request:
+    paths:
+      - README.md
+      - scripts/check_listing.py
+      - .github/workflows/listing-check.yaml
+  schedule:
+    - cron: '0 7 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Validate listing entries
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+    steps:
+      - name: Check out code from GitHub
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: '3.12'
+
+      - name: Run validation (PR mode)
+        if: github.event_name == 'pull_request'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/check_listing.py \
+            --base "origin/${{ github.event.pull_request.base.ref }}" \
+            | tee report.md
+          # Fail the job if errors were reported
+          ! grep -q '^## ❌ Errors' report.md
+
+      - name: Run validation (full sweep, scheduled / manual)
+        if: github.event_name != 'pull_request'
+        id: full
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/check_listing.py --all | tee report.md
+          if grep -q '^## ❌ Errors' report.md; then
+            echo "has_errors=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: File issue from scheduled-run failure
+        if: github.event_name == 'schedule' && steps.full.outputs.has_errors == 'true'
+        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
+        with:
+          title: 'Listing check report'
+          content-filepath: ./report.md
+          labels: 'link-check'
