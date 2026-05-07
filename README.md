@@ -177,9 +177,7 @@ _The Home Assistant frontend is already pretty, but you can customize it to
 fit your needs or taste better._
 
 - [Dashboards Documentation](https://www.home-assistant.io/dashboards/) - The official documentation.
-- 📺 [Getting started with Lovelace UI](https://www.youtube.com/watch?v=ObfRzMIEJPgx) - Great introduction to Lovelace UI by DrZzs.
 - [Share the Love](https://sharethelove.io) - Custom card demos and configuration examples for Lovelace.
-- 📺 [How to set up Lovelace](https://www.youtube.com/watch?v=n5xMtONydEo) - Excellent step by step video for beginners by JuanMTech.
 
 ### Icon packs
 
@@ -191,7 +189,6 @@ fit your needs or taste better._
 
 _It is all about the looks, apply some style._
 
-- 📺 [Themes Tutorial](https://www.youtube.com/watch?v=3Xpd4zB2eRM) - Quick tutorial/example on how to configure themes.
 - [Midnight](https://community.home-assistant.io/t/midnight-theme/28598?u=frenck) - A dark theme by Marcel Hoffs.
 - [Dark Cyan](https://community.home-assistant.io/t/dark-cyan-theme/28594?u=frenck) - A dark theme with cyan accents by Ryoen Deprouw.
 - [Grey Night](https://community.home-assistant.io/t/grey-night-theme/30848?u=frenck) - A dark theme with grey accents by ksya.
