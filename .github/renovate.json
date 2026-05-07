@@ -1,0 +1,40 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":semanticCommits",
+    ":dependencyDashboard",
+    ":maintainLockFilesWeekly",
+    ":prHourlyLimitNone",
+    ":prConcurrentLimitNone",
+    "schedule:weekly"
+  ],
+  "labels": ["dependencies"],
+  "rangeStrategy": "pin",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "description": "Automerge minor and patch updates across the board",
+      "matchUpdateTypes": ["minor", "patch", "digest"],
+      "automerge": true,
+      "platformAutomerge": true
+    },
+    {
+      "description": "Group GitHub Actions updates and label them",
+      "matchManagers": ["github-actions"],
+      "addLabels": ["github_actions"],
+      "groupName": "GitHub Actions"
+    },
+    {
+      "description": "Group pip requirements updates",
+      "matchManagers": ["pip_requirements"],
+      "groupName": "pip requirements"
+    }
+  ],
+  "vulnerabilityAlerts": {
+    "labels": ["dependencies", "🐛 bug"]
+  }
+}
