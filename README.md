@@ -144,34 +144,34 @@ _Created and maintained by the Home Assistant team._
 
 _Anyone can create an add-on, the following are created by the community._
 
-- [SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh) - SSH and Web-based terminal with tons of pre-loaded useful tools.
-- [UniFi Controller](https://github.com/hassio-addons/addon-unifi) - The UniFi Controller allows you to manage your UniFi network using a web browser.
-- [Node-RED](https://github.com/hassio-addons/addon-node-red) - Flow-based programming for the Internet of Things.
-- [Plex Media Server](https://github.com/hassio-addons/addon-plex) - Your recorded media beautifully organized and ready to stream.
+- [SSH & Web Terminal](https://github.com/hassio-addons/app-ssh) - SSH and Web-based terminal with tons of pre-loaded useful tools.
+- [UniFi Controller](https://github.com/hassio-addons/app-unifi) - The UniFi Controller allows you to manage your UniFi network using a web browser.
+- [Node-RED](https://github.com/hassio-addons/app-node-red) - Flow-based programming for the Internet of Things.
+- [Plex Media Server](https://github.com/hassio-addons/app-plex) - Your recorded media beautifully organized and ready to stream.
 - [IDE](https://github.com/hassio-addons/addon-ide) - Advanced web-based IDE, based on Cloud9 IDE.
 - [Dasshio](https://github.com/danimtb/dasshio) - Easily use your Amazon Dash Buttons.
 - [InfluxDB](https://github.com/hassio-addons/addon-influxdb) - Scalable datastore for metrics, events, and real-time analytics.
 - [Grafana](https://github.com/hassio-addons/addon-grafana) - Open platform for beautiful analytics and monitoring.
-- [Tor](https://github.com/hassio-addons/addon-tor) - Protect your privacy and access your instance via Tor.
-- [Spotify Connect](https://github.com/hassio-addons/addon-spotify-connect) - Stream music from Spotify directly to your Home Assistant device.
+- [Tor](https://github.com/hassio-addons/app-tor) - Protect your privacy and access your instance via Tor.
+- [Spotify Connect](https://github.com/hassio-addons/app-spotify-connect) - Stream music from Spotify directly to your Home Assistant device.
 - [zigbee2mqtt](https://github.com/danielwelch/hassio-zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
-- [AppDaemon](https://github.com/hassio-addons/addon-appdaemon) - Python Apps and HADashboard.
+- [AppDaemon](https://github.com/hassio-addons/app-appdaemon) - Python Apps and HADashboard.
 - [TasmoAdmin](https://github.com/hassio-addons/addon-tasmoadmin) - Centrally manage all your Sonoff-Tasmota devices.
-- [Aircast](https://github.com/hassio-addons/addon-aircast) - AirPlay capabilities for your Chromecast players.
-- [AirSonos](https://github.com/hassio-addons/addon-airsonos) - AirPlay capabilities for your Sonos players.
+- [Aircast](https://github.com/hassio-addons/app-aircast) - AirPlay capabilities for your Chromecast players.
+- [AirSonos](https://github.com/hassio-addons/app-airsonos) - AirPlay capabilities for your Sonos players.
 - [Dropbox Sync](https://github.com/danielwelch/hassio-dropbox-sync) - Upload your backup snapshots to Dropbox.
 - [Log Viewer](https://github.com/hassio-addons/addon-log-viewer) - Browser-based live log viewing utility.
 - [Tautulli](https://github.com/hassio-addons/addon-tautulli) - Monitor and get statistics from your Plex server.
 - [motionEye](https://github.com/hassio-addons/addon-motioneye) - Simple, elegant and feature-rich CCTV/NVR for your cameras.
 - [JupyterLab](https://github.com/hassio-addons/addon-jupyterlab) - Create documents containing live code, equations, visualizations, and explanatory text.
 - [Backup to Google Drive](https://github.com/samccauley/addon-hassiogooglebackup) - Backup snapshots to Google Drive.
-- [Glances](https://github.com/hassio-addons/addon-glances) - A cross-platform system monitoring tool written in Python.
+- [Glances](https://github.com/hassio-addons/app-glances) - A cross-platform system monitoring tool written in Python.
 - [Matrix](https://github.com/hassio-addons/addon-matrix) - A secure and decentralized communication platform.
-- [AdGuard Home](https://github.com/hassio-addons/addon-adguard-home) - A network-wide ad-and-tracker blocking DNS server with parental control.
+- [AdGuard Home](https://github.com/hassio-addons/app-adguard-home) - A network-wide ad-and-tracker blocking DNS server with parental control.
 - [Traccar](https://github.com/hassio-addons/addon-traccar) - Modern GPS tracking platform.
 - [Home Panel](https://github.com/hassio-addons/addon-home-panel) - A touch-compatible web frontend for controlling the home.
 - [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup) - A complete and easy to configure solution for backing up your snapshots to Google Drive.
-- [Grocy](https://github.com/hassio-addons/addon-grocy) - ERP beyond your fridge! A groceries & household management solution for your home.
+- [Grocy](https://github.com/hassio-addons/app-grocy) - ERP beyond your fridge! A groceries & household management solution for your home.
 - [EmonCMS](https://github.com/inverse/hassio-addon-emoncms) - A powerful open-source web app for processing, logging, and visualizing energy, temperature, and other environmental data.
 - [CrowdSec](https://github.com/crowdsecurity/home-assistant-addons) - A next-gen collaborative IPS/IDS to protect you from intrusion.
 
@@ -221,14 +221,14 @@ which you can easily add to your instance._
 - [Thermostat Card](https://github.com/ciotlosm/lovelace-thermostat-dark-card) - Thermostat control card that looks like a Nest Thermostat.
 - [Mini Media Player](https://github.com/kalkih/mini-media-player) - A minimalistic media player card.
 - [Mini Graph Card](https://github.com/kalkih/mini-graph-card) - A minimalistic sensor graph card.
-- [Button card](https://github.com/kuuji/button-card) - Highly customizable button for your entities.
+- [Button card](https://github.com/custom-cards/button-card) - Highly customizable button for your entities.
 - [Slider Entity Row](https://github.com/thomasloven/lovelace-slider-entity-row) - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards.
 - [Power Wheel Card](https://github.com/gurbyz/power-wheel-card) - An intuitive way to represent the power that your home is consuming or producing.
 - [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) - A simpler and more flexible thermostat card.
 - [Card Modder](https://github.com/thomasloven/lovelace-card-mod) - Style your Lovelace cards.
-- [Bar Card](https://github.com/Gluwc/bar-card) - Customizable animated bar card.
+- [Bar Card](https://github.com/custom-cards/bar-card) - Customizable animated bar card.
 - [forked-daapd Card](https://github.com/kalkih/forked-daapd-card) - Control a forked daapd instance.
-- [Dual Gauge Card](https://github.com/Rocka84/dual-gauge-card) - Shows two gauges in one.
+- [Dual Gauge Card](https://github.com/custom-cards/dual-gauge-card) - Shows two gauges in one.
 - [Atomic Calendar Revive](https://github.com/totaldebug/atomic-calendar-revive) - Calendar card with advanced settings.
 - [Xiaomi Vacuum Card](https://github.com/benct/lovelace-xiaomi-vacuum-card) - Detailed card for Xiaomi vacuum cleaners (and others).
 - [Simple Weather Card](https://github.com/kalkih/simple-weather-card) - A minimalistic weather card, inspired by Google Material Design.
@@ -237,9 +237,9 @@ which you can easily add to your instance._
 - [Spotify Card](https://github.com/custom-cards/spotify-card) - List and select from current available devices and users top playlists on Spotify.
 - [Battery Entity](https://github.com/cbulock/lovelace-battery-entity) - Displaying battery levels for battery entities.
 - [Multiple Entity Row](https://github.com/benct/lovelace-multiple-entity-row) - Show multiple entity states or attributes on entity rows.
-- [Vacuum Map Card](https://github.com/PiotrMachowski/Home-Assistant-Lovelace-Xiaomi-Vacuum-Map-card) - This card provides a user-friendly way to fully control Xiaomi (Roborock/Viomi/Dreame/Roidmi) and Neato (+ possibly other) vacuums.
+- [Vacuum Map Card](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card) - This card provides a user-friendly way to fully control Xiaomi (Roborock/Viomi/Dreame/Roidmi) and Neato (+ possibly other) vacuums.
 - [Home Feed Card](https://github.com/gadgetchnnel/lovelace-home-feed-card) - Display a combination of persistent notifications, calendar events, and entities in the style of a feed.
-- [Config Template Card](https://github.com/custom-cards/config-template-card) - Allow using templates in Lovelace.
+- [Config Template Card](https://github.com/iantrich/config-template-card) - Allow using templates in Lovelace.
 - [RGB Light Card](https://github.com/bokub/rgb-light-card) - Colorful buttons to control your RGB Lights.
 - [LG WebOS Remote Control](https://github.com/madmicio/LG-WebOS-Remote-Control) - Remote Control for LG TV WebOS.
 - [Restriction Card](https://github.com/iantrich/restriction-card) - A card to provide restrictions on Lovelace cards defined within.
@@ -388,7 +388,7 @@ are some alternatives._
 
 - [openHAB](https://github.com/openhab) - Java-based and aims at being a universal integration platform.
 - [Domoticz](https://github.com/domoticz/domoticz) - A lightweight Home Automation System.
-- [Gladys](https://github.com/GladysProject/Gladys) - Open source program which runs on your Raspberry Pi.
+- [Gladys](https://github.com/GladysAssistant/Gladys) - Open source program which runs on your Raspberry Pi.
 - [SmartThings](https://www.smartthings.com/) - Commercial home automation hub by Samsung.
 
 ## Other Awesome Lists
@@ -400,7 +400,7 @@ interwebs._
 - [awesome-iot](https://github.com/HQarroum/awesome-iot) - Curated list of awesome Internet of Things projects and resources.
 - [awesome-open-iot](https://github.com/Agile-IoT/awesome-open-iot) - Curated list of open source IoT frameworks, libraries and software.
 - [awesome-amazon-alexa](https://github.com/miguelmota/awesome-amazon-alexa#readme) - Curated list of awesome resources for the Amazon Alexa platform.
-- [awesome-mqtt](https://github.com/hobbyquaker/awesome-mqtt#readme) - Curated list of MQTT related stuff.
+- [awesome-mqtt](https://github.com/awesome-mqtt/awesome-mqtt#readme) - Curated list of MQTT related stuff.
 - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Curated list of awesome self hosted software.
 
 ## Contributing
