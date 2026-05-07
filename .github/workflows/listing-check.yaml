@@ -37,14 +37,36 @@ jobs:
 
       - name: Run validation (PR mode)
         if: github.event_name == 'pull_request'
+        id: pr_check
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          {
+            echo "<!-- listing-check -->"
+            echo "## Awesome list validation"
+            echo
+            echo "Validator output for this PR:"
+            echo
+            echo '```'
+          } > report.md
           python scripts/check_listing.py \
             --base "origin/${{ github.event.pull_request.base.ref }}" \
-            | tee report.md
-          # Fail the job if errors were reported
-          ! grep -q '^## ❌ Errors' report.md
+            | tee -a report.md
+          echo '```' >> report.md
+
+      - name: Post or update PR comment
+        if: github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@0ea0beb66eb9baf113663a64ec522f60e49231c0 # v3.0.4
+        with:
+          header: listing-check
+          path: report.md
+
+      - name: Fail job if validator reported errors
+        if: github.event_name == 'pull_request' && steps.pr_check.outcome == 'failure'
+        run: |
+          echo "Listing check found blocking errors — see the PR comment."
+          exit 1
 
       - name: Run validation (full sweep, scheduled / manual)
         if: github.event_name != 'pull_request'
