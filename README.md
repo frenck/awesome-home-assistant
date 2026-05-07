@@ -18,7 +18,7 @@ you should check out the [Home Assistant online demo](https://demo.home-assistan
 
 Awesome Home Assistant is a curated list of awesome
 [Home Assistant](https://www.home-assistant.io) resources.
-Additional software, tutorials, custom integration, add-ons,
+Additional software, tutorials, custom integrations, apps,
 custom dashboard cards & plugins, cookbooks, example setups, and much more.
 
 The list is divided into categories. The links in those categories do not have
@@ -35,9 +35,9 @@ to suggest additions, updates or removals.
   - [Official Communities](#official-communities)
   - [Other Communities](#other-communities)
 - [Public Configurations](#public-configurations)
-- [Add-ons](#add-ons)
-  - [Official Add-ons](#official-add-ons)
-  - [Third Party Add-ons](#third-party-add-ons)
+- [Apps](#apps)
+  - [Official Apps](#official-apps)
+  - [Third Party Apps](#third-party-apps)
 - [Dashboards](#dashboards)
   - [Icon packs](#icon-packs)
   - [Themes](#themes)
@@ -97,7 +97,6 @@ or just say "Hi"._
 ### Other Communities
 
 - [Dr. ZZs](https://www.facebook.com/groups/1969622823351838/) - Facebook group by Dr. Zzs.
-- [Home Assistant Community Add-ons Discord](https://discord.me/hassioaddons) - Get support on the Home Assistant Community Add-ons.
 - [ESPHome Discord](https://discord.gg/KhAMKrd) - Get support for your DIY ESPHome project.
 - 🇳🇱 [Dutch Domotics Discord](https://discord.gg/Ee5X7T7) - Dutch Discord server with home automation enthusiasts.
 
@@ -116,13 +115,14 @@ an awesome source for learning and a great source of inspiration._
 - [Klaas Schoute](https://github.com/klaasnicolaas/Student-homeassistant-config) - Hass.io based, Intel NUC, Ubuntu Server, Docker and regularly updated.
 - [Andrea Iannucci](https://github.com/SeLLeRoNe/HA-Config) - Also known as SeLLeRoNe. Regularly updated.
 
-## Add-ons
+## Apps
 
-_Add-ons are additional applications and services, that can be run alongside
-Home Assistant. The Home Assistant OS and Supervised installations types,
-provide the Supervisor, which is capable of running and manage these add-ons._
+_Apps (formerly known as Add-ons) are additional applications and services
+that can be run alongside Home Assistant. The Home Assistant OS and Supervised
+installation types provide the Supervisor, which is capable of running and
+managing these apps._
 
-### Official Add-ons
+### Official Apps
 
 _Created and maintained by the Home Assistant team._
 
@@ -133,23 +133,19 @@ _Created and maintained by the Home Assistant team._
 - [Samba](https://github.com/home-assistant/hassio-addons/blob/master/samba/DOCS.md) - Access your configuration files using Windows network shares.
 - [NGINX SSL proxy](https://github.com/home-assistant/hassio-addons/blob/master/nginx_proxy/DOCS.md) - Reverse proxy with SSL termination.
 - [deCONZ](https://github.com/home-assistant/hassio-addons/blob/master/deconz/DOCS.md) - Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik.
-- [TellStick](https://github.com/home-assistant/hassio-addons/blob/master/tellstick/DOCS.md) - Run a TellStick and TellStick Duo service.
-- [Ada](https://github.com/home-assistant/hassio-addons/blob/master/ada/DOCS.md) - Voice assistant powered by Almond which is open and privacy-preserving.
-- [Almond](https://github.com/home-assistant/hassio-addons/blob/master/almond/DOCS.md) - The Open, Privacy-Preserving Virtual Assistant.
-- [HomeMatic](https://github.com/home-assistant/hassio-addons/blob/master/homematic/DOCS.md) - Central based on OCCU.
+
 - [Let's Encrypt](https://github.com/home-assistant/hassio-addons/blob/master/letsencrypt/DOCS.md) - Get a free SSL certificate from Let's Encrypt; an open and automated certificate authority (CA).
 - [MariaDB](https://github.com/home-assistant/hassio-addons/blob/master/mariadb/DOCS.md) - An open source relational database (fork of MySQL).
 
-### Third Party Add-ons
+### Third Party Apps
 
-_Anyone can create an add-on, the following are created by the community._
+_Anyone can create an app, the following are created by the community._
 
 - [SSH & Web Terminal](https://github.com/hassio-addons/app-ssh) - SSH and Web-based terminal with tons of pre-loaded useful tools.
 - [UniFi Controller](https://github.com/hassio-addons/app-unifi) - The UniFi Controller allows you to manage your UniFi network using a web browser.
 - [Node-RED](https://github.com/hassio-addons/app-node-red) - Flow-based programming for the Internet of Things.
 - [Plex Media Server](https://github.com/hassio-addons/app-plex) - Your recorded media beautifully organized and ready to stream.
 - [IDE](https://github.com/hassio-addons/addon-ide) - Advanced web-based IDE, based on Cloud9 IDE.
-- [Dasshio](https://github.com/danimtb/dasshio) - Easily use your Amazon Dash Buttons.
 - [InfluxDB](https://github.com/hassio-addons/addon-influxdb) - Scalable datastore for metrics, events, and real-time analytics.
 - [Grafana](https://github.com/hassio-addons/addon-grafana) - Open platform for beautiful analytics and monitoring.
 - [Tor](https://github.com/hassio-addons/app-tor) - Protect your privacy and access your instance via Tor.
@@ -249,18 +245,14 @@ which you can easily add to your instance._
 
 ### Alternative Dashboards
 
-- [TileBoard](https://github.com/resoai/TileBoard) - A simple yet highly configurable Dashboard.
 - [Dwains Dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) - An fully auto-generating dashboard for desktop, tablet and mobile.
 
 ## Custom Integrations
 
 _Additional integrations for Home Assistant, that were created by the community._
 
-- [Lutron Caseta Pro](https://github.com/upsert/lutron-caseta-pro) - Integrates Lutron Caseta Smart Bridge PRO / RA2 Select.
 - [SmartIR](https://github.com/smartHomeHub/SmartIR) - Integrates devices using Broadlink IR.
 - [Xiaomi Hygrothermo](https://github.com/dolezsa/Xiaomi_Hygrothermo) - Sensor platform for Xiaomi Mijia BT Hygrothermo temperature and humidity sensor.
-- [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Integrates Volkswagen Carnet (requires valid Carnet subscription).
-- [Untappd](https://github.com/custom-components/sensor.untapped) - Connects with your Untappd account.
 - [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publishes events to Elasticsearch.
 - [Alexa Media Player](https://github.com/keatontaylor/alexa_media_player) - Allow control of Amazon Alexa devices.
 - [iCloud3](https://github.com/gcobb321/icloud3) - Improved version of the iCloud device tracker component with a lot of capabilities.
@@ -299,7 +291,6 @@ could also build them yourself!_
 - [ESP MQTT Digital LEDs](https://github.com/bruhautomation/ESP-MQTT-JSON-Digital-LEDs) - WS2811 LED Stripe for the JSON Light Component from BRUH.
 - [Bed Presence Detection](https://selfhostedhome.com/diy-bed-presence-detection-home-assistant/) - ESP8266 based Bed Presence Detection.
 - [NFC Scanner](https://github.com/klaasnicolaas/ha_nfc_scanner) - Build an NFC tag/card scanner with an ESP8266, PN532 and MQTT.
-- [ESP32-Cam Facebox](https://www.dopebuild.com/i-am-sorry-dave-i-am-unable-to-do-that/) - Tie a ESP32-CAM, HA, and Facebox together for a cheap Facial Recog / Home monitoring solution.
 - [RaspiPool](https://github.com/segalion/raspipool) - A cost-effective, easy-to-build, easy-to-use "Swimming-Pool Automation System".
 - [QuinLED](https://quinled.info/) - DIY Wi-Fi LED dimmers and controllers using ESP32 boards.
 
@@ -310,7 +301,6 @@ _Links to various users of Home Assistant that regularly publish Home Assistant 
 ### Blogs
 
 - [DIY Futurism](https://diyfuturism.com/) - Brad posts articles with great instructions for new users.
-- [Phil Hawthorne](https://philhawthorne.com/homeautomation) - Co-host of the Home Assistant Podcast.
 - [Smart Home Hobby](https://smarthomehobby.com/) - Features budget friendly guides and information.
 - [Self Hosted Home](https://selfhostedhome.com/) - Articles on DIY home automation projects and self hosted services.
 - [Tinkering with Home Automation](https://blog.ceard.tech/) - Tinkerer's blog and guides.
@@ -322,11 +312,8 @@ _Links to various users of Home Assistant that regularly publish Home Assistant 
 _Sit back, relax, watch, and learn._
 
 - [Home Assistant](https://www.youtube.com/channel/UCbX3YkedQunLt7EQAdVxh7w) - Official YouTube Channel where new launches and live streams are held.
-- [BRUH](https://www.youtube.com/channel/UCLecVrux63S6aYiErxdiy4w) - Ben has great tutorials for getting started, unfortunately, inactive lately.
 - [BurnsHA](https://www.youtube.com/channel/UCSKQutOXuNLvFetrKuwudpg) - Great informational and tutorial videos.
-- [DrZzs](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng) - Great how-to videos and also streams live.
 - [The Hook Up](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ) - Tutorials and more, also has videos on home automation in general.
-- [HASSCASTS](https://www.youtube.com/channel/UCGOCeqMJnLvr-5C-ypUw7IQ) - Tips, Tricks & Tutorials, moving to mainly live streams.
 - [JuanMTech](https://www.youtube.com/juanmtech) - Easy to follow how-to videos, product reviews and more.
 - [vCloudInfo](https://www.youtube.com/vCloudInfo) - Publishes videos based on his home and GitHub repository.
 - [digiblurDIY](https://www.youtube.com/channel/UC5ZdPKE2ckcBhljTc2R_qNA) - Tutorials on hardware projects and Tasmota automations.
@@ -349,10 +336,10 @@ _Keep up with the latest news and updates, 280 characters at a time!_
 - [@hass_devs](https://twitter.com/hass_devs) - Latest news on the development of Home Assistant for contributors.
 - [@balloob](https://twitter.com/balloob) - Founder of the Home Assistant project.
 - [@pvizeli](https://twitter.com/pvizeli) - Core developer and creator of the Hass.io project.
-- [@frenck](https://twitter.com/frenck) - Creator of this Awesome list and maintainer of the Community Hass.io Add-ons project.
+- [@frenck](https://twitter.com/frenck) - Creator of this Awesome list and maintainer of the Home Assistant Community Apps project.
 - [@ccostan](https://twitter.com/ccostan) - Blogger of all things Tech. Smart Home, #IOT & other Geeky subjects.
 - [@HomeTechHacker](https://twitter.com/HomeTechHacker) - Guy friends call when #tech happens. Tweet 25-50x/week about #smarthome, #homenetwork, #cybersecurity, #Linux, #gadgets, and #life.
-- [@hassioaddons](https://twitter.com/hassioaddons) - For all commmunity add-on news and updates.
+- [@hassioaddons](https://twitter.com/hassioaddons) - For all community app news and updates.
 - [@Dr_Zzs](https://twitter.com/Dr_Zzs) - Great how-to videos and also streams live.
 
 ## Uncategorized
@@ -362,18 +349,16 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 - [Room Assistant](https://github.com/mKeRix/room-assistant) - A companion client to handle sensors in multiple rooms.
 - [Home Assistant Companion](https://itunes.apple.com/us/app/home-assistant-open-source-home-automation/id1099568401?mt=8) - iPhone/iPad/iOS App to control and monitor your home remotely.
 - [Mi Flora via MQTT daemon](https://github.com/ThomDietrich/miflora-mqtt-daemon) - Collect and transfer Xiaomi Mi Flora plant sensor data via MQTT.
-- [hassctl](https://github.com/dale3h/hassctl) - Simple command line utility to help debug your configuration.
 - [rhasspy](https://github.com/rhasspy/rhasspy) - Toolkit for developing custom voice assistants.
-- [Fully Kiosk Browser](https://www.ozerov.de/fully-kiosk-browser/) - Highly configurable Android Kiosk Browser and App Launcher.
+
 - [AppDaemon](https://github.com/AppDaemon/appdaemon) - A loosely coupled, multi-threaded, sandboxed Python execution environment for writing automation apps.
 - [Developer Documentation](https://developers.home-assistant.io/) - The official developer documentation.
 - [HASS Configurator](https://github.com/danielperna84/hass-configurator) - Browser-based configuration file editor.
 - [HA-Dockermon](https://github.com/philhawthorne/ha-dockermon) - A Node.js service for RESTful switches to control Docker containers.
-- [Python Amazon Dash](https://github.com/Nekmo/amazon-dash) - Hack your Amazon Dash to run what you want. Without welders.
 - [homekit2mqtt](https://github.com/hobbyquaker/homekit2mqtt) - HomeKit to MQTT bridge.
 - [Home Assistant Device Database](https://www.hadevices.com/) - Database of supported/confirmed working devices.
 - [Jinja Scripts for Curious Minds](https://github.com/skalavala/mysmarthome/tree/master/jinja_helpers) - Bunch of Jinja2 scripts helping you to understand it better.
-- [Ariela](https://play.google.com/store/apps/details?id=com.surodev.ariela) - Freemium Android client application with widget support.
+
 - [GitLab CI/CD](https://about.gitlab.com/2018/08/02/using-the-gitlab-ci-slash-cd-for-smart-home-configuration-management/) - How to simplify your smart home configuration with GitLab CI/CD.
 - [Monitor](https://github.com/andrewjfreyer/monitor) - Distributed advertisement-based BTLE presence detection reported via MQTT.
 - [HASS-data-detective](https://github.com/robmarkcole/HASS-data-detective) - Explore and analyse your database data.
@@ -407,7 +392,7 @@ interwebs._
 
 This awesome list is an active open-source project and is always open to
 people who want to contribute to it. We have set up a separate document
-containing our [Contribution Guidelines](https://github.com/frenck/awesome-home-assistant/blob/master/CONTRIBUTING.md).
+containing our [Contribution Guidelines](https://github.com/frenck/awesome-home-assistant/blob/main/.github/CONTRIBUTING.md).
 
 The original setup of this awesome list is by [Franck Nijhof](https://twitter.com/frenck).
 
