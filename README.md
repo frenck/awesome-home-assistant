@@ -85,7 +85,7 @@ Home Assistant recommends the Home Assistant OS installation method.
 
 _There are various ways to get in touch with the Home Assistant community.
 It doesn't matter if you have a question, need help, want to request a feature,
-or just say ‘Hi’._
+or just say "Hi"._
 
 ### Official Communities
 
@@ -134,9 +134,9 @@ _Created and maintained by the Home Assistant team._
 - [NGINX SSL proxy](https://github.com/home-assistant/hassio-addons/blob/master/nginx_proxy/DOCS.md) - Reverse proxy with SSL termination.
 - [deCONZ](https://github.com/home-assistant/hassio-addons/blob/master/deconz/DOCS.md) - Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik.
 - [TellStick](https://github.com/home-assistant/hassio-addons/blob/master/tellstick/DOCS.md) - Run a TellStick and TellStick Duo service.
-- [Ada](https://github.com/home-assistant/hassio-addons/blob/master/ada/DOCS.md) - Ada is voice assistant powered by Almond which is open and privacy-preserving.
+- [Ada](https://github.com/home-assistant/hassio-addons/blob/master/ada/DOCS.md) - Voice assistant powered by Almond which is open and privacy-preserving.
 - [Almond](https://github.com/home-assistant/hassio-addons/blob/master/almond/DOCS.md) - The Open, Privacy-Preserving Virtual Assistant.
-- [HomeMatic](https://github.com/home-assistant/hassio-addons/blob/master/homematic/DOCS.md) - HomeMatic central based on OCCU.
+- [HomeMatic](https://github.com/home-assistant/hassio-addons/blob/master/homematic/DOCS.md) - Central based on OCCU.
 - [Let's Encrypt](https://github.com/home-assistant/hassio-addons/blob/master/letsencrypt/DOCS.md) - Get a free SSL certificate from Let's Encrypt; an open and automated certificate authority (CA).
 - [MariaDB](https://github.com/home-assistant/hassio-addons/blob/master/mariadb/DOCS.md) - An open source relational database (fork of MySQL).
 
@@ -153,7 +153,7 @@ _Anyone can create an add-on, the following are created by the community._
 - [InfluxDB](https://github.com/hassio-addons/addon-influxdb) - Scalable datastore for metrics, events, and real-time analytics.
 - [Grafana](https://github.com/hassio-addons/addon-grafana) - Open platform for beautiful analytics and monitoring.
 - [Tor](https://github.com/hassio-addons/addon-tor) - Protect your privacy and access your instance via Tor.
-- [Spotify Connect](https://github.com/hassio-addons/addon-spotify-connect) - Spotify Connect client for playing music on your Home Assistant device.
+- [Spotify Connect](https://github.com/hassio-addons/addon-spotify-connect) - Stream music from Spotify directly to your Home Assistant device.
 - [zigbee2mqtt](https://github.com/danielwelch/hassio-zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
 - [AppDaemon](https://github.com/hassio-addons/addon-appdaemon) - Python Apps and HADashboard.
 - [TasmoAdmin](https://github.com/hassio-addons/addon-tasmoadmin) - Centrally manage all your Sonoff-Tasmota devices.
@@ -168,7 +168,7 @@ _Anyone can create an add-on, the following are created by the community._
 - [Glances](https://github.com/hassio-addons/addon-glances) - A cross-platform system monitoring tool written in Python.
 - [Matrix](https://github.com/hassio-addons/addon-matrix) - A secure and decentralized communication platform.
 - [AdGuard Home](https://github.com/hassio-addons/addon-adguard-home) - A network-wide ad-and-tracker blocking DNS server with parental control.
-- [Traccar](https://github.com/hassio-addons/addon-traccar) - Traccar is modern GPS Tracking Platform.
+- [Traccar](https://github.com/hassio-addons/addon-traccar) - Modern GPS tracking platform.
 - [Home Panel](https://github.com/hassio-addons/addon-home-panel) - A touch-compatible web frontend for controlling the home.
 - [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup) - A complete and easy to configure solution for backing up your snapshots to Google Drive.
 - [Grocy](https://github.com/hassio-addons/addon-grocy) - ERP beyond your fridge! A groceries & household management solution for your home.
@@ -221,7 +221,7 @@ which you can easily add to your instance._
 - [Thermostat Card](https://github.com/ciotlosm/lovelace-thermostat-dark-card) - Thermostat control card that looks like a Nest Thermostat.
 - [Mini Media Player](https://github.com/kalkih/mini-media-player) - A minimalistic media player card.
 - [Mini Graph Card](https://github.com/kalkih/mini-graph-card) - A minimalistic sensor graph card.
-- [Button card](https://github.com/kuuji/button-card) - Button card for your entities.
+- [Button card](https://github.com/kuuji/button-card) - Highly customizable button for your entities.
 - [Slider Entity Row](https://github.com/thomasloven/lovelace-slider-entity-row) - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards.
 - [Power Wheel Card](https://github.com/gurbyz/power-wheel-card) - An intuitive way to represent the power that your home is consuming or producing.
 - [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) - A simpler and more flexible thermostat card.
@@ -265,7 +265,7 @@ _Additional integrations for Home Assistant, that were created by the community.
 - [Alexa Media Player](https://github.com/keatontaylor/alexa_media_player) - Allow control of Amazon Alexa devices.
 - [iCloud3](https://github.com/gcobb321/icloud3) - Improved version of the iCloud device tracker component with a lot of capabilities.
 - [HACS](https://hacs.xyz/) - This is a manager for your custom integration (components) and plugin (lovelace elements) needs.
-- [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Circadian Lighting slowly synchronizes your color changing lights with the regular naturally occuring color temperature of the sky throughout the day.
+- [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Slowly synchronizes your color-changing lights with the naturally occurring color temperature of the sky throughout the day.
 - [HASS Aarlo](https://github.com/twrecked/hass-aarlo) - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells.
 - [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - Presents a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting.
 - [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - View RTSP streams from IP Cameras in real-time through WebRTC or MSE with Pan/Zoom controls.
@@ -365,7 +365,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 - [hassctl](https://github.com/dale3h/hassctl) - Simple command line utility to help debug your configuration.
 - [rhasspy](https://github.com/rhasspy/rhasspy) - Toolkit for developing custom voice assistants.
 - [Fully Kiosk Browser](https://www.ozerov.de/fully-kiosk-browser/) - Highly configurable Android Kiosk Browser and App Launcher.
-- [AppDaemon](https://github.com/AppDaemon/appdaemon) - AppDaemon is a loosely coupled, multi-threaded, sandboxed Python execution environment for writing automation apps.
+- [AppDaemon](https://github.com/AppDaemon/appdaemon) - A loosely coupled, multi-threaded, sandboxed Python execution environment for writing automation apps.
 - [Developer Documentation](https://developers.home-assistant.io/) - The official developer documentation.
 - [HASS Configurator](https://github.com/danielperna84/hass-configurator) - Browser-based configuration file editor.
 - [HA-Dockermon](https://github.com/philhawthorne/ha-dockermon) - A Node.js service for RESTful switches to control Docker containers.
@@ -374,7 +374,7 @@ _Valuable links, that don't fit in any of the above categories (yet!)._
 - [Home Assistant Device Database](https://www.hadevices.com/) - Database of supported/confirmed working devices.
 - [Jinja Scripts for Curious Minds](https://github.com/skalavala/mysmarthome/tree/master/jinja_helpers) - Bunch of Jinja2 scripts helping you to understand it better.
 - [Ariela](https://play.google.com/store/apps/details?id=com.surodev.ariela) - Freemium Android client application with widget support.
-- [Gitlab CI/CD](https://about.gitlab.com/2018/08/02/using-the-gitlab-ci-slash-cd-for-smart-home-configuration-management/) - How to simplify your smart home configuration with GitLab CI/CD.
+- [GitLab CI/CD](https://about.gitlab.com/2018/08/02/using-the-gitlab-ci-slash-cd-for-smart-home-configuration-management/) - How to simplify your smart home configuration with GitLab CI/CD.
 - [Monitor](https://github.com/andrewjfreyer/monitor) - Distributed advertisement-based BTLE presence detection reported via MQTT.
 - [HASS-data-detective](https://github.com/robmarkcole/HASS-data-detective) - Explore and analyse your database data.
 - [ADB Intents](https://gist.github.com/mcfrojd/9e6875e1db5c089b1e3ddeb7dba0f304) - List of ADB intents to control Android Devices.
