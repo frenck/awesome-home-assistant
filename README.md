@@ -18,7 +18,7 @@ you should check out the [Home Assistant online demo](https://demo.home-assistan
 
 Awesome Home Assistant is a curated list of awesome
 [Home Assistant](https://www.home-assistant.io) resources.
-Additional software, tutorials, custom integration, add-ons,
+Additional software, tutorials, custom integrations, apps,
 custom dashboard cards & plugins, cookbooks, example setups, and much more.
 
 The list is divided into categories. The links in those categories do not have
@@ -35,9 +35,9 @@ to suggest additions, updates or removals.
   - [Official Communities](#official-communities)
   - [Other Communities](#other-communities)
 - [Public Configurations](#public-configurations)
-- [Add-ons](#add-ons)
-  - [Official Add-ons](#official-add-ons)
-  - [Third Party Add-ons](#third-party-add-ons)
+- [Apps](#apps)
+  - [Official Apps](#official-apps)
+  - [Third Party Apps](#third-party-apps)
 - [Dashboards](#dashboards)
   - [Icon packs](#icon-packs)
   - [Themes](#themes)
@@ -115,13 +115,14 @@ an awesome source for learning and a great source of inspiration._
 - [Klaas Schoute](https://github.com/klaasnicolaas/Student-homeassistant-config) - Hass.io based, Intel NUC, Ubuntu Server, Docker and regularly updated.
 - [Andrea Iannucci](https://github.com/SeLLeRoNe/HA-Config) - Also known as SeLLeRoNe. Regularly updated.
 
-## Add-ons
+## Apps
 
-_Add-ons are additional applications and services, that can be run alongside
-Home Assistant. The Home Assistant OS and Supervised installations types,
-provide the Supervisor, which is capable of running and manage these add-ons._
+_Apps (formerly known as Add-ons) are additional applications and services
+that can be run alongside Home Assistant. The Home Assistant OS and Supervised
+installation types provide the Supervisor, which is capable of running and
+managing these apps._
 
-### Official Add-ons
+### Official Apps
 
 _Created and maintained by the Home Assistant team._
 
@@ -135,9 +136,9 @@ _Created and maintained by the Home Assistant team._
 - [Let's Encrypt](https://github.com/home-assistant/hassio-addons/blob/master/letsencrypt/DOCS.md) - Get a free SSL certificate from Let's Encrypt; an open and automated certificate authority (CA).
 - [MariaDB](https://github.com/home-assistant/hassio-addons/blob/master/mariadb/DOCS.md) - An open source relational database (fork of MySQL).
 
-### Third Party Add-ons
+### Third Party Apps
 
-_Anyone can create an add-on, the following are created by the community._
+_Anyone can create an app, the following are created by the community._
 
 - [SSH & Web Terminal](https://github.com/hassio-addons/app-ssh) - SSH and Web-based terminal with tons of pre-loaded useful tools.
 - [UniFi Controller](https://github.com/hassio-addons/app-unifi) - The UniFi Controller allows you to manage your UniFi network using a web browser.
@@ -334,10 +335,10 @@ _Keep up with the latest news and updates, 280 characters at a time!_
 - [@hass_devs](https://twitter.com/hass_devs) - Latest news on the development of Home Assistant for contributors.
 - [@balloob](https://twitter.com/balloob) - Founder of the Home Assistant project.
 - [@pvizeli](https://twitter.com/pvizeli) - Core developer and creator of the Hass.io project.
-- [@frenck](https://twitter.com/frenck) - Creator of this Awesome list and maintainer of the Community Hass.io Add-ons project.
+- [@frenck](https://twitter.com/frenck) - Creator of this Awesome list and maintainer of the Home Assistant Community Apps project.
 - [@ccostan](https://twitter.com/ccostan) - Blogger of all things Tech. Smart Home, #IOT & other Geeky subjects.
 - [@HomeTechHacker](https://twitter.com/HomeTechHacker) - Guy friends call when #tech happens. Tweet 25-50x/week about #smarthome, #homenetwork, #cybersecurity, #Linux, #gadgets, and #life.
-- [@hassioaddons](https://twitter.com/hassioaddons) - For all commmunity add-on news and updates.
+- [@hassioaddons](https://twitter.com/hassioaddons) - For all community app news and updates.
 - [@Dr_Zzs](https://twitter.com/Dr_Zzs) - Great how-to videos and also streams live.
 
 ## Uncategorized
