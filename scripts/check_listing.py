@@ -361,23 +361,95 @@ def run(entries: Iterable[Entry], all_entries: list[Entry]) -> Findings:
     return findings
 
 
-def format_report(f: Findings) -> str:
-    out = []
+def format_report(f: Findings, target: list[Entry], total: int, *, mode: str) -> str:
+    """Render a Markdown report for the PR comment.
+
+    Always returns a self-contained block, including the success case --
+    contributors should see at a glance whether their PR is OK.
+    """
+    n = len(target)
+    err = len(f.errors)
+    warn = len(f.warnings)
+
+    if n == 0:
+        if mode == "pr":
+            return (
+                "## Awesome list validation\n\n"
+                "ℹ️ **No new listing entries in this PR** -- nothing to "
+                "validate.\n"
+            )
+        return (
+            "## Awesome list validation\n\n"
+            "ℹ️ No entries found in `README.md`. Did the file structure "
+            "change?\n"
+        )
+
+    # Status line
+    if err:
+        status = (
+            f"❌ **Blocking errors** -- validated {n} "
+            f"{'entry' if n == 1 else 'entries'}: {err} error"
+            f"{'s' if err != 1 else ''}, {warn} warning"
+            f"{'s' if warn != 1 else ''}.\n\n"
+            "Please address the errors below before this PR can be merged."
+        )
+    elif warn:
+        status = (
+            f"⚠️ **Passing with warnings** -- validated {n} "
+            f"{'entry' if n == 1 else 'entries'}: 0 errors, {warn} warning"
+            f"{'s' if warn != 1 else ''}.\n\n"
+            "The warnings below are advisory, not blockers."
+        )
+    else:
+        status = (
+            f"✅ **All checks passed** -- validated {n} "
+            f"{'entry' if n == 1 else 'entries'}."
+        )
+
+    parts = ["## Awesome list validation", "", status, ""]
+
+    # Entries table (compact, easier to scan than a bullet list for >2 entries)
+    parts.append("### Entries checked\n")
+    parts.append("| Entry | Section | URL |")
+    parts.append("|-------|---------|-----|")
+    for e in target:
+        nm = e.name.replace("|", "\\|")
+        sec = e.section_label.replace("|", "\\|")
+        parts.append(f"| {nm} | {sec} | {e.url} |")
+    parts.append("")
+
     if f.errors:
-        out.append(f"## ❌ Errors ({len(f.errors)})\n")
+        parts.append(f"### Errors ({err})\n")
         for e, msg in f.errors:
-            out.append(f"- **{e.name}** ({e.section_label}): {msg}")
-            out.append(f"  - URL: {e.url}")
-        out.append("")
+            parts.append(f"- **{e.name}** — *{e.section_label}*: {msg}")
+            parts.append(f"  - {e.url}")
+        parts.append("")
+
     if f.warnings:
-        out.append(f"## ⚠️  Warnings ({len(f.warnings)})\n")
+        parts.append(f"### Warnings ({warn})\n")
         for e, msg in f.warnings:
-            out.append(f"- **{e.name}** ({e.section_label}): {msg}")
-            out.append(f"  - URL: {e.url}")
-        out.append("")
-    if not f.errors and not f.warnings:
-        out.append("All checks passed.")
-    return "\n".join(out)
+            parts.append(f"- **{e.name}** — *{e.section_label}*: {msg}")
+            parts.append(f"  - {e.url}")
+        parts.append("")
+
+    parts.extend([
+        "<details>",
+        "<summary>What was checked</summary>",
+        "",
+        "- URL hygiene (HTTPS, no shorteners, no duplicates, no tracking params)",
+        "- Repository status (not archived, age ≥6 months, last push <18 months)",
+        "- License (OSI-approved; CC accepted for *Other Awesome Lists*)",
+        "- README presence and Home Assistant mention",
+        "- HACS structure (`hacs.json`) for Custom Integrations and Custom Cards",
+        "",
+        "Full criteria: [.github/CONTRIBUTING.md]"
+        "(https://github.com/frenck/awesome-home-assistant/blob/main/.github/"
+        "CONTRIBUTING.md#acceptance-criteria).",
+        "",
+        "</details>",
+        "",
+    ])
+    return "\n".join(parts)
 
 
 def main() -> int:
@@ -402,8 +474,8 @@ def main() -> int:
           f"out of {len(all_entries)} total.")
 
     findings = run(target, all_entries)
-    print()
-    print(format_report(findings))
+    mode = "pr" if (args.base and not args.all) else "all"
+    print(format_report(findings, target, len(all_entries), mode=mode))
 
     return 1 if findings.errors else 0
 
