@@ -237,7 +237,6 @@ _Pull your solar inverter, smart meter, home battery, or utility tariff into Hom
 - [Victron GX](https://github.com/sfstar/hass-victron) - Reads data from a Victron GX device over Modbus/TCP, exposing inverters, batteries, solar chargers, and AC inputs (315★).
 - [Solis Sensor](https://github.com/hultenvp/solis-sensor) - Talks to the SolisCloud PV monitoring portal so you can pull Solis inverter generation, battery, and grid data into the energy dashboard (315★).
 - [GoodWe Inverter](https://github.com/mletenay/home-assistant-goodwe-inverter) - Pulls live data from GoodWe solar inverters over the local network for use in the energy dashboard (208★).
-- [EV Smart Charging](https://github.com/jonasbkarlsson/ev_smart_charging) - Plans an electric vehicle charging schedule across the cheapest hours of a dynamic tariff, working with most chargers and price sensors (290★).
 - [Solar Optimizer](https://github.com/jmcollin78/solar_optimizer) - Starts and stops your appliances based on solar surplus production so you self-consume rather than export (222★).
 - [Dynamic Energy Cost](https://github.com/martinarva/dynamic_energy_cost) - Tracks real-time and cumulative energy cost against a dynamic price feed like Nord Pool or EPEX (186★).
 - [Energi Data Service](https://github.com/MTrab/energidataservice) - Fetches Danish electricity spot prices from the Energi Data Service API for use in price-aware automations (269★).
@@ -282,6 +281,7 @@ _Track your car's battery, location, and charging state, or control where and wh
 - [Stellantis Vehicles](https://github.com/andreadegiovine/homeassistant-stellantis-vehicles) - Adds Stellantis cars (Peugeot, Citroen, Fiat, Opel, Vauxhall, DS) over the manufacturer API for range, lock, and climate (223★).
 - [evcc](https://github.com/marq24/ha-evcc) - Connects to an evcc instance to surface charge sessions, solar matching, and per-loadpoint state (387★).
 - [Easee EV Charger](https://github.com/nordicopen/easee_hass) - Adds Easee EV chargers with live charge state, dynamic load balancing, and per-session metering (272★).
+- [EV Smart Charging](https://github.com/jonasbkarlsson/ev_smart_charging) - Plans an electric vehicle charging schedule across the cheapest hours of a dynamic tariff, working with most chargers and price sensors (290★).
 
 ### 📍 Presence & location
 
