@@ -42,7 +42,9 @@ to suggest additions, updates or removals.
 - [Installing](#installing)
 - [In case you need help](#in-case-you-need-help)
   - [🤝 Official Communities](#-official-communities)
-  - [🌐 Other Communities](#-other-communities)
+  - [🌍 In your language](#-in-your-language)
+  - [🧩 Around community projects](#-around-community-projects)
+  - [💬 Other community spaces](#-other-community-spaces)
 - [Public Configurations](#public-configurations)
 - [Custom Integrations](#custom-integrations)
   - [🤖 AI & LLMs](#-ai--llms)
@@ -128,23 +130,52 @@ become one click away.
 
 ## In case you need help
 
-Stuck on a configuration, wondering why a device will not pair, or just want
-to see what other people are building? Home Assistant has one of the most
-active home-automation communities on the internet, and most of it is free
-to join.
+Stuck on a configuration, wondering why a device will not pair, or just
+want to see what other people are building? Home Assistant has one of the
+most active home-automation communities on the internet, and most of it
+is free to join. The official channels are below; further down you will
+find communities in your language and around specific projects from the
+wider ecosystem.
 
 ### 🤝 Official Communities
 
-- [Home Assistant Discord](https://discordapp.com/invite/c5DvZ4e) - Join the chat, most of us are there.
-- [Home Assistant Community](https://community.home-assistant.io/?u=frenck) - The community discussion forum.
-- [Home Assistant Subreddit](https://www.reddit.com/r/homeassistant/) - If you are into Reddit, subscribe.
+- [Home Assistant Discord](https://discordapp.com/invite/c5DvZ4e) - The main chat, most of us are there.
+- [Home Assistant Community](https://community.home-assistant.io/?u=frenck) - The discussion forum.
+- [Home Assistant Subreddit](https://www.reddit.com/r/homeassistant/) - The official subreddit.
 - [Home Assistant Facebook Group](https://www.facebook.com/groups/HomeAssistant/) - Facebook group for enthusiasts.
 
-### 🌐 Other Communities
+### 🌍 In your language
 
-- [Dr. ZZs](https://www.facebook.com/groups/1969622823351838/) - Facebook group by Dr. Zzs.
-- [ESPHome Discord](https://discord.gg/KhAMKrd) - Get support for your DIY ESPHome project.
-- 🇳🇱 [Dutch Domotics Discord](https://discord.gg/Ee5X7T7) - Dutch Discord server with home automation enthusiasts.
+_Communities in languages other than English. Multiple groups can exist per language; add yours via a pull request. Sorted alphabetically by language._
+
+- 🇧🇷 [Home Assistant Brasil](https://t.me/homeassistant_brasil) - Brazilian Portuguese Telegram group for users of all skill levels.
+- 🇳🇱 [Dutch Domotics Discord](https://discord.gg/Ee5X7T7) - Dutch-language home-automation Discord.
+- 🇳🇱 [Home Assistant NL](https://t.me/home_assistant_nl) - Dutch-language Telegram group.
+- 🇫🇷 [HACF Forum](https://forum.hacf.fr) - Discussion forum of the French-speaking association HACF (Home Assistant Communauté Française).
+- 🇩🇪 [Home Assistant DE](https://t.me/homeassistant_de) - German-language Telegram group for discussions, tips, and help.
+- 🇮🇹 [Home Assistant Italia](https://t.me/HomeAssistantItalia) - Italian Telegram group for sharing ideas and projects.
+- 🇷🇺 [Home Assistant RU Telegram](https://t.me/HomeAssistantRU) - Russian-speaking Telegram group.
+
+### 🧩 Around community projects
+
+_Discords, forums, and chats run by community projects you will see elsewhere on this list. Sorted alphabetically by project._
+
+- [AppDaemon Discord](https://discord.gg/sgSr79jW5x) - Help with the Python automation framework that runs alongside the core.
+- [ESPHome Discord](https://discord.gg/KhAMKrd) - Help with ESP-based DIY devices and the YAML firmware for them.
+- [Frigate Discussions](https://github.com/blakeblackshear/frigate/discussions) - GitHub Discussions for the local-NVR / object-detection project.
+- [HACS Discord](https://discord.gg/apgchf8) - Help with the Home Assistant Community Store.
+- [Music Assistant Discord](https://discord.gg/kaVm8hGpne) - Chat for the multi-room music server.
+- [NetDaemon Discord](https://discord.gg/K3xwfcX) - Help with writing automations in C# / .NET.
+- [Tasmota Discord](https://discord.gg/Ks2Kzd4) - Chat for the ESP firmware that powers many Sonoff and eWeLink devices.
+- [Z-Wave JS Discord](https://discord.gg/HFqcyFNfWd) - Chat for the Z-Wave JS stack used by the Z-Wave integration.
+- [Zigbee2MQTT Discussions](https://github.com/Koenkk/zigbee2mqtt/discussions) - GitHub Discussions for the popular Zigbee bridge.
+
+### 💬 Other community spaces
+
+_Independent groups not tied to a specific language or project._
+
+- [Home Assistant International Telegram](https://t.me/home_assistant_international) - English-speaking Telegram group for the wider international community.
+- [Dr. ZZs Facebook Group](https://www.facebook.com/groups/1969622823351838/) - Community around the YouTube creator Dr. Zzs.
 
 ## Public Configurations
 
