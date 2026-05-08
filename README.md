@@ -215,7 +215,6 @@ _Smarter thermostats, comfort sensors, and HVAC integrations that go beyond what
 - [Better Thermostat](https://github.com/KartoffelToby/better_thermostat) - Smarter thermostat with window detection, heating curves, and per-room comfort profiles for thermostatic radiator valves (1,389★).
 - [Versatile Thermostat](https://github.com/jmcollin78/versatile_thermostat) - Full-featured thermostat with presets, window detection, motion-based comfort, and presence (1,040★).
 - [Midea Air Appliances LAN](https://github.com/nbogojevic/homeassistant-midea-air-appliances-lan) - Local control of Midea air conditioners, dehumidifiers, and other appliances over LAN (451★).
-- [Thermal Comfort](https://github.com/dolezsa/thermal_comfort) - Computes derived comfort metrics from temperature and humidity, including absolute humidity, heat index, dew point, and a thermal perception score (830★).
 - [Smart Autotune Thermostat (SAT)](https://github.com/Alexwijn/SAT) - Self-tuning thermostat that talks to OpenTherm, ESPHome, or MQTT gateways and adapts the heating curve to your home over time (243★).
 - [Dual Smart Thermostat](https://github.com/swingerman/ha-dual-smart-thermostat) - Enhanced version of the built-in generic thermostat, with separate heating and cooling, floor temperature limits, and humidity controls (224★).
 
@@ -279,8 +278,6 @@ _Track your car's battery, location, and charging state, or control where and wh
 - [Tesla](https://github.com/alandtse/tesla) - Track Tesla cars and Powerwalls with charging, climate, location, and security state, using a refresh token from a third-party login app (725★).
 - [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Track charging state, climate preconditioning, and remote lock and honk for Volkswagen cars on the Carnet platform (512★).
 - [Audi Connect](https://github.com/audiconnect/audi_connect_ha) - Tracks Audi cars over the Audi Connect API, including charging state, range, lock, and climate preconditioning (328★).
-- [Mercedes me](https://github.com/ReneNulschDE/mbapi2020) - Pairs Mercedes-Benz cars over the Mercedes me API, including range, lock, doors, and climate preconditioning (320★).
-- [MySkoda](https://github.com/skodaconnect/homeassistant-myskoda) - Brings Skoda cars from the MySkoda app into your dashboard, with range, lock, charging state, and climate controls (315★).
 - [Polestar](https://github.com/pypolestar/polestar_api) - Reads Polestar EVs through the Polestar app API, with range, charging, and location data (241★).
 - [Stellantis Vehicles](https://github.com/andreadegiovine/homeassistant-stellantis-vehicles) - Adds Stellantis cars (Peugeot, Citroen, Fiat, Opel, Vauxhall, DS) over the manufacturer API for range, lock, and climate (223★).
 - [evcc](https://github.com/marq24/ha-evcc) - Connects to an evcc instance to surface charge sessions, solar matching, and per-loadpoint state (387★).
@@ -355,7 +352,6 @@ _Helpers that make automations easier to write, debug, and maintain._
 - [Magic Areas](https://github.com/jseidl/magic-areas) - Auto-build per-room presence, climate, and media area entities, with motion-triggered scenes and bright/dark detection (476★).
 - [Auto Backup](https://github.com/jcwillox/hass-auto-backup) - Automate backups with custom schedules, retention rules, encryption, and uploads to remote storage (455★).
 - [Multiscrape](https://github.com/danieldotnl/ha-multiscrape) - Scrape multiple values (HTML, XML, or JSON) from a page in one request and turn them into sensors (429★).
-- [Switch Manager](https://github.com/Sian-Lee-SA/Home-Assistant-Switch-Manager) - Centralised UI to wire up button-press events from wireless switches to actions, no YAML required (561★).
 - [Retry Service](https://github.com/amitfin/retry) - Wraps any service call so transient failures retry automatically with exponential backoff (162★).
 
 ### 🏘️ Civic & household
@@ -367,7 +363,6 @@ _Local services that turn into sensors and calendars: garbage collection schedul
 - [Moonraker (Klipper)](https://github.com/marcolivierarsenault/moonraker-home-assistant) - Track Klipper-based 3D printers running Moonraker (Mainsail, Fluidd) with print progress, temperature, and webcam snapshots (462★).
 - [Smart Irrigation](https://github.com/jeroenterheerdt/HAsmartirrigation) - Calculates how long to run each irrigation zone based on evapotranspiration, recent rainfall, and weather forecasts (494★).
 - [UK Bin Collection](https://github.com/robbrad/UKBinCollectionData) - Council bin collection schedules across UK local authorities, exposed as next-pickup sensors per waste stream (320★).
-- [Waste Collection Schedule](https://github.com/mampfes/hacs_waste_collection_schedule) - Garbage and recycling pickup schedules from hundreds of municipal services worldwide, with per-stream next-pickup sensors (2,024★).
 
 ### 🔐 Network & authentication
 
