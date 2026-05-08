@@ -1,0 +1,69 @@
+---
+name: Weekly maintenance
+
+# yamllint disable-line rule:truthy
+on:
+  schedule:
+    - cron: '0 6 * * 5'  # Fridays at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  maintenance:
+    name: Refresh stars and run activity check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Check out code from GitHub
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: '3.12'
+
+      - name: Refresh inline star counts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_stars.py
+
+      - name: Run activity check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/check_activity.py > activity-report.md
+
+      - name: Validate updated README
+        run: npx awesome-lint@2.3.0
+
+      - name: Compose PR body
+        run: |
+          {
+            echo "Automated weekly maintenance run."
+            echo
+            echo "## Star counts"
+            echo
+            echo "Refreshed via \`scripts/update_stars.py\` (HACS data first, GitHub API fallback for repos HACS does not cover). See the README diff for the changes."
+            echo
+            cat activity-report.md
+            echo
+            echo "_Triggered by the Weekly maintenance workflow. Review the diff and the activity check above, drop entries you no longer want, then merge._"
+          } > pr-body.md
+
+      - name: Open or update maintenance PR
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: chore/weekly-maintenance
+          base: main
+          delete-branch: true
+          add-paths: README.md
+          commit-message: 'chore: weekly star count refresh'
+          title: 'Weekly maintenance: refresh stars and flag inactive repos'
+          body-path: pr-body.md
+          labels: maintenance
