@@ -149,8 +149,10 @@ wider ecosystem.
 _Communities in languages other than English. Multiple groups can exist per language; add yours via a pull request. Sorted alphabetically by language._
 
 - 🇧🇷 [Home Assistant Brasil](https://t.me/homeassistant_brasil) - Brazilian Portuguese Telegram group for users of all skill levels.
-- 🇫🇷 [HACF Forum](https://forum.hacf.fr) - Discussion forum of the French-speaking association HACF (Home Assistant Communauté Française).
 - 🇳🇱 [Dutch Domotics Discord](https://discord.gg/Ee5X7T7) - Dutch-language home-automation Discord.
+- 🇫🇷 [HACF Forum](https://forum.hacf.fr) - Discussion forum of the French-speaking association HACF (Home Assistant Communauté Française).
+- 🇩🇪 [Home Assistant DE](https://t.me/homeassistant_de) - German-language Telegram group for discussions, tips, and help.
+- 🇮🇹 [Home Assistant Italia](https://t.me/HomeAssistantItalia) - Italian Telegram group for sharing ideas and projects.
 - 🇷🇺 [Home Assistant RU Telegram](https://t.me/HomeAssistantRU) - Russian-speaking Telegram group.
 
 ### 🧩 Around community projects
