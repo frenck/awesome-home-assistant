@@ -53,11 +53,21 @@ to suggest additions, updates or removals.
   - [Custom Cards](#custom-cards)
   - [Alternative Dashboards](#alternative-dashboards)
 - [Custom Integrations](#custom-integrations)
+  - [AI & LLMs](#ai--llms)
   - [Voice & media playback](#voice--media-playback)
   - [Cameras & video](#cameras--video)
   - [Vacuums](#vacuums)
+  - [Climate](#climate)
   - [Lighting](#lighting)
+  - [Energy & solar](#energy--solar)
+  - [Bluetooth & BLE](#bluetooth--ble)
+  - [Security & alarm](#security--alarm)
+  - [Cars & EV charging](#cars--ev-charging)
   - [Presence & location](#presence--location)
+  - [Battery monitoring](#battery-monitoring)
+  - [Network & authentication](#network--authentication)
+  - [Federation & multi-instance](#federation--multi-instance)
+  - [Civic & household](#civic--household)
   - [Automation tooling](#automation-tooling)
   - [Vendor & brand](#vendor--brand)
   - [Logging & analytics](#logging--analytics)
@@ -219,6 +229,12 @@ _It is all about the looks, apply some style._
 
 _Lovelace plugins that drop into your dashboard. Grouped roughly by what they do._
 
+#### Dashboard frameworks
+
+_Full card collections that change the look and feel of your dashboards. Mushroom, Bubble Card, Floorplan, and similar all-in-one toolkits._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
 #### Layout helpers
 
 - [Auto-Entities Card](https://github.com/thomasloven/lovelace-auto-entities) - Dynamically adds entities: 🔮 Magic.
@@ -287,6 +303,24 @@ _Lovelace plugins that drop into your dashboard. Grouped roughly by what they do
 
 - [LG WebOS Remote Control](https://github.com/madmicio/LG-WebOS-Remote-Control) - Remote Control for LG TV WebOS.
 
+#### Camera cards
+
+_Display camera streams the way you want them, with overlays, controls, event timelines, and pop-out viewers._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
+#### Iconography
+
+_Custom icon packs that go beyond the default Material Design icons. Brand logos, product silhouettes, and themed sets._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
+#### Kiosk & wallpanel
+
+_Hide the chrome, run full-screen, or turn an old tablet on the wall into a dedicated touch panel._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
 ### Alternative Dashboards
 
 - [Dwains Dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) - An fully auto-generating dashboard for desktop, tablet and mobile.
@@ -294,6 +328,12 @@ _Lovelace plugins that drop into your dashboard. Grouped roughly by what they do
 ## Custom Integrations
 
 _Integrations Home Assistant does not ship with out of the box, written by the community. Install them through HACS in a couple of clicks._
+
+### AI & LLMs
+
+_Wire Home Assistant up to a large language model and let it read your devices, build dashboards, write automations, or describe what your cameras see._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
 ### Voice & media playback
 
@@ -309,13 +349,67 @@ _Integrations Home Assistant does not ship with out of the box, written by the c
 
 - [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - Presents a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting.
 
+### Climate
+
+_Smarter thermostats, comfort sensors, and HVAC integrations that go beyond what comes built in._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
 ### Lighting
 
 - [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Slowly synchronizes your color-changing lights with the naturally occurring color temperature of the sky throughout the day.
 
+### Energy & solar
+
+_Pull your solar inverter, smart meter, home battery, or utility tariff into Home Assistant and feed the energy dashboard._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
+### Bluetooth & BLE
+
+_Pull data from sensors that broadcast over Bluetooth, or use Bluetooth itself for room-level presence detection._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
+### Security & alarm
+
+_Turn Home Assistant into a fully-featured alarm system with arm and disarm flows, user codes, zones, and panic._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
+### Cars & EV charging
+
+_Track your car's battery, location, and charging state, or control where and when it plugs in._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
 ### Presence & location
 
 - [iCloud3](https://github.com/gcobb321/icloud3) - Improved version of the iCloud device tracker component with a lot of capabilities.
+
+### Battery monitoring
+
+_Keep an eye on the batteries in all your devices and get warned before they run flat._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
+### Network & authentication
+
+_Sign in to Home Assistant with single sign-on, route through a tunnel, or pull network hardware into your dashboard._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
+### Federation & multi-instance
+
+_Link multiple Home Assistant instances together, share entities across homes, or relay between them._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
+### Civic & household
+
+_Local services that turn into sensors and calendars: garbage collection schedules, school holidays, traffic, weather alerts, and similar._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
 ### Automation tooling
 
