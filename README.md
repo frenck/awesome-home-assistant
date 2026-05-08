@@ -156,7 +156,7 @@ _Wondering how more experienced users have set up their thermostat schedules, pr
 - [Alok Saboo](https://github.com/arsaboo/homeassistant-config) - Also known as arsaboo. Regularly updated (1,953★).
 - [Franck Nijhof](https://github.com/frenck/home-assistant-config) - Home Assistant OS based, very different configuration structure compared to others (1,999★).
 - [Klaas Schoute](https://github.com/klaasnicolaas/Student-homeassistant-config) - Home Assistant OS based, Intel NUC, Ubuntu Server, Docker and regularly updated (223★).
-- [Ryan Warner](https://github.com/rwarner/Home-Assistant-Config) - Docker on Ubuntu HA Config, maintained since early HA. Highly documented and regularly updated.
+- [Ryan Warner](https://github.com/rwarner/Home-Assistant-Config) - Docker on Ubuntu HA Config, maintained since early HA. Highly documented and regularly updated (5★).
 
 ## Custom Integrations
 
