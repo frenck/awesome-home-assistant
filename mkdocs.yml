@@ -1,7 +1,7 @@
 # Project information
 site_name: "Awesome Home Assistant"
 site_url: "https://www.awesome-ha.com"
-site_description: "A curated list of awesome Home Assistant resources for automating every aspect of your home"
+site_description: "A community-curated index of Home Assistant resources: custom integrations, dashboard cards, themes, icon packs, apps, ESPHome and DIY projects, blogs, podcasts, and tutorials."
 site_author: "Franck Nijhof"
 copyright: "Copyright 2018 - 2026 - Franck Nijhof. Creative Commons Attribution 4.0."
 
@@ -28,7 +28,7 @@ theme:
       primary: "light-blue"
       accent: "pink"
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
 
   features:
@@ -45,18 +45,33 @@ extra_css:
 # Customization
 extra:
   social:
+    - icon: fontawesome/solid/globe
+      link: "https://frenck.dev"
+      name: Personal website and blog
     - icon: fontawesome/brands/github-alt
       link: "https://github.com/frenck"
-    - icon: fontawesome/brands/twitter
-      link: "https://twitter.com/frenck"
-    - icon: fontawesome/brands/instagram
-      link: "https://instagram.com/frenck"
-    - icon: fontawesome/brands/twitch
-      link: "https://twitch.tv/frenck"
-    - icon: fontawesome/brands/youtube
-      link: "https://youtube.com/frenck"
+      name: Frenck on GitHub
     - icon: fontawesome/brands/linkedin
       link: "https://www.linkedin.com/in/frenck"
+      name: Frenck on LinkedIn
+    - icon: fontawesome/brands/bluesky
+      link: "https://bsky.app/profile/frenck.social"
+      name: Frenck on Bluesky
+    - icon: fontawesome/brands/mastodon
+      link: "https://fosstodon.org/@frenck"
+      name: Frenck on Mastodon
+    - icon: fontawesome/brands/x-twitter
+      link: "https://x.com/frenck"
+      name: Frenck on X
+    - icon: fontawesome/brands/youtube
+      link: "https://youtube.com/@frenck"
+      name: Frenck on YouTube
+    - icon: fontawesome/brands/twitch
+      link: "https://twitch.tv/frenck"
+      name: Frenck on Twitch
+    - icon: fontawesome/brands/instagram
+      link: "https://instagram.com/frenck"
+      name: Frenck on Instagram
 
 # Extensions
 markdown_extensions:
