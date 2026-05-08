@@ -183,6 +183,33 @@ def diff_added_lines(base_ref: str, path: str) -> set[str]:
     return added
 
 
+def base_urls(base_ref: str, path: str) -> set[str]:
+    """Return the canonicalised set of URLs that were already in `path` on
+    the base ref. Used to grandfather entries that already existed: a
+    restructure PR that moves an existing entry to a new section should
+    not have its repo-level checks (archived, age, license) re-run."""
+    try:
+        text = subprocess.check_output(
+            ["git", "show", f"{base_ref}:{path}"], text=True,
+        )
+    except subprocess.CalledProcessError:
+        return set()
+    urls: set[str] = set()
+    for line in text.splitlines():
+        m = ENTRY_RX.match(line)
+        if m:
+            urls.add(canon(m.group(2)))
+    return urls
+
+
+# URLs that are placeholder bullets, not real curated entries. They live in
+# empty subsections to satisfy lint and act as a "suggest one" call to action.
+# Skip them entirely.
+PLACEHOLDER_URLS = {
+    "https://github.com/frenck/awesome-home-assistant/issues/new/choose",
+}
+
+
 # ---- HTTP helpers -------------------------------------------------------
 
 def gh_get(path: str) -> dict | None:
@@ -461,11 +488,22 @@ def main() -> int:
     args = p.parse_args()
 
     all_entries = parse_readme(args.readme)
+
+    # Drop placeholder bullets (e.g. "Suggest one" links into the issue
+    # tracker). They are framework, not curated entries.
+    all_entries = [e for e in all_entries if e.url not in PLACEHOLDER_URLS]
+
     if args.all or not args.base:
         target = all_entries
     else:
         added_lines = diff_added_lines(args.base, args.readme)
         target = [e for e in all_entries if e.raw in added_lines]
+        # Grandfather: in PR mode, an entry whose URL already existed on
+        # the base ref is being moved/reformatted, not added. Repo-level
+        # checks (archived, age, license, hacs.json) were valid when the
+        # entry first landed; do not re-run them.
+        existing = base_urls(args.base, args.readme)
+        target = [e for e in target if canon(e.url) not in existing]
         if not target:
             print("No newly-added entries in this PR. Nothing to check.")
             return 0
