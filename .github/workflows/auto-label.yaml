@@ -54,6 +54,7 @@ jobs:
           import re
           import subprocess
           import urllib.error
+          import urllib.parse
           import urllib.request
 
           BASE = os.environ["BASE_REF"]
@@ -62,9 +63,9 @@ jobs:
           TOKEN = os.environ["GH_TOKEN"]
 
           MANAGED = {
-              "\U0001f496 new",          # 💖 new
-              "❤️‍\U0001f525 remove",  # ❤️‍🔥 remove
-              "❤️‍\U0001fa79 update",  # ❤️‍🩹 update
+              "💖 new",
+              "❤️‍🔥 remove",
+              "❤️‍🩹 update",
               "github_actions",
               "dependencies",
           }
@@ -107,11 +108,11 @@ jobs:
 
           desired = set()
           if added_urls - removed_urls:
-              desired.add("\U0001f496 new")
+              desired.add("💖 new")
           if removed_urls - added_urls:
-              desired.add("❤️‍\U0001f525 remove")
+              desired.add("❤️‍🔥 remove")
           if added_urls & removed_urls:
-              desired.add("❤️‍\U0001fa79 update")
+              desired.add("❤️‍🩹 update")
 
           files = changed_files()
           if any(f.startswith(".github/workflows/") for f in files):
