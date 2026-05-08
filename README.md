@@ -462,6 +462,7 @@ _Some of the best smart-home gadgets do not exist as products you can buy, but o
 - [ESPHome](https://esphome.io/) - Program ESP8266 boards and ESP32 boards using YAML.
 - [Tasmota](https://github.com/arendst/Tasmota) - Firmware for ESP8266 boards and devices (24,346★).
 - [Sonoff NSPanel](https://github.com/joBr99/nspanel-lovelace-ui) - Custom firmware for Sonoff NSPanel touchscreens with a Lovelace-style UI (986★).
+- [CODESYS V3 Home Automation](https://github.com/MichielVanwelsenaere/HomeAutomation.CoDeSys3) - PLC home-automation software that communicates over MQTT for wired automation setups (142★).
 
 ### DIY Gateways
 
