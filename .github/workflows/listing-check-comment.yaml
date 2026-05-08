@@ -1,0 +1,54 @@
+---
+# Posts the report produced by "Listing check" as a sticky comment on the
+# pull request. Runs on workflow_run so it executes in the base repository
+# context with write permissions, which is required when the originating
+# pull request comes from a fork.
+
+name: Listing check comment
+
+# yamllint disable-line rule:truthy
+on:
+  workflow_run:
+    workflows: ["Listing check"]
+    types:
+      - completed
+
+permissions:
+  contents: read
+
+jobs:
+  comment:
+    name: Post or update PR comment
+    runs-on: ubuntu-latest
+    if: >-
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion != 'cancelled'
+    permissions:
+      pull-requests: write
+      issues: write
+      actions: read
+    steps:
+      - name: Download report artifact
+        uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6.0.0
+        with:
+          name: listing-check-report
+          path: artifact
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Read PR number
+        id: pr
+        run: |
+          number=$(cat artifact/pr-number.txt)
+          if ! [[ "$number" =~ ^[0-9]+$ ]]; then
+            echo "Invalid PR number: $number" >&2
+            exit 1
+          fi
+          echo "number=$number" >> "$GITHUB_OUTPUT"
+
+      - name: Post or update PR comment
+        uses: marocchino/sticky-pull-request-comment@0ea0beb66eb9baf113663a64ec522f60e49231c0 # v3.0.4
+        with:
+          header: listing-check
+          number: ${{ steps.pr.outputs.number }}
+          path: artifact/report.md
