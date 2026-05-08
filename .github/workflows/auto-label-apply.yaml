@@ -1,0 +1,120 @@
+---
+# Reconciles the labels on a pull request based on the desired-label list
+# produced by Auto-label compute. Runs on workflow_run so it executes in
+# the base repository's context with pull-requests: write, even for PRs
+# from forks. Reads only the artifact (labels.txt + pr-number.txt) -- no
+# code from the originating PR is executed here.
+
+name: Auto-label apply
+
+# yamllint disable-line rule:truthy
+on:
+  workflow_run:
+    workflows: ["Auto-label compute"]
+    types:
+      - completed
+
+permissions:
+  contents: read
+
+jobs:
+  apply:
+    name: Apply / remove managed labels
+    runs-on: ubuntu-latest
+    if: >-
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'success'
+    permissions:
+      pull-requests: write
+      issues: write
+      actions: read
+    steps:
+      - name: Download payload artifact
+        uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6.0.0
+        with:
+          name: auto-label-payload
+          path: artifact
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Reconcile labels
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+          from pathlib import Path
+
+          REPO = os.environ["REPO"]
+          TOKEN = os.environ["GH_TOKEN"]
+
+          MANAGED = {
+              "💖 new",
+              "❤️‍🔥 remove",
+              "❤️‍🩹 update",
+              "github_actions",
+              "dependencies",
+          }
+
+          number_text = Path("artifact/pr-number.txt").read_text().strip()
+          if not number_text.isdigit():
+              raise SystemExit(f"Refusing non-numeric PR number: {number_text!r}")
+          pr = int(number_text)
+
+          desired_raw = Path("artifact/labels.txt").read_text().splitlines()
+          desired = {line.strip() for line in desired_raw if line.strip()}
+          # Belt-and-suspenders: only operate on labels we own. Anything else
+          # in the artifact is silently dropped.
+          desired &= MANAGED
+
+          print(f"PR #{pr}")
+          print(f"Desired (managed) labels: {sorted(desired)}")
+
+
+          def api(method, path, body=None):
+              req = urllib.request.Request(
+                  f"https://api.github.com{path}",
+                  method=method,
+                  headers={
+                      "Accept": "application/vnd.github+json",
+                      "Authorization": f"Bearer {TOKEN}",
+                      "X-GitHub-Api-Version": "2022-11-28",
+                      "User-Agent": "auto-label-workflow",
+                  },
+                  data=json.dumps(body).encode() if body is not None else None,
+              )
+              try:
+                  with urllib.request.urlopen(req) as r:
+                      return json.loads(r.read() or "null")
+              except urllib.error.HTTPError as e:
+                  print(f"HTTP {e.code} on {method} {path}: {e.read().decode()}")
+                  raise
+
+
+          current = {
+              lbl["name"]
+              for lbl in api("GET", f"/repos/{REPO}/issues/{pr}/labels")
+          }
+          print(f"Current labels: {sorted(current)}")
+
+          to_add = desired - current
+          to_remove = (current & MANAGED) - desired
+
+          if to_add:
+              print(f"Adding: {sorted(to_add)}")
+              api(
+                  "POST",
+                  f"/repos/{REPO}/issues/{pr}/labels",
+                  {"labels": sorted(to_add)},
+              )
+
+          for label in sorted(to_remove):
+              print(f"Removing: {label}")
+              encoded = urllib.parse.quote(label, safe="")
+              api("DELETE", f"/repos/{REPO}/issues/{pr}/labels/{encoded}")
+          PY
