@@ -237,6 +237,8 @@ _Full card collections that change the look and feel of your dashboards. Mushroo
 
 #### Layout helpers
 
+_Cards that change where and how other cards appear: stack, fold, show conditionally, restyle, or template._
+
 - [Auto-Entities Card](https://github.com/thomasloven/lovelace-auto-entities) - Dynamically adds entities: 🔮 Magic.
 - [Card Modder](https://github.com/thomasloven/lovelace-card-mod) - Style your Lovelace cards.
 - [Restriction Card](https://github.com/iantrich/restriction-card) - A card to provide restrictions on Lovelace cards defined within.
@@ -247,6 +249,8 @@ _Full card collections that change the look and feel of your dashboards. Mushroo
 
 #### Charts & graphs
 
+_Visualise sensor data over time. Gauges, line graphs, bars, and Sankey diagrams._
+
 - [Mini Graph Card](https://github.com/kalkih/mini-graph-card) - A minimalistic sensor graph card.
 - [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com.
 - [Bar Card](https://github.com/custom-cards/bar-card) - Customizable animated bar card.
@@ -255,6 +259,8 @@ _Full card collections that change the look and feel of your dashboards. Mushroo
 
 #### Status & info rows
 
+_Compact rows that pack more information into entity-card style listings._
+
 - [Battery Entity](https://github.com/cbulock/lovelace-battery-entity) - Displaying battery levels for battery entities.
 - [Multiple Entity Row](https://github.com/benct/lovelace-multiple-entity-row) - Show multiple entity states or attributes on entity rows.
 - [Slider Entity Row](https://github.com/thomasloven/lovelace-slider-entity-row) - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards.
@@ -262,14 +268,20 @@ _Full card collections that change the look and feel of your dashboards. Mushroo
 
 #### Climate cards
 
+_Replacement thermostat cards with a different look or feel._
+
 - [Thermostat Card](https://github.com/ciotlosm/lovelace-thermostat-dark-card) - Thermostat control card that looks like a Nest Thermostat.
 - [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) - A simpler and more flexible thermostat card.
 
 #### Energy cards
 
+_Visualise solar production, grid imports, battery state, and consumption flow._
+
 - [Power Wheel Card](https://github.com/gurbyz/power-wheel-card) - An intuitive way to represent the power that your home is consuming or producing.
 
 #### Media cards
+
+_Better ways to control media players, with album art, queues, and per-room presence._
 
 - [Mini Media Player](https://github.com/kalkih/mini-media-player) - A minimalistic media player card.
 - [Spotify Card](https://github.com/custom-cards/spotify-card) - List and select from current available devices and users top playlists on Spotify.
@@ -277,29 +289,41 @@ _Full card collections that change the look and feel of your dashboards. Mushroo
 
 #### Vacuum cards
 
+_Show vacuum status, room maps, and start/stop controls in your dashboard._
+
 - [Xiaomi Vacuum Card](https://github.com/benct/lovelace-xiaomi-vacuum-card) - Detailed card for Xiaomi vacuum cleaners (and others).
 - [Vacuum Map Card](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card) - This card provides a user-friendly way to fully control Xiaomi (Roborock/Viomi/Dreame/Roidmi) and Neato (+ possibly other) vacuums.
 - [Vacuum Card](https://github.com/denysdovhan/vacuum-card) - A card to card for controlling a vacuum cleaner robot.
 
 #### Calendar & feed
 
+_Calendar views and rolling feeds of upcoming events._
+
 - [Atomic Calendar Revive](https://github.com/totaldebug/atomic-calendar-revive) - Calendar card with advanced settings.
 - [Home Feed Card](https://github.com/gadgetchnnel/lovelace-home-feed-card) - Display a combination of persistent notifications, calendar events, and entities in the style of a feed.
 
 #### Weather cards
+
+_Weather widgets with the look you actually want._
 
 - [Animated Weather Card](https://github.com/bramkragten/weather-card) - Nice looking card showing the weather, with subtle animations.
 - [Simple Weather Card](https://github.com/kalkih/simple-weather-card) - A minimalistic weather card, inspired by Google Material Design.
 
 #### Lighting cards
 
+_Specialised controls for lights, color temperature, and effects._
+
 - [RGB Light Card](https://github.com/bokub/rgb-light-card) - Colorful buttons to control your RGB Lights.
 
 #### Air quality
 
+_Display readings from purifiers and air-quality sensors._
+
 - [Purifier Card](https://github.com/denysdovhan/purifier-card) - A card for controlling air purifiers.
 
 #### Remote control
+
+_Virtual remotes for TVs, streamers, and AV gear._
 
 - [LG WebOS Remote Control](https://github.com/madmicio/LG-WebOS-Remote-Control) - Remote Control for LG TV WebOS.
 
@@ -337,15 +361,21 @@ _Wire Home Assistant up to a large language model and let it read your devices, 
 
 ### Voice & media playback
 
+_Send commands to voice speakers and media players, or relay what they hear and play back into Home Assistant._
+
 - [Alexa Media Player](https://github.com/keatontaylor/alexa_media_player) - Allow control of Amazon Alexa devices.
 - [Spotcast](https://github.com/fondberg/spotcast) - Start Spotify playback on an idle Chromecast device as well as control Spotify connect devices.
 
 ### Cameras & video
 
+_Pair specific camera brands and video sources that Home Assistant does not support out of the box._
+
 - [HASS Aarlo](https://github.com/twrecked/hass-aarlo) - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells.
 - [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - View RTSP streams from IP Cameras in real-time through WebRTC or MSE with Pan/Zoom controls.
 
 ### Vacuums
+
+_Control specific robot vacuums and surface their map data, beyond what comes built in._
 
 - [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - Presents a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting.
 
@@ -356,6 +386,8 @@ _Smarter thermostats, comfort sensors, and HVAC integrations that go beyond what
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
 ### Lighting
+
+_Effects, schedules, and behaviour layers that sit on top of your lights._
 
 - [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Slowly synchronizes your color-changing lights with the naturally occurring color temperature of the sky throughout the day.
 
@@ -385,6 +417,8 @@ _Track your car's battery, location, and charging state, or control where and wh
 
 ### Presence & location
 
+_Figure out who is home and where they are, often more accurately than the built-in device tracker._
+
 - [iCloud3](https://github.com/gcobb321/icloud3) - Improved version of the iCloud device tracker component with a lot of capabilities.
 
 ### Battery monitoring
@@ -413,15 +447,21 @@ _Local services that turn into sensors and calendars: garbage collection schedul
 
 ### Automation tooling
 
+_Helpers that make automations easier to write, debug, and maintain._
+
 - [The Watchman](https://github.com/dummylabs/thewatchman) - Keep track of missing entities and services in your config files.
 
 ### Vendor & brand
+
+_Pull a specific manufacturer's devices into Home Assistant, often with more features or better local control than what comes built in._
 
 - [SmartIR](https://github.com/smartHomeHub/SmartIR) - Integrates devices using Broadlink IR.
 - [Xiaomi Hygrothermo](https://github.com/dolezsa/Xiaomi_Hygrothermo) - Sensor platform for Xiaomi Mijia BT Hygrothermo temperature and humidity sensor.
 - [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - Control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud.
 
 ### Logging & analytics
+
+_Send Home Assistant data to external systems for long-term storage, richer dashboards, or analysis._
 
 - [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publishes events to Elasticsearch.
 
