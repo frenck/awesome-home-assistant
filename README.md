@@ -323,6 +323,7 @@ _Hide the chrome, run full-screen, or turn an old tablet on the wall into a dedi
 ### Alternative Dashboards
 
 - [Dwains Dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) - An fully auto-generating dashboard for desktop, tablet and mobile (2,033★).
+- [Mushroom Strategy](https://github.com/DigiLive/mushroom-strategy) - A strategy that automatically generates a dashboard using Mushroom cards (640★).
 
 ## Custom Integrations
 
@@ -548,6 +549,7 @@ _Like this list, but for adjacent topics? The lists below cover broader smart-ho
 - [awesome-iot](https://github.com/HQarroum/awesome-iot) - Curated list of awesome Internet of Things projects and resources (3,928★).
 - [awesome-mqtt](https://github.com/awesome-mqtt/awesome-mqtt#readme) - Curated list of MQTT related stuff (2,332★).
 - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Curated list of awesome self hosted software (290,872★).
+- [awesome-unifi](https://github.com/wolffcatskyy/awesome-unifi) - Curated list of awesome UniFi and Ubiquiti networking tools, libraries, and resources (32★).
 
 ## Contributing
 
