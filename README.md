@@ -323,6 +323,7 @@ _Hide the chrome, run full-screen, or turn an old tablet on the wall into a dedi
 ### Alternative Dashboards
 
 - [Dwains Dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) - An fully auto-generating dashboard for desktop, tablet and mobile (2,033★).
+- [Mushroom Strategy](https://github.com/DigiLive/mushroom-strategy) - A strategy that automatically generates a dashboard using Mushroom cards (640★).
 
 ## Custom Integrations
 
