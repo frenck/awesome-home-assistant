@@ -150,6 +150,7 @@ _Communities in languages other than English. Multiple groups can exist per lang
 
 - 🇧🇷 [Home Assistant Brasil](https://t.me/homeassistant_brasil) - Brazilian Portuguese Telegram group for users of all skill levels.
 - 🇳🇱 [Dutch Domotics Discord](https://discord.gg/Ee5X7T7) - Dutch-language home-automation Discord.
+- 🇳🇱 [Home Assistant NL](https://t.me/home_assistant_nl) - Dutch-language Telegram group.
 - 🇫🇷 [HACF Forum](https://forum.hacf.fr) - Discussion forum of the French-speaking association HACF (Home Assistant Communauté Française).
 - 🇩🇪 [Home Assistant DE](https://t.me/homeassistant_de) - German-language Telegram group for discussions, tips, and help.
 - 🇮🇹 [Home Assistant Italia](https://t.me/HomeAssistantItalia) - Italian Telegram group for sharing ideas and projects.
@@ -173,6 +174,7 @@ _Discords, forums, and chats run by community projects you will see elsewhere on
 
 _Independent groups not tied to a specific language or project._
 
+- [Home Assistant International Telegram](https://t.me/home_assistant_international) - English-speaking Telegram group for the wider international community.
 - [Dr. ZZs Facebook Group](https://www.facebook.com/groups/1969622823351838/) - Community around the YouTube creator Dr. Zzs.
 
 ## Public Configurations
@@ -546,6 +548,10 @@ _Some of the best smart-home gadgets do not exist as products you can buy, but o
 
 - [HA SwitchPlate](https://community.home-assistant.io/t/ha-switchplate-diy-lcd-touchscreen-wall-switch-replacement/25464?u=frenck) - LCD Touchscreen wall switch replacement.
 - [$10 WiFi RGB Bulb](https://community.home-assistant.io/t/how-to-inexpensive-10-us-wifi-rgb-bulb-that-works-with-home-assistant/14735?u=frenck) - An inexpensive RGB bulb that works on WiFi.
+- [433mhz/IR Bidirectional Gateway](https://community.home-assistant.io/t/433mhz-infrared-ir-to-and-from-mqtt-on-esp8266/6779?u=frenck) - Bidirectional with IR and 433mhz using ESP8266 and MQTT.
+- [esp8266MQTTBlinds](https://community.home-assistant.io/t/esp8266-window-blinds-mqtt/14863?u=frenck) - Automate your window blinds using an ESP8266, a servo and MQTT.
+- [Home Assistant's Hackster.io](https://www.hackster.io/home-assistant?f=1#_=_) - A Hackster channel with multiple DIY projects.
+- [Bed Presence Detection](https://selfhostedhome.com/diy-bed-presence-detection-home-assistant/) - An inexpensive RGB bulb that works on WiFi.
 - [433mhz/IR Bidirectional Gateway](https://community.home-assistant.io/t/433mhz-infrared-ir-to-and-from-mqtt-on-esp8266/6779?u=frenck) - Bidirectional with IR and 433mhz using ESP8266 and MQTT.
 - [esp8266MQTTBlinds](https://community.home-assistant.io/t/esp8266-window-blinds-mqtt/14863?u=frenck) - Automate your window blinds using an ESP8266, a servo and MQTT.
 - [Home Assistant's Hackster.io](https://www.hackster.io/home-assistant?f=1#_=_) - A Hackster channel with multiple DIY projects.
