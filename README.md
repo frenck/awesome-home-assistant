@@ -579,11 +579,18 @@ Thank you for being involved! 😍
 
 ## Trademark Legal Notice
 
-This Awesome list is not created, developed, affiliated, supported, maintained
-or endorsed by Home Assistant.
+Awesome Home Assistant is an independent, community-curated index. It is not
+created, endorsed, sponsored by, or affiliated with
+[Home Assistant](https://www.home-assistant.io) or the
+[Open Home Foundation](https://www.openhomefoundation.org). "Home Assistant"
+and the Home Assistant logo are trademarks of the Open Home Foundation.
 
-All product names, logos, brands, trademarks and registered trademarks are
-property of their respective owners. All company, product, and service names
-used in this list are for identification purposes only.
+All other product names, logos, brands, trademarks, and registered trademarks
+referenced in this list are the property of their respective owners.
+References to specific manufacturers, products, integrations, add-ons,
+services, and community projects are for identification purposes only and do
+not imply endorsement by their owners.
 
-Use of these names, logos, trademarks, and brands does not imply endorsement.
+The contents of this list are licensed under [Creative Commons Attribution
+4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC-BY-4.0).
+See [LICENSE.md](LICENSE.md) for the full text.
