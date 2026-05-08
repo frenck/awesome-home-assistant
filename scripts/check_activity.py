@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""Flag README entries pointing at archived, gone, or stale GitHub repos.
+"""Detect and optionally remove README entries pointing at archived,
+gone, or stale GitHub repos.
 
-Reports rather than edits. The weekly maintenance workflow includes the
-markdown report in the PR body so a human can decide whether to drop,
-replace, or keep the entry.
+By default the script only reports. With `--apply`, it also rewrites
+README in place, dropping each flagged line. The weekly maintenance
+workflow always runs with `--apply` and the resulting diff plus the
+markdown report end up in the PR for human review. Reverting an
+individual removal before merging is a one-line edit.
 
 Smart use of HACS: HACS removes archived integrations and plugins from
 its public store, so every repo present in HACS is implicitly active.
@@ -23,6 +26,7 @@ many repos were flagged. This is informational, not a gate.
 Usage:
 
     python scripts/check_activity.py             # markdown report to stdout
+    python scripts/check_activity.py --apply     # also remove flagged entries
     python scripts/check_activity.py --readme custom/path.md
 """
 from __future__ import annotations
@@ -80,6 +84,12 @@ def parse_iso(value: str | None) -> dt.datetime | None:
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__.split("\n\n", 1)[0])
     p.add_argument("--readme", default="README.md")
+    p.add_argument(
+        "--apply",
+        action="store_true",
+        help="Remove flagged entries from the README in place. Without "
+        "this flag, the script only reports.",
+    )
     args = p.parse_args()
 
     text = open(args.readme).read()
@@ -151,50 +161,105 @@ def main() -> int:
 
     print("## Activity check")
     print()
-    if not (missing or archived or stale):
+
+    total = len(missing) + len(archived) + len(stale)
+    if not total:
         print(
             f"All entries pass the activity check (no archived, missing, or "
             f"{STALE_DAYS}+ day stale repos)."
         )
         return 0
 
-    if missing:
-        print(f"### Missing or renamed ({len(missing)})")
-        print()
+    if args.apply:
         print(
-            "These URLs return 404. Likely candidates for removal or "
-            "replacement."
+            f"Removed {total} entries from README (see sections below for "
+            "the list and reasons). Revert any individual removal you "
+            "disagree with before merging this PR."
         )
+        print()
+
+    if missing:
+        heading = "Removed: missing or renamed" if args.apply else "Missing or renamed"
+        print(f"### {heading} ({len(missing)})")
+        print()
+        if args.apply:
+            print("URLs that returned 404. Removed from README.")
+        else:
+            print(
+                "These URLs return 404. Likely candidates for removal or "
+                "replacement."
+            )
         print()
         for full, occ in sorted(missing):
             print(f"- [{full}](https://github.com/{full}): {fmt_cite(occ)}")
         print()
 
     if archived:
-        print(f"### Archived ({len(archived)})")
+        heading = "Removed: archived" if args.apply else "Archived"
+        print(f"### {heading} ({len(archived)})")
         print()
-        print(
-            "Owners have archived these repos. Not always a removal trigger. "
-            "Some projects archive after reaching feature complete but still "
-            "work fine. Review case by case."
-        )
+        if args.apply:
+            print(
+                "Owners have archived these repos. Removed from README. "
+                "Some archived projects are still useful (feature complete "
+                "tools that simply do not need updates); restore those "
+                "individual entries before merging if you want to keep them."
+            )
+        else:
+            print(
+                "Owners have archived these repos. Not always a removal "
+                "trigger. Some projects archive after reaching feature "
+                "complete but still work fine. Review case by case."
+            )
         print()
         for full, occ in sorted(archived):
             print(f"- [{full}](https://github.com/{full}): {fmt_cite(occ)}")
         print()
 
     if stale:
-        print(f"### Stale ({len(stale)})")
+        heading = "Removed: stale" if args.apply else "Stale"
+        print(f"### {heading} ({len(stale)})")
         print()
-        print(
-            f"No update in {STALE_DAYS}+ days. Some smart-home tools simply "
-            "do not need updates; others are abandoned. Spot-check before "
-            "removing."
-        )
+        if args.apply:
+            print(
+                f"No update in {STALE_DAYS}+ days. Removed from README. "
+                "Some smart-home tools simply do not need updates; restore "
+                "any individual entry you want to keep before merging."
+            )
+        else:
+            print(
+                f"No update in {STALE_DAYS}+ days. Some smart-home tools "
+                "simply do not need updates; others are abandoned. "
+                "Spot-check before removing."
+            )
         print()
         for full, age, occ in sorted(stale, key=lambda x: -x[1]):
-            print(f"- [{full}](https://github.com/{full}): {age}d ago, {fmt_cite(occ)}")
+            print(
+                f"- [{full}](https://github.com/{full}): {age}d ago, "
+                f"{fmt_cite(occ)}"
+            )
         print()
+
+    if args.apply:
+        remove: set[int] = set()
+        for _full, occ in missing + archived:
+            for ln, _ in occ:
+                remove.add(ln - 1)
+        for _full, _age, occ in stale:
+            for ln, _ in occ:
+                remove.add(ln - 1)
+        new_lines = [
+            line for i, line in enumerate(text.splitlines()) if i not in remove
+        ]
+        new_text = "\n".join(new_lines)
+        if text.endswith("\n"):
+            new_text += "\n"
+        with open(args.readme, "w") as f:
+            f.write(new_text)
+        print(
+            f"_Removed {len(remove)} line(s) from `{args.readme}`._",
+            file=sys.stderr,
+        )
 
     return 0
 

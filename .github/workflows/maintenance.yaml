@@ -33,10 +33,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_stars.py
 
-      - name: Run activity check
+      - name: Run activity check (removes flagged entries)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/check_activity.py > activity-report.md
+        run: python scripts/check_activity.py --apply > activity-report.md
 
       - name: Validate updated README
         run: npx awesome-lint@2.3.0
