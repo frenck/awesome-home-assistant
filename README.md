@@ -166,25 +166,27 @@ _Integrations Home Assistant does not ship with out of the box, written by the c
 
 _Wire Home Assistant up to a large language model and let it read your devices, build dashboards, write automations, or describe what your cameras see._
 
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+- [LLM Vision](https://github.com/valentinfrlch/ha-llmvision) - Add visual intelligence to your automations: caption camera snapshots, summarize what is happening, react to specific events (1,325★).
 
 ### 💡 Lighting
 
 _Effects, schedules, and behaviour layers that sit on top of your lights._
 
 - [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Slowly synchronizes your color-changing lights with the naturally occurring color temperature of the sky throughout the day (882★).
+- [Adaptive Lighting](https://github.com/basnijholt/adaptive-lighting) - Slowly adjust the brightness and color temperature of your lights based on the position of the sun (3,279★).
 
 ### 🌡️ Climate
 
 _Smarter thermostats, comfort sensors, and HVAC integrations that go beyond what comes built in._
 
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+- [Better Thermostat](https://github.com/KartoffelToby/better_thermostat) - Smarter thermostat with window detection, heating curves, and per-room comfort profiles for thermostatic radiator valves (1,389★).
+- [Versatile Thermostat](https://github.com/jmcollin78/versatile_thermostat) - Full-featured thermostat with presets, window detection, motion-based comfort, and presence (1,040★).
 
 ### ⚡ Energy & solar
 
 _Pull your solar inverter, smart meter, home battery, or utility tariff into Home Assistant and feed the energy dashboard._
 
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+- [Powercalc](https://github.com/bramstroker/homeassistant-powercalc) - Calculate estimated power consumption of lights and other devices, even those that don't report it themselves (1,472★).
 
 ### 📹 Cameras & video
 
@@ -192,18 +194,24 @@ _Pair specific camera brands and video sources that Home Assistant does not supp
 
 - [HASS Aarlo](https://github.com/twrecked/hass-aarlo) - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells (466★).
 - [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - View RTSP streams from IP Cameras in real-time through WebRTC or MSE with Pan/Zoom controls (2,104★).
+- [Frigate](https://github.com/blakeblackshear/frigate-hass-integration) - Integrate the Frigate NVR with local object detection into your dashboard, alerts, and snapshots (1,153★).
+- [Eufy Security](https://github.com/fuatakgun/eufy_security) - Manage Eufy Security cameras, doorbells, and base stations with live streams and event notifications (1,318★).
+- [Tapo Control](https://github.com/JurajNyiri/HomeAssistant-Tapo-Control) - Control TP-Link Tapo cameras with PTZ, motion events, and a live RTSP stream (1,861★).
 
 ### 🚨 Security & alarm
 
 _Turn Home Assistant into a fully-featured alarm system with arm and disarm flows, user codes, zones, and panic._
 
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+- [Alarmo](https://github.com/nielsfaber/alarmo) - Easy-to-use alarm system with arm/disarm flows, user codes, zones, and panic mode (2,109★).
 
 ### 🔊 Voice & media playback
 
 _Send commands to voice speakers and media players, or relay what they hear and play back into Home Assistant._
 
 - [Spotcast](https://github.com/fondberg/spotcast) - Start Spotify playback on an idle Chromecast device as well as control Spotify connect devices (807★).
+- [Alexa Media Player](https://github.com/alandtse/alexa_media_player) - Control Amazon Alexa devices: announce, play media, and pull device state into your automations (1,935★).
+- [YandexStation](https://github.com/AlexxIT/YandexStation) - Control Yandex Station speakers and other smart-home devices through Alice (1,837★).
+- [Yandex Smart Home](https://github.com/dext0r/yandex_smart_home) - Expose your devices to Yandex Alice and the Yandex smart-home app (1,046★).
 
 ### 🚗 Cars & EV charging
 
@@ -222,18 +230,20 @@ _Figure out who is home and where they are, often more accurately than the built
 _Control specific robot vacuums and surface their map data, beyond what comes built in._
 
 - [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - Presents a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting (1,392★).
+- [Dreame Vacuum](https://github.com/Tasshack/dreame-vacuum) - Dreame robot vacuums with full map support, including no-go zones and selective room cleaning (1,916★).
 
 ### 🔵 Bluetooth & BLE
 
 _Pull data from sensors that broadcast over Bluetooth, or use Bluetooth itself for room-level presence detection._
 
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+- [BLE Monitor](https://github.com/custom-components/ble_monitor) - Passively read sensor data from Xiaomi MiBeacon, Govee, ATC, Inkbird, Qingping, and many other BLE sensors (2,202★).
+- [Bermuda](https://github.com/agittins/bermuda) - Room-level presence detection by triangulating BLE signals across multiple ESPHome receivers (1,750★).
 
 ### 🔋 Battery monitoring
 
 _Keep an eye on the batteries in all your devices and get warned before they run flat._
 
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+- [Battery Notes](https://github.com/andrew-codechimp/HA-Battery-Notes) - Annotate every device with its battery type and quantity, then track replacements, low-battery warnings, and history (1,078★).
 
 ### 🏷️ Vendor & brand
 
@@ -241,12 +251,19 @@ _Pull a specific manufacturer's devices into Home Assistant, often with more fea
 
 - [SmartIR](https://github.com/smartHomeHub/SmartIR) - Integrates devices using Broadlink IR (2,698★).
 - [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - Control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud (3,230★).
+- [Xiaomi MIoT](https://github.com/al-one/hass-xiaomi-miot) - Auto-integrate Xiaomi smart-home devices over Wi-Fi, BLE, and Zigbee using the MIoT-spec protocol (5,859★).
+- [Xiaomi Gateway 3](https://github.com/AlexxIT/XiaomiGateway3) - Local control of Xiaomi Multimode Gateway and Aqara Hub E1 over LAN, no cloud round-trips (2,745★).
+- [Midea AC LAN](https://github.com/wuwentao/midea_ac_lan) - Local control of Midea air conditioners, heat pumps, and other M-Smart devices (1,616★).
+- [SmartThinQ Sensors](https://github.com/ollo69/ha-smartthinq-sensors) - LG appliances (washers, dryers, AC, fridges) wired up via SmartThinQ with rich state and remote start (1,296★).
 
 ### 🛠️ Automation tooling
 
 _Helpers that make automations easier to write, debug, and maintain._
 
 - [The Watchman](https://github.com/dummylabs/thewatchman) - Keep track of missing entities and services in your config files (643★).
+- [Browser Mod](https://github.com/thomasloven/hass-browser_mod) - Turn each browser into a controllable entity: pop up cards, navigate views, play sounds, or detect who is looking at the dashboard (1,730★).
+- [Pyscript](https://github.com/custom-components/pyscript) - Write automations and templates in Python instead of YAML (1,150★).
+- [Spook](https://github.com/frenck/spook) - A toolbox of helpful sensors, services, and templates that surface things the UI normally hides (1,112★).
 
 ### 🏘️ Civic & household
 
@@ -264,7 +281,7 @@ _Sign in to Home Assistant with single sign-on, route through a tunnel, or pull 
 
 _Link multiple Home Assistant instances together, share entities across homes, or relay between them._
 
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+- [Remote Home Assistant](https://github.com/custom-components/remote_homeassistant) - Link multiple instances together so entities, services, and events flow between them (1,217★).
 
 ### 📊 Logging & analytics
 
@@ -280,7 +297,9 @@ _Lovelace plugins that drop into your dashboard. Grouped roughly by what they do
 
 _Full card collections that change the look and feel of your dashboards. Mushroom, Bubble Card, Floorplan, and similar all-in-one toolkits._
 
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+- [Mushroom](https://github.com/piitaya/lovelace-mushroom) - A complete card collection with a soft, mobile-first aesthetic that you can drop into existing dashboards (4,960★).
+- [Bubble Card](https://github.com/Clooos/Bubble-Card) - Minimalist card collection with a pop-up touch and rich customization (4,173★).
+- [Floorplan](https://github.com/ExperienceLovelace/ha-floorplan) - Map entities onto an SVG of your house and animate them based on state changes (1,523★).
 
 ### 📐 Layout helpers
 
@@ -292,6 +311,11 @@ _Cards that change where and how other cards appear: stack, fold, show condition
 - [Config Template Card](https://github.com/iantrich/config-template-card) - Allow using templates in Lovelace (547★).
 - [Button card](https://github.com/custom-cards/button-card) - Highly customizable button for your entities (2,432★).
 - [Expander Card](https://github.com/Alia5/lovelace-expander-card) - Expandable and collapsible card to group and hide other cards behind a header (412★).
+- [Layout Card](https://github.com/thomasloven/lovelace-layout-card) - Get fine-grained control over how cards are placed on your dashboard, including masonry-style and grid layouts (1,241★).
+- [Vertical Stack In Card](https://github.com/ofekashery/vertical-stack-in-card) - Group multiple cards into a single sleek card with one shared border (970★).
+- [Fold Entity Row](https://github.com/thomasloven/lovelace-fold-entity-row) - A foldable row that hides extra entities behind a header until clicked (706★).
+- [State Switch](https://github.com/thomasloven/lovelace-state-switch) - Dynamically swap one card for another based on the state of an entity, the time of day, or the user viewing (456★).
+- [Swipe Navigation](https://github.com/zanna-37/hass-swipe-navigation) - Switch between dashboard views with a swipe gesture on mobile (533★).
 
 ### 📈 Charts & graphs
 
@@ -300,18 +324,22 @@ _Visualise sensor data over time. Gauges, line graphs, bars, and Sankey diagrams
 - [Mini Graph Card](https://github.com/kalkih/mini-graph-card) - A minimalistic sensor graph card (3,810★).
 - [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com (216★).
 - [Dual Gauge Card](https://github.com/custom-cards/dual-gauge-card) - Shows two gauges in one (220★).
+- [ApexCharts Card](https://github.com/RomRider/apexcharts-card) - Advanced graphs and charts powered by ApexChartsJS with timelines, multi-axis, and event markers (1,769★).
+- [Sankey Chart](https://github.com/MindFreeze/ha-sankey-chart) - Sankey-style flow diagram for visualising power, water, or any other flow across your home (650★).
 
 ### 📋 Status & info rows
 
 _Compact rows that pack more information into entity-card style listings._
 
 - [Slider Entity Row](https://github.com/thomasloven/lovelace-slider-entity-row) - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards (906★).
+- [Battery State Card](https://github.com/maxwroc/battery-state-card) - List devices with their battery levels in a tidy card, sorted and color-coded (1,235★).
+- [Scheduler Card](https://github.com/nielsfaber/scheduler-card) - Build and edit weekly schedules for any entity right from the dashboard (1,220★).
 
 ### ☀️ Weather cards
 
 _Weather widgets with the look you actually want._
 
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+- [Weather Chart Card](https://github.com/mlamberts78/weather-chart-card) - Weather card with a chart-style hourly forecast and customizable layout (435★).
 
 ### 🎵 Media cards
 
@@ -348,7 +376,7 @@ _Show a map of where your devices and people are, with history trails and custom
 
 _Display camera streams the way you want them, with overlays, controls, event timelines, and pop-out viewers._
 
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+- [Advanced Camera Card](https://github.com/dermotduffy/advanced-camera-card) - Comprehensive camera card with timelines, galleries, snapshots, clips, and per-event playback (1,041★).
 
 ### 🧹 Vacuum cards
 
@@ -362,12 +390,15 @@ _Show vacuum status, room maps, and start/stop controls in your dashboard._
 _Calendar views and rolling feeds of upcoming events._
 
 - [Atomic Calendar Revive](https://github.com/totaldebug/atomic-calendar-revive) - Calendar card with advanced settings (611★).
+- [Week Planner Card](https://github.com/FamousWolf/week-planner-card) - Responsive multi-day overview of upcoming events, alarms, and reminders (503★).
 
 ### 📡 Remote control
 
 _Virtual remotes for TVs, streamers, and AV gear._
 
 - [LG WebOS Remote Control](https://github.com/madmicio/LG-WebOS-Remote-Control) - Remote Control for LG TV WebOS (547★).
+- [HA Firemote](https://github.com/PRProd/HA-Firemote) - Virtual remote for Apple TV, Fire TV, Chromecast, Homatics, Shield, onn., Roku, Xiaomi, and more (956★).
+- [Universal Remote Card](https://github.com/Nerwyn/universal-remote-card) - Fully customizable virtual remote for any media device, supporting custom buttons and haptics (549★).
 
 ### 🍃 Air quality
 
@@ -379,7 +410,8 @@ _Display readings from purifiers and air-quality sensors._
 
 _Hide the chrome, run full-screen, or turn an old tablet on the wall into a dedicated touch panel._
 
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+- [Wall Panel](https://github.com/j-a-n/lovelace-wallpanel) - Wall-panel mode and photo-screensaver for tablets mounted on the wall (829★).
+- [Kiosk Mode](https://github.com/NemesisRE/kiosk-mode) - Hide the header, sidebar, and overflow menu for a clean kiosk-style view (714★).
 
 ## Dashboards
 
@@ -402,6 +434,14 @@ _It is all about the looks, apply some style._
 - [Carbon Green](https://community.home-assistant.io/t/share-your-themes/22018/95?u=frenck) - Light carbon theme with green accents by Reua.
 - [Slate](https://github.com/seangreen2/slate_theme) - A dark theme close to the vanilla look (136★).
 - [Synthwave](https://github.com/bbbenji/synthwave-hass) - A theme influenced by the cover artwork of modern Synthwave bands (199★).
+- [Frosted Glass](https://github.com/wessamlauf/homeassistant-frosted-glass-themes) - Modern frosted-glass dark and light themes with translucent cards (864★).
+- [iOS Themes](https://github.com/basnijholt/lovelace-ios-themes) - Themes inspired by iOS dark and light modes (860★).
+- [LCARS](https://github.com/th3jesta/ha-lcars) - Star Trek LCARS-inspired theme for the bridge feel (524★).
+- [Material You](https://github.com/Nerwyn/material-you-theme) - Material Design 3 theme that adapts to your accent color (444★).
+- [Graphite](https://github.com/TilmanGriesel/graphite) - Calm and clean theme with a focused, low-contrast feel (432★).
+- [Catppuccin](https://github.com/catppuccin/home-assistant) - Soothing pastel theme matching the popular Catppuccin palette across editors and apps (410★).
+- [Mushroom Themes](https://github.com/piitaya/lovelace-mushroom-themes) - Additional themes designed to pair with the Mushroom card collection (302★).
+- [visionOS](https://github.com/Nezz/homeassistant-visionos-theme) - Theme inspired by Apple's visionOS (296★).
 
 ## Icon packs
 
