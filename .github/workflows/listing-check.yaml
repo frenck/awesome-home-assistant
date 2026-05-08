@@ -21,8 +21,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      pull-requests: write
-      issues: write
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
@@ -47,12 +45,19 @@ jobs:
             > report.md
           cat report.md
 
-      - name: Post or update PR comment
+      - name: Save PR number for follow-up comment workflow
         if: github.event_name == 'pull_request'
-        uses: marocchino/sticky-pull-request-comment@0ea0beb66eb9baf113663a64ec522f60e49231c0 # v3.0.4
+        run: echo "${{ github.event.pull_request.number }}" > pr-number.txt
+
+      - name: Upload report and PR number
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
         with:
-          header: listing-check
-          path: report.md
+          name: listing-check-report
+          path: |
+            report.md
+            pr-number.txt
+          retention-days: 1
 
       - name: Fail job if validator reported errors
         if: github.event_name == 'pull_request' && steps.pr_check.outcome == 'failure'
