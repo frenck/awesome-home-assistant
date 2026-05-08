@@ -1,0 +1,113 @@
+---
+# Computes the set of labels that should be applied to a pull request based
+# on its diff. Runs on the standard pull_request event so the workflow has
+# read-only permissions and never runs in a privileged context, even with
+# fork PRs. Output is uploaded as an artifact and consumed by
+# auto-label-apply.yaml, which has the write permissions needed to mutate
+# labels.
+
+name: Auto-label compute
+
+# yamllint disable-line rule:truthy
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+
+jobs:
+  compute:
+    name: Compute desired labels
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out PR head
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Classify diff into desired labels
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
+        run: |
+          python3 <<'PY' > labels.txt
+          import os
+          import re
+          import subprocess
+
+          BASE = os.environ["BASE_REF"]
+
+
+          def run(*args):
+              return subprocess.run(
+                  args, capture_output=True, text=True, check=True
+              ).stdout
+
+
+          def diff_for(path):
+              return run("git", "diff", f"origin/{BASE}...HEAD", "--", path)
+
+
+          def changed_files():
+              out = run("git", "diff", "--name-only", f"origin/{BASE}...HEAD")
+              return [f for f in out.splitlines() if f]
+
+
+          # Bullet-style entry: "- [Display](url) - description ..."
+          ENTRY_PATTERN = re.compile(
+              r"^[+-]\s*-\s*\[[^\]]+\]\((https?://[^\s)]+)\)"
+          )
+
+          added_urls = set()
+          removed_urls = set()
+          for line in diff_for("README.md").splitlines():
+              if line.startswith(("+++", "---")):
+                  continue
+              match = ENTRY_PATTERN.match(line)
+              if not match:
+                  continue
+              url = match.group(1)
+              if line.startswith("+"):
+                  added_urls.add(url)
+              elif line.startswith("-"):
+                  removed_urls.add(url)
+
+          desired = set()
+          if added_urls - removed_urls:
+              desired.add("💖 new")
+          if removed_urls - added_urls:
+              desired.add("❤️‍🔥 remove")
+          if added_urls & removed_urls:
+              desired.add("❤️‍🩹 update")
+
+          files = changed_files()
+          if any(f.startswith(".github/workflows/") for f in files):
+              desired.add("github_actions")
+          if any(
+              f == "requirements.txt" or f.endswith("/requirements.txt")
+              for f in files
+          ):
+              desired.add("dependencies")
+
+          for label in sorted(desired):
+              print(label)
+          PY
+          echo "----- desired labels -----"
+          cat labels.txt
+
+      - name: Save PR number
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: echo "$PR_NUMBER" > pr-number.txt
+
+      - name: Upload payload for follow-up workflow
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+        with:
+          name: auto-label-payload
+          path: |
+            labels.txt
+            pr-number.txt
+          retention-days: 1
