@@ -497,7 +497,7 @@ _Home Assistant has a thriving community of bloggers, YouTubers, podcasters, and
 - [Tinkering with Home Automation](https://blog.ceard.tech/) - Tinkerer's blog and guides.
 - [HomeTechHacker](https://HomeTechHacker.com) - DIY Smarthome guides, reviews, and advice.
 - [Intermittent Technology](https://blog.quindorian.org) - Quindor's personal blog for pasting random (mostly technology related) things.
-- [SmartHomeScene](https://smarthomescene.com/) - Beginner-friendly Home Assistant tutorials, smart-home device reviews, and DIY automation projects.
+- [SmartHomeScene](https://smarthomescene.com/) - Beginner-friendly tutorials, smart-home device reviews, and DIY automation projects.
 
 ### YouTube Channels
 
