@@ -1,74 +1,44 @@
 ---
-# Reads the PR diff and applies / removes a fixed set of "managed" labels:
-#   - 💖 new       : at least one new entry added to the README
-#   - ❤️‍🔥 remove   : at least one entry removed from the README
-#   - ❤️‍🩹 update   : an entry changed in place (same URL, different text)
-#   - github_actions: workflow files changed
-#   - dependencies  : requirements.txt changed
-#
-# Runs on pull_request_target so it can write labels even on PRs from forks
-# (the standard pull_request event drops to read-only on fork PRs). Code
-# from the PR is never executed; we only diff the head SHA from the base
-# checkout.
+# Computes the set of labels that should be applied to a pull request based
+# on its diff. Runs on the standard pull_request event so the workflow has
+# read-only permissions and never runs in a privileged context, even with
+# fork PRs. Output is uploaded as an artifact and consumed by
+# auto-label-apply.yaml, which has the write permissions needed to mutate
+# labels.
 
-name: Auto-label
+name: Auto-label compute
 
 # yamllint disable-line rule:truthy
 on:
-  pull_request_target:
+  pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
 
 permissions:
   contents: read
 
 jobs:
-  label:
-    name: Apply content-based labels
+  compute:
+    name: Compute desired labels
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      pull-requests: write
     steps:
-      - name: Check out base for diffing
+      - name: Check out PR head
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-          ref: ${{ github.event.pull_request.base.ref }}
           fetch-depth: 0
           persist-credentials: false
 
-      - name: Fetch PR head into local ref
+      - name: Classify diff into desired labels
         env:
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-        run: git fetch --no-tags --depth=50 origin "pull/${PR_NUMBER}/head:pr-head"
-
-      - name: Reconcile managed labels
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BASE_REF: ${{ github.event.pull_request.base.ref }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-          REPO: ${{ github.repository }}
         run: |
-          python3 <<'PY'
-          import json
+          python3 <<'PY' > labels.txt
           import os
           import re
           import subprocess
-          import urllib.error
-          import urllib.parse
-          import urllib.request
 
           BASE = os.environ["BASE_REF"]
-          PR = os.environ["PR_NUMBER"]
-          REPO = os.environ["REPO"]
-          TOKEN = os.environ["GH_TOKEN"]
-
-          MANAGED = {
-              "💖 new",
-              "❤️‍🔥 remove",
-              "❤️‍🩹 update",
-              "github_actions",
-              "dependencies",
-          }
 
 
           def run(*args):
@@ -78,11 +48,11 @@ jobs:
 
 
           def diff_for(path):
-              return run("git", "diff", f"origin/{BASE}...pr-head", "--", path)
+              return run("git", "diff", f"origin/{BASE}...HEAD", "--", path)
 
 
           def changed_files():
-              out = run("git", "diff", "--name-only", f"origin/{BASE}...pr-head")
+              out = run("git", "diff", "--name-only", f"origin/{BASE}...HEAD")
               return [f for f in out.splitlines() if f]
 
 
@@ -94,7 +64,6 @@ jobs:
           added_urls = set()
           removed_urls = set()
           for line in diff_for("README.md").splitlines():
-              # Skip diff header lines that start with +++ or ---.
               if line.startswith(("+++", "---")):
                   continue
               match = ENTRY_PATTERN.match(line)
@@ -123,48 +92,22 @@ jobs:
           ):
               desired.add("dependencies")
 
-          print(f"Desired labels: {sorted(desired)}")
-
-
-          def api(method, path, body=None):
-              req = urllib.request.Request(
-                  f"https://api.github.com{path}",
-                  method=method,
-                  headers={
-                      "Accept": "application/vnd.github+json",
-                      "Authorization": f"Bearer {TOKEN}",
-                      "X-GitHub-Api-Version": "2022-11-28",
-                      "User-Agent": "auto-label-workflow",
-                  },
-                  data=json.dumps(body).encode() if body is not None else None,
-              )
-              try:
-                  with urllib.request.urlopen(req) as r:
-                      return json.loads(r.read() or "null")
-              except urllib.error.HTTPError as e:
-                  print(f"HTTP {e.code} on {method} {path}: {e.read().decode()}")
-                  raise
-
-
-          current = {
-              lbl["name"]
-              for lbl in api("GET", f"/repos/{REPO}/issues/{PR}/labels")
-          }
-          print(f"Current labels: {sorted(current)}")
-
-          to_add = desired - current
-          to_remove = (current & MANAGED) - desired
-
-          if to_add:
-              print(f"Adding: {sorted(to_add)}")
-              api(
-                  "POST",
-                  f"/repos/{REPO}/issues/{PR}/labels",
-                  {"labels": sorted(to_add)},
-              )
-
-          for label in sorted(to_remove):
-              print(f"Removing: {label}")
-              encoded = urllib.parse.quote(label, safe="")
-              api("DELETE", f"/repos/{REPO}/issues/{PR}/labels/{encoded}")
+          for label in sorted(desired):
+              print(label)
           PY
+          echo "----- desired labels -----"
+          cat labels.txt
+
+      - name: Save PR number
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: echo "$PR_NUMBER" > pr-number.txt
+
+      - name: Upload payload for follow-up workflow
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+        with:
+          name: auto-label-payload
+          path: |
+            labels.txt
+            pr-number.txt
+          retention-days: 1
