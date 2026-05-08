@@ -215,6 +215,8 @@ _Smarter thermostats, comfort sensors, and HVAC integrations that go beyond what
 - [Better Thermostat](https://github.com/KartoffelToby/better_thermostat) - Smarter thermostat with window detection, heating curves, and per-room comfort profiles for thermostatic radiator valves (1,389★).
 - [Versatile Thermostat](https://github.com/jmcollin78/versatile_thermostat) - Full-featured thermostat with presets, window detection, motion-based comfort, and presence (1,040★).
 - [Midea Air Appliances LAN](https://github.com/nbogojevic/homeassistant-midea-air-appliances-lan) - Local control of Midea air conditioners, dehumidifiers, and other appliances over LAN (451★).
+- [Smart Autotune Thermostat (SAT)](https://github.com/Alexwijn/SAT) - Self-tuning thermostat that talks to OpenTherm, ESPHome, or MQTT gateways and adapts the heating curve to your home over time (243★).
+- [Dual Smart Thermostat](https://github.com/swingerman/ha-dual-smart-thermostat) - Enhanced version of the built-in generic thermostat, with separate heating and cooling, floor temperature limits, and humidity controls (224★).
 
 ### ⚡ Energy & solar
 
@@ -227,6 +229,18 @@ _Pull your solar inverter, smart meter, home battery, or utility tariff into Hom
 - [SolaX Modbus](https://github.com/wills106/homeassistant-solax-modbus) - Talk to SolaX, Solinteg, Sofar, Growatt, and other inverters over Modbus, including read-only and inverter control modes (484★).
 - [Solarman](https://github.com/davidrapan/ha-solarman) - Read Deye, Sofar, and other Solarman-branded inverters via the Solarman stick logger (462★).
 - [OCPP](https://github.com/lbbrhzn/ocpp) - Bring electric vehicle chargers that speak OCPP into the energy dashboard, with start, stop, and per-session metering (362★).
+- [Solcast PV Forecast](https://github.com/BJReplay/ha-solcast-solar) - Pulls Solcast solar production forecasts so you can see expected generation for the day, with up-to-the-hour confidence bands (399★).
+- [EPEX Spot](https://github.com/mampfes/ha_epex_spot) - Brings hourly EPEX spot electricity prices into your dashboard so you can shift loads to the cheapest slots (302★).
+- [ENTSO-e Day-Ahead Prices](https://github.com/JaccoR/hass-entso-e) - Fetches day-ahead electricity prices from the ENTSO-e Transparency Platform across most European countries (264★).
+- [SolarEdge Modbus Multi](https://github.com/WillCodeForCats/solaredge-modbus-multi) - Reads SolarEdge inverters, meters, and batteries locally over Modbus/TCP, with multi-inverter and three-phase support (292★).
+- [FoxESS Modbus](https://github.com/nathanmarlor/foxess_modbus) - Connects directly to FoxESS solar inverters over Modbus, no cloud round-trips, for real-time status and control (289★).
+- [Victron GX](https://github.com/sfstar/hass-victron) - Reads data from a Victron GX device over Modbus/TCP, exposing inverters, batteries, solar chargers, and AC inputs (315★).
+- [Solis Sensor](https://github.com/hultenvp/solis-sensor) - Talks to the SolisCloud PV monitoring portal so you can pull Solis inverter generation, battery, and grid data into the energy dashboard (315★).
+- [GoodWe Inverter](https://github.com/mletenay/home-assistant-goodwe-inverter) - Pulls live data from GoodWe solar inverters over the local network for use in the energy dashboard (208★).
+- [EV Smart Charging](https://github.com/jonasbkarlsson/ev_smart_charging) - Plans an electric vehicle charging schedule across the cheapest hours of a dynamic tariff, working with most chargers and price sensors (290★).
+- [Solar Optimizer](https://github.com/jmcollin78/solar_optimizer) - Starts and stops your appliances based on solar surplus production so you self-consume rather than export (222★).
+- [Dynamic Energy Cost](https://github.com/martinarva/dynamic_energy_cost) - Tracks real-time and cumulative energy cost against a dynamic price feed like Nord Pool or EPEX (186★).
+- [Energi Data Service](https://github.com/MTrab/energidataservice) - Fetches Danish electricity spot prices from the Energi Data Service API for use in price-aware automations (269★).
 
 ### 📹 Cameras & video
 
@@ -244,6 +258,7 @@ _Pair specific camera brands and video sources that Home Assistant does not supp
 _Turn Home Assistant into a fully-featured alarm system with arm and disarm flows, user codes, zones, and panic._
 
 - [Alarmo](https://github.com/nielsfaber/alarmo) - Easy-to-use alarm system with arm/disarm flows, user codes, zones, and panic mode (2,109★).
+- [Keymaster](https://github.com/FutureTense/keymaster) - Manages user codes on Z-Wave smart locks, including per-user schedules, one-time codes, and notifications (329★).
 
 ### 🔊 Voice & media playback
 
@@ -253,6 +268,7 @@ _Send commands to voice speakers and media players, or relay what they hear and 
 - [Alexa Media Player](https://github.com/alandtse/alexa_media_player) - Control Amazon Alexa devices: announce, play media, and pull device state into your automations (1,935★).
 - [YandexStation](https://github.com/AlexxIT/YandexStation) - Control Yandex Station speakers and other smart-home devices through Alice (1,837★).
 - [Yandex Smart Home](https://github.com/dext0r/yandex_smart_home) - Expose your devices to Yandex Alice and the Yandex smart-home app (1,046★).
+- [View Assist Companion](https://github.com/msp1974/ViewAssist_Companion_App) - Companion Android app and integration that turns a tablet into a hands-free voice and dashboard satellite (348★).
 
 ### 🚗 Cars & EV charging
 
@@ -261,6 +277,11 @@ _Track your car's battery, location, and charging state, or control where and wh
 - [Kia Uvo & Hyundai Bluelink](https://github.com/Hyundai-Kia-Connect/kia_uvo) - Track and control Kia Connect (Uvo) and Hyundai Bluelink cars across EU, Canada, and USA, including charging, climate, and lock state (851★).
 - [Tesla](https://github.com/alandtse/tesla) - Track Tesla cars and Powerwalls with charging, climate, location, and security state, using a refresh token from a third-party login app (725★).
 - [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Track charging state, climate preconditioning, and remote lock and honk for Volkswagen cars on the Carnet platform (512★).
+- [Audi Connect](https://github.com/audiconnect/audi_connect_ha) - Tracks Audi cars over the Audi Connect API, including charging state, range, lock, and climate preconditioning (328★).
+- [Polestar](https://github.com/pypolestar/polestar_api) - Reads Polestar EVs through the Polestar app API, with range, charging, and location data (241★).
+- [Stellantis Vehicles](https://github.com/andreadegiovine/homeassistant-stellantis-vehicles) - Adds Stellantis cars (Peugeot, Citroen, Fiat, Opel, Vauxhall, DS) over the manufacturer API for range, lock, and climate (223★).
+- [evcc](https://github.com/marq24/ha-evcc) - Connects to an evcc instance to surface charge sessions, solar matching, and per-loadpoint state (387★).
+- [Easee EV Charger](https://github.com/nordicopen/easee_hass) - Adds Easee EV chargers with live charge state, dynamic load balancing, and per-session metering (272★).
 
 ### 📍 Presence & location
 
@@ -269,6 +290,7 @@ _Figure out who is home and where they are, often more accurately than the built
 - [iCloud3](https://github.com/gcobb321/icloud3) - Improved version of the iCloud device tracker component with a lot of capabilities (835★).
 - [iPhone Detect](https://github.com/mudape/iphonedetect) - Detect iPhones (and other phones) on the local Wi-Fi without an app, by sending a UDP probe and watching for the reply (615★).
 - [Flightradar24](https://github.com/AlexandrErohin/home-assistant-flightradar24) - Track aircraft flying over a configurable bounding box around your home using Flightradar24 (426★).
+- [Places](https://github.com/custom-components/places) - Reverse-geocodes a device tracker location through OpenStreetMap so automations can react to "at the supermarket" rather than raw coordinates (181★).
 
 ### 🧹 Vacuums
 
@@ -283,6 +305,8 @@ _Pull data from sensors that broadcast over Bluetooth, or use Bluetooth itself f
 
 - [BLE Monitor](https://github.com/custom-components/ble_monitor) - Passively read sensor data from Xiaomi MiBeacon, Govee, ATC, Inkbird, Qingping, and many other BLE sensors (2,202★).
 - [Bermuda](https://github.com/agittins/bermuda) - Room-level presence detection by triangulating BLE signals across multiple ESPHome receivers (1,750★).
+- [BLE Battery Management Systems](https://github.com/patman15/BMS_BLE-HA) - Reads Bluetooth Low Energy battery management systems (BMS) from many vendors, exposing per-cell voltages, balancing, and SOC (316★).
+- [EcoFlow BLE](https://github.com/rabits/ha-ef-ble) - Pulls EcoFlow power stations and accessories over Bluetooth Low Energy, no cloud account required (277★).
 
 ### 🔋 Battery monitoring
 
@@ -305,6 +329,15 @@ _Pull a specific manufacturer's devices into Home Assistant, often with more fea
 - [Meross](https://github.com/albertogeniola/meross-homeassistant) - Control Meross plugs, switches, bulbs, garage door openers, and humidifiers via the Meross IoT cloud (846★).
 - [HomeMatic IP Local](https://github.com/SukramJ/homematicip_local) - Local control of HomeMatic and HomeMatic IP devices through OpenCCU or RaspberryMatic, no cloud round-trips (564★).
 - [Nest Protect](https://github.com/iMicknl/ha-nest-protect) - Track Nest Protect smoke and CO alarms with battery state, recent events, and per-room safety status (456★).
+- [Meross LAN](https://github.com/krahabb/meross_lan) - Local control of Meross plugs, switches, lights, and garage door openers, falling back to cloud only when needed (701★).
+- [LocalTuya](https://github.com/rospogrigio/localtuya) - Local control of Tuya devices over the LAN, no cloud round-trips, supporting plugs, lights, climate, and covers (3,821★).
+- [SamsungTV Smart](https://github.com/ollo69/ha-samsungtv-smart) - Improved Samsung TV integration with SmartThings support, source switching, app launching, and per-app icons (642★).
+- [Dyson](https://github.com/libdyson-wg/ha-dyson) - Wi-Fi connected Dyson fans, purifiers, and humidifiers, with full per-mode control over the local network (411★).
+- [PetKit](https://github.com/RobertD502/home-assistant-petkit) - Adds PetKit feeders, fountains, and litter boxes over the manufacturer cloud, with full state and feeding controls (335★).
+- [Miele](https://github.com/astrandb/miele) - Pairs Miele washing machines, dryers, dishwashers, ovens, and coffee machines, with detailed program state (269★).
+- [Home Connect Local](https://github.com/chris-mc1/homeconnect_local_hass) - Talks to Bosch, Siemens, NEFF, and Gaggenau appliances directly over the local network, no cloud detour (364★).
+- [hOn](https://github.com/gvigroux/hon) - Pulls Haier, Candy, and Hoover appliances from the official hOn cloud, exposing every state and parameter the app shows (246★).
+- [PETLIBRO](https://github.com/jjjonesjr33/petlibro) - Adds PETLIBRO smart pet feeders and fountains, with feeding schedules, dispense events, and battery levels (305★).
 
 ### 🛠️ Automation tooling
 
@@ -319,6 +352,7 @@ _Helpers that make automations easier to write, debug, and maintain._
 - [Magic Areas](https://github.com/jseidl/magic-areas) - Auto-build per-room presence, climate, and media area entities, with motion-triggered scenes and bright/dark detection (476★).
 - [Auto Backup](https://github.com/jcwillox/hass-auto-backup) - Automate backups with custom schedules, retention rules, encryption, and uploads to remote storage (455★).
 - [Multiscrape](https://github.com/danieldotnl/ha-multiscrape) - Scrape multiple values (HTML, XML, or JSON) from a page in one request and turn them into sensors (429★).
+- [Retry Service](https://github.com/amitfin/retry) - Wraps any service call so transient failures retry automatically with exponential backoff (162★).
 
 ### 🏘️ Civic & household
 
@@ -327,12 +361,17 @@ _Local services that turn into sensors and calendars: garbage collection schedul
 - [Mail and Packages](https://github.com/moralmunky/Home-Assistant-Mail-And-Packages) - Sensors for incoming and delivered packages plus USPS Informed Delivery preview images, all from your existing email account (826★).
 - [Irrigation Unlimited](https://github.com/rgc99/irrigation_unlimited) - Multi-zone irrigation controller with schedules, sequences, weather adjustments, and manual run support (426★).
 - [Moonraker (Klipper)](https://github.com/marcolivierarsenault/moonraker-home-assistant) - Track Klipper-based 3D printers running Moonraker (Mainsail, Fluidd) with print progress, temperature, and webcam snapshots (462★).
+- [Smart Irrigation](https://github.com/jeroenterheerdt/HAsmartirrigation) - Calculates how long to run each irrigation zone based on evapotranspiration, recent rainfall, and weather forecasts (494★).
+- [UK Bin Collection](https://github.com/robbrad/UKBinCollectionData) - Council bin collection schedules across UK local authorities, exposed as next-pickup sensors per waste stream (320★).
 
 ### 🔐 Network & authentication
 
 _Sign in to Home Assistant with single sign-on, route through a tunnel, or pull network hardware into your dashboard._
 
 - [OIDC Auth](https://github.com/christiaangoossens/hass-oidc-auth) - Sign in with single sign-on through any OpenID Connect provider, including Authelia, Authentik, Keycloak, and Pocket ID (899★).
+- [OpenID Connect Auth](https://github.com/cavefire/hass-openid) - Sign in through any OpenID Connect provider, including Authelia, Keycloak, and Authentik (198★).
+- [TP-Link Router](https://github.com/AlexandrErohin/home-assistant-tplink-router) - Manages TP-Link and Mercusys routers with sensors, reboot button, switches, and per-client device tracking (340★).
+- [Mikrotik Router](https://github.com/tomaae/homeassistant-mikrotik_router) - Pulls Mikrotik routers and access points into your dashboard, with per-client traffic, DHCP leases, and PoE controls (443★).
 
 ### 🔗 Federation & multi-instance
 
@@ -347,6 +386,7 @@ _Send Home Assistant data to external systems for long-term storage, richer dash
 - [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publishes events to Elasticsearch (164★).
 - [TrueNAS](https://github.com/tomaae/homeassistant-truenas) - Pull TrueNAS Scale and Core stats, datasets, virtual machines, and apps into sensors and switches (364★).
 - [Monitor Docker](https://github.com/ualex73/monitor_docker) - Watch CPU, memory, network, and uptime for every Docker container on a host, including remote ones, and start or stop them from automations (398★).
+- [Unraid](https://github.com/ruaan-deysel/ha-unraid) - Monitors and controls an Unraid NAS, including CPU, memory, disks, virtual machines, and Docker containers (232★).
 
 ## Dashboard Cards
 
@@ -402,6 +442,7 @@ _Compact rows that pack more information into entity-card style listings._
 - [Scheduler Card](https://github.com/nielsfaber/scheduler-card) - Build and edit weekly schedules for any entity right from the dashboard (1,220★).
 - [Entity Progress Card](https://github.com/francois-le-ko4la/lovelace-entity-progress-card) - Progress-bar card for any numeric entity, with thresholds, gradients, and templated icons (250★).
 - [Vehicle Status Card](https://github.com/ngocjohn/vehicle-status-card) - Dashboard card showing fuel or charge level, range, doors, lock state, and a customizable image of the car (251★).
+- [Timer Bar Card](https://github.com/rianadon/timer-bar-card) - Progress-bar card for any timer entity, with countdown, formatted remaining time, and configurable colors (568★).
 
 ### ☀️ Weather cards
 
@@ -410,6 +451,8 @@ _Weather widgets with the look you actually want._
 - [Weather Chart Card](https://github.com/mlamberts78/weather-chart-card) - Weather card with a chart-style hourly forecast and customizable layout (435★).
 - [Hourly Weather](https://github.com/decompil3d/lovelace-hourly-weather) - Show today's hourly forecast as a colored horizontal bar so you can see at a glance when conditions change (387★).
 - [Weather Radar](https://github.com/Makin-Things/weather-radar-card) - Animated rain radar card using the public RainViewer tile service, with country-level and regional zoom (360★).
+- [Clock Weather Card](https://github.com/pkissling/clock-weather-card) - Combined date, time, and weather forecast card with an iOS-inspired layout for the days ahead (820★).
+- [Horizon Card](https://github.com/rejuvenate/lovelace-horizon-card) - Visualises the position of the Sun over the horizon throughout the day, with sunrise, sunset, and twilight markers (644★).
 
 ### 🎵 Media cards
 
@@ -466,6 +509,7 @@ _Calendar views and rolling feeds of upcoming events._
 - [Atomic Calendar Revive](https://github.com/totaldebug/atomic-calendar-revive) - Calendar card with advanced settings (611★).
 - [Week Planner Card](https://github.com/FamousWolf/week-planner-card) - Responsive multi-day overview of upcoming events, alarms, and reminders (503★).
 - [Trash Card](https://github.com/idaho/hassio-trash-card) - Show the next trash pickup type (paper, plastic, organic) based on a calendar entity, with color-coded icons (351★).
+- [Calendar Card Pro](https://github.com/alexpfau/calendar-card-pro) - Customizable calendar card with event grouping, location indicators, and a clean modern look (1,100★).
 
 ### 📡 Remote control
 
@@ -517,6 +561,7 @@ _It is all about the looks, apply some style._
 - [Catppuccin](https://github.com/catppuccin/home-assistant) - Soothing pastel theme matching the popular Catppuccin palette across editors and apps (410★).
 - [Mushroom Themes](https://github.com/piitaya/lovelace-mushroom-themes) - Additional themes designed to pair with the Mushroom card collection (302★).
 - [visionOS](https://github.com/Nezz/homeassistant-visionos-theme) - Theme inspired by Apple's visionOS (296★).
+- [Nordic](https://github.com/coltondick/nordic-theme-main) - Light and dark themes in a Nordic palette, with several blue-tinted variants (41★).
 
 ## Icon packs
 
