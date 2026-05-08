@@ -233,6 +233,7 @@ _Cards that change where and how other cards appear: stack, fold, show condition
 - [Restriction Card](https://github.com/iantrich/restriction-card) - A card to provide restrictions on Lovelace cards defined within (316★).
 - [Config Template Card](https://github.com/iantrich/config-template-card) - Allow using templates in Lovelace (547★).
 - [Button card](https://github.com/custom-cards/button-card) - Highly customizable button for your entities (2,432★).
+- [Expander Card](https://github.com/Alia5/lovelace-expander-card) - Expandable and collapsible card to group and hide other cards behind a header (412★).
 
 #### Charts & graphs
 
@@ -272,6 +273,12 @@ _Show vacuum status, room maps, and start/stop controls in your dashboard._
 
 - [Vacuum Map Card](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card) - This card provides a user-friendly way to fully control Xiaomi (Roborock/Viomi/Dreame/Roidmi) and Neato (+ possibly other) vacuums (1,863★).
 - [Vacuum Card](https://github.com/denysdovhan/vacuum-card) - A card to card for controlling a vacuum cleaner robot (1,199★).
+
+#### Maps & location
+
+_Show a map of where your devices and people are, with history trails and custom overlays._
+
+- [ha-map-card](https://github.com/nathan-gs/ha-map-card) - Leaflet-based map card with history trails, custom tile layers, and tap actions (110★).
 
 #### Calendar & feed
 
@@ -454,6 +461,7 @@ _Some of the best smart-home gadgets do not exist as products you can buy, but o
 
 - [ESPHome](https://esphome.io/) - Program ESP8266 boards and ESP32 boards using YAML.
 - [Tasmota](https://github.com/arendst/Tasmota) - Firmware for ESP8266 boards and devices (24,346★).
+- [Sonoff NSPanel](https://github.com/joBr99/nspanel-lovelace-ui) - Custom firmware for Sonoff NSPanel touchscreens with a Lovelace-style UI (986★).
 
 ### DIY Gateways
 
