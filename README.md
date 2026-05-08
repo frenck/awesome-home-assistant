@@ -214,7 +214,6 @@ _Smarter thermostats, comfort sensors, and HVAC integrations that go beyond what
 
 - [Better Thermostat](https://github.com/KartoffelToby/better_thermostat) - Smarter thermostat with window detection, heating curves, and per-room comfort profiles for thermostatic radiator valves (1,389★).
 - [Versatile Thermostat](https://github.com/jmcollin78/versatile_thermostat) - Full-featured thermostat with presets, window detection, motion-based comfort, and presence (1,040★).
-- [Gree Climate Component](https://github.com/RobHofmann/HomeAssistant-GreeClimateComponent) - Local control of Gree air conditioners and heat pumps without their cloud, including swing, fan modes, and presets (471★).
 - [Midea Air Appliances LAN](https://github.com/nbogojevic/homeassistant-midea-air-appliances-lan) - Local control of Midea air conditioners, dehumidifiers, and other appliances over LAN (451★).
 
 ### ⚡ Energy & solar
@@ -223,7 +222,7 @@ _Pull your solar inverter, smart meter, home battery, or utility tariff into Hom
 
 - [Powercalc](https://github.com/bramstroker/homeassistant-powercalc) - Calculate estimated power consumption of lights and other devices, even those that don't report it themselves (1,472★).
 - [Anker Solix](https://github.com/thomluther/ha-anker-solix) - Pull Anker Solix balcony solar systems, batteries, and power stations into the energy dashboard with live state, history, and charging control (963★).
-- [Octopus Energy](https://github.com/BottlecapDave/HomeAssistant-OctopusEnergy) - Octopus Energy tariffs, smart meter readings, intelligent dispatch slots, and saving sessions, surfaced as sensors (918★).
+- [Octopus Energy](https://github.com/BottlecapDave/HomeAssistant-OctopusEnergy) - Pull Octopus Energy tariffs, smart meter readings, intelligent dispatch slots, and saving sessions into your dashboard (918★).
 - [Huawei Solar](https://github.com/wlcrs/huawei_solar) - Read and control Huawei solar inverters and home batteries over Modbus, including grid charge windows (882★).
 - [SolaX Modbus](https://github.com/wills106/homeassistant-solax-modbus) - Talk to SolaX, Solinteg, Sofar, Growatt, and other inverters over Modbus, including read-only and inverter control modes (484★).
 - [Solarman](https://github.com/davidrapan/ha-solarman) - Read Deye, Sofar, and other Solarman-branded inverters via the Solarman stick logger (462★).
@@ -238,7 +237,7 @@ _Pair specific camera brands and video sources that Home Assistant does not supp
 - [Frigate](https://github.com/blakeblackshear/frigate-hass-integration) - Integrate the Frigate NVR with local object detection into your dashboard, alerts, and snapshots (1,153★).
 - [Eufy Security](https://github.com/fuatakgun/eufy_security) - Manage Eufy Security cameras, doorbells, and base stations with live streams and event notifications (1,318★).
 - [Tapo Control](https://github.com/JurajNyiri/HomeAssistant-Tapo-Control) - Control TP-Link Tapo cameras with PTZ, motion events, and a live RTSP stream (1,861★).
-- [Dahua](https://github.com/rroller/dahua) - Dahua cameras and doorbells with motion events, snapshots, sirens, and PTZ controls (532★).
+- [Dahua](https://github.com/rroller/dahua) - Pair Dahua cameras and doorbells with motion events, snapshots, sirens, and PTZ controls (532★).
 
 ### 🚨 Security & alarm
 
@@ -260,8 +259,8 @@ _Send commands to voice speakers and media players, or relay what they hear and 
 _Track your car's battery, location, and charging state, or control where and when it plugs in._
 
 - [Kia Uvo & Hyundai Bluelink](https://github.com/Hyundai-Kia-Connect/kia_uvo) - Track and control Kia Connect (Uvo) and Hyundai Bluelink cars across EU, Canada, and USA, including charging, climate, and lock state (851★).
-- [Tesla](https://github.com/alandtse/tesla) - Tesla cars and Powerwalls with charging, climate, location, and security state, using a refresh token from a third-party login app (725★).
-- [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Volkswagen Carnet integration for charging state, climate preconditioning, and remote lock and honk for Volkswagen cars (512★).
+- [Tesla](https://github.com/alandtse/tesla) - Track Tesla cars and Powerwalls with charging, climate, location, and security state, using a refresh token from a third-party login app (725★).
+- [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Track charging state, climate preconditioning, and remote lock and honk for Volkswagen cars on the Carnet platform (512★).
 
 ### 📍 Presence & location
 
@@ -303,9 +302,9 @@ _Pull a specific manufacturer's devices into Home Assistant, often with more fea
 - [SmartThinQ Sensors](https://github.com/ollo69/ha-smartthinq-sensors) - LG appliances (washers, dryers, AC, fridges) wired up via SmartThinQ with rich state and remote start (1,296★).
 - [Home Connect Alt](https://github.com/ekutner/home-connect-hass) - Alternative Home Connect integration for Bosch, Siemens, NEFF, and Gaggenau ovens, dishwashers, and washing machines, with richer state than the official one (952★).
 - [Tapo Devices](https://github.com/petretiandrea/home-assistant-tapo-p100) - TP-Link Tapo plugs, switches, bulbs, and energy monitoring (P100, P105, P110, L510, L530, L900) over LAN (944★).
-- [Meross](https://github.com/albertogeniola/meross-homeassistant) - Meross plugs, switches, bulbs, garage door openers, and humidifiers via the Meross IoT cloud (846★).
+- [Meross](https://github.com/albertogeniola/meross-homeassistant) - Control Meross plugs, switches, bulbs, garage door openers, and humidifiers via the Meross IoT cloud (846★).
 - [HomeMatic IP Local](https://github.com/SukramJ/homematicip_local) - Local control of HomeMatic and HomeMatic IP devices through OpenCCU or RaspberryMatic, no cloud round-trips (564★).
-- [Nest Protect](https://github.com/iMicknl/ha-nest-protect) - Nest Protect smoke and CO alarms with battery state, recent events, and per-room safety status (456★).
+- [Nest Protect](https://github.com/iMicknl/ha-nest-protect) - Track Nest Protect smoke and CO alarms with battery state, recent events, and per-room safety status (456★).
 
 ### 🛠️ Automation tooling
 
@@ -326,9 +325,8 @@ _Helpers that make automations easier to write, debug, and maintain._
 _Local services that turn into sensors and calendars: garbage collection schedules, school holidays, traffic, weather alerts, and similar._
 
 - [Mail and Packages](https://github.com/moralmunky/Home-Assistant-Mail-And-Packages) - Sensors for incoming and delivered packages plus USPS Informed Delivery preview images, all from your existing email account (826★).
-- [Irrigation Unlimited](https://github.com/rgc99/irrigation_unlimited) - Irrigation controller with multi-zone schedules, sequences, weather adjustments, and manual run support (426★).
+- [Irrigation Unlimited](https://github.com/rgc99/irrigation_unlimited) - Multi-zone irrigation controller with schedules, sequences, weather adjustments, and manual run support (426★).
 - [Moonraker (Klipper)](https://github.com/marcolivierarsenault/moonraker-home-assistant) - Track Klipper-based 3D printers running Moonraker (Mainsail, Fluidd) with print progress, temperature, and webcam snapshots (462★).
-- [Afvalbeheer](https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer) - Garbage collection schedule sensors for many Dutch and Belgian municipalities, with paper, plastic, and organic streams broken out (368★).
 
 ### 🔐 Network & authentication
 
@@ -347,7 +345,7 @@ _Link multiple Home Assistant instances together, share entities across homes, o
 _Send Home Assistant data to external systems for long-term storage, richer dashboards, or analysis._
 
 - [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publishes events to Elasticsearch (164★).
-- [TrueNAS](https://github.com/tomaae/homeassistant-truenas) - TrueNAS Scale and TrueNAS Core stats, datasets, virtual machines, and apps surfaced as sensors and switches (364★).
+- [TrueNAS](https://github.com/tomaae/homeassistant-truenas) - Pull TrueNAS Scale and Core stats, datasets, virtual machines, and apps into sensors and switches (364★).
 - [Monitor Docker](https://github.com/ualex73/monitor_docker) - Watch CPU, memory, network, and uptime for every Docker container on a host, including remote ones, and start or stop them from automations (398★).
 
 ## Dashboard Cards
@@ -403,14 +401,14 @@ _Compact rows that pack more information into entity-card style listings._
 - [Battery State Card](https://github.com/maxwroc/battery-state-card) - List devices with their battery levels in a tidy card, sorted and color-coded (1,235★).
 - [Scheduler Card](https://github.com/nielsfaber/scheduler-card) - Build and edit weekly schedules for any entity right from the dashboard (1,220★).
 - [Entity Progress Card](https://github.com/francois-le-ko4la/lovelace-entity-progress-card) - Progress-bar card for any numeric entity, with thresholds, gradients, and templated icons (250★).
-- [Vehicle Status Card](https://github.com/ngocjohn/vehicle-status-card) - Vehicle dashboard card showing fuel or charge level, range, doors, lock state, and a customizable image of the car (251★).
+- [Vehicle Status Card](https://github.com/ngocjohn/vehicle-status-card) - Dashboard card showing fuel or charge level, range, doors, lock state, and a customizable image of the car (251★).
 
 ### ☀️ Weather cards
 
 _Weather widgets with the look you actually want._
 
 - [Weather Chart Card](https://github.com/mlamberts78/weather-chart-card) - Weather card with a chart-style hourly forecast and customizable layout (435★).
-- [Hourly Weather](https://github.com/decompil3d/lovelace-hourly-weather) - Hourly weather as a colored horizontal bar so you can see at a glance when conditions change today (387★).
+- [Hourly Weather](https://github.com/decompil3d/lovelace-hourly-weather) - Show today's hourly forecast as a colored horizontal bar so you can see at a glance when conditions change (387★).
 - [Weather Radar](https://github.com/Makin-Things/weather-radar-card) - Animated rain radar card using the public RainViewer tile service, with country-level and regional zoom (360★).
 
 ### 🎵 Media cards
