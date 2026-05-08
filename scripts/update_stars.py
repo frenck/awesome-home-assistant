@@ -33,21 +33,10 @@ import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+from _hacs import load_hacs_index
+
 GITHUB_API = "https://api.github.com"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
-
-# HACS publishes its default-store metadata as plain JSON. One file per
-# category. No auth, no rate limit. Each entry has a `full_name` and a
-# `stargazers_count`, which is exactly what we want.
-HACS_DATA_BASE = "https://data-v2.hacs.xyz"
-HACS_CATEGORIES = (
-    "integration",
-    "plugin",
-    "theme",
-    "appdaemon",
-    "python_script",
-    "netdaemon",
-)
 
 # Match a GitHub repo URL pointing at the repo root. Trailing `.git` or
 # `#anchor` are accepted; subpaths like `/blob/...` or `/tree/...` are
@@ -90,38 +79,6 @@ def fetch_stars(owner: str, repo: str) -> int | None:
         raise
 
 
-def load_hacs_index() -> dict[tuple[str, str], int]:
-    """Pull the HACS public data files and build a (owner_lc, repo_lc) ->
-    stars lookup. One HTTPS request per category, no auth required.
-
-    HACS does not list every repo we curate (it does not include
-    awesome-* lists, blogs, or non-HACS-installable tooling), but it does
-    cover most custom integrations and Lovelace plugins, which is the bulk
-    of this list."""
-    table: dict[tuple[str, str], int] = {}
-    headers = {"User-Agent": "awesome-home-assistant-update-stars"}
-    for category in HACS_CATEGORIES:
-        url = f"{HACS_DATA_BASE}/{category}/data.json"
-        req = urllib.request.Request(url, headers=headers)
-        try:
-            with urllib.request.urlopen(req, timeout=20) as r:
-                data = json.loads(r.read())
-        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as e:
-            print(f"  ! HACS {category} unavailable: {e}", file=sys.stderr)
-            continue
-        for info in data.values():
-            full = (info.get("full_name") or "").lower()
-            if "/" not in full:
-                continue
-            owner, repo = full.split("/", 1)
-            stars = info.get("stargazers_count")
-            if stars is None:
-                continue
-            table[(owner, repo)] = stars
-    print(f"  HACS index loaded: {len(table)} repos.")
-    return table
-
-
 def update_text(text: str, dry_run: bool = False) -> tuple[str, int, int]:
     """Return (new_text, lines_updated, repos_seen)."""
     lines = text.splitlines()
@@ -144,12 +101,14 @@ def update_text(text: str, dry_run: bool = False) -> tuple[str, int, int]:
     # that HACS does not know about (awesome-* lists, blogs, tooling).
     print("  Loading HACS index...")
     hacs = load_hacs_index()
+    print(f"  HACS index: {len(hacs)} repos.")
 
     star_by_repo: dict[tuple[str, str], int | None] = {}
     api_pending: list[tuple[str, str]] = []
     for key in pending:
-        if key in hacs:
-            star_by_repo[key] = hacs[key]
+        info = hacs.get(key)
+        if info and info.get("stargazers_count") is not None:
+            star_by_repo[key] = info["stargazers_count"]
         else:
             api_pending.append(key)
     print(f"  {len(star_by_repo)} resolved via HACS, {len(api_pending)} need GitHub API.")
