@@ -46,39 +46,39 @@ to suggest additions, updates or removals.
 - [Public Configurations](#public-configurations)
 - [Custom Integrations](#custom-integrations)
   - [🤖 AI & LLMs](#-ai--llms)
-  - [🔊 Voice & media playback](#-voice--media-playback)
-  - [📹 Cameras & video](#-cameras--video)
-  - [🧹 Vacuums](#-vacuums)
-  - [🌡️ Climate](#-climate)
   - [💡 Lighting](#-lighting)
+  - [🌡️ Climate](#-climate)
   - [⚡ Energy & solar](#-energy--solar)
-  - [🔵 Bluetooth & BLE](#-bluetooth--ble)
+  - [📹 Cameras & video](#-cameras--video)
   - [🚨 Security & alarm](#-security--alarm)
+  - [🔊 Voice & media playback](#-voice--media-playback)
   - [🚗 Cars & EV charging](#-cars--ev-charging)
   - [📍 Presence & location](#-presence--location)
+  - [🧹 Vacuums](#-vacuums)
+  - [🔵 Bluetooth & BLE](#-bluetooth--ble)
   - [🔋 Battery monitoring](#-battery-monitoring)
+  - [🏷️ Vendor & brand](#-vendor--brand)
+  - [🛠️ Automation tooling](#-automation-tooling)
+  - [🏘️ Civic & household](#-civic--household)
   - [🔐 Network & authentication](#-network--authentication)
   - [🔗 Federation & multi-instance](#-federation--multi-instance)
-  - [🏘️ Civic & household](#-civic--household)
-  - [🛠️ Automation tooling](#-automation-tooling)
-  - [🏷️ Vendor & brand](#-vendor--brand)
   - [📊 Logging & analytics](#-logging--analytics)
 - [Dashboard Cards](#dashboard-cards)
   - [🧱 Dashboard frameworks](#-dashboard-frameworks)
   - [📐 Layout helpers](#-layout-helpers)
   - [📈 Charts & graphs](#-charts--graphs)
   - [📋 Status & info rows](#-status--info-rows)
+  - [☀️ Weather cards](#-weather-cards)
+  - [🎵 Media cards](#-media-cards)
   - [🌡️ Climate cards](#-climate-cards)
   - [⚡ Energy cards](#-energy-cards)
-  - [🎵 Media cards](#-media-cards)
-  - [🧹 Vacuum cards](#-vacuum-cards)
-  - [🗺️ Maps & location](#-maps--location)
-  - [📅 Calendar & feed](#-calendar--feed)
-  - [☀️ Weather cards](#-weather-cards)
   - [💡 Lighting cards](#-lighting-cards)
-  - [🍃 Air quality](#-air-quality)
-  - [📡 Remote control](#-remote-control)
+  - [🗺️ Maps & location](#-maps--location)
   - [📸 Camera cards](#-camera-cards)
+  - [🧹 Vacuum cards](#-vacuum-cards)
+  - [📅 Calendar & feed](#-calendar--feed)
+  - [📡 Remote control](#-remote-control)
+  - [🍃 Air quality](#-air-quality)
   - [🖥️ Kiosk & wallpanel](#-kiosk--wallpanel)
 - [Dashboards](#dashboards)
 - [Themes](#themes)
@@ -167,11 +167,23 @@ _Wire Home Assistant up to a large language model and let it read your devices, 
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
-### 🔊 Voice & media playback
+### 💡 Lighting
 
-_Send commands to voice speakers and media players, or relay what they hear and play back into Home Assistant._
+_Effects, schedules, and behaviour layers that sit on top of your lights._
 
-- [Spotcast](https://github.com/fondberg/spotcast) - Start Spotify playback on an idle Chromecast device as well as control Spotify connect devices (807★).
+- [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Slowly synchronizes your color-changing lights with the naturally occurring color temperature of the sky throughout the day (882★).
+
+### 🌡️ Climate
+
+_Smarter thermostats, comfort sensors, and HVAC integrations that go beyond what comes built in._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
+### ⚡ Energy & solar
+
+_Pull your solar inverter, smart meter, home battery, or utility tariff into Home Assistant and feed the energy dashboard._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
 ### 📹 Cameras & video
 
@@ -180,41 +192,17 @@ _Pair specific camera brands and video sources that Home Assistant does not supp
 - [HASS Aarlo](https://github.com/twrecked/hass-aarlo) - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells (466★).
 - [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - View RTSP streams from IP Cameras in real-time through WebRTC or MSE with Pan/Zoom controls (2,104★).
 
-### 🧹 Vacuums
-
-_Control specific robot vacuums and surface their map data, beyond what comes built in._
-
-- [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - Presents a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting (1,392★).
-
-### 🌡️ Climate
-
-_Smarter thermostats, comfort sensors, and HVAC integrations that go beyond what comes built in._
-
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
-
-### 💡 Lighting
-
-_Effects, schedules, and behaviour layers that sit on top of your lights._
-
-- [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Slowly synchronizes your color-changing lights with the naturally occurring color temperature of the sky throughout the day (882★).
-
-### ⚡ Energy & solar
-
-_Pull your solar inverter, smart meter, home battery, or utility tariff into Home Assistant and feed the energy dashboard._
-
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
-
-### 🔵 Bluetooth & BLE
-
-_Pull data from sensors that broadcast over Bluetooth, or use Bluetooth itself for room-level presence detection._
-
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
-
 ### 🚨 Security & alarm
 
 _Turn Home Assistant into a fully-featured alarm system with arm and disarm flows, user codes, zones, and panic._
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
+### 🔊 Voice & media playback
+
+_Send commands to voice speakers and media players, or relay what they hear and play back into Home Assistant._
+
+- [Spotcast](https://github.com/fondberg/spotcast) - Start Spotify playback on an idle Chromecast device as well as control Spotify connect devices (807★).
 
 ### 🚗 Cars & EV charging
 
@@ -228,9 +216,40 @@ _Figure out who is home and where they are, often more accurately than the built
 
 - [iCloud3](https://github.com/gcobb321/icloud3) - Improved version of the iCloud device tracker component with a lot of capabilities (835★).
 
+### 🧹 Vacuums
+
+_Control specific robot vacuums and surface their map data, beyond what comes built in._
+
+- [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - Presents a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting (1,392★).
+
+### 🔵 Bluetooth & BLE
+
+_Pull data from sensors that broadcast over Bluetooth, or use Bluetooth itself for room-level presence detection._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
 ### 🔋 Battery monitoring
 
 _Keep an eye on the batteries in all your devices and get warned before they run flat._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
+### 🏷️ Vendor & brand
+
+_Pull a specific manufacturer's devices into Home Assistant, often with more features or better local control than what comes built in._
+
+- [SmartIR](https://github.com/smartHomeHub/SmartIR) - Integrates devices using Broadlink IR (2,698★).
+- [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - Control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud (3,230★).
+
+### 🛠️ Automation tooling
+
+_Helpers that make automations easier to write, debug, and maintain._
+
+- [The Watchman](https://github.com/dummylabs/thewatchman) - Keep track of missing entities and services in your config files (643★).
+
+### 🏘️ Civic & household
+
+_Local services that turn into sensors and calendars: garbage collection schedules, school holidays, traffic, weather alerts, and similar._
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
@@ -245,25 +264,6 @@ _Sign in to Home Assistant with single sign-on, route through a tunnel, or pull 
 _Link multiple Home Assistant instances together, share entities across homes, or relay between them._
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
-
-### 🏘️ Civic & household
-
-_Local services that turn into sensors and calendars: garbage collection schedules, school holidays, traffic, weather alerts, and similar._
-
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
-
-### 🛠️ Automation tooling
-
-_Helpers that make automations easier to write, debug, and maintain._
-
-- [The Watchman](https://github.com/dummylabs/thewatchman) - Keep track of missing entities and services in your config files (643★).
-
-### 🏷️ Vendor & brand
-
-_Pull a specific manufacturer's devices into Home Assistant, often with more features or better local control than what comes built in._
-
-- [SmartIR](https://github.com/smartHomeHub/SmartIR) - Integrates devices using Broadlink IR (2,698★).
-- [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - Control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud (3,230★).
 
 ### 📊 Logging & analytics
 
@@ -306,6 +306,18 @@ _Compact rows that pack more information into entity-card style listings._
 
 - [Slider Entity Row](https://github.com/thomasloven/lovelace-slider-entity-row) - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards (906★).
 
+### ☀️ Weather cards
+
+_Weather widgets with the look you actually want._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+
+### 🎵 Media cards
+
+_Better ways to control media players, with album art, queues, and per-room presence._
+
+- [Mini Media Player](https://github.com/kalkih/mini-media-player) - A minimalistic media player card (1,698★).
+
 ### 🌡️ Climate cards
 
 _Replacement thermostat cards with a different look or feel._
@@ -319,11 +331,23 @@ _Visualise solar production, grid imports, battery state, and consumption flow._
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
-### 🎵 Media cards
+### 💡 Lighting cards
 
-_Better ways to control media players, with album art, queues, and per-room presence._
+_Specialised controls for lights, color temperature, and effects._
 
-- [Mini Media Player](https://github.com/kalkih/mini-media-player) - A minimalistic media player card (1,698★).
+- [RGB Light Card](https://github.com/bokub/rgb-light-card) - Colorful buttons to control your RGB Lights (558★).
+
+### 🗺️ Maps & location
+
+_Show a map of where your devices and people are, with history trails and custom overlays._
+
+- [ha-map-card](https://github.com/nathan-gs/ha-map-card) - Leaflet-based map card with history trails, custom tile layers, and tap actions (110★).
+
+### 📸 Camera cards
+
+_Display camera streams the way you want them, with overlays, controls, event timelines, and pop-out viewers._
+
+- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
 ### 🧹 Vacuum cards
 
@@ -332,35 +356,11 @@ _Show vacuum status, room maps, and start/stop controls in your dashboard._
 - [Vacuum Map Card](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card) - This card provides a user-friendly way to fully control Xiaomi (Roborock/Viomi/Dreame/Roidmi) and Neato (+ possibly other) vacuums (1,863★).
 - [Vacuum Card](https://github.com/denysdovhan/vacuum-card) - A card to card for controlling a vacuum cleaner robot (1,199★).
 
-### 🗺️ Maps & location
-
-_Show a map of where your devices and people are, with history trails and custom overlays._
-
-- [ha-map-card](https://github.com/nathan-gs/ha-map-card) - Leaflet-based map card with history trails, custom tile layers, and tap actions (110★).
-
 ### 📅 Calendar & feed
 
 _Calendar views and rolling feeds of upcoming events._
 
 - [Atomic Calendar Revive](https://github.com/totaldebug/atomic-calendar-revive) - Calendar card with advanced settings (611★).
-
-### ☀️ Weather cards
-
-_Weather widgets with the look you actually want._
-
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
-
-### 💡 Lighting cards
-
-_Specialised controls for lights, color temperature, and effects._
-
-- [RGB Light Card](https://github.com/bokub/rgb-light-card) - Colorful buttons to control your RGB Lights (558★).
-
-### 🍃 Air quality
-
-_Display readings from purifiers and air-quality sensors._
-
-- [Purifier Card](https://github.com/denysdovhan/purifier-card) - A card for controlling air purifiers (339★).
 
 ### 📡 Remote control
 
@@ -368,11 +368,11 @@ _Virtual remotes for TVs, streamers, and AV gear._
 
 - [LG WebOS Remote Control](https://github.com/madmicio/LG-WebOS-Remote-Control) - Remote Control for LG TV WebOS (547★).
 
-### 📸 Camera cards
+### 🍃 Air quality
 
-_Display camera streams the way you want them, with overlays, controls, event timelines, and pop-out viewers._
+_Display readings from purifiers and air-quality sensors._
 
-- [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
+- [Purifier Card](https://github.com/denysdovhan/purifier-card) - A card for controlling air purifiers (339★).
 
 ### 🖥️ Kiosk & wallpanel
 
