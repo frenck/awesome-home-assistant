@@ -41,47 +41,47 @@ to suggest additions, updates or removals.
 - [How to use](#how-to-use)
 - [Installing](#installing)
 - [In case you need help](#in-case-you-need-help)
-  - [Official Communities](#official-communities)
-  - [Other Communities](#other-communities)
+  - [🤝 Official Communities](#-official-communities)
+  - [🌐 Other Communities](#-other-communities)
 - [Public Configurations](#public-configurations)
 - [Apps](#apps)
-  - [Official Apps](#official-apps)
-  - [Third Party Apps](#third-party-apps)
+  - [🛡️ Official Apps](#-official-apps)
+  - [📦 Third Party Apps](#-third-party-apps)
 - [Dashboards & UI](#dashboards--ui)
-  - [Icon packs](#icon-packs)
-  - [Themes](#themes)
-  - [Custom Cards](#custom-cards)
-  - [Alternative Dashboards](#alternative-dashboards)
+  - [🎨 Icon packs](#-icon-packs)
+  - [🌈 Themes](#-themes)
+  - [🃏 Custom Cards](#-custom-cards)
+  - [🪟 Alternative Dashboards](#-alternative-dashboards)
 - [Custom Integrations](#custom-integrations)
-  - [AI & LLMs](#ai--llms)
-  - [Voice & media playback](#voice--media-playback)
-  - [Cameras & video](#cameras--video)
-  - [Vacuums](#vacuums)
-  - [Climate](#climate)
-  - [Lighting](#lighting)
-  - [Energy & solar](#energy--solar)
-  - [Bluetooth & BLE](#bluetooth--ble)
-  - [Security & alarm](#security--alarm)
-  - [Cars & EV charging](#cars--ev-charging)
-  - [Presence & location](#presence--location)
-  - [Battery monitoring](#battery-monitoring)
-  - [Network & authentication](#network--authentication)
-  - [Federation & multi-instance](#federation--multi-instance)
-  - [Civic & household](#civic--household)
-  - [Automation tooling](#automation-tooling)
-  - [Vendor & brand](#vendor--brand)
-  - [Logging & analytics](#logging--analytics)
+  - [🤖 AI & LLMs](#-ai--llms)
+  - [🔊 Voice & media playback](#-voice--media-playback)
+  - [📹 Cameras & video](#-cameras--video)
+  - [🧹 Vacuums](#-vacuums)
+  - [🌡️ Climate](#-climate)
+  - [💡 Lighting](#-lighting)
+  - [⚡ Energy & solar](#-energy--solar)
+  - [🔵 Bluetooth & BLE](#-bluetooth--ble)
+  - [🚨 Security & alarm](#-security--alarm)
+  - [🚗 Cars & EV charging](#-cars--ev-charging)
+  - [📍 Presence & location](#-presence--location)
+  - [🔋 Battery monitoring](#-battery-monitoring)
+  - [🔐 Network & authentication](#-network--authentication)
+  - [🔗 Federation & multi-instance](#-federation--multi-instance)
+  - [🏘️ Civic & household](#-civic--household)
+  - [🛠️ Automation tooling](#-automation-tooling)
+  - [🏷️ Vendor & brand](#-vendor--brand)
+  - [📊 Logging & analytics](#-logging--analytics)
 - [Companion App & Mobile](#companion-app--mobile)
 - [DIY](#diy)
-  - [Standalone projects](#standalone-projects)
-  - [DIY Gateways](#diy-gateways)
-  - [DIY Projects](#diy-projects)
+  - [🧩 Standalone projects](#-standalone-projects)
+  - [🌉 DIY Gateways](#-diy-gateways)
+  - [🔨 DIY Projects](#-diy-projects)
 - [Tools & Utilities](#tools--utilities)
 - [Online Resources](#online-resources)
-  - [Blogs](#blogs)
-  - [YouTube Channels](#youtube-channels)
-  - [Podcasts](#podcasts)
-  - [Social](#social)
+  - [✍️ Blogs](#-blogs)
+  - [📺 YouTube Channels](#-youtube-channels)
+  - [🎙️ Podcasts](#-podcasts)
+  - [📱 Social](#-social)
 - [Alternative Home Automation Software](#alternative-home-automation-software)
 - [Other Awesome Lists](#other-awesome-lists)
 - [Trademark Legal Notice](#trademark-legal-notice)
@@ -119,14 +119,14 @@ to see what other people are building? Home Assistant has one of the most
 active home-automation communities on the internet, and most of it is free
 to join.
 
-### Official Communities
+### 🤝 Official Communities
 
 - [Home Assistant Discord](https://discordapp.com/invite/c5DvZ4e) - Join the chat, most of us are there.
 - [Home Assistant Community](https://community.home-assistant.io/?u=frenck) - The community discussion forum.
 - [Home Assistant Subreddit](https://www.reddit.com/r/homeassistant/) - If you are into Reddit, subscribe.
 - [Home Assistant Facebook Group](https://www.facebook.com/groups/HomeAssistant/) - Facebook group for enthusiasts.
 
-### Other Communities
+### 🌐 Other Communities
 
 - [Dr. ZZs](https://www.facebook.com/groups/1969622823351838/) - Facebook group by Dr. Zzs.
 - [ESPHome Discord](https://discord.gg/KhAMKrd) - Get support for your DIY ESPHome project.
@@ -147,7 +147,7 @@ _Wondering how more experienced users have set up their thermostat schedules, pr
 
 _Need a database, a reverse proxy, an MQTT broker (the messaging service many smart-home devices use), or another tool running alongside Home Assistant? Apps, formerly called Add-ons, let you install them straight into Home Assistant OS. No Docker, no separate server, no command line required._
 
-### Official Apps
+### 🛡️ Official Apps
 
 _Created and maintained by the Home Assistant team._
 
@@ -161,7 +161,7 @@ _Created and maintained by the Home Assistant team._
 - [Let's Encrypt](https://github.com/home-assistant/hassio-addons/blob/master/letsencrypt/DOCS.md) - Get a free SSL certificate from Let's Encrypt; an open and automated certificate authority (CA).
 - [MariaDB](https://github.com/home-assistant/hassio-addons/blob/master/mariadb/DOCS.md) - An open source relational database (fork of MySQL).
 
-### Third Party Apps
+### 📦 Third Party Apps
 
 _Anyone can create an app, the following are created by the community._
 
@@ -193,13 +193,13 @@ _Anyone can create an app, the following are created by the community._
 
 _The dashboards Home Assistant ships with are good, but if you have spent any time on Reddit you have seen the gorgeous setups people build. The cards, themes, and icons below are how they get there. Mix and match to your taste._
 
-### Icon packs
+### 🎨 Icon packs
 
 - [Font Awesome Icons](https://github.com/thomasloven/hass-fontawesome) - Use the free icons from Font Awesome in your frontend (338★).
 - [Hass Hue Icons](https://github.com/arallsopp/hass-hue-icons) - Additional Philips Hue bulbs and fixtures icons (376★).
 - [simpleicons](https://github.com/vigonotion/hass-simpleicons) - Use the free icons from the simpleicons set (166★).
 
-### Themes
+### 🌈 Themes
 
 _It is all about the looks, apply some style._
 
@@ -214,7 +214,7 @@ _It is all about the looks, apply some style._
 - [Slate](https://github.com/seangreen2/slate_theme) - A dark theme close to the vanila looks from seangreen2 (136★).
 - [Synthwave](https://github.com/bbbenji/synthwave-hass) - A theme influenced by the cover artwork of modern Synthwave bands (199★).
 
-### Custom Cards
+### 🃏 Custom Cards
 
 _Lovelace plugins that drop into your dashboard. Grouped roughly by what they do._
 
@@ -327,7 +327,7 @@ _Hide the chrome, run full-screen, or turn an old tablet on the wall into a dedi
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
-### Alternative Dashboards
+### 🪟 Alternative Dashboards
 
 - [Dwains Dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) - An fully auto-generating dashboard for desktop, tablet and mobile (2,033★).
 - [Mushroom Strategy](https://github.com/DigiLive/mushroom-strategy) - A strategy that automatically generates a dashboard using Mushroom cards (640★).
@@ -336,111 +336,111 @@ _Hide the chrome, run full-screen, or turn an old tablet on the wall into a dedi
 
 _Integrations Home Assistant does not ship with out of the box, written by the community. Install them through HACS in a couple of clicks._
 
-### AI & LLMs
+### 🤖 AI & LLMs
 
 _Wire Home Assistant up to a large language model and let it read your devices, build dashboards, write automations, or describe what your cameras see._
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
-### Voice & media playback
+### 🔊 Voice & media playback
 
 _Send commands to voice speakers and media players, or relay what they hear and play back into Home Assistant._
 
 - [Spotcast](https://github.com/fondberg/spotcast) - Start Spotify playback on an idle Chromecast device as well as control Spotify connect devices (807★).
 
-### Cameras & video
+### 📹 Cameras & video
 
 _Pair specific camera brands and video sources that Home Assistant does not support out of the box._
 
 - [HASS Aarlo](https://github.com/twrecked/hass-aarlo) - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells (466★).
 - [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - View RTSP streams from IP Cameras in real-time through WebRTC or MSE with Pan/Zoom controls (2,104★).
 
-### Vacuums
+### 🧹 Vacuums
 
 _Control specific robot vacuums and surface their map data, beyond what comes built in._
 
 - [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - Presents a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting (1,392★).
 
-### Climate
+### 🌡️ Climate
 
 _Smarter thermostats, comfort sensors, and HVAC integrations that go beyond what comes built in._
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
-### Lighting
+### 💡 Lighting
 
 _Effects, schedules, and behaviour layers that sit on top of your lights._
 
 - [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Slowly synchronizes your color-changing lights with the naturally occurring color temperature of the sky throughout the day (882★).
 
-### Energy & solar
+### ⚡ Energy & solar
 
 _Pull your solar inverter, smart meter, home battery, or utility tariff into Home Assistant and feed the energy dashboard._
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
-### Bluetooth & BLE
+### 🔵 Bluetooth & BLE
 
 _Pull data from sensors that broadcast over Bluetooth, or use Bluetooth itself for room-level presence detection._
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
-### Security & alarm
+### 🚨 Security & alarm
 
 _Turn Home Assistant into a fully-featured alarm system with arm and disarm flows, user codes, zones, and panic._
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
-### Cars & EV charging
+### 🚗 Cars & EV charging
 
 _Track your car's battery, location, and charging state, or control where and when it plugs in._
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
-### Presence & location
+### 📍 Presence & location
 
 _Figure out who is home and where they are, often more accurately than the built-in device tracker._
 
 - [iCloud3](https://github.com/gcobb321/icloud3) - Improved version of the iCloud device tracker component with a lot of capabilities (835★).
 
-### Battery monitoring
+### 🔋 Battery monitoring
 
 _Keep an eye on the batteries in all your devices and get warned before they run flat._
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
-### Network & authentication
+### 🔐 Network & authentication
 
 _Sign in to Home Assistant with single sign-on, route through a tunnel, or pull network hardware into your dashboard._
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
-### Federation & multi-instance
+### 🔗 Federation & multi-instance
 
 _Link multiple Home Assistant instances together, share entities across homes, or relay between them._
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
-### Civic & household
+### 🏘️ Civic & household
 
 _Local services that turn into sensors and calendars: garbage collection schedules, school holidays, traffic, weather alerts, and similar._
 
 - [Suggest one](https://github.com/frenck/awesome-home-assistant/issues/new/choose) - Have a community resource that fits here? Open an issue to propose it.
 
-### Automation tooling
+### 🛠️ Automation tooling
 
 _Helpers that make automations easier to write, debug, and maintain._
 
 - [The Watchman](https://github.com/dummylabs/thewatchman) - Keep track of missing entities and services in your config files (643★).
 
-### Vendor & brand
+### 🏷️ Vendor & brand
 
 _Pull a specific manufacturer's devices into Home Assistant, often with more features or better local control than what comes built in._
 
 - [SmartIR](https://github.com/smartHomeHub/SmartIR) - Integrates devices using Broadlink IR (2,698★).
 - [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - Control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud (3,230★).
 
-### Logging & analytics
+### 📊 Logging & analytics
 
 _Send Home Assistant data to external systems for long-term storage, richer dashboards, or analysis._
 
@@ -457,19 +457,19 @@ _The Home Assistant companion apps for iPhone and Android are how most people in
 
 _Some of the best smart-home gadgets do not exist as products you can buy, but other people have figured out how to build them. The projects below cover everything from soldering your own multi-sensor to repurposing a discontinued device. Most are weekend projects with parts that cost less than a coffee run._
 
-### Standalone projects
+### 🧩 Standalone projects
 
 - [ESPHome](https://esphome.io/) - Program ESP8266 boards and ESP32 boards using YAML.
 - [Tasmota](https://github.com/arendst/Tasmota) - Firmware for ESP8266 boards and devices (24,346★).
 - [Sonoff NSPanel](https://github.com/joBr99/nspanel-lovelace-ui) - Custom firmware for Sonoff NSPanel touchscreens with a Lovelace-style UI (986★).
 - [CODESYS V3 Home Automation](https://github.com/MichielVanwelsenaere/HomeAutomation.CoDeSys3) - PLC home-automation software that communicates over MQTT for wired automation setups (142★).
 
-### DIY Gateways
+### 🌉 DIY Gateways
 
 - [OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway) - A flexible MQTT gateway for IR, RF, BLE, MiFlora, SMS, and many sensors (4,010★).
 - [esp8266 Milight Hub](https://github.com/sidoh/esp8266_milight_hub) - Alternative hub for Milight/LimitlessLED devices that uses MQTT (1,027★).
 
-### DIY Projects
+### 🔨 DIY Projects
 
 - [HA SwitchPlate](https://community.home-assistant.io/t/ha-switchplate-diy-lcd-touchscreen-wall-switch-replacement/25464?u=frenck) - LCD Touchscreen wall switch replacement.
 - [$10 WiFi RGB Bulb](https://community.home-assistant.io/t/how-to-inexpensive-10-us-wifi-rgb-bulb-that-works-with-home-assistant/14735?u=frenck) - In inexpensive RGB bulb that works on WiFi.
@@ -498,7 +498,7 @@ _Helpers, daemons, and developer tools that sit alongside Home Assistant rather 
 
 _Home Assistant has a thriving community of bloggers, YouTubers, podcasters, and people who love sharing what they have built. The folks below are some of the regular voices worth following, especially when something new ships and you want a hands-on take before deciding whether to dig in yourself._
 
-### Blogs
+### ✍️ Blogs
 
 - [DIY Futurism](https://diyfuturism.com/) - Brad posts articles with great instructions for new users.
 - [Smart Home Hobby](https://smarthomehobby.com/) - Features budget friendly guides and information.
@@ -508,7 +508,7 @@ _Home Assistant has a thriving community of bloggers, YouTubers, podcasters, and
 - [Intermittent Technology](https://blog.quindorian.org) - Quindor's personal blog for pasting random (mostly technology related) things.
 - [SmartHomeScene](https://smarthomescene.com/) - Beginner-friendly tutorials, smart-home device reviews, and DIY automation projects.
 
-### YouTube Channels
+### 📺 YouTube Channels
 
 _Sit back, relax, watch, and learn._
 
@@ -523,13 +523,13 @@ _Sit back, relax, watch, and learn._
 - [Smart Home Junkie](https://www.youtube.com/@smarthomejunkie) - How-to videos and tutorials for starters and advanced users.
 - [Everything Smart Home](https://www.youtube.com/c/EverythingSmartHome) - Focuses on Smart Home, Home Automation, general tech reviews, guides, and step-by-step DIY projects.
 
-### Podcasts
+### 🎙️ Podcasts
 
 _Get inspired, while commuting, doing your morning routine, or at the gym!_
 
 - [Home Assistant Podcast](https://hasspodcast.io) - Biweekly podcast with the latest news and interesting guests.
 
-### Social
+### 📱 Social
 
 _Follow along on social media. The list still leans on X (formerly Twitter); Bluesky and Mastodon entries land in a follow-up._
 
