@@ -84,6 +84,12 @@ The publication **must** have a new post / episode / video within the last
 **12 months**. Stale = abandoned for content; if the author resumes, the
 entry can be re-added at that point.
 
+YouTube channels additionally **must** have at least **7,500 subscribers**
+at the time of submission. The bar reflects the "widely recommended"
+acceptance criterion: with thousands of smart-home channels at any given
+moment, a sub count below this threshold is rarely a strong enough signal
+to justify a slot. The bar is the same for all languages.
+
 ### Section-specific exemptions
 
 - **Public Configurations** — license check waived. Most are personal HA
