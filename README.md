@@ -665,13 +665,28 @@ _Home Assistant has a thriving community of bloggers, YouTubers, podcasters, and
 
 ### ✍️ Blogs
 
-- [DIY Futurism](https://diyfuturism.com/) - Brad posts articles with great instructions for new users.
-- [Smart Home Hobby](https://smarthomehobby.com/) - Features budget friendly guides and information.
-- [Self Hosted Home](https://selfhostedhome.com/) - Articles on DIY home automation projects and self hosted services.
+#### English
+
+- [DIY Futurism](https://diyfuturism.com/) - Articles with clear step-by-step instructions for new users by Brad.
+- [Smart Home Hobby](https://smarthomehobby.com/) - Features budget-friendly guides and information.
+- [Self Hosted Home](https://selfhostedhome.com/) - Articles on DIY home automation projects and self-hosted services.
 - [Tinkering with Home Automation](https://blog.ceard.tech/) - Tinkerer's blog and guides.
-- [HomeTechHacker](https://HomeTechHacker.com) - DIY Smarthome guides, reviews, and advice.
-- [Intermittent Technology](https://blog.quindorian.org) - Quindor's personal blog for pasting random (mostly technology related) things.
+- [HomeTechHacker](https://hometechhacker.com/) - DIY smart-home guides, reviews, and advice.
+- [Intermittent Technology](https://blog.quindorian.org/) - Quindor's personal blog covering smart home, networking, and adjacent tech.
 - [SmartHomeScene](https://smarthomescene.com/) - Beginner-friendly tutorials, smart-home device reviews, and DIY automation projects.
+- [KPeyanski](https://peyanski.com/) - Tutorials and walkthroughs covering automations, AI integrations, and energy management by Kiril Peyanski.
+- [fixtse](https://fixtse.com/) - Hardware reviews and DIY guides for presence detection, voice assistants, and local AI by Sergio Romero.
+- [Michael Leen](https://michaelsleen.com/) - Practical setup advice and gear reviews aimed at people building their first smart home.
+- [Phil Hawthorne](https://philhawthorne.com/) - Field notes on integrations, presence detection, and household automations from a long-time podcaster.
+- [Frenck](https://frenck.dev/) - Behind-the-scenes posts on open source, project leadership, and personal automation experiments by Franck Nijhof.
+
+#### 🌍 In other languages
+
+_Sorted alphabetically by language._
+
+- 🇩🇪 [simon42](https://www.simon42.com/) - Beginner-friendly guides on installation, integrations, and automations by Simon Müller.
+- 🇩🇪 [smarterkram](https://smarterkram.de/) - Detailed tutorials on Zigbee, Matter, ESPHome, and hardware by Oliver Kluth.
+- 🇩🇪 [SmartHome yourself](https://smarthomeyourself.de/) - Release coverage, device reviews, and integration guides by Daniel Scheidler.
 
 ### 📺 YouTube Channels
 
