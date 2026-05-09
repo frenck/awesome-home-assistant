@@ -37,6 +37,8 @@ Before editing the list or reviewing a PR, read these:
   deleted, or stale. Runs weekly; opens a maintenance PR.
 - `scripts/update_stars.py` keeps the `(N,NNN★)` counts current. Don't
   hand-edit star counts.
+- `scripts/update_youtube_subs.py` keeps the `(N subs)` counts in the
+  YouTube Channels section current. Don't hand-edit subscriber counts.
 
 If a rule appears here *and* in CONTRIBUTING.md, CONTRIBUTING.md wins.
 
@@ -126,7 +128,7 @@ list rejecting their submission is often their first OSS feedback.
 
 - `README.md` — the list itself
 - `.github/CONTRIBUTING.md` — contributor-facing rules
-- `scripts/check_listing.py` / `check_activity.py` / `update_stars.py` —
-  maintenance scripts
+- `scripts/check_listing.py` / `check_activity.py` / `update_stars.py` /
+  `update_youtube_subs.py` — maintenance scripts
 - `mkdocs.yml` — site config
 - `.github/workflows/*.yaml` — link checks, listing checks, weekly maintenance
