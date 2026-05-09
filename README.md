@@ -217,6 +217,7 @@ _Smarter thermostats, comfort sensors, and HVAC integrations that go beyond what
 - [Midea Air Appliances LAN](https://github.com/nbogojevic/homeassistant-midea-air-appliances-lan) - Local control of Midea air conditioners, dehumidifiers, and other appliances over LAN (451★).
 - [Smart Autotune Thermostat (SAT)](https://github.com/Alexwijn/SAT) - Self-tuning thermostat that talks to OpenTherm, ESPHome, or MQTT gateways and adapts the heating curve to your home over time (243★).
 - [Dual Smart Thermostat](https://github.com/swingerman/ha-dual-smart-thermostat) - Enhanced version of the built-in generic thermostat, with separate heating and cooling, floor temperature limits, and humidity controls (224★).
+- [Humidity Intelligence](https://github.com/senyo888/Humidity-Intelligence) - Deterministic environmental control engine with seasonal aware humidity targets, condensation modelling, mould risk detection, and explainable environmental sabilisation decisions. (227★).
 
 ### ⚡ Energy & solar
 
