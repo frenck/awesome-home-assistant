@@ -717,7 +717,7 @@ _Home Assistant is not the only home-automation platform out there. If you want 
 - [Domoticz](https://github.com/domoticz/domoticz) - A lightweight Home Automation System (3,751★).
 - [Gladys](https://github.com/GladysAssistant/Gladys) - Open source program which runs on your Raspberry Pi (3,054★).
 - [SmartThings](https://www.smartthings.com/) - Commercial home automation hub by Samsung.
-- [Homey](https://homey.app/) - Commercial multi-protocol hub from Athom with a flow-based automation editor, built around the Homey Pro hardware.
+- [Homey](https://homey.app/) - Commercial multi-protocol platform from Athom that puts local control first with Homey Pro, with Homey Cloud as a hosted option.
 
 ## Other Awesome Lists
 
