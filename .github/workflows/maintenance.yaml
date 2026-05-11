@@ -33,6 +33,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_stars.py
 
+      - name: Refresh inline YouTube subscriber counts
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/update_youtube_subs.py
+
       - name: Run activity check (removes flagged entries)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -49,6 +54,10 @@ jobs:
             echo "## Star counts"
             echo
             echo "Refreshed via \`scripts/update_stars.py\` (HACS data first, GitHub API fallback for repos HACS does not cover). See the README diff for the changes."
+            echo
+            echo "## YouTube subscriber counts"
+            echo
+            echo "Refreshed via \`scripts/update_youtube_subs.py\` (YouTube Data API v3 when \`YOUTUBE_API_KEY\` is set, channel-page scraping otherwise)."
             echo
             cat activity-report.md
             echo

@@ -677,17 +677,45 @@ _Home Assistant has a thriving community of bloggers, YouTubers, podcasters, and
 
 _Sit back, relax, watch, and learn._
 
-- [Home Assistant](https://www.youtube.com/channel/UCbX3YkedQunLt7EQAdVxh7w) - Official YouTube Channel where new launches and live streams are held.
-- [BurnsHA](https://www.youtube.com/channel/UCSKQutOXuNLvFetrKuwudpg) - Great informational and tutorial videos.
-- [The Hook Up](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ) - Tutorials and more, also has videos on home automation in general.
-- [JuanMTech](https://www.youtube.com/juanmtech) - Easy to follow how-to videos, product reviews and more.
-- [vCloudInfo](https://www.youtube.com/vCloudInfo) - Publishes videos based on his home and GitHub repository.
-- [digiblurDIY](https://www.youtube.com/channel/UC5ZdPKE2ckcBhljTc2R_qNA) - Tutorials on hardware projects and Tasmota automations.
-- [Intermit.Tech](https://www.youtube.com/channel/UCv7UOhZ2XuPwm9SN5oJsCjA) - Tutorials & reviews: Camera's, Home Networking, ESP8266 boards, Node-RED.
-- [BeardedTinker](https://www.youtube.com/channel/UCuqokNoK8ZFNQdXxvlE129g) - Tutorials & 3D printing.
-- [Smart Home Junkie](https://www.youtube.com/@smarthomejunkie) - How-to videos and tutorials for starters and advanced users.
-- [Everything Smart Home](https://www.youtube.com/c/EverythingSmartHome) - Focuses on Smart Home, Home Automation, general tech reviews, guides, and step-by-step DIY projects.
-- [Warner Discovers](https://www.youtube.com/c/WarnerDiscovers) - Tech reviews, DIY installs, smart home gear, and solar DIY.
+#### English
+
+_Official channel first, then sorted by subscriber count. Refreshed nightly._
+
+- [Home Assistant](https://www.youtube.com/channel/UCbX3YkedQunLt7EQAdVxh7w) - Official channel for new launches and live streams (73K subs).
+- [The Hook Up](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ) - Smart-home tutorials, gadget reviews, and home-automation experiments by Robert Tait (574K subs).
+- [Everything Smart Home](https://www.youtube.com/c/EverythingSmartHome) - Smart-home and tech reviews, guides, and step-by-step DIY projects (245K subs).
+- [Home Automation Guy](https://www.youtube.com/@HomeAutomationGuy) - Smart-home tutorials, automations, and gear reviews by Alan Byrne (113K subs).
+- [Smart Home Junkie](https://www.youtube.com/@smarthomejunkie) - How-to videos and tutorials for starters and advanced users by Ed de Tollenaer (84.9K subs).
+- [digiblurDIY](https://www.youtube.com/channel/UC5ZdPKE2ckcBhljTc2R_qNA) - Hardware project tutorials and Tasmota automations (73.9K subs).
+- [Intermit.Tech](https://www.youtube.com/channel/UCv7UOhZ2XuPwm9SN5oJsCjA) - Tutorials and reviews covering cameras, home networking, ESP boards, and Node-RED (62.4K subs).
+- [BeardedTinker](https://www.youtube.com/channel/UCuqokNoK8ZFNQdXxvlE129g) - Smart-home tutorials and 3D printing (44.8K subs).
+- [JuanMTech](https://www.youtube.com/juanmtech) - Easy-to-follow how-to videos and product reviews (42.5K subs).
+- [mostlychris](https://www.youtube.com/@mostlychris) - Smart-home tutorials and gadget reviews by Chris West (39.9K subs).
+- [KPeyanski](https://www.youtube.com/@kpeyanski) - Hands-on tutorials for hardware projects, dashboards, and integrations by Kiril Peyanski (33.6K subs).
+- [This Smart House](https://www.youtube.com/@thissmarthouse) - Beginner-friendly setup walkthroughs and product reviews by Ryan Holland (33.5K subs).
+- [SlackerLabs](https://www.youtube.com/@SlackerLabs) - Automation, scripting, and tinkering walkthroughs by Jeffrey Stone (30.6K subs).
+- [Michael Leen](https://www.youtube.com/@michaelsleen) - Smart-home tutorials and integration walkthroughs (26.3K subs).
+- [Technithusiast](https://www.youtube.com/@technithusiast) - Tutorials, integrations, and automations by Michael Montaque (22.7K subs).
+- [3ATIVE VFX](https://www.youtube.com/@3ATIVE) - Smart-home automations and integrations by VFX artist David Martin (20.5K subs).
+- [Smart Home Australia](https://www.youtube.com/@smart_home_australia) - Australia-flavored smart-home reviews and tutorials by Paul Toner (20.4K subs).
+- [CTech&Media](https://www.youtube.com/@CTechMedia) - Smart-home reviews and tutorials by Charly Schulte (17.7K subs).
+- [Frenck | Home Assistant & Smart Home](https://www.youtube.com/@frenck) - Lead of the Home Assistant project, with occasional videos on his own experience and inside views on what is happening in the Home Assistant world (9.7K subs).
+
+#### 🌍 In other languages
+
+_Sorted alphabetically by language, then by subscriber count._
+
+- 🇸🇦 [Smart Tech Arabic](https://www.youtube.com/@SmartTechArabic) - Tutorials in Arabic by Shady Nafie (97.8K subs).
+- 🇧🇷 [Descomplicando Tech](https://www.youtube.com/@DescomplicandoTech) - Smart-home guides by Fabricio Goncalves (15.8K subs).
+- 🇫🇷 [AyLabs](https://www.youtube.com/@ay_labs) - Tutorials, integrations, and automation walkthroughs by Aymeric Le Feyer (11.7K subs).
+- 🇩🇪 [simon42](https://www.youtube.com/@simon42) - Tutorials, automations, and dashboard guides by Simon Müller (192K subs).
+- 🇩🇪 [haus:automation](https://www.youtube.com/@haus_automation) - Tutorials, integrations, and automation walkthroughs by Matthias Kleine (136K subs).
+- 🇩🇪 [SmartHome yourself](https://www.youtube.com/@Smarthomeyourself) - DIY smart-home builds and guides by Daniel Scheidler (34.6K subs).
+- 🇩🇪 [Tristans Smartes Heim](https://www.youtube.com/@tristanssmartesheim) - Smart-home setup guides and integrations by Tristan Küsters (13.7K subs).
+- 🇮🇹 [DinamoTech](https://www.youtube.com/@DinamoTech) - Smart-home tutorials and reviews by Francesco Cova (77.2K subs).
+- 🇮🇹 [Ipensieridellarchitetto](https://www.youtube.com/@ipensieridellarchitetto) - Domotics, technology, and AI walkthroughs (14.8K subs).
+- 🇪🇸 [Home Assistant y Domótica Fácil](https://www.youtube.com/@HomeAssistantFacil) - Smart-home tutorials and automations by Luis del Valle (133K subs).
+- 🇪🇸 [Tecnoyfoto](https://www.youtube.com/@Tecnoyfoto) - Tutorials and product reviews by Albert Barnosell (44.8K subs).
 
 ### 🎙️ Podcasts
 
