@@ -616,6 +616,7 @@ _Anyone can create an app, the following are created by the community._
 - [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup) - A complete and easy-to-configure solution for backing up to Google Drive (3,537★).
 - [Grocy](https://github.com/hassio-addons/app-grocy) - ERP beyond your fridge! A groceries & household management solution for your home (429★).
 - [CrowdSec](https://github.com/crowdsecurity/home-assistant-addons) - A next-gen collaborative IPS/IDS to protect you from intrusion (94★).
+- [C-Gate Web Bridge](https://github.com/dougrathbone/cgateweb-homeassistant) - Bridge Clipsal C-Bus lighting and automation systems to Home Assistant via MQTT with auto-discovery (4★).
 
 ## DIY
 
