@@ -152,7 +152,7 @@ _Communities in languages other than English. Multiple groups can exist per lang
 - 🇳🇱 [Dutch Domotics Discord](https://discord.gg/Ee5X7T7) - Dutch-language home-automation Discord.
 - 🇳🇱 [Home Assistant NL](https://t.me/home_assistant_nl) - Dutch-language Telegram group.
 - 🇫🇷 [HACF Forum](https://forum.hacf.fr) - Discussion forum of the French-speaking association HACF (Home Assistant Communauté Française).
-- 🇩🇪 [Home Assistant DE](https://t.me/homeassistant_de) - German-language Telegram group for discussions, tips, and help.
+- 🇩🇪 [Home Assistant DE](https://t.me/home_assistant_de) - German-language Telegram group for discussions, tips, and help.
 - 🇮🇹 [Home Assistant Italia](https://t.me/HomeAssistantItalia) - Italian Telegram group for sharing ideas and projects.
 - 🇷🇺 [Home Assistant RU Telegram](https://t.me/HomeAssistantRU) - Russian-speaking Telegram group.
 
