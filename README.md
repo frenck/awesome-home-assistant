@@ -139,7 +139,7 @@ wider ecosystem.
 
 ### 🤝 Official Communities
 
-- [Home Assistant Discord](https://discordapp.com/invite/c5DvZ4e) - The main chat, most of us are there.
+- [Home Assistant Discord](https://discord.com/invite/c5DvZ4e) - The main chat, most of us are there.
 - [Home Assistant Community](https://community.home-assistant.io/?u=frenck) - The discussion forum.
 - [Home Assistant Subreddit](https://www.reddit.com/r/homeassistant/) - The official subreddit.
 - [Home Assistant Facebook Group](https://www.facebook.com/groups/HomeAssistant/) - Facebook group for enthusiasts.
