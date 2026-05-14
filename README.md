@@ -175,7 +175,15 @@ _Discords, forums, and chats run by community projects you will see elsewhere on
 _Independent groups not tied to a specific language or project._
 
 - [Home Assistant International Telegram](https://t.me/home_assistant_international) - English-speaking Telegram group for the wider international community.
-- [Dr. ZZs Facebook Group](https://www.facebook.com/groups/1969622823351838/) - Community around the YouTube creator Dr. Zzs.
+- [r/homeautomation](https://www.reddit.com/r/homeautomation/) - The largest platform-agnostic home automation subreddit, covering all hubs, protocols, and project ideas.
+- [r/smarthome](https://www.reddit.com/r/smarthome/) - Product-focused smart home subreddit with buying advice, reviews, and setup questions.
+- [r/selfhosted](https://www.reddit.com/r/selfhosted/) - Subreddit for self-hosted software, with a large crossover into home automation and local control.
+- [Home Assistant on Lemmy](https://lemmy.world/c/homeassistant) - Fediverse alternative to the subreddit for privacy-minded users.
+- [Home Automation on Lemmy](https://lemmy.world/c/homeautomation) - General home automation community on the Fediverse.
+- [Everything Smart Home Discord](https://discord.com/invite/everythingsmarthome) - General smart home discussion server run by Lewis Barclay.
+- [Home Operations Discord](https://discord.com/invite/home-operations) - For people managing their smart home infrastructure with GitOps and Kubernetes.
+- [#Home-Assistant on Matrix](https://matrix.to/#/#Home-Assistant:matrix.org) - Matrix room for real-time chat on the open, federated protocol.
+- [CocoonTech](https://cocoontech.com/) - One of the oldest home automation forums on the web, covering all platforms for over 20 years.
 
 ## Public Configurations
 
