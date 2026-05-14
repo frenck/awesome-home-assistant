@@ -741,17 +741,45 @@ _Get inspired, while commuting, doing your morning routine, or at the gym!_
 
 ### 📱 Social
 
-_Follow along on social media. The list still leans on X (formerly Twitter); Bluesky and Mastodon entries land in a follow-up._
+_Accounts worth following for news, tips, and inspiration, across every
+network where the community is active._
 
-- [@home_assistant](https://twitter.com/home_assistant) - Open source home automation that puts local control and privacy first.
-- [@hass_devs](https://twitter.com/hass_devs) - Latest news on the development of Home Assistant for contributors.
-- [@balloob](https://twitter.com/balloob) - Founder of the Home Assistant project.
-- [@pvizeli](https://twitter.com/pvizeli) - Core developer and creator of the Home Assistant Supervisor.
-- [@frenck](https://twitter.com/frenck) - Creator of this Awesome list and maintainer of the Home Assistant Community Apps project.
-- [@ccostan](https://twitter.com/ccostan) - Blogger of all things Tech. Smart Home, #IOT & other Geeky subjects.
-- [@HomeTechHacker](https://twitter.com/HomeTechHacker) - Guy friends call when #tech happens. Tweet 25-50x/week about #smarthome, #homenetwork, #cybersecurity, #Linux, #gadgets, and #life.
-- [@hassioaddons](https://twitter.com/hassioaddons) - For all community app news and updates.
-- [@Dr_Zzs](https://twitter.com/Dr_Zzs) - Great how-to videos and also streams live.
+#### Official
+
+- **Home Assistant** ([X](https://x.com/home_assistant), [Bluesky](https://bsky.app/profile/home-assistant.io), [Mastodon](https://fosstodon.org/@homeassistant), [Facebook](https://www.facebook.com/homeassistantio/), [Instagram](https://www.instagram.com/homeassistant/), [LinkedIn](https://www.linkedin.com/company/home-assistant)) - Open source home automation that puts local control and privacy first.
+- **Home Assistant Developers** ([X](https://x.com/hass_devs), [Bluesky](https://bsky.app/profile/developers.home-assistant.io)) - Latest news on development for contributors.
+- **Open Home Foundation** ([X](https://x.com/openhomefndn), [Bluesky](https://bsky.app/profile/openhomefoundation.org), [Mastodon](https://fosstodon.org/@openhomefoundation), [Instagram](https://www.instagram.com/openhomefoundation/)) - Protecting privacy, choice, and sustainability for smart homes.
+- **ESPHome** ([X](https://x.com/esphome_), [Bluesky](https://bsky.app/profile/esphome.io)) - Open source system for controlling ESP boards and smart-home devices.
+- **Nabu Casa** ([X](https://x.com/NabuCasa)) - The company behind the cloud service.
+- **Rhasspy** ([X](https://x.com/rhasspy), [Mastodon](https://fosstodon.org/@rhasspy)) - Open source voice assistant toolkit by Michael Hansen.
+
+#### Community
+
+- **Paulus Schoutsen** ([X](https://x.com/balloob), [Bluesky](https://bsky.app/profile/paulusschoutsen.nl), [Mastodon](https://fosstodon.org/@balloob), [Threads](https://www.threads.com/@balloob)) - Founder of the project and Nabu Casa.
+- **Franck Nijhof** ([X](https://x.com/frenck), [Bluesky](https://bsky.app/profile/frenck.social), [Mastodon](https://fosstodon.org/@frenck), [Threads](https://www.threads.com/@frenck), [Instagram](https://www.instagram.com/frenck/), [YouTube](https://www.youtube.com/@frenck), [LinkedIn](https://www.linkedin.com/in/frenck)) - Lead of the project and creator of this Awesome list.
+- **Everything Smart Home** ([X](https://x.com/EverySmartHome), [Bluesky](https://bsky.app/profile/lewisbarclay.bsky.social), [Mastodon](https://fosstodon.org/@everythingsmarthome), [Threads](https://www.threads.com/@everythingsmarthome)) - Smart-home and tech reviews, guides, and DIY projects by Lewis Barclay.
+- **JuanMTech** ([X](https://x.com/JuanMTech), [Bluesky](https://bsky.app/profile/juanmtech.com), [Threads](https://www.threads.com/@juanmtech)) - Easy-to-follow how-to content and product reviews.
+- **Home Automation Guy** ([X](https://x.com/alanmbyrne), [Bluesky](https://bsky.app/profile/burnsie.com), [Mastodon](https://mastodon.social/@burnsie)) - Smart-home tutorials and automations by Alan Byrne.
+- **mostlychris** ([X](https://x.com/mostlychris2), [Bluesky](https://bsky.app/profile/mostlychris.com), [Mastodon](https://fosstodon.org/@mostlychris)) - Smart-home tutorials and gadget reviews by Chris West.
+- **BeardedTinker** ([X](https://x.com/BeardedTinker), [Bluesky](https://bsky.app/profile/beardedtinker.bsky.social)) - Smart-home tutorials and 3D printing.
+- **Mark Watt Tech** ([Bluesky](https://bsky.app/profile/markwatttech.bsky.social), [Mastodon](https://fosstodon.org/@MarkWattTech)) - Software developer and smart-home content creator.
+- **Smart Home Junkie** ([X](https://x.com/smarth0mejunkie), [Threads](https://www.threads.com/@smarthomejunkie)) - How-to content for starters and advanced users by Ed de Tollenaer.
+- **Smart Home Solver** ([X](https://x.com/smarthomesolver), [Threads](https://www.threads.com/@smarthomesolver)) - Smart-home tips and reviews by Reed Kleinman.
+
+#### 🌍 In other languages
+
+_Sorted alphabetically by language._
+
+- 🇧🇷 **LNPBR** ([Instagram](https://www.instagram.com/lnp_br/), [Threads](https://www.threads.com/@lnp_br), [TikTok](https://www.tiktok.com/@lnpbr)) - Smart-home tutorials and product reviews by Leandro.
+- 🇩🇪 **simon42** ([Instagram](https://www.instagram.com/simon42.official/), [Facebook](https://www.facebook.com/simon42official/)) - Beginner-friendly smart-home guides and automations by Simon Müller.
+- 🇩🇪 **haus:automation** ([Instagram](https://www.instagram.com/haus_automation/), [Facebook](https://www.facebook.com/HausAutomatisierungCom/)) - DIY smart-home tutorials by Matthias Kleine.
+- 🇪🇸 **Un loco y su tecnología** ([X](https://x.com/unlocoysutec), [Instagram](https://www.instagram.com/unlocoysutecnologia/), [Threads](https://www.threads.com/@unlocoysutecnologia), [TikTok](https://www.tiktok.com/@unlocoysutecnologia)) - Smart-home content by Carlos Cordero.
+- 🇪🇸 **Tecnoyfoto** ([X](https://x.com/tecnoyfoto), [Instagram](https://www.instagram.com/barnosell/)) - Tutorials and product reviews by Albert Barnosell.
+- 🇪🇸 **La Choza Digital** ([X](https://x.com/LaChozaDigital), [Bluesky](https://bsky.app/profile/lachozadigital.bsky.social)) - Short tutorials on smart-home and DIY automation.
+- 🇫🇷 **HACF** ([X](https://x.com/hacf_fr)) - French-speaking community sharing tutorials and resources.
+- 🇮🇹 **inDomus** ([X](https://x.com/indomusit), [TikTok](https://www.tiktok.com/@indomusit)) - Italian personal home automation community.
+- 🇳🇱 **Denie van Kleef** ([X](https://x.com/disney79), [Instagram](https://www.instagram.com/denievankleef/)) - Dutch smart-home and energy guides.
+- 🇵🇹 **CPHA** ([Facebook](https://www.facebook.com/cpha.pt/)) - Portuguese community for home automation enthusiasts.
 
 ## Alternative Home Automation Software
 
