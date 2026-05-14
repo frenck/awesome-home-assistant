@@ -783,13 +783,20 @@ _Sorted alphabetically by language._
 
 ## Alternative Home Automation Software
 
-_Home Assistant is not the only home-automation platform out there. If you want to compare, or if you have specific needs HA does not cover, the projects below are the most active alternatives. Some are commercial, some are open source, and a few solve very different problems._
+_Home Assistant is not the only home-automation platform out there. If you want to compare, or if you have specific needs Home Assistant does not cover, the projects below are the most active alternatives. Some are commercial, some are open source, and a few solve very different problems._
 
 - [openHAB](https://github.com/openhab) - Java-based and aims at being a universal integration platform.
 - [Domoticz](https://github.com/domoticz/domoticz) - A lightweight Home Automation System (3,751★).
 - [Gladys](https://github.com/GladysAssistant/Gladys) - Open source program which runs on your Raspberry Pi (3,054★).
 - [SmartThings](https://www.smartthings.com/) - Commercial home automation hub by Samsung.
 - [Homey](https://homey.app/) - Commercial multi-protocol platform from Athom that puts local control first with Homey Pro, with Homey Cloud as a hosted option.
+- [Homebridge](https://github.com/homebridge/homebridge) - Lightweight Node.js server that bridges non-HomeKit devices into Apple Home, with a large plugin ecosystem (25,329★).
+- [Node-RED](https://github.com/node-red/node-red) - Flow-based visual programming tool for wiring together devices, APIs, and services, backed by the OpenJS Foundation (23,130★).
+- [ioBroker](https://github.com/ioBroker/ioBroker) - Integration platform for IoT with hundreds of adapters and strong European protocol support for KNX and HomeMatic (1,366★).
+- [FHEM](https://fhem.de/) - Perl-based server with 430+ modules and deep support for European protocols like KNX, EnOcean, and HomeMatic.
+- [Jeedom](https://github.com/jeedom/core) - French-origin, cloudless platform with a plugin marketplace, running on any Linux system (413★).
+- [Hubitat](https://hubitat.com/) - Commercial local-first hub supporting Z-Wave, Zigbee, and Matter with all automations running on the device.
+- [HomeSeer](https://homeseer.com/) - Commercial platform with 25+ years of development, strong Z-Wave support, and an extensive plugin ecosystem.
 
 ## Other Awesome Lists
 
