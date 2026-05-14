@@ -149,12 +149,32 @@ wider ecosystem.
 _Communities in languages other than English. Multiple groups can exist per language; add yours via a pull request. Sorted alphabetically by language._
 
 - 🇧🇷 [Home Assistant Brasil](https://t.me/homeassistant_brasil) - Brazilian Portuguese Telegram group for users of all skill levels.
+- 🇨🇳 [Hassbian Forum](https://bbs.hassbian.com/forum.php) - Chinese-language forum for smart home enthusiasts.
+- 🇨🇿 [Home Assistant CZ](https://www.homeassistant-cz.cz/) - Czech-language forum with an active user base.
+- 🇩🇰 [Dansk Home Assistant gruppe](https://www.facebook.com/groups/209025039666209/) - Danish-language Facebook group.
 - 🇳🇱 [Dutch Domotics Discord](https://discord.gg/Ee5X7T7) - Dutch-language home-automation Discord.
 - 🇳🇱 [Home Assistant NL](https://t.me/home_assistant_nl) - Dutch-language Telegram group.
+- 🇫🇮 [Home Assistant Suomi](https://www.facebook.com/groups/hasuomi/) - Finnish-language Facebook group.
 - 🇫🇷 [HACF Forum](https://forum.hacf.fr) - Discussion forum of the French-speaking association HACF (Home Assistant Communauté Française).
+- 🇫🇷 [HACF Discord](https://discord.com/invite/PaZFEjX) - French-language Discord run by the HACF community.
 - 🇩🇪 [Home Assistant DE](https://t.me/home_assistant_de) - German-language Telegram group for discussions, tips, and help.
+- 🇩🇪 [simon42 Community Forum](https://community.simon42.com/) - German-language forum for smart home topics.
+- 🇬🇷 [Home Assistant GR](https://www.facebook.com/groups/472308593754940/) - Greek-language Facebook group.
+- 🇮🇱 [Home-Assistant.io Israel](https://www.facebook.com/groups/303751386650107/) - Hebrew-language Facebook group.
+- 🇭🇺 [Home Assistant Hungary](https://www.facebook.com/groups/HomeAssistantHU/) - Hungarian-language Facebook group.
 - 🇮🇹 [Home Assistant Italia](https://t.me/HomeAssistantItalia) - Italian Telegram group for sharing ideas and projects.
+- 🇮🇹 [HassioHelp](https://t.me/HassioHelp) - Italian-language Telegram group for troubleshooting and support.
+- 🇯🇵 [Home Assistant Japan](https://www.facebook.com/groups/homeassistantjapan/) - Japanese-language Facebook group.
+- 🇰🇷 [HomeAssistant Cafe](https://cafe.naver.com/koreassistant) - Korean-language community on Naver.
+- 🇳🇴 [Home Assistant Norge](https://www.facebook.com/groups/680252689011262/) - Norwegian-language Facebook group.
+- 🇵🇱 [Home Assistant Polska](https://www.facebook.com/groups/homeassistantpolska/) - Polish-language Facebook group.
+- 🇵🇹 [CPHA Forum](https://forum.cpha.pt/) - Portuguese-language forum by the Comunidade Portuguesa de Home Assistant.
+- 🇷🇴 [Home Assistant Romania](https://www.facebook.com/groups/HomeAssistantRomania/) - Romanian-language Facebook group.
 - 🇷🇺 [Home Assistant RU Telegram](https://t.me/HomeAssistantRU) - Russian-speaking Telegram group.
+- 🇪🇸 [Domotica en casa](https://foro.domoticaencasa.es/) - Spanish-language forum for home automation enthusiasts.
+- 🇸🇪 [Svenska Home Assistant-gruppen](https://www.facebook.com/groups/737654973088984/) - Swedish-language Facebook group.
+- 🇹🇼 [Taiwan Home Assistant](https://www.facebook.com/groups/151166072456061/) - Traditional Chinese Facebook group.
+- 🇹🇭 [Home Assistant Thailand](https://www.facebook.com/groups/769724336851998/) - Thai-language Facebook group.
 
 ### 🧩 Around community projects
 
