@@ -9,17 +9,18 @@
   <a href="https://awesome-ha.com"><strong>https://awesome-ha.com</strong></a>
 </div>
 
-Home Assistant is an open source home automation that puts local control and
-privacy first. Powered by a worldwide community of tinkerers and DIY
-enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+Home Assistant is open source home automation that puts local control and
+privacy first. It works with thousands of devices out of the box, runs on
+your own hardware, and does not require any coding to set up. Whether you
+are automating a single room or an entire house, everything stays local
+and private.
 
-If you want to get an impression on the look and feel,
-you should check out the [Home Assistant online demo](https://demo.home-assistant.io).
+Curious what it looks like? Try the
+[Home Assistant online demo](https://demo.home-assistant.io).
 
-Awesome Home Assistant is a curated list of awesome
-[Home Assistant](https://www.home-assistant.io) resources.
-Additional software, tutorials, custom integrations, apps,
-custom dashboard cards & plugins, cookbooks, example setups, and much more.
+Awesome Home Assistant is a curated list of the best
+[Home Assistant](https://www.home-assistant.io) resources: custom
+integrations, dashboard cards, themes, apps, tutorials, and much more.
 
 Most of the items below can be installed in one click through
 [HACS](https://hacs.xyz), the Home Assistant Community Store, after you
@@ -105,9 +106,9 @@ to suggest additions, updates or removals.
 ## How to use
 
 Awesome Home Assistant is a curated list of the best resources for Home
-Assistant, the open-source home automation that runs on your own hardware
-and keeps your data local. Use it to find the apps, custom cards, custom
-integrations, and tutorials that experienced users actually rely on.
+Assistant. Use it to find apps, custom cards, integrations, and tutorials
+that the community recommends, whether you are just getting started or
+looking for your next project.
 
 You can navigate through the list by:
 
