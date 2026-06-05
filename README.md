@@ -367,6 +367,7 @@ _Pull a specific manufacturer's devices into Home Assistant, often with more fea
 - [Home Connect Local](https://github.com/chris-mc1/homeconnect_local_hass) - Talks to Bosch, Siemens, NEFF, and Gaggenau appliances directly over the local network, no cloud detour (373★).
 - [hOn](https://github.com/gvigroux/hon) - Pulls Haier, Candy, and Hoover appliances from the official hOn cloud, exposing every state and parameter the app shows (249★).
 - [PETLIBRO](https://github.com/jjjonesjr33/petlibro) - Adds PETLIBRO smart pet feeders and fountains, with feeding schedules, dispense events, and battery levels (309★).
+- [Govee Cloud](https://github.com/lasswellt/govee-homeassistant) - Cloud control of Govee lights, RGBIC strips, plugs, fans, humidifiers, heaters, thermometers, and leak sensors, with real-time updates over Govee's AWS IoT push (57★).
 
 ### 🛠️ Automation tooling
 
