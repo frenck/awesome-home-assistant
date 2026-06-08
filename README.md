@@ -688,6 +688,7 @@ _Helpers, daemons, and developer tools that sit alongside Home Assistant rather 
 - [Home Assistant Config Helper for VSCode](https://marketplace.visualstudio.com/items?itemName=keesschollaart.vscode-home-assistant) - Visual Studio Code Extension that provides auto-completion, config validation and snippets when editing your configuration.
 - [Mi Flora via MQTT daemon](https://github.com/ThomDietrich/miflora-mqtt-daemon) - Collect and transfer Xiaomi Mi Flora plant sensor data via MQTT (623★).
 - [Home Assistant Taskbar Menu](https://github.com/PiotrMachowski/Home-Assistant-Taskbar-Menu) - A client for Windows that can display Lovelace views, control entities and show persistent notifications (342★).
+- [HA Linux Companion](https://github.com/SimoneB79/ha-linux-companion) - Electron-based companion app for Raspberry Pi and Linux touch panels, with Lovelace dashboard, system sensors, hardware controls, and real-time notifications.
 
 ## Online Resources
 
