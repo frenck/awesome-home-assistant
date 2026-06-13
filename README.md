@@ -228,6 +228,7 @@ _Wire Home Assistant up to a large language model and let it read your devices, 
 
 - [LLM Vision](https://github.com/valentinfrlch/ha-llmvision) - Add visual intelligence to your automations: caption camera snapshots, summarize what is happening, react to specific events (1,373★).
 - [AI Automation Suggester](https://github.com/ITSpecialist111/ai_automation_suggester) - Scan your entities and ask an AI provider (OpenAI, Anthropic, Google, Groq, Ollama) for tailored automation suggestions, surfaced as notifications (749★).
+- [Nexus Agent](https://github.com/Fistacho/ha-nexus-agent) - MCP server giving AI assistants (Claude, Cursor, VS Code, Windsurf, Gemini CLI) full control over your smart home: 285 tools across 27 domains — entities, automations, dashboards, HACS, Supervisor, Card Builder, git versioning, and more. Ships as a one-click HA add-on (11★).
 
 ### 💡 Lighting
 
