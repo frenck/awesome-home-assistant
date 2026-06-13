@@ -236,6 +236,7 @@ _Effects, schedules, and behaviour layers that sit on top of your lights._
 - [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Slowly synchronizes your color-changing lights with the naturally occurring color temperature of the sky throughout the day (886★).
 - [Adaptive Lighting](https://github.com/basnijholt/adaptive-lighting) - Slowly adjust the brightness and color temperature of your lights based on the position of the sun (3,324★).
 - [Govee](https://github.com/LaggAt/hacs-govee) - Local control of Govee Wi-Fi lights and bulbs, including effects and color modes (352★).
+- [MoodLights](https://github.com/pranjal-joshi/moodlights) - Per-light mood presets with automatic state backup and one-click restore, including cover and blind support (3★).
 
 ### 🌡️ Climate
 
