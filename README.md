@@ -657,6 +657,7 @@ _Some of the best smart-home gadgets do not exist as products you can buy, but o
 - [Tasmota](https://github.com/arendst/Tasmota) - Firmware for ESP8266 boards and devices (24,475★).
 - [Sonoff NSPanel](https://github.com/joBr99/nspanel-lovelace-ui) - Custom firmware for Sonoff NSPanel touchscreens with a Lovelace-style UI (988★).
 - [CODESYS V3 Home Automation](https://github.com/MichielVanwelsenaere/HomeAutomation.CoDeSys3) - PLC home-automation software that communicates over MQTT for wired automation setups (144★).
+- [Tesserae](https://github.com/dmellok/tesserae) - Self-hosted dashboard server that pushes composed tile frames to e-ink panels (Pi, ESP32, jailbroken Kindle, TRMNL) with MQTT auto-discovery, webhook push, and an HA App in the official add-on store (134★).
 
 ### 🌉 DIY Gateways
 
