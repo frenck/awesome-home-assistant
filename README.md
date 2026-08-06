@@ -696,7 +696,6 @@ _Home Assistant has a thriving community of bloggers, YouTubers, podcasters, and
 
 #### English
 
-- [DIY Futurism](https://diyfuturism.com/) - Articles with clear step-by-step instructions for new users by Brad.
 - [Smart Home Hobby](https://smarthomehobby.com/) - Features budget-friendly guides and information.
 - [Self Hosted Home](https://selfhostedhome.com/) - Articles on DIY home automation projects and self-hosted services.
 - [Tinkering with Home Automation](https://blog.ceard.tech/) - Tinkerer's blog and guides.
