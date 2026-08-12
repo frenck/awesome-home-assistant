@@ -672,6 +672,7 @@ _Some of the best smart-home gadgets do not exist as products you can buy, but o
 - [Home Assistant's Hackster.io](https://www.hackster.io/home-assistant?f=1#_=_) - A Hackster channel with multiple DIY projects.
 - [Bed Presence Detection](https://selfhostedhome.com/diy-bed-presence-detection-home-assistant/) - ESP8266 based Bed Presence Detection.
 - [QuinLED](https://quinled.info/) - DIY Wi-Fi LED dimmers and controllers using ESP32 boards.
+- [esp32-nut](https://github.com/maverick1982/esp32-nut) - Wi-Fi bridge that connects any USB UPS directly to the Home Assistant NUT integration using a $5 ESP32-S3.
 
 ## Tools & Utilities
 
