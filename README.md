@@ -297,6 +297,7 @@ _Send commands to voice speakers and media players, or relay what they hear and 
 - [YandexStation](https://github.com/AlexxIT/YandexStation) - Control Yandex Station speakers and other smart-home devices through Alice (1,868★).
 - [Yandex Smart Home](https://github.com/dext0r/yandex_smart_home) - Expose your devices to Yandex Alice and the Yandex smart-home app (1,066★).
 - [View Assist Companion](https://github.com/msp1974/ViewAssist_Companion_App) - Companion Android app and integration that turns a tablet into a hands-free voice and dashboard satellite (374★).
+- [Beatify](https://github.com/mholzi/beatify) - Music year-guessing party game where players scan a QR code, hear a song and guess its release year, with playback through Music Assistant, Sonos or Alexa speakers (218★).
 
 ### 🚗 Cars & EV charging
 
