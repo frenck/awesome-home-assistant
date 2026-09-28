@@ -833,6 +833,7 @@ _Like this list, but for adjacent topics? The lists below cover broader smart-ho
 - [awesome-iot](https://github.com/HQarroum/awesome-iot) - Curated list of awesome Internet of Things projects and resources (3,948★).
 - [awesome-mqtt](https://github.com/awesome-mqtt/awesome-mqtt#readme) - Curated list of MQTT related stuff (2,350★).
 - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Curated list of awesome self hosted software (298,647★).
+- [awesome-unifi](https://github.com/wolffcatskyy/awesome-unifi) - Curated list of awesome UniFi and Ubiquiti networking resources (73★).
 
 ## Contributing
 
