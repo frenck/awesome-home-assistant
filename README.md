@@ -646,6 +646,7 @@ _Anyone can create an app, the following are created by the community._
 - [Grocy](https://github.com/hassio-addons/app-grocy) - ERP beyond your fridge! A groceries & household management solution for your home (433★).
 - [CrowdSec](https://github.com/crowdsecurity/home-assistant-addons) - A next-gen collaborative IPS/IDS to protect you from intrusion (94★).
 - [C-Gate Web Bridge](https://github.com/dougrathbone/cgateweb-homeassistant) - Bridge Clipsal C-Bus lighting and automation systems to Home Assistant via MQTT with auto-discovery (4★).
+- [ble-scale-sync](https://github.com/KristianP26/ble-scale-sync) - Reads weight and body composition from 25+ Bluetooth smart scales and publishes every metric over MQTT with auto-discovery (153★).
 
 ## DIY
 
