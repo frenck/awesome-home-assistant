@@ -596,7 +596,7 @@ _It is all about the looks, apply some style._
 
 _Custom icon sets you install through HACS to replace or extend the default icons across your dashboards._
 
-- [Font Awesome Icons](https://github.com/thomasloven/hass-fontawesome) - Use the free icons from Font Awesome in your frontend (339★).
+- [Custom Icons](https://github.com/thomasloven/hass-custom_icons) - Use the custom iconsets in your frontend (152★).
 - [Hass Hue Icons](https://github.com/arallsopp/hass-hue-icons) - Additional Philips Hue bulbs and fixtures icons (377★).
 - [simpleicons](https://github.com/vigonotion/hass-simpleicons) - Use the free icons from the simpleicons set (167★).
 
