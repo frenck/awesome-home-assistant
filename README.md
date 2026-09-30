@@ -680,6 +680,7 @@ _Helpers, daemons, and developer tools that sit alongside Home Assistant rather 
 - [HASS Configurator](https://github.com/danielperna84/hass-configurator) - Browser-based configuration file editor (334★).
 - [HA-Dockermon](https://github.com/philhawthorne/ha-dockermon) - A Node.js service for RESTful switches to control Docker containers (291★).
 - [Home Assistant Device Database](https://www.hadevices.com/) - Database of supported/confirmed working devices.
+- [Hardware Matrix](https://hardwarematrix.dev/) - Compatibility index of 177 sensor and microcontroller pairings with validated ESPHome configurations and an open CC BY-SA dataset.
 - [Jinja Scripts for Curious Minds](https://github.com/skalavala/mysmarthome/tree/master/jinja_helpers) - Bunch of Jinja2 scripts helping you to understand it better.
 - [GitLab CI/CD](https://about.gitlab.com/2018/08/02/using-the-gitlab-ci-slash-cd-for-smart-home-configuration-management/) - How to simplify your smart home configuration with GitLab CI/CD.
 - [Monitor](https://github.com/andrewjfreyer/monitor) - Distributed advertisement-based BTLE presence detection reported via MQTT (2,104★).
