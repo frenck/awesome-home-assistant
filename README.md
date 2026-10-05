@@ -63,6 +63,7 @@ to suggest additions, updates or removals.
   - [🏷️ Vendor & brand](#-vendor--brand)
   - [🛠️ Automation tooling](#-automation-tooling)
   - [🏘️ Civic & household](#-civic--household)
+  - [🎉 Games & party](#-games--party)
   - [🔐 Network & authentication](#-network--authentication)
   - [🔗 Federation & multi-instance](#-federation--multi-instance)
   - [📊 Logging & analytics](#-logging--analytics)
@@ -392,6 +393,12 @@ _Local services that turn into sensors and calendars: garbage collection schedul
 - [Moonraker (Klipper)](https://github.com/marcolivierarsenault/moonraker-home-assistant) - Track Klipper-based 3D printers running Moonraker (Mainsail, Fluidd) with print progress, temperature, and webcam snapshots (469★).
 - [Smart Irrigation](https://github.com/jeroenterheerdt/HAsmartirrigation) - Calculates how long to run each irrigation zone based on evapotranspiration, recent rainfall, and weather forecasts (509★).
 - [UK Bin Collection](https://github.com/robbrad/UKBinCollectionData) - Council bin collection schedules across UK local authorities, exposed as next-pickup sensors per waste stream (328★).
+
+### 🎉 Games & party
+
+_Turn the living room into a game: quiz nights, music rounds, and other things to play with guests instead of automating the house._
+
+- [Quizify](https://github.com/mholzi/quizify) - Party trivia game where the TV shows the question and every guest answers on their own phone after scanning a QR code, with 5,871 questions in English, German, and Spanish.
 
 ### 🔐 Network & authentication
 
