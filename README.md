@@ -687,6 +687,7 @@ _Helpers, daemons, and developer tools that sit alongside Home Assistant rather 
 - [ADB Intents](https://gist.github.com/mcfrojd/9e6875e1db5c089b1e3ddeb7dba0f304) - List of ADB intents to control Android Devices.
 - [Home Assistant Config Helper for VSCode](https://marketplace.visualstudio.com/items?itemName=keesschollaart.vscode-home-assistant) - Visual Studio Code Extension that provides auto-completion, config validation and snippets when editing your configuration.
 - [Home Assistant Taskbar Menu](https://github.com/PiotrMachowski/Home-Assistant-Taskbar-Menu) - A client for Windows that can display Lovelace views, control entities and show persistent notifications (342★).
+- [Home Mind](https://github.com/hoornet/home-mind) - Self-hosted memory layer for Assist: remembers household facts across conversations, reinforces the ones you use, and forgets on request.
 
 ## Online Resources
 
