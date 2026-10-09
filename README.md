@@ -461,6 +461,7 @@ _Visualise sensor data over time. Gauges, line graphs, bars, and Sankey diagrams
 - [Sankey Chart](https://github.com/MindFreeze/ha-sankey-chart) - Sankey-style flow diagram for visualising power, water, or any other flow across your home (660★).
 - [Modern Circular Gauge](https://github.com/selvalt7/modern-circular-gauge) - Modern-looking circular gauge card with smooth animations, color stops, and template support (269★).
 - [Flex Table Card](https://github.com/custom-cards/flex-table-card) - Highly flexible table card with arbitrary columns, regex-matched entities, and per-row styling, useful for AppDaemon and templated content (268★).
+- [Sensor Bar Card Plus](https://github.com/cdelaet/sensor-bar-card-plus) - Highly configurable sensor bars and gauges with dynamic scales, multiple fill styles, targets, reference markers, and Tile card integration (91★).
 
 ### 📋 Status & info rows
 
