@@ -672,6 +672,7 @@ _Some of the best smart-home gadgets do not exist as products you can buy, but o
 - [Home Assistant's Hackster.io](https://www.hackster.io/home-assistant?f=1#_=_) - A Hackster channel with multiple DIY projects.
 - [Bed Presence Detection](https://selfhostedhome.com/diy-bed-presence-detection-home-assistant/) - ESP8266 based Bed Presence Detection.
 - [QuinLED](https://quinled.info/) - DIY Wi-Fi LED dimmers and controllers using ESP32 boards.
+- [Panasonic ERV Local Control](https://community.home-assistant.io/t/local-control-of-a-panasonic-erv-fresh-air-heat-exchanger-with-a-5-esp32-esphome-no-cloud-no-oem-module/1015446) - Replace the OEM cloud module of a Panasonic fresh-air heat exchanger with an ESP32 running ESPHome.
 
 ## Tools & Utilities
 
