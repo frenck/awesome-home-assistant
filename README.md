@@ -647,6 +647,7 @@ _Anyone can create an app, the following are created by the community._
 - [CrowdSec](https://github.com/crowdsecurity/home-assistant-addons) - A next-gen collaborative IPS/IDS to protect you from intrusion (94★).
 - [C-Gate Web Bridge](https://github.com/dougrathbone/cgateweb-homeassistant) - Bridge Clipsal C-Bus lighting and automation systems to Home Assistant via MQTT with auto-discovery (4★).
 - [Simple NAS](https://github.com/gregorwolf1973/EasyNas-HASSIO-Addon) - Turns the server into a NAS with Samba shares, USB drive mounting, file manager and backup jobs, managed from a built-in web interface.
+
 ## DIY
 
 _Some of the best smart-home gadgets do not exist as products you can buy, but other people have figured out how to build them. The projects below cover everything from soldering your own multi-sensor to repurposing a discontinued device. Most are weekend projects with parts that cost less than a coffee run._
