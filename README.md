@@ -311,6 +311,7 @@ _Track your car's battery, location, and charging state, or control where and wh
 - [evcc](https://github.com/marq24/ha-evcc) - Connects to an evcc instance to surface charge sessions, solar matching, and per-loadpoint state (410★).
 - [Easee EV Charger](https://github.com/nordicopen/easee_hass) - Adds Easee EV chargers with live charge state, dynamic load balancing, and per-session metering (272★).
 - [EV Smart Charging](https://github.com/jonasbkarlsson/ev_smart_charging) - Plans an electric vehicle charging schedule across the cheapest hours of a dynamic tariff, working with most chargers and price sensors (297★).
+- [Pumperly Fuel Prices](https://github.com/GeiserX/pumperly-ha) - Shows the cheapest, nearest and average fuel and EV charging prices around a place you pick, from the public Pumperly map or your own instance (1★).
 
 ### 📍 Presence & location
 
