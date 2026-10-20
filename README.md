@@ -398,7 +398,7 @@ _Local services that turn into sensors and calendars: garbage collection schedul
 
 _Turn the living room into a game: quiz nights, music rounds, and other things to play with guests instead of automating the house._
 
-- [Quizify](https://github.com/mholzi/quizify) - Party trivia game where the TV shows the question and every guest answers on their own phone after scanning a QR code, with 5,871 questions in English, German, and Spanish.
+- [Quizify](https://github.com/mholzi/quizify) - Party trivia game where the TV shows the question and every guest answers on their own phone after scanning a QR code, with 6,676 questions in English, German, and Spanish.
 
 ### 🔐 Network & authentication
 
