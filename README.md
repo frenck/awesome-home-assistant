@@ -480,6 +480,7 @@ _Weather widgets with the look you actually want._
 - [Weather Radar](https://github.com/Makin-Things/weather-radar-card) - Animated rain radar card using the public RainViewer tile service, with country-level and regional zoom (460★).
 - [Clock Weather Card](https://github.com/pkissling/clock-weather-card) - Combined date, time, and weather forecast card with an iOS-inspired layout for the days ahead (882★).
 - [Horizon Card](https://github.com/rejuvenate/lovelace-horizon-card) - Visualises the position of the Sun over the horizon throughout the day, with sunrise, sunset, and twilight markers (688★).
+- [Weather Mosaic Card](https://github.com/whalleyms/weather-mosaic-card) - Color-coded grid that shows a 7-day hourly forecast at a glance, with thermal and e-ink-friendly palettes for kiosk and always-on displays (9★).
 
 ### 🎵 Media cards
 
