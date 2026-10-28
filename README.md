@@ -336,6 +336,7 @@ _Pull data from sensors that broadcast over Bluetooth, or use Bluetooth itself f
 - [Bermuda](https://github.com/agittins/bermuda) - Room-level presence detection by triangulating BLE signals across multiple ESPHome receivers (2,094★).
 - [BLE Battery Management Systems](https://github.com/patman15/BMS_BLE-HA) - Reads Bluetooth Low Energy battery management systems (BMS) from many vendors, exposing per-cell voltages, balancing, and SOC (372★).
 - [EcoFlow BLE](https://github.com/rabits/ha-ef-ble) - Pulls EcoFlow power stations and accessories over Bluetooth Low Energy, no cloud account required (415★).
+- [PadSpan HA](https://github.com/gbroeckling/padspanHA) - Shows which room every phone, watch and tag is in, live, on a 3D floor plan, using the ESPHome Bluetooth proxies you already have (289★).
 
 ### 🔋 Battery monitoring
 
