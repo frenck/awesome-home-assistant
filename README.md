@@ -642,6 +642,7 @@ _Anyone can create an app, the following are created by the community._
 - [Grocy](https://github.com/hassio-addons/app-grocy) - ERP beyond your fridge! A groceries & household management solution for your home (461★).
 - [CrowdSec](https://github.com/crowdsecurity/home-assistant-addons) - A next-gen collaborative IPS/IDS to protect you from intrusion (98★).
 - [C-Gate Web Bridge](https://github.com/dougrathbone/cgateweb-homeassistant) - Bridge Clipsal C-Bus lighting and automation systems to Home Assistant via MQTT with auto-discovery (6★).
+- [Simple NAS](https://github.com/gregorwolf1973/EasyNas-HASSIO-Addon) - Turns the server into a NAS with Samba shares, USB drive mounting, file manager and backup jobs, managed from a built-in web interface.
 
 ## DIY
 
