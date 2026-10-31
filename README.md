@@ -702,6 +702,7 @@ _Home Assistant has a thriving community of bloggers, YouTubers, podcasters, and
 - [Michael Leen](https://michaelsleen.com/) - Practical setup advice and gear reviews aimed at people building their first smart home.
 - [Phil Hawthorne](https://philhawthorne.com/) - Field notes on integrations, presence detection, and household automations from a long-time podcaster.
 - [Frenck](https://frenck.dev/) - Behind-the-scenes posts on open source, project leadership, and personal automation experiments by Franck Nijhof.
+- [Home Automation Cookbook](https://www.homeautomationcookbook.com/platforms/home-assistant.html) - Platform-neutral automation recipes with a fit guide and setup steps for this platform.
 
 #### 🌍 In other languages
 
