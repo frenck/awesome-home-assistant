@@ -297,6 +297,7 @@ _Send commands to voice speakers and media players, or relay what they hear and 
 - [YandexStation](https://github.com/AlexxIT/YandexStation) - Control Yandex Station speakers and other smart-home devices through Alice (1,954★).
 - [Yandex Smart Home](https://github.com/dext0r/yandex_smart_home) - Expose your devices to Yandex Alice and the Yandex smart-home app (1,089★).
 - [View Assist Companion](https://github.com/msp1974/ViewAssist_Companion_App) - Companion Android app and integration that turns a tablet into a hands-free voice and dashboard satellite (512★).
+- [RelayTV](https://github.com/mcgeezy/relaytv-ha) - Control Linux TV playback endpoints, send on-screen toast notifications, display camera snapshots, and manage media queues.
 
 ### 🚗 Cars & EV charging
 
