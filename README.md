@@ -266,6 +266,7 @@ _Pull your solar inverter, smart meter, home battery, or utility tariff into Hom
 - [Victron GX](https://github.com/sfstar/hass-victron) - Reads data from a Victron GX device over Modbus/TCP, exposing inverters, batteries, solar chargers, and AC inputs (322★).
 - [Solis Sensor](https://github.com/hultenvp/solis-sensor) - Talks to the SolisCloud PV monitoring portal so you can pull Solis inverter generation, battery, and grid data into the energy dashboard (330★).
 - [GoodWe Inverter](https://github.com/mletenay/home-assistant-goodwe-inverter) - Pulls live data from GoodWe solar inverters over the local network for use in the energy dashboard (240★).
+- [SCADA Solar Pro](https://github.com/sandersonfsa-boop/scada-solar-pro) - Real-time sub-second telemetry and supervisory control platform for solar PV, LiFePO4 battery banks (BESS), and weather satellite irradiation forecasting.
 - [Solar Optimizer](https://github.com/jmcollin78/solar_optimizer) - Starts and stops your appliances based on solar surplus production so you self-consume rather than export (245★).
 - [Dynamic Energy Cost](https://github.com/martinarva/dynamic_energy_cost) - Tracks real-time and cumulative energy cost against a dynamic price feed like Nord Pool or EPEX (203★).
 - [Energi Data Service](https://github.com/MTrab/energidataservice) - Fetches Danish electricity spot prices from the Energi Data Service API for use in price-aware automations (284★).
