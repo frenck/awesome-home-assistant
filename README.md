@@ -682,9 +682,9 @@ _Helpers, daemons, and developer tools that sit alongside Home Assistant rather 
 - [HASS-data-detective](https://github.com/robmarkcole/HASS-data-detective) - Explore and analyse your database data (207★).
 - [ADB Intents](https://gist.github.com/mcfrojd/9e6875e1db5c089b1e3ddeb7dba0f304) - List of ADB intents to control Android Devices.
 - [Home Assistant Config Helper for VSCode](https://marketplace.visualstudio.com/items?itemName=keesschollaart.vscode-home-assistant) - Visual Studio Code Extension that provides auto-completion, config validation and snippets when editing your configuration.
- - [Home Assistant Taskbar Menu](https://github.com/PiotrMachowski/Home-Assistant-Taskbar-Menu) - A client for Windows that can display Lovelace views, control entities and show persistent notifications (345★).
- - [HA Desktop Widget](https://github.com/Robertg761/HA-Desktop-Widget) - Desktop app and widget for Windows, macOS and Linux to control entities, watch cameras, view sensors and pin tiles to the desktop (100★).
- - [conf-edit-ha](https://github.com/roman-pinchuk/conf-edit-ha) - Lightweight web-based text editor for configuration files with YAML syntax highlighting and entity autocomplete.
+- [Home Assistant Taskbar Menu](https://github.com/PiotrMachowski/Home-Assistant-Taskbar-Menu) - A client for Windows that can display Lovelace views, control entities and show persistent notifications (345★).
+- [HA Desktop Widget](https://github.com/Robertg761/HA-Desktop-Widget) - Desktop app and widget for Windows, macOS and Linux to control entities, watch cameras, view sensors and pin tiles to the desktop (100★).
+- [conf-edit-ha](https://github.com/roman-pinchuk/conf-edit-ha) - Lightweight web-based text editor for configuration files with YAML syntax highlighting and entity autocomplete.
 
 ## Online Resources
 
