@@ -744,7 +744,7 @@ _Official channel first, then sorted by subscriber count. Refreshed nightly._
 #### 🌍 In other languages
 
 _Sorted alphabetically by language, then by subscriber count._
-
+- 🇫🇷 [Solaire Domotique](https://www.youtube.com/@solairedomotique) - French tutorials about Home Assistant, Lovelace dashboards, YAML generators, automations, and solar energy management.
 - 🇸🇦 [Smart Tech Arabic](https://www.youtube.com/@SmartTechArabic) - Tutorials in Arabic by Shady Nafie (102K subs).
 - 🇧🇷 [Descomplicando Tech](https://www.youtube.com/@DescomplicandoTech) - Smart-home guides by Fabricio Goncalves (16.4K subs).
 - 🇫🇷 [AyLabs](https://www.youtube.com/@ay_labs) - Tutorials, integrations, and automation walkthroughs by Aymeric Le Feyer (14.4K subs).
