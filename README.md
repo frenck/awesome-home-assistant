@@ -327,6 +327,7 @@ _Control specific robot vacuums and surface their map data, beyond what comes bu
 
 - [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - Presents a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting (1,435★).
 - [Dreame Vacuum](https://github.com/Tasshack/dreame-vacuum) - Dreame robot vacuums with full map support, including no-go zones and selective room cleaning (2,268★).
+- [Xiaomi Vacuum](https://github.com/matteocelani/xiaomi-vacuum) - Unofficial custom integration for Xiaomi robot vacuums, based on Tasshack's dreame-vacuum (0★).
 
 ### 🔵 Bluetooth & BLE
 
